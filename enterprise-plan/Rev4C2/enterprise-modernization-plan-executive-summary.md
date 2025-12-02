@@ -53,6 +53,57 @@ This independent structure provides the E3 model with actual authority over effi
 
 ---
 
+## The Role of the Government Operations Agency
+
+The **Government Operations Agency (GovOps)** serves as California's management and efficiency agency, established on July 1, 2013 through Government Reorganization Plan No. 2. GovOps oversees the infrastructure of state government operations, ensuring effective management of the state's workforce, technology, procurement, and administrative services.
+
+### GovOps Mission and Responsibilities
+
+**Mission:** Improve the management and accountability of state government programs, increase efficiency, promote coordinated operational decisions, and streamline services to Californians.
+
+**Core Functions:**
+- Workforce management and human resources policy (CalHR)
+- Information technology infrastructure and cybersecurity (CDT)
+- Procurement and real estate management (DGS)
+- Innovation and data-driven service delivery (ODI)
+- Tax administration (Franchise Tax Board)
+- Administrative law and regulatory oversight (OAL)
+
+**Current Scope:**
+GovOps directly oversees 13 departments, boards, and offices, with primary jurisdiction within these entities. The agency serves in a coordinating and advisory capacity for broader state government but lacks direct authority to mandate changes across other cabinet agencies.
+
+### How E3 Expands GovOps Coordination Capability
+
+This Enterprise Modernization Plan establishes a framework that enables GovOps to coordinate statewide efficiency and effectiveness initiatives while respecting the autonomy of other cabinet agencies. The E3 model creates this capability through:
+
+**Transformation Management Office (TMO) within GovOps:**
+- Housed within GovOps, the TMO provides centralized coordination, portfolio management, and performance tracking for all E3 initiatives statewide
+- TMO supports (but does not control) E3 Undersecretaries across all agencies
+- Provides services: knowledge management, performance analytics, change management support, innovation coordination
+- Creates visibility and accountability without exercising direct authority over other agencies
+
+**Statewide E3 Council:**
+- Convened through Governor's Office with TMO providing staff support
+- Brings together E3 Undersecretaries from all agencies for coordination and alignment
+- GovOps Secretary participates but does not direct other agency E3 leaders
+- Creates peer network enabling voluntary collaboration and best practice sharing
+
+**Partnership with Independent Data Governance Office:**
+- Independent Office (outside any single agency) sets binding statewide data standards
+- GovOps entities (CDT, ODI) serve as technical implementation partners
+- E3 leaders across all agencies must comply with Independent Office standards
+- This structure provides authority that GovOps alone cannot exercise
+
+**Leveraging GovOps Expertise:**
+- CDT provides technology standards, cybersecurity guidance, and infrastructure services to all E3 initiatives
+- ODI provides innovation methods, human-centered design, and training through CalAcademy to all agencies
+- CalHR provides workforce planning and classification support for data governance teams statewide
+- DGS supports procurement innovation and facilities management
+
+The E3 structure transforms GovOps from an agency with limited direct authority into the **coordination hub** for statewide modernization, providing infrastructure, expertise, and support that enables E3 leaders across all agencies to succeed. This respects California's decentralized governance while creating the coordination necessary for enterprise transformation.
+
+---
+
 ## The Role of the Office of Data and Innovation
 
 The **Office of Data and Innovation (ODI)**, established on July 1, 2019 within the Government Operations Agency and elevated to a standalone department on July 1, 2023, has pioneered innovative approaches to government service delivery through data, human-centered design, and technology. ODI's mission is to drive innovation across California state government to achieve exceptional, equitable outcomes for all Californians.
@@ -66,19 +117,15 @@ The **Office of Data and Innovation (ODI)**, established on July 1, 2019 within 
 - Statewide Chief Data Officer leading data governance initiatives
 - CalData managing California's open data portal
 
-**How This Plan Expands and Strengthens ODI's Impact:**
+**How This Plan Amplifies ODI's Impact:**
 
-This Enterprise Modernization Plan establishes a strategy to expand Government Operations Agency accountability to include E3 principles, which apply statewide across all agencies and departments. While GovOps is currently limited in jurisdiction primarily to its 13 constituent departments and offices, the E3 model creates a coordinated framework that enables statewide transformation while respecting agency autonomy.
+The E3 model creates empowered champions at every agency who can mandate adoption of ODI-developed tools, practices, and standards. ODI transitions from an optional service provider to an essential enabler of statewide modernization. The plan positions ODI to:
 
-ODI will serve as the innovation engine and capacity-building hub supporting E3 leaders across all agencies. The plan positions ODI to:
-
-- **Scale proven approaches statewide** through E3 Undersecretaries and Chief Deputy Directors who can mandate adoption of ODI-developed tools, practices, and standards across their agencies
+- **Scale proven approaches statewide** through E3 Undersecretaries and Chief Deputy Directors with authority to implement ODI recommendations across their agencies
 - **Coordinate the Governor's Innovation Fellowship Program** providing continuous talent pipeline that embeds ODI methods throughout state government
 - **Support the Transformation Management Office** with performance analytics, knowledge management, and change management expertise
 - **Partner with the Independent Data Governance Office** as the technical implementation arm for statewide data standards and sharing frameworks
 - **Leverage the Breakthrough Modernization Fund** to accelerate high-impact DIF projects and create replicable models
-
-The E3 structure provides ODI with empowered champions at every agency who have authority to implement ODI recommendations, allocate resources to ODI partnerships, and mandate adoption of ODI standards—transforming ODI from an optional partner to an essential enabler of statewide modernization.
 
 ---
 
@@ -88,14 +135,17 @@ The E3 structure provides ODI with empowered champions at every agency who have 
 
 A continuous talent pipeline feeds the E3 structure:
 
-- **5-month cohorts** of 20 fellows launched every 10 months (2-month overlap between cohorts)
+- **6-month cohorts** of 20 fellows, with new cohorts starting every 4 months (2-month overlap between cohorts)
 - **Department embedding** for hands-on experience outside home agencies
 - **Group initiatives** organized as 4 teams of 5 fellows delivering cross-agency modernization solutions
 - **Post-fellowship engagement** as on-call subject matter experts and emergency response capacity
 - **Preferential hiring** into E3 and other executive positions, with fellowship completion as desirable qualification in duty statements
 - **Host department surrogates** ensuring business continuity and sustainable succession planning
 
-By the end of Year 2, four cohorts provide 80 trained modernization leaders actively engaged across state government, with an ongoing pipeline producing 24 new fellows annually thereafter.
+**Production Capacity:**
+- 3 cohorts launched per year = **60 fellows annually**
+- By end of Year 2: 6 cohorts graduated = **120 trained modernization leaders**
+- Continuous pipeline providing sustained change agent supply statewide
 
 ### Data Governance Teams
 
@@ -122,10 +172,11 @@ The **California Breakthrough Modernization Fund** creates a self-reinforcing fe
 - Creates "Innovation Sidecar Fund" co-investing with state dollars
 
 **Transparency and Public Benefit:**
+
 Clear accountability mechanisms ensure both Californians and investors understand benefits:
 - **Public reporting:** Quarterly public dashboards showing all funded projects, status, and outcomes
 - **Benefit tracking:** Documented cost savings returned to General Fund, service improvements, and digital adoption metrics
-- **Private sector ROI:** Co-learning opportunities, replicable innovation patterns, and demonstration of government modernization models applicable to other states
+- **Private sector benefit:** Access to common technical and architectural patterns enabling their solutions to better integrate with government systems and meet unique governmental needs, creating replicable approaches applicable to other states and jurisdictions
 - **Legislative oversight:** Annual comprehensive reports to Legislature with detailed portfolio performance
 
 **Feedback Loop:**
@@ -145,7 +196,7 @@ This creates a self-reinforcing cycle where each successful modernization genera
 
 ## Readiness Assessment Framework
 
-The **Readiness Assessment** is a comprehensive evaluation tool that determines department preparedness for E3 deployment and modernization investments. Located at `/Users/slate/Documents/GitHub/CA-Strategy/readiness-assessment`, this framework provides structured analysis across six critical domains:
+The **Readiness Assessment** is a comprehensive evaluation tool that determines department preparedness for E3 deployment and modernization investments. This framework provides structured analysis across six critical domains:
 
 **Assessment Domains:**
 1. **Leadership and Governance** (25% weight) - Executive sponsorship, strategic alignment, governance maturity
@@ -172,7 +223,7 @@ The assessment informs every phase of the modernization plan:
 - **Training Investments:** Tier 3-4 departments receive intensive CalAcademy training and change management support before E3 deployment
 - **Risk Mitigation:** Low-readiness departments identified early, avoiding project failures and enabling targeted interventions
 
-Each quarter, departments re-assess using the framework, tracking progress and demonstrating improvement over time. This creates accountability, transparency, and a data-driven approach to resource allocation.
+Departments re-assess **annually** using the framework, tracking progress and demonstrating improvement over time. This creates accountability, transparency, and a data-driven approach to resource allocation.
 
 ---
 
@@ -183,7 +234,7 @@ Each quarter, departments re-assess using the framework, tracking progress and d
 **Establish Governance and Authority**
 - Launch legislative process for Independent Office of State Data Governance
 - Appoint first cohort of Undersecretaries (4 priority agencies)
-- Establish Transformation Management Office with interim leadership
+- Establish Transformation Management Office within GovOps with interim leadership
 - Launch Governor's Innovation Fellowship Cohort 1 (20 fellows, early 2026)
 - Charter first pilot initiatives demonstrating cross-agency value
 - Conduct baseline Readiness Assessments across all major departments
@@ -191,7 +242,7 @@ Each quarter, departments re-assess using the framework, tracking progress and d
 **Expected Outcomes:**
 - Legislation introduced and moving through committee process
 - E3 leadership positions filled and operational
-- TMO providing portfolio coordination
+- TMO providing portfolio coordination from GovOps
 - Fellows embedded in departments beginning modernization work
 - 3-5 quick wins demonstrating capability and building momentum
 - Readiness data informing deployment priorities
@@ -201,7 +252,7 @@ Each quarter, departments re-assess using the framework, tracking progress and d
 **Operationalize Core Capabilities**
 - Complete Independent Office board appointments and hire Executive Director/Chief Data Officer
 - Deploy Chief Deputy Directors across 10 highest-readiness departments (Tier 1-2)
-- Graduate Fellowship Cohort 1 and launch Cohort 2 (with 2-month overlap)
+- Graduate Fellowship Cohort 1, launch Cohort 2, begin Cohort 3 (overlapping progression)
 - Publish statewide data standards in at least one sector
 - Seed Breakthrough Modernization Fund ($100M total: $50M state, $50M private)
 - Launch first wave of funded projects
@@ -210,7 +261,7 @@ Each quarter, departments re-assess using the framework, tracking progress and d
 **Expected Outcomes:**
 - Independent Office operational with initial policy framework
 - 10 departments with operational E3 execution capability
-- 60 total Fellows (20 in Cohort 1, 20 in Cohort 2, 20 in Cohort 3 beginning)
+- 60 total Fellows (20 in Cohort 1 graduated, 20 in Cohort 2, 20 in Cohort 3 beginning)
 - Demonstrated data sharing improvements
 - First project cost savings documented
 - 5-10 visible service improvements
@@ -219,7 +270,7 @@ Each quarter, departments re-assess using the framework, tracking progress and d
 
 **Achieve Measurable Impact**
 - Complete E3 deployment across all major agencies (8-12 Undersecretaries) and departments (30-40 Chief Deputy Directors)
-- Graduate 4-5 cohorts (80-100 trained modernization leaders)
+- 6+ cohorts graduated (120+ trained modernization leaders)
 - Establish data governance teams statewide
 - 50% digital adoption for high-volume services
 - 25% legacy system reduction
@@ -227,7 +278,7 @@ Each quarter, departments re-assess using the framework, tracking progress and d
 
 **Expected Outcomes:**
 - E3 model embedded in state government operations
-- Continuous pipeline of trained change agents
+- Continuous pipeline of trained change agents (60 new fellows annually)
 - Measurable citizen satisfaction improvements
 - Working interoperability between previously siloed systems
 - California positioned as national model for government modernization
@@ -243,6 +294,9 @@ Sustained engagement from Governor and Agency Secretaries for 5+ years. Governme
 **Actual Authority**
 E3 leaders must have real decision-making power over technology investments, data sharing mandates, and performance accountability—not merely advisory roles. The Independent Office model provides this authority.
 
+**GovOps Coordination Infrastructure**
+TMO within GovOps must have adequate staffing, authority, and resources to coordinate statewide efforts effectively without micromanaging agency E3 leaders.
+
 **Readiness-Based Deployment**
 Use the Readiness Assessment framework to sequence E3 deployment, ensuring early successes build momentum rather than early failures creating resistance.
 
@@ -253,7 +307,7 @@ Deliver 5-10 visible improvements within Year 1 to build credibility, demonstrat
 Transparent reporting of progress and setbacks. Publish metrics even when unfavorable. What gets measured gets managed.
 
 **Talent Development**
-The Fellowship creates a pipeline, but sustained capability requires workforce investment at scale through data governance teams and training programs.
+The Fellowship creates a pipeline, but sustained capability requires workforce investment at scale through data governance teams and ongoing training.
 
 **ODI Integration**
 Leverage ODI's proven approaches, tools, and expertise by ensuring E3 leaders actively partner with ODI and mandate adoption of ODI-developed standards and practices.
@@ -270,6 +324,7 @@ Leverage ODI's proven approaches, tools, and expertise by ensuring E3 leaders ac
 | **Vendor dependencies** | MEDIUM | Open standards requirements, API-first architecture, modular contracting cap, competitive procurement |
 | **Fellowship talent retention** | MEDIUM | Preferential hiring pathways, executive duty statement integration, ongoing SME network engagement, competitive advancement opportunities |
 | **Low-readiness departments** | MEDIUM | Readiness Assessment-based deployment, capacity building before E3 assignment, Tier 3-4 departments receive training before projects |
+| **GovOps coordination challenges** | MEDIUM | Clear TMO charter, adequate staffing, Governor's Office support, Statewide E3 Council peer accountability |
 
 ---
 
@@ -277,31 +332,47 @@ Leverage ODI's proven approaches, tools, and expertise by ensuring E3 leaders ac
 
 This Enterprise Modernization Plan positions California as the definitive government modernization model for other U.S. states. By documenting the E3 Operational Model, Independent Data Governance Office, Fellowship program, Breakthrough funding model, and implementation playbooks, California enables peer states to adopt proven approaches.
 
+**Open Access to California's Innovation:**
+
+All documentation, development patterns, planning documents, technical specifications, and implementation guides developed through this initiative will be made publicly available online for other states and jurisdictions to use if desired. This includes:
+
+- **Strategic Planning Templates:** E3 governance charters, readiness assessment tools, implementation roadmaps
+- **Technical Patterns:** API standards, service mesh architectures, agentic system design patterns, data sharing agreement templates
+- **Training Materials:** Fellowship program curriculum, CalAcademy course content adapted for government modernization
+- **Performance Frameworks:** KPI definitions, dashboard specifications, evaluation methodologies
+- **Procurement Tools:** RFI² solicitation templates, modular contracting guides, vendor evaluation criteria
+- **Code and Platforms:** Open-source tools, reusable components, integration frameworks
+
+California will establish a dedicated public repository and documentation portal, enabling other states to adopt, adapt, and improve upon these approaches. This commitment to open government innovation accelerates modernization nationally while positioning California as the thought leader in 21st-century public sector transformation.
+
 **Key Differentiators:**
 - **Forcing Mechanism:** E3 model creates efficiency driver government inherently lacks
 - **Actual Authority:** Independent Office provides cross-branch legitimacy and enforceable power
-- **Talent Pipeline:** Continuous Fellowship cohorts provide sustained change agent supply
+- **GovOps Coordination:** Centralized support without centralized control, respecting agency autonomy
+- **Talent Pipeline:** Continuous Fellowship cohorts (60 annually) provide sustained change agent supply
 - **Sustainable Funding:** Breakthrough model converts efficiency gains into ongoing modernization capacity
 - **Product-Led Delivery:** Service mesh architecture and modular contracting break traditional project cycles
 - **Evidence-Based:** Comprehensive Readiness Assessment and performance frameworks enable rigorous evaluation
 - **ODI Integration:** Proven innovation approaches scaled statewide through E3 structure
+- **Open Innovation:** All materials publicly available for peer state adoption
 
 California's scale (40 million residents, $400B+ budget, 170 departments, 230,000+ employees) demonstrates applicability to states of all sizes.
 
 ---
 
-## Recommended Next Steps (Immediate 30 Days)
+## Recommended Next Steps (First 90 Days)
 
 1. **Secure executive commitment** from Governor's Office and Agency Secretaries for E3 model and Independent Office approach
 2. **Draft California Data Governance Act** establishing Independent Office with cross-branch board composition
-3. **Establish Transformation Management Office** with interim leadership and initial staffing
+3. **Establish Transformation Management Office** within GovOps with interim leadership and initial staffing
 4. **Begin Undersecretary recruitment** for first 4 priority agencies (GovOps, CalHHS, Transportation, Corrections)
-5. **Launch Fellowship recruitment** for Cohort 1 (target start: early 2026)
-6. **Engage Breakthrough partners** on seed investment for Modernization Fund
-7. **Conduct Readiness Assessments** in 20-30 departments to inform deployment priorities
-8. **Identify pilot departments** for data governance team deployment
-9. **Charter first pilot initiatives** for cross-agency collaboration
-10. **Establish ODI partnership framework** defining how E3 leaders engage with ODI services and standards
+5. **Launch Fellowship recruitment** for Cohort 1 (target start: Q1 2026)
+6. **Engage Breakthrough partners** on 50/50 seed investment commitment for Modernization Fund
+7. **Conduct Readiness Assessments** in 20-30 departments to inform deployment priorities and create baseline data
+8. **Identify pilot departments** for data governance team deployment based on Readiness Tier 1 scores
+9. **Charter first pilot initiatives** for cross-agency collaboration demonstrating early value
+10. **Establish ODI partnership framework** defining how E3 leaders engage with ODI services, standards, and CalAcademy training
+11. **Create public documentation portal** for national model sharing and peer state collaboration
 
 ---
 
@@ -309,14 +380,14 @@ California's scale (40 million residents, $400B+ budget, 170 departments, 230,00
 
 California's government modernization challenge is fundamentally an organizational design problem, not merely a technology problem. The E3 Operational Model creates the forcing mechanism for efficiency that government inherently lacks, ensuring sustained focus on effectiveness and continuous improvement.
 
-By establishing the Independent Office of State Data Governance with actual cross-branch authority, launching the Governor's Innovation Fellowship as a continuous talent pipeline, deploying professional data governance teams for sustainable capacity, creating the Breakthrough Modernization Fund for catalytic investment and reinvestment, and leveraging ODI's proven innovation approaches through empowered E3 champions, California establishes a comprehensive, replicable approach to government transformation.
+By establishing the Independent Office of State Data Governance with actual cross-branch authority, positioning GovOps as the coordination hub through the Transformation Management Office, launching the Governor's Innovation Fellowship as a continuous talent pipeline (60 fellows annually), deploying professional data governance teams for sustainable capacity, creating the Breakthrough Modernization Fund for catalytic investment and reinvestment, and leveraging ODI's proven innovation approaches through empowered E3 champions, California establishes a comprehensive, replicable approach to government transformation.
 
-The Readiness Assessment framework ensures strategic, risk-mitigated deployment that builds momentum through early wins rather than undermining credibility through premature failures.
+The Readiness Assessment framework ensures strategic, risk-mitigated deployment that builds momentum through early wins rather than undermining credibility through premature failures. The commitment to open innovation—making all documentation and development patterns publicly available—positions California not just as a successful modernizer, but as a national leader enabling peer states to accelerate their own transformations.
 
-Success requires executive commitment, actual authority structures, readiness-based deployment, measurement discipline, and integration of ODI's innovation expertise. This plan provides the roadmap; execution determines whether California realizes its potential as the national model for 21st-century government effectiveness.
+Success requires executive commitment, actual authority structures, effective GovOps coordination, readiness-based deployment, measurement discipline, and integration of ODI's innovation expertise. This plan provides the roadmap; execution determines whether California realizes its potential as the national model for 21st-century government effectiveness.
 
 **The question is not whether California can afford to modernize—it's whether California can afford not to.**
 
 ---
 
-*For detailed financial models, see Appendix F (Budget and Financial Analysis). For performance management frameworks and change management strategies, see Appendix G (Performance and Change Management Framework).*
+*For detailed budget models and financial analysis, see Appendix F. For performance management frameworks and change management strategies, see Appendix G.*
