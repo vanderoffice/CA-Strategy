@@ -40,7 +40,7 @@ The Undersecretary for Efficiency and Effectiveness serves as the Agency's senio
    - Define agency-wide modernization vision and roadmap
    - Set performance targets for digital service adoption, legacy system reduction, cost efficiency
    - Represent agency on Statewide E3 Council
-   - Serve as primary voting member of Independent Data Governance Office councils
+   - Serve as primary voting member of Office of State Data Governance councils
 
 2. **Technology Governance (25%)**
    - Approve technology architectures, vendor selections, major procurements over $5M
@@ -97,7 +97,7 @@ The Undersecretary for Efficiency and Effectiveness serves as the Agency's senio
 - Authority to mandate cross-department data sharing within agency
 - Ability to reassign resources across departments for strategic initiatives
 - Direct escalation path to Agency Secretary for barrier removal
-- Voting authority in Independent Data Governance Office board decisions
+- Voting authority in Office of State Data Governance board decisions
 - Sign-off requirement for all IT contracts over $1M
 
 **Performance Metrics:**
@@ -240,7 +240,7 @@ Upon termination, Data Consumer shall:
 - Level 1: Data Stewards attempt resolution (5 business days)
 - Level 2: Department Chief Deputy Directors for E3 (10 business days)
 - Level 3: Agency Undersecretaries for E3 (15 business days)
-- Level 4: Independent Data Governance Office CDO (final resolution)
+- Level 4: Office of State Data Governance CDO (final resolution)
 
 **6.2 Amendment Process:**
 Amendments require written consent of both parties' authorized signatories and review by legal counsel.
@@ -255,7 +255,7 @@ Both parties shall maintain records demonstrating compliance with this agreement
 - Privacy assessment updates
 
 **7.2 Audit Rights:**
-Each party may audit the other's compliance annually with 30 days notice. Independent Data Governance Office may audit at any time.
+Each party may audit the other's compliance annually with 30 days notice. Office of State Data Governance may audit at any time.
 
 **8. SIGNATURES**
 
@@ -354,13 +354,13 @@ Date: ___________________________
 **Requirements:**
 - Detailed design documentation
 - Architecture review board approval (if IT project)
-- Independent Data Office compliance review (if data sharing involved)
+- Office of State Data Governance compliance review (if data sharing involved)
 - Security and privacy review
 - Procurement strategy
 - Change management plan
 - Testing and acceptance criteria
 
-**Approval Authority:** Undersecretary for E3, TMO (for cross-agency dependencies), Architecture Review Board (technical), Independent Data Office (data governance)
+**Approval Authority:** Undersecretary for E3, TMO (for cross-agency dependencies), Architecture Review Board (technical), Office of State Data Governance (data governance)
 
 **Outputs:** Approved detailed design, procurement authorization
 
