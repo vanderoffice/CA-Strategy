@@ -1,51 +1,24 @@
 # California Enterprise Modernization Plan
-## Comprehensive Strategic Plan
+## Strategy Document
 
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 **Date:** December 2025
-**Version:** Executive draft v1.0
+**Version:** Executive Draft v1.0
 
 ---
 
-## Executive Summary
-
-California state government lacks the natural forcing mechanism that drives private sector efficiency. Without market pressure, government agencies accumulate technical debt, maintain outdated systems, and perpetuate inefficient processes. Legacy systems consume 70-80% of IT budgets; procurement cycles average 18-24 months; only 35-40% of transactions are completable online.
-
-**The Solution: The E3 Operational Model**
-
-The **Enterprise Efficiency and Effectiveness (E3) Operational Model** creates institutional accountability for modernization through three integrated components:
-
-1. **Institutional Accountability** — New leadership positions with actual authority:
-   - *Undersecretaries for Efficiency and Effectiveness* at Agency level (8-12 positions)
-   - *Chief Deputy Directors for Efficiency and Effectiveness* at Department level (30-40 positions)
-   - *Transformation Management Office (TMO)* within GovOps for statewide coordination
-
-2. **Product-Led Delivery** — Modern approaches replacing waterfall:
-   - Service mesh architecture connecting systems via APIs
-   - $10M modular contracting cap reducing vendor lock-in
-   - RFI² procurement defining problems rather than prescribing solutions
-
-3. **Data Governance Foundation** — Cross-branch authority:
-   - Independent Office of State Data Governance with 9-member board
-   - Standardized data sharing agreement templates (reducing 18 months to 4-8 weeks)
-   - Binding statewide data standards
-
-**Talent Pipeline:** The Governor's Innovation Fellowship produces 60 trained modernization leaders annually through 6-month cohorts. Permanent Data Governance Teams (300-500 positions statewide) provide sustainable capacity.
-
-**Funding:** The California Breakthrough Modernization Fund ($100M: 50% state, 50% private sector) uses portfolio management principles. A feedback loop diverts 25% of realized savings back to the fund, creating self-sustaining modernization capacity.
-
-**Implementation Timeline:**
-- **6 Months:** 4 Undersecretaries appointed, TMO established, Fellowship Cohort 1 launched, 3-5 quick wins
-- **12 Months:** 10 Chief Deputy Directors deployed, Independent Office operational, $100M fund capitalized
-- **36 Months:** Full E3 deployment (8-12 Undersecretaries, 30-40 Chief Deputy Directors), 120+ Fellows graduated, 50% digital adoption, 25% legacy reduction
-
-**Critical Success Factors:** Executive commitment (5+ years), actual authority (not advisory roles), readiness-based deployment using the Readiness Assessment framework, quick wins in Year 1, and measurement discipline.
-
-For the complete standalone Executive Summary, see [enterprise-modernization-plan-executive-summary.md](enterprise-modernization-plan-executive-summary.md).
+> This document is part of the California Enterprise Modernization recommendation. See also:
+> - [Recommendation Brief](recommendation-brief.md) — Executive summary and recommended actions
+> - [Procurement Guide](procurement-guide.md) — Technology and procurement innovation
+> - [Operational Appendices](operational-appendices.md) — Templates and operational guides
+> - [Technical Appendices](technical-appendices.md) — Standards, assessments, and reference materials
 
 ---
 
 ## Table of Contents
+
+- [Executive Summary](#executive-summary)
+- [Acronyms and Abbreviations](#acronyms-and-abbreviations)
 
 ### Part 1: Strategic Foundation and Governance
 1. [Strategic Foundation](#1-strategic-foundation)
@@ -71,17 +44,9 @@ For the complete standalone Executive Summary, see [enterprise-modernization-pla
 4. [Product-Led Delivery Framework](#4-product-led-delivery-framework)
    - 4.1 Service Mesh Architecture
    - 4.2 Citizen Journey Teams
-   - 4.3 Modular Contracting with California Context
-   - 4.4 RFI²: Request for Innovative Ideas
+   - 4.3 Procurement Integration
 
-### Part 2: Technology, Procurement, and Talent
-5. [Technology Architecture](#5-technology-architecture) *(Summary; see Appendix H for details)*
-
-6. [Procurement Innovation](#6-procurement-innovation)
-   - 6.1 Modular Contracting
-   - 6.2 RFI² (Request for Innovative Ideas) Process
-   - 6.3 Pre-Qualified Vendor Pools + Small Business Equity
-
+### Part 2: Talent Development and Sustainability
 7. [Talent Development and Sustainability](#7-talent-development-and-sustainability)
    - 7.1 Governor's Innovation Fellowship Program
    - 7.2 Post-Fellowship Engagement
@@ -105,16 +70,41 @@ For the complete standalone Executive Summary, see [enterprise-modernization-pla
 
 10. [Conclusion](#10-conclusion)
 
-### Appendices
-- [Appendices (Separate Document)](appendices.md)
-  - Appendix A: Sample Templates and Frameworks
-  - Appendix B: Technology Standards Catalog *(redirects to Appendix H)*
-  - Appendix C: Readiness Assessment Framework
-  - Appendix D: Glossary
-  - Appendix E: References and Source Documents
-  - Appendix F: Budget and Financial Models
-  - Appendix G: Performance and Change Management Framework *(includes Risk Mitigation)*
-  - Appendix H: Technology Architecture Details *(new)*
+---
+
+## Executive Summary
+
+California state government lacks the natural forcing mechanism that drives private sector efficiency. Without market pressure, government agencies accumulate technical debt, maintain outdated systems, and perpetuate inefficient processes. Legacy systems consume 70-80% of IT budgets; procurement cycles average 18-24 months; only 35-40% of transactions are completable online.
+
+**The Solution: The E3 Operational Model**
+
+The **Enterprise Efficiency and Effectiveness (E3) Operational Model** creates institutional accountability for modernization through three integrated components:
+
+1. **Institutional Accountability** — New leadership positions with actual authority:
+   - *Undersecretaries for Efficiency and Effectiveness* at Agency level (8-12 positions)
+   - *Chief Deputy Directors for Efficiency and Effectiveness* at Department level (30-40 positions)
+   - *Transformation Management Office (TMO)* within GovOps for statewide coordination
+
+2. **Product-Led Delivery** — Modern approaches replacing waterfall:
+   - Service mesh architecture connecting systems via APIs
+   - $15M modular contracting cap reducing vendor lock-in
+   - RFI² procurement defining problems rather than prescribing solutions
+
+3. **Data Governance Foundation** — Cross-branch authority:
+   - Independent Office of State Data Governance with 9-member board
+   - Standardized data sharing agreement templates (reducing 18 months to 4-8 weeks)
+   - Binding statewide data standards
+
+**Talent Pipeline:** The Governor's Innovation Fellowship produces 60 trained modernization leaders annually through 6-month cohorts. Permanent Data Governance Teams (300-500 positions statewide) provide sustainable capacity.
+
+**Funding:** The California Breakthrough Modernization Fund ($100M: 50% state, 50% private sector) uses portfolio management principles. A feedback loop diverts 25% of realized savings back to the fund, creating self-sustaining modernization capacity.
+
+**Implementation Timeline:**
+- **6 Months:** 4 Undersecretaries appointed, TMO established, Fellowship Cohort 1 launched, 3-5 quick wins
+- **12 Months:** 10 Chief Deputy Directors deployed, Independent Office operational, $100M fund capitalized
+- **36 Months:** Full E3 deployment (8-12 Undersecretaries, 30-40 Chief Deputy Directors), 120+ Fellows graduated, 50% digital adoption, 25% legacy reduction
+
+**Critical Success Factors:** Executive commitment (5+ years), actual authority (not advisory roles), readiness-based deployment using the Readiness Assessment framework, quick wins in Year 1, and measurement discipline.
 
 ---
 
@@ -173,28 +163,28 @@ Transform California's government operations through the Enterprise Efficiency a
 
 ### 1.3 Guiding Principles
 
-**Citizen-Centric Design**  
+**Citizen-Centric Design**
 Every technology investment and process change must demonstrably improve citizen experiences. User research, accessibility testing, and satisfaction measurement inform all decisions. Services should be organized around life experiences—not organizational charts. Government exists to serve people, and every system, process, and policy should reflect that fundamental purpose.
 
-**Evidence-Based Decision Making**  
+**Evidence-Based Decision Making**
 Data, metrics, and rigorous evaluation guide resource allocation, project prioritization, and performance assessment. The Readiness Assessment framework ensures strategic deployment of resources based on department preparedness, reducing risk and maximizing probability of success. Transparency in both successes and failures enables organizational learning. What gets measured gets managed; what gets shared gets improved.
 
-**Actual Authority**  
+**Actual Authority**
 E3 leaders and governance bodies must have real decision-making power over technology investments, data sharing mandates, procurement approvals, and performance accountability—not merely advisory roles. The Independent Office structure and E3 leadership positions provide enforceable authority that transcends traditional agency boundaries. Without authority, modernization becomes optional; with authority, it becomes inevitable.
 
-**Readiness-Based Deployment**  
+**Readiness-Based Deployment**
 Not all departments are equally prepared for modernization. Strategic use of the Readiness Assessment framework ensures resources flow to departments positioned for success, creating early wins that build momentum rather than premature failures that generate resistance. This principle recognizes that transformation requires capability, not just commitment.
 
-**Open and Collaborative**  
+**Open and Collaborative**
 California's modernization serves as an open-source model for peer states. Collaboration with private sector partners, academic institutions, ODI expertise, and other governments accelerates progress. Breakthrough Fund partners co-invest and co-learn, creating replicable patterns applicable beyond California. Open innovation multiplies impact.
 
-**Equity and Inclusion**  
+**Equity and Inclusion**
 Digital transformation must not create new barriers for underserved populations. Multi-language support, accessibility compliance (WCAG 2.1 AA minimum), digital literacy programs, and alternative service channels ensure universal access. Services must be designed with—not just for—the communities they serve. Technology should reduce disparities, not amplify them.
 
-**Sustainable and Scalable**  
+**Sustainable and Scalable**
 Solutions must work at California's scale (40 million residents, 170 departments, 230,000+ employees) and remain maintainable over decades. Avoid bespoke systems and proprietary vendor lock-in. Prefer cheap, scalable, self-supportable innovative solutions over giant monolithic systems that create long-term dependencies and technical debt. Sustainability means both financial and operational longevity.
 
-**Security and Privacy by Design**  
+**Security and Privacy by Design**
 Cybersecurity, data privacy (CCPA compliance), and ethical AI use are embedded from project inception, not added retrospectively. Every data sharing agreement, every API, every system must meet stringent security standards appropriate to data sensitivity. Trust is California's most valuable asset—and most fragile.
 
 ### 1.4 The Core Problem
@@ -344,11 +334,11 @@ The E3 Operational Model establishes explicit accountability for modernization t
 ```
 Governor's Office
 ├── Convenes Statewide E3 Council
-│   
+│
 Government Operations Agency (GovOps)
 ├── Transformation Management Office (TMO)
 │   ├── Portfolio Management
-│   ├── Performance Analytics  
+│   ├── Performance Analytics
 │   ├── Change Management Support
 │   ├── Innovation Coordination (Fellowship, Breakthrough Fund)
 │   └── Knowledge Management
@@ -371,13 +361,13 @@ Department Directors (within each Agency)
 
 ### 2.2 Undersecretary Positions (Strategic Leadership and Agency Coordination)
 
-**Position Overview:**  
+**Position Overview:**
 Undersecretaries for Efficiency and Effectiveness operate at the Agency level, reporting directly to Agency Secretaries while coordinating statewide efforts through the Transformation Management Office and Statewide E3 Council. These positions hold explicit authority over technology modernization, business process optimization, data governance, and performance management within their agencies.
 
 **Why This Position Matters:**
 Without Undersecretaries, modernization efforts fragment across departments with no strategic coordination. Individual departments optimize locally but create incompatibilities system-wide. Undersecretaries provide agency-level strategic direction, ensure cross-department interoperability, allocate resources based on enterprise priorities rather than political influence, and create forcing function for consistent progress. They are the difference between coordinated transformation and chaotic fragmentation.
 
-For sample position descriptions and duty statements, see [Appendix A: Sample Templates and Frameworks](appendices.md#appendix-a-sample-templates-and-frameworks).
+For sample position descriptions and duty statements, see [Appendix A: Sample Templates and Frameworks](operational-appendices.md#appendix-a-sample-templates-and-frameworks).
 
 These are not advisory or coordinator roles. Undersecretaries have authority to approve major technology investments, mandate cross-department data sharing, redirect resources to strategic initiatives, and hold Chief Deputy Directors accountable for results. They serve as the primary interface between their agencies and both ODI and the Office of State Data Governance, ensuring proven methods and mandatory standards are adopted at scale.
 
@@ -402,7 +392,7 @@ These are not advisory or coordinator roles. Undersecretaries have authority to 
 - Enforce enterprise architecture standards: API-first design, cloud-native development, service mesh connectivity, open source preference
 - Mandate service mesh connectivity for all agency systems; ensure APIs published to agency catalog
 - Oversee cloud migration strategy; approve data center consolidation plans; ensure hybrid cloud with critical system redundancy
-- Review and approve all IT contracts over $1M within agency; enforce modular contracting principles ($10M cap)
+- Review and approve all IT contracts over $1M within agency; enforce modular contracting principles ($15M cap)
 - Ensure systems enable, not prevent, staff use of modern tools and agentic workflows for data analysis, automation, and decision support
 - Coordinate with CDT on cybersecurity, infrastructure, and statewide technology standards
 
@@ -448,10 +438,10 @@ These are not advisory or coordinator roles. Undersecretaries have authority to 
 
 ### 2.3 Chief Deputy Director Positions (Operational Execution and Department Transformation)
 
-**Position Overview:**  
+**Position Overview:**
 Chief Deputy Directors for Efficiency and Effectiveness operate within departments, reporting to Department Directors while coordinating with agency-level Undersecretaries and TMO. These positions hold operational responsibility for modernization execution, managing cross-functional teams including data governance staff and embedded Innovation Fellows.
 
-**Why This Position Matters:**  
+**Why This Position Matters:**
 Department Directors manage complex operations with competing priorities: service delivery, regulatory compliance, budget constraints, legislative mandates, and stakeholder relations. Modernization often falls to the bottom of priority lists without dedicated leadership. Chief Deputy Directors provide persistent focus on transformation, bridging the gap between strategic vision (Undersecretary level) and operational reality (department programs and systems). They translate modernization strategy into tangible improvements citizens experience.
 
 Chief Deputy Directors are hands-on leaders who understand both technology and domain operations. They manage project portfolios, lead business process improvement initiatives, deploy new technologies, ensure data quality, and deliver measurable service improvements. They are the change agents embedded in department operations.
@@ -515,7 +505,7 @@ Chief Deputy Directors are hands-on leaders who understand both technology and d
 
 ### 2.4 Transformation Management Office (TMO)
 
-**Purpose and Strategic Importance:**  
+**Purpose and Strategic Importance:**
 The TMO provides centralized coordination, portfolio management, performance tracking, and support services essential to the entire modernization initiative. Without TMO, E3 efforts risk becoming fragmented silos where well-intentioned leaders pursue similar solutions in parallel, wasting resources and foregoing economies of scale.
 
 **Why TMO Matters - The Case for Centralized Coordination:**
@@ -604,7 +594,7 @@ The Independent Office of State Data Governance follows California's Little Hoov
 
 **Required Seats:**
 1. Governor appointment #1
-2. Governor appointment #2  
+2. Governor appointment #2
 3. Senate Rules Committee appointment
 4. Assembly Speaker appointment
 5. Judicial Council appointment
@@ -639,7 +629,7 @@ Each board seat must have an assigned Senior Technical Advisor who provides tech
 
 **Why Four Template Types Matter:**
 
-Data sharing negotiations currently take 18 months because every agreement is custom. Standardized templates reduce this to 4-8 weeks by providing pre-approved legal language, technical specifications, and risk mitigation approaches for common scenarios. For a complete sample Data Sharing Agreement (Type 3: Moderate Sensitivity), see [Appendix A.2](appendices.md#a2-data-sharing-agreement-template-type-3-moderate-sensitivity).
+Data sharing negotiations currently take 18 months because every agreement is custom. Standardized templates reduce this to 4-8 weeks by providing pre-approved legal language, technical specifications, and risk mitigation approaches for common scenarios. For a complete sample Data Sharing Agreement (Type 3: Moderate Sensitivity), see [Appendix A.2](operational-appendices.md#a2-data-sharing-agreement-template-type-3-moderate-sensitivity).
 
 **Template 1: Public Data Exchange**
 - **Use Case:** Sharing non-sensitive data between state agencies for operational purposes (e.g., business registry data, public facility locations, aggregate statistics)
@@ -704,541 +694,15 @@ Traditional government organizes around agencies. Citizens experience life event
 
 Citizen Journey Teams bring together E3 leaders, SMEs, and Fellows from relevant agencies to redesign experiences around these journeys, creating seamless integrated services.
 
-### 4.3 Modular Contracting with California Context
+### 4.3 Procurement Integration
 
-*For policy implementation details including executive order framework, legislative waiver process, and enforcement mechanisms, see [Section 6.1 Modular Contracting](#61-modular-contracting).*
+Product-led delivery requires procurement that moves at the speed of product development. California integrates contracting directly into the Product Delivery Lifecycle through:
 
-**California's Procurement Evolution:**
+- **Enterprise Vendor Pools:** Pre-qualified vendors ready for task orders in days, not months
+- **Modular Contracting:** $15M cap forcing smaller, manageable contracts with reduced risk
+- **Rapid RFI²:** Challenge-based procurement validating solutions through paid prototypes in 8-10 weeks
 
-California Department of Technology (CDT) has pioneered modern procurement approaches since 2022:
-- **Modular Partnership:** Breaking large systems into vendor-independent modules
-- **Challenge-Based (RFI²):** Problem statements instead of prescriptive specs
-- **eVAQ:** Pre-qualified vendor pools for rapid task orders
-- **Modern RFP:** Phased approach with down-selection and negotiation
-
-**The $10 Million Contract Cap:**
-
-The E3 plan establishes $10M as maximum IT contract value to force modularization and reduce risk. For full policy rationale, implementation mechanisms, and enforcement procedures, see [Section 6.1: Modular Contracting](#61-modular-contracting). This section focuses on practical application through a detailed example.
-
-**How $40M Project Works Under $10M Cap:**
-
-**Scenario:** Department needs new case management system estimated at $40M over 3 years.
-
-**Traditional Approach (Single $40M Contract):**
-- One vendor, one contract, all-or-nothing
-- 18-24 month procurement cycle
-- High risk: vendor failure = project failure
-- Limited competition: only large system integrators can bid
-- Change orders expensive and time-consuming
-
-**Modular Approach (Four $10M Contracts):**
-
-**Contract 1 ($10M): Core Platform**
-- Procure foundational infrastructure: database, authentication, user management, API gateway
-- Award to vendor with best platform expertise
-- Deliverable: Working platform ready for module integration
-- Timeline: Months 1-12
-
-**Contract 2 ($10M): Data Migration and Integration**
-- Migrate legacy data to new platform
-- Build APIs connecting to related systems
-- Award to vendor with data migration expertise (may be different vendor)
-- Deliverable: Legacy data migrated, systems integrated via APIs
-- Timeline: Months 7-18 (overlaps with Contract 1)
-
-**Contract 3 ($10M): User-Facing Applications**
-- Build citizen-facing portal and mobile app
-- Build staff case management interfaces
-- Award to vendor with UX/UI and agile development expertise
-- Deliverable: Working applications for citizens and staff
-- Timeline: Months 13-24 (after platform ready)
-
-**Contract 4 ($10M): Advanced Features and Support**
-- Add analytics, reporting, workflow automation
-- Provide 2-year operations and maintenance
-- Award to best-value vendor for ongoing support
-- Deliverable: Enhanced capabilities and sustained operations
-- Timeline: Months 19-36
-
-**Managing Overhead and Integration:**
-
-**Challenge:** Multiple vendors increase coordination costs and integration complexity.
-
-**Mitigation Strategies:**
-
-1. **Integration Architect (Department Staff or Small Contract):**
-   - Dedicated technical lead ensures modules integrate properly
-   - Defines interface specifications before module procurements
-   - Reviews vendor designs for compatibility
-   - Chairs weekly vendor coordination meetings
-
-2. **API-First Architecture:**
-   - All contracts require well-documented APIs
-   - Integration through APIs (not tight coupling) reduces coordination
-   - Modules can be tested independently before integration
-
-3. **Phased Procurement:**
-   - Later contracts benefit from lessons learned in earlier contracts
-   - Vendor performance in Contract 1 informs Contract 2-4 vendor selection
-   - Requirements refined based on actual platform capabilities
-
-4. **Shared Development Environment:**
-   - Department provides unified dev/test environment
-   - All vendors work in same environment
-   - Integration issues detected early
-
-**Cost Overrun Protection:**
-
-**Traditional Approach Risk:**
-- $40M contract has cost overruns
-- Vendor submits $15M change order
-- Department has no leverage (sunk cost, vendor lock-in)
-- Total cost: $55M (38% overrun)
-
-**Modular Approach Protection:**
-- Contract 1 has cost overruns
-- Department caps overruns at $2M (keeps within $10M envelope or adjusts scope)
-- Contracts 2-4 not yet awarded; can adjust scope or budget
-- If Contract 1 vendor performs poorly, select different vendors for 2-4
-- Total cost controlled to original $40M by scope adjustments across contracts
-
-**Phased Funding Management:**
-
-California budget process requires multi-year appropriations for projects over $5M.
-
-**Year 1 Budget:** $15M appropriated
-- Contract 1: $10M awarded and underway
-- Contract 2: $5M initial funding, full award pending Year 2 appropriation
-
-**Year 2 Budget:** $15M appropriated  
-- Contract 2: Remaining $5M funded
-- Contract 3: $10M awarded
-
-**Year 3 Budget:** $10M appropriated
-- Contract 4: $10M awarded
-
-**Benefit:** If budget constraints emerge or project priorities shift, future contracts can be delayed, descoped, or cancelled without forfeiting sunk costs in completed modules. Completed modules (Contracts 1-2) still provide value even if Contracts 3-4 are deferred.
-
-**Small Business Participation:**
-
-Modular contracting enables small firms to compete:
-- Small firms cannot bid $40M contracts but CAN bid $10M modules
-- Contracts 1-3 could go to small/medium vendors
-- Contract 4 (O&M support) ideal for small local firms
-- Increased competition drives better pricing and innovation
-
-### 4.4 RFI²: Request for Innovative Ideas
-
-California CDT has established RFI² (challenge-based procurement) where departments state problems and vendors propose solutions.
-
-**E3 Expansion of RFI²:**
-- Mandatory for all E3-funded projects over $2M
-- TMO provides RFI² template and facilitation
-- ODI CalInnovate supports problem definition through user research
-- Pilot competitions before production awards reduce risk
-
-**Process:**
-1. Problem definition (user research, success metrics)
-2. Vendor concept papers (5-10 pages)
-3. Down-select to 2-3 finalists
-4. Paid pilots with real data
-5. Award to best-performing pilot
-
----
-
-## 5. Technology Architecture
-
-California's technology architecture establishes the technical foundation for enterprise modernization, enabling secure, scalable, and interoperable systems across state government. The architecture addresses five key domains:
-
-1. **API Management** — Centralized API gateway with developer portal, enabling 200+ APIs across public, partner, and internal tiers
-2. **Legacy Modernization** — Strangler pattern approach achieving 40% legacy reduction over 5 years while maintaining service continuity
-3. **Cloud Strategy** — Hybrid cloud with on-premises redundancy for critical systems, targeting 50% cloud workloads by Year 3
-4. **Cybersecurity** — Zero Trust architecture with federated identity, continuous monitoring, and NIST/SIMM 5300 compliance
-5. **Agentic Data Systems** — Staff empowerment through state-approved AI patterns and shared infrastructure for data workflows
-
-**Key Targets:**
-- 200 APIs published (50 public, 50 partner, 100 internal) within 2 years
-- 40% legacy system reduction by Year 5
-- 50% of workloads in cloud by Year 3
-- 8-12 week sandbox-to-production for agentic workflows
-
-For comprehensive technical architecture details, implementation guidance, and standards specifications, see [Appendix H: Technology Architecture Details](appendices.md#appendix-h-technology-architecture-details).
-
----
-
-## 6. Procurement Innovation
-
-**Philosophy:** Cheap, scalable, self-supportable solutions over monolithic enterprise systems
-
-California fundamentally rethinks technology procurement, moving away from massive multi-year contracts toward agile, modular approaches that reduce risk, increase competition, and enable innovation.
-
-### 6.1 Modular Contracting
-
-**The Rule:** No IT contract over $10 million or 3 years without legislative waiver
-
-This section covers the policy rationale and implementation mechanisms for modular contracting. For a practical example showing how a $40M project is decomposed into four $10M contracts, including vendor coordination strategies and phased funding management, see [Section 4.3: Modular Contracting with California Context](#43-modular-contracting-with-california-context).
-
-**Rationale:**
-
-Large, monolithic IT contracts consistently underperform or fail outright. California's history includes multiple failed projects exceeding $100M with minimal value delivered. The $10M modular contracting cap forces better outcomes by:
-
-**Reducing Risk:**
-- Smaller contracts mean smaller failures
-- Failed module does not jeopardize entire system
-- Ability to course correct quickly without massive sunk costs
-- Natural checkpoints for go/no-go decisions
-
-**Increasing Competition:**
-- Lower contract values accessible to small and mid-size vendors
-- More innovative vendors can compete without massive corporate infrastructure
-- Reduces dominance of large system integrators
-- Multiple vendors can work in parallel on different modules
-
-**Reducing Vendor Lock-In:**
-- Modular architecture enables vendor replacement for underperforming components
-- Competitive pressure maintains quality and cost discipline
-- Avoids situation where vendor effectively holds state hostage
-
-**Enabling "Fail Small and Fast":**
-- Failed module costs $5M and 6 months, not $200M and 5 years
-- Learnings from failed module inform subsequent attempts
-- Political and public tolerance for smaller, less catastrophic failures
-
-**Allowing Course Correction:**
-- Technology and requirements change during multi-year projects
-- Modular approach allows pivoting to new approaches without abandoning entire investment
-- Can incorporate new technologies and best practices as they emerge
-
-**Implementation:**
-
-**Executive Order Establishing Cap:**
-- Governor issues EO mandating $10M/3-year maximum for IT contracts
-- Exceptions require legislative waiver with public justification
-- CDT responsible for enforcement through procurement review
-
-**Legislative Waiver Process:**
-- Department must justify why project cannot be decomposed
-- Technical review by CDT and TMO
-- Public hearing demonstrating stakeholder support
-- Approval by joint legislative oversight committee
-- Enhanced oversight and reporting for waived projects
-
-**CDT Enforcement:**
-- All IT contracts over $1M require CDT review and approval
-- Procurement checklist verifying modular approach considered
-- Rejection of proposals exceeding cap without waiver
-- Regular audit of contract portfolio for compliance
-
-**Template Contracts:**
-- Pre-negotiated modular contract templates reducing negotiation time
-- Standard terms and conditions appropriate to module size
-- Simplified approval process for contracts under $5M
-
-**Vendor Prequalification:**
-- Established vendor pools for modules under $1M
-- Fast-track approval for pre-qualified vendors
-- Quarterly refresh of vendor pools based on performance
-
-**Expected Impact:**
-- **50% reduction in average contract size** (from $30M average to $15M)
-- **30% increase in small business contract awards** (contracts under $5M)
-- **40% reduction in project failure rates** (measured by on-time, on-budget completion with stated functionality)
-- **25% reduction in procurement cycle time** (due to simpler, smaller procurements)
-
-### 6.2 RFI² (Request for Innovative Ideas) Process
-
-California pioneered RFI² through Executive Order N-04-19, creating an innovative procurement method that asks vendors to design solutions to complex problems rather than bidding on predefined solutions.
-
-**When to Use RFI²:**
-
-RFI² is appropriate for:
-- **Complex technical challenges** without obvious solutions (emerging technologies, novel applications)
-- **Emerging technology applications** (AI/ML, blockchain, IoT) where best approach unclear
-- **Cross-cutting problems** affecting multiple agencies requiring coordinated solutions
-- **High uncertainty** requiring experimentation and learning rather than traditional specification
-- **Innovation opportunity** where creative approaches could deliver step-change improvements
-
-RFI² is NOT appropriate for:
-- Well-defined requirements with proven solutions
-- Commodity purchases (hardware, licenses)
-- Time-critical needs requiring immediate procurement
-- Low-risk, straightforward implementations
-
-**Phase 1: Innovation Concept Papers**
-
-**Step 1: Problem Statement Development (Weeks 1-4)**
-
-**Internal Workshops:**
-- Cross-functional team defines problem without prescribing solutions
-- Focus on outcomes, not technologies
-- Include program staff, IT staff, E3 leaders, citizen representatives
-
-**Problem Statement Contents:**
-- Background and context
-- Current state challenges (quantified where possible)
-- Desired outcomes (specific, measurable)
-- Constraints (budget, timeline, regulatory, technical)
-- Evaluation criteria (how proposals will be assessed)
-- Available data and systems for integration
-
-**Example Problem Statement:**
-> **Challenge:** California issues 500,000+ professional licenses annually across 40+ boards and bureaus. Applicants must navigate fragmented systems, submit duplicate information, and wait months for processing. 60% of applications require manual review due to missing or inconsistent data. We seek innovative approaches to create a unified licensing experience that reduces applicant burden by 50%, accelerates processing time by 60%, and improves data quality to 95%+ accuracy.
-
-**Step 2: Innovation Conference (Week 5)**
-
-**Public Event Format:**
-- Half-day event bringing together potential vendors, entrepreneurs, researchers, government staff
-- Problem statement presentation by agency leadership
-- Technical deep-dive on systems and data
-- Q&A session addressing vendor questions
-- Networking opportunity connecting potential partners
-- Virtual participation option for remote attendees
-
-**Promotional Activities:**
-- Announcement 8 weeks prior
-- Outreach to university research centers, startup accelerators, industry associations
-- Social media campaign highlighting innovation opportunity
-- Partnerships with Code for America, civic tech community
-
-**Step 3: Concept Paper Solicitation (Weeks 6-15)**
-
-**Solicitation Period:**
-- 60-90 day window for submissions (longer for complex challenges)
-- Rolling submission to encourage early submissions
-
-**Concept Paper Requirements:**
-- 10-15 page limit focusing on ideas, not credentials
-- Sections: Problem understanding, Proposed approach, Innovation elements, Feasibility assessment, Team capabilities, Preliminary cost estimate
-- Supporting materials: Architecture diagrams, mockups, relevant case studies
-- No requirement for detailed pricing (order-of-magnitude sufficient)
-
-**Support for Proposers:**
-- Office hours with technical staff answering questions
-- Access to sample data and system documentation
-- Sandbox environment for testing integration approaches
-
-**Step 4: Evaluation and Selection (Weeks 16-21)**
-
-**Evaluation Panel Composition:**
-- Agency subject matter experts (40% weight): Understand problem deeply, assess feasibility
-- Technical experts (30% weight): Assess technical approach and innovation
-- Breakthrough advisors (20% weight): Evaluate innovation and replicability
-- Procurement/legal (10% weight): Ensure compliance and contractibility
-
-**Evaluation Criteria:**
-- Problem understanding (15%)
-- Innovation and creativity (25%)
-- Technical feasibility (20%)
-- Implementation approach (20%)
-- Team capability (10%)
-- Cost reasonableness (10%)
-
-**Selection:**
-- Select 2-5 proposals for Phase 2 (sweet spot typically 3)
-- More selections if strong proposals and budget allows
-- Fewer if proposals lack quality
-
-**Compensation for Phase 1:**
-- Modest compensation for selected vendors ($25K-$50K per vendor)
-- Recognizes intellectual property contribution
-- Builds goodwill and participation
-
-**Phase 2: Proof of Concept Development**
-
-**Step 5: PoC Planning (Weeks 22-26)**
-
-**Refinement Activities:**
-- Selected vendors refine approach based on feedback
-- Detailed technical planning
-- Define success criteria and testing methodology
-- Establish 90-day pilot timeline
-- Negotiate PoC contract ($250K-$500K typically)
-
-**Success Criteria:**
-- Specific, measurable outcomes for pilot
-- Technical performance benchmarks
-- User acceptance thresholds
-- Data quality requirements
-- Security and compliance checkpoints
-
-**Step 6: PoC Execution (Months 6-9)**
-
-**Development:**
-- Vendors build working prototypes
-- Access to production-like environments and data
-- Integration with existing systems where needed
-- Regular check-ins (weekly) with project team
-
-**Testing:**
-- Testing with actual government users (not vendor testers)
-- Realistic scenarios and workflows
-- Accessibility and usability testing
-- Security testing and compliance verification
-- Performance and load testing
-
-**Iteration:**
-- Bi-weekly demos showing progress
-- Feedback incorporation and adjustment
-- Problem-solving when challenges emerge
-- Documentation of learnings
-
-**Step 7: PoC Evaluation and Contract Award (Months 10-12)**
-
-**Demonstration:**
-- Final demonstration to stakeholders
-- Live system walkthrough
-- User testimonials and feedback
-- Performance data presentation
-- Cost analysis and ROI projection
-
-**Final Evaluation:**
-- Did PoC meet success criteria?
-- User acceptance and satisfaction
-- Technical performance and reliability
-- Security and compliance
-- Cost-effectiveness and sustainability
-- Scalability to full production
-
-**Contract Award:**
-- Award contract for full implementation to best-performing vendor
-- Negotiate final scope and pricing
-- Alternative: Award to multiple vendors for different modules
-- Possibility: No award if no PoC successful (fail small and regroup)
-
-**Budget Allocation:**
-
-Reserve 15-25% of technology modernization budget for RFI² projects recognizing:
-- Higher risk tolerance for innovation
-- Learning value even from unsuccessful experiments
-- Breakthrough potential justifying investment
-
-**Expected RFI² Volume:**
-- Year 1: 3-5 RFI² solicitations (pilot phase)
-- Year 2: 8-12 solicitations (scaling)
-- Year 3+: 10-15 solicitations annually (mature program)
-
-### 6.3 Pre-Qualified Vendor Pools + Small Business Equity
-
-**Challenge:**
-
-Traditional procurement takes 18-24 months from requirement definition to contract award, delaying technology adoption and increasing costs. Small businesses face barriers competing for government contracts due to lengthy, expensive procurement processes.
-
-**Solution:**
-
-Establish pre-qualified vendor pools for common needs, with tiered structure prioritizing small businesses.
-
-**Tiered Vendor Structure:**
-
-**Tier 1: Small Businesses and DVBEs**
-- Criteria: <100 employees, <$20M annual revenue
-- Includes: Disabled Veteran Business Enterprises (DVBEs), Small Business Enterprises (SBEs), Microbusinesses
-- Advantages: First consideration for contracts under $1M, simplified compliance requirements
-
-**Tier 2: Medium Businesses**
-- Criteria: 100-500 employees, $20M-$100M revenue
-- Includes: Mid-size firms with specialized capabilities
-- Advantages: Competitive for contracts $1M-$10M
-
-**Tier 3: Large Enterprises**
-- Criteria: 500+ employees, $100M+ revenue
-- Includes: Major system integrators and established vendors
-- Advantages: Capability for complex, large-scale implementations
-
-**Pool Categories:**
-
-Vendor pools established for common technology needs:
-
-**Cloud Services and Infrastructure:**
-- Cloud architecture and migration
-- Managed cloud services
-- Cloud cost optimization
-- Multi-cloud integration
-
-**Agile Software Development:**
-- Custom application development
-- Mobile app development
-- API development and integration
-- DevOps and CI/CD
-
-**Data Analytics and Visualization:**
-- Business intelligence and dashboards
-- Data science and machine learning
-- Geospatial analysis and GIS
-- Data governance and quality
-
-**Cybersecurity Services:**
-- Security assessments and penetration testing
-- Security monitoring and SOC services
-- Compliance and audit support
-- Incident response
-
-**Change Management and Training:**
-- Organizational change management
-- Training development and delivery
-- User adoption and support
-- Communication and stakeholder engagement
-
-**User Experience and Design:**
-- User research and journey mapping
-- Service design and prototyping
-- Accessibility testing and remediation
-- Design systems and components
-
-**Pool Establishment Process:**
-
-**Annual RFP:**
-- Single annual RFP to establish vendor pools
-- Vendors pre-qualified based on capabilities, experience, past performance, rates
-- Pool valid for 1 year with option to renew
-
-**Qualification Criteria:**
-- Demonstrated capability in category
-- Relevant experience (3+ projects in category)
-- Quality references from clients
-- Reasonable and competitive rates
-- Financial stability
-- Security clearance where applicable
-
-**Task Order Process:**
-- Department issues task order to pre-qualified vendor
-- Simplified statement of work and pricing
-- Competitive bidding among pool vendors for larger task orders
-- Direct award to single vendor for smaller task orders (<$250K)
-- Award within days/weeks instead of months
-
-**Performance Tracking:**
-- Quarterly performance reviews of all vendors
-- Metrics: On-time delivery, budget performance, quality, client satisfaction
-- Poor performers removed from pool
-- High performers highlighted and rewarded with additional opportunities
-
-**Set-Asides and Requirements:**
-
-**Contracts Under $1M:**
-- First consideration to Tier 1 vendors (small businesses and DVBEs)
-- If no qualified Tier 1 vendor available, open to Tier 2 and 3
-
-**Contracts $1M-$5M:**
-- Tier 1 subcontractor requirements (minimum 25% of contract value)
-- Encourages large firms to partner with small businesses
-- Builds capacity in small business community
-
-**Contracts Over $5M:**
-- Small business participation plan required
-- Goal: 25% of contract value to Tier 1 vendors
-- Mentor-protégé programs encouraging knowledge transfer
-
-**Statewide Goal:**
-- 25% of total IT spend to Tier 1 vendors by Year 3
-- Reported quarterly with agency-level breakdowns
-- Recognition for agencies exceeding goal
-
-**Expected Impact:**
-- **60% reduction in procurement cycle time** (from 18-24 months to 2-4 months)
-- **40% increase in small business contracts** (from 15% to 25% of total IT spend)
-- **30% increase in vendor diversity** (more vendors competing, less concentration)
-- **20% cost savings** (increased competition driving down rates)
-- **Economic development** (strengthening California's technology ecosystem)
+For complete procurement framework, policies, and operational details, see [Procurement Guide](procurement-guide.md).
 
 ---
 
@@ -1250,172 +714,25 @@ The Fellowship establishes a continuous pipeline of emerging leaders trained to 
 
 **Program Structure:**
 
-**Cohort Model:**
-- **60 fellows per year** through continuous pipeline
-- **6-month cohort duration** with structured curriculum and real-world projects
-- **New cohort every 4 months** creating 2-month overlap between cohorts
-- **3 cohorts active per year** (Cohorts start in January, May, September)
-- **20 fellows per cohort** (optimal size for learning community and project teams)
-
-**Timeline Example:**
-- **Cohort 1:** January-June 2026 (20 fellows)
-- **Cohort 2:** May-October 2026 (20 fellows, overlaps with Cohort 1 in May-June)
-- **Cohort 3:** September 2026-February 2027 (20 fellows, overlaps with Cohort 2 in Sep-Oct)
-- **Result:** Continuous pipeline with 60 fellows per year, 40 fellows active at any time
+| Element | Detail |
+|---------|--------|
+| **Fellows per year** | 60 (continuous pipeline) |
+| **Cohort size** | 20 fellows |
+| **Cohort duration** | 6 months |
+| **Cohorts per year** | 3 (start January, May, September) |
+| **Active fellows** | ~40 at any time (overlapping cohorts) |
 
 **Program Components:**
 
-**1. Foundational Bootcamp (Weeks 1-2)**
+| Component | Duration | Focus |
+|-----------|----------|-------|
+| **Foundational Bootcamp** | Weeks 1-2 | Executive presence, innovation methods, California government landscape |
+| **Leadership Breadth** | Months 1-3 | Listening sessions with 8-10 departments; executive shadowing |
+| **Innovation Training** | Months 1-4 | Human-centered design, prototyping, change management |
+| **Department Embedding** | Full 6 months | Real project ownership with mentorship and surrogate |
+| **Group Initiatives** | Full 6 months | Cross-agency team projects with executive sponsors |
 
-**Executive Presence and Storytelling:**
-- Communicating complex ideas simply
-- Presenting to executives and elected officials
-- Writing concise memos and briefings
-- Building credibility and influence
-
-**Innovation Process Foundations:**
-- Design thinking and human-centered design
-- Systems thinking and complexity navigation
-- Lean startup and agile methodologies
-
-**Problem-Solving Workshops:**
-- Structured problem definition
-- Root cause analysis
-- Rapid prototyping and iterative development
-- Data-driven decision making
-
-**Governance and Policy Landscape:**
-- California government structure and budgeting
-- Legislative process and advocacy
-- Administrative law and rulemaking
-- Interagency coordination mechanisms
-
-**Statewide Leadership Introductions:**
-- Meet agency secretaries, undersecretaries, department directors
-- Understand strategic priorities and challenges
-- Build relationships for future collaboration
-
-**Cohort Covenant:**
-- Shared expectations and accountability
-- Peer support and collaboration norms
-- Commitment to learning and growth
-
-**2. Leadership Breadth Program (Months 1-3)**
-
-**Listening Sessions:**
-- 8-10 sessions with executives across diverse departments
-- Exposure to different organizational cultures and challenges
-- Mix of large operations (CDCR, DMV, DHCS), policy-focused (ARB, DWR), infrastructure (CALTRANS)
-- Questions about challenges, priorities, modernization barriers
-
-**Direct Engagement:**
-- Small group discussions with agency leadership
-- Shadowing executives in their day-to-day work
-- Attending leadership meetings and decision-making forums
-- Building understanding of competing priorities and constraints
-
-**3. Innovation Process Training (Months 1-4)**
-
-**Human-Centered Problem Definition:**
-- User research methods (interviews, surveys, observation)
-- Journey mapping and pain point identification
-- Persona development
-- Problem framing workshops
-
-**Rapid Ideation and Concept Validation:**
-- Brainstorming techniques
-- Concept sketching and storyboarding
-- Rapid prototyping (paper, digital, service blueprints)
-- User testing and feedback incorporation
-
-**Prototype Testing:**
-- Testing with government staff (internal users)
-- Testing with citizens (external users)
-- Usability testing methodologies
-- Interpreting feedback and iterating
-
-**Government-Specific Change Management:**
-- Understanding bureaucratic culture and resistance
-- Building coalitions and securing buy-in
-- Navigating procurement and policy constraints
-- Communicating change effectively
-
-**Implementation Roadmaps:**
-- Phased rollout planning
-- Risk identification and mitigation
-- Resource requirements and budgeting
-- Success metrics and evaluation
-
-**4. Department Embedding (Full 6 Months)**
-
-**Full-Time Placement:**
-- Placed in department outside home agency for broader perspective
-- Full-time immersion in operations
-- Integration into departmental discovery meetings
-
-**Project Ownership:**
-- Assigned real business priority, not "make work" project
-- Significant impact potential (not peripheral initiative)
-- Autonomy and decision-making authority
-- Budget and resources as needed
-
-**Relationship Building:**
-- Daily interaction with department staff
-- Understanding organizational culture from inside
-- Building trust and credibility through delivery
-- Creating lasting relationships across agency boundaries
-
-**Mentorship:**
-- **Departmental Supervisor:** Day-to-day guidance, project oversight, operational support
-- **Home Agency Mentor:** Bi-weekly meetings, career guidance, enterprise perspective
-- **Cohort Peer:** Weekly peer mentoring, mutual support, shared learning
-
-**Surrogate/Delegate Requirement:**
-- Host department provides surrogate for business continuity
-- Surrogate learns from Fellow, prepared to sustain work after Fellowship
-- Knowledge transfer ensures project sustainability
-- Creates multiplier effect (Fellow + Surrogate = 2 trained change agents)
-
-**5. Group Initiatives (Full 6 Months)**
-
-**Team Structure:**
-- **4 concurrent initiatives** addressing high-priority cross-agency challenges
-- **5 fellows per team** (from 20-fellow cohort: 4 teams of 5 each)
-- **Executive sponsor** from Cabinet or GovOps providing direction and removing barriers
-- **TMO liaison** providing methodology support and coordination
-
-**Initiative Domains (Examples):**
-- Business licensing modernization (cross-agency service integration)
-- Data governance and sharing infrastructure (technical and policy framework)
-- Customer experience platform (unified citizen portal)
-- Procurement modernization (streamlined processes and vendor management)
-- Emergency response coordination (disaster preparedness and response)
-
-**Timeline and Deliverables:**
-
-**Month 1-2: Research and Discovery**
-- Stakeholder interviews (agencies, staff, citizens)
-- Current state analysis
-- Best practice research
-- Problem definition and scoping
-
-**Month 3-4: Concept Development**
-- Ideation and solution design
-- Rapid prototyping and testing
-- Feasibility assessment (technical, financial, political)
-- Refinement based on feedback
-
-**Month 5: Roadmap Development**
-- Implementation plan with phases and milestones
-- Resource requirements and budget
-- Risk assessment and mitigation
-- Success metrics and evaluation plan
-
-**Month 6: Presentation and Handoff**
-- Executive recommendation document (20-30 pages)
-- Implementation roadmap (detailed project plan)
-- Identified implementation team (who will carry work forward)
-- Presentation to Cabinet and Governor's Office
+*For detailed curriculum, training modules, and deliverable requirements, see [Appendix A.10: Fellowship Program Curriculum](operational-appendices.md#a10-fellowship-program-curriculum).*
 
 **Expected Outcomes:**
 - Actionable recommendations for enterprise-wide improvements
@@ -1492,7 +809,7 @@ As executive positions open or are reclassified, include fellowship participatio
 
 **Sample Duty Statement Language:**
 
-> **Desirable Qualifications:**  
+> **Desirable Qualifications:**
 > Completion of Governor's Innovation Fellowship or equivalent executive leadership development program focused on organizational modernization, cross-functional collaboration, and enterprise perspective. Fellowship graduates bring demonstrated understanding of state government systems, authentic relationships across multiple departments, hands-on experience with change management in complex organizations, and commitment to evidence-based modernization.
 
 **Implementation Phases:**
@@ -1553,74 +870,6 @@ Effective data governance requires combining domain expertise with technical dat
 - Domain specialists alone lack technical skills to implement solutions
 - Data specialists alone lack context to make correct decisions about data
 - Combined expertise delivers effective data governance
-
-**Team Structure:**
-
-**Leadership Tier:**
-
-**Team Director:**
-- Classification: Environmental Program Manager I or Senior Civil Engineer
-- Salary Range: $9,500-$12,000/month
-- Responsibilities: Overall team leadership, strategic direction, resource allocation, agency coordination
-
-**Technical Team Lead:**
-- Classification: Senior Environmental Scientist Supervisory or Senior Engineering Geologist
-- Responsibilities: Domain standards development, technical quality oversight, cross-departmental collaboration
-
-**Data Operations Lead:**
-- Classification: Research Data Supervisor I/II
-- Responsibilities: Data infrastructure management, technical architecture, system integration
-
-**Specialist Tier:**
-
-**Domain Standards Leads:**
-- Classifications: Senior Environmental Scientist Specialist, Senior Engineering Geologist, Senior Civil Engineer
-- Responsibilities: Sector-specific data standards, quality frameworks, regulatory compliance
-
-**Senior Data Architect:**
-- Classification: Research Data Specialist III
-- Responsibilities: Enterprise data architecture, integration patterns, technical standards
-
-**Journey/Operational Tier:**
-
-**Data Quality Analysts:**
-- Classifications: Environmental Scientist Range C, Engineering Geologist Range C/D, Associate Civil Engineer
-- Responsibilities: Data quality assessment, validation rules, anomaly investigation
-
-**Data Analysts:**
-- Classifications: AGPA (generalist) or Research Data Analyst II (specialist)
-- Responsibilities: Analysis, reporting, dashboard development, user support
-
-**Administrative/Support Tier:**
-
-**Program Coordinator:**
-- Classification: AGPA
-- Responsibilities: Project coordination, documentation, meeting facilitation, training coordination
-
-**Administrative Support:**
-- Classification: SSA (Staff Services Analyst)
-- Responsibilities: Budget tracking, procurement support, general administration
-
-**Student Assistants:**
-- Classification: Student Assistant
-- Responsibilities: Data entry, quality checking, research support, learning opportunity
-
-**Standard Team Sizes:**
-
-**Small Department Team (8-10 FTE):**
-- 1 Director, 1 Technical Lead, 1 Data Operations Lead
-- 2 Specialists, 3-4 Analysts
-- 1 Coordinator
-
-**Standard Department Team (13-15 FTE):**
-- 1 Director, 1 Technical Lead, 1 Data Operations Lead
-- 3-4 Specialists, 5-6 Analysts
-- 1 Coordinator, 1 Administrative Support, 1-2 Student Assistants
-
-**Large Department Team (20-25 FTE):**
-- 1 Director, 2 Technical Leads, 1 Data Operations Lead
-- 5-6 Specialists, 8-10 Analysts
-- 2 Coordinators, 1 Administrative Support, 2-3 Student Assistants
 
 **Why Science and Engineering Classifications:**
 
@@ -1750,39 +999,11 @@ Effective data governance requires combining domain expertise with technical dat
 
 **Target:** 100% of data governance team members trained in foundational competencies by Year 2
 
-**Innovation Ambassadors Network:**
-
-**Purpose:** Peer champions driving cultural change within departments
-
-**Selection:**
-- 30-40 per agency (1-2 per major division)
-- Nominated by leadership, volunteer interest
-- Respected by peers, credible change agents
-
-**Activities:**
-- Peer learning sessions (monthly)
-- Champions for new tools and practices
-- Early adopters providing feedback
-- Supporting colleagues through change
-- Celebrating innovation and risk-taking
-
-**Support:**
-- Quarterly training on change leadership
-- Recognition and awards for contributions
-- Direct access to E3 leaders for feedback
-- Career development opportunities
-
-**Expected Impact:**
-- Distributed change leadership (not just top-down)
-- Peer influence overcoming resistance
-- Faster adoption of innovations
-- Culture shift toward continuous improvement
-
 ---
 
 ## 8. Breakthrough Modernization Fund
 
-For detailed budget projections, cost models, and five-year financial analysis, see [Appendix F: Budget and Financial Models](appendices.md#appendix-f-budget-and-financial-models).
+For detailed budget projections, cost models, and five-year financial analysis, see [Appendix F: Budget and Financial Models](technical-appendices.md#appendix-f-budget-and-financial-models).
 
 ### 8.1 Fund Structure and Capitalization
 
@@ -1862,37 +1083,30 @@ Partnership is financial and technical co-learning, not governance participation
 
 ### 8.3 Feedback Loop and Sustainability Model
 
-**How Projects Generate Ongoing Modernization Capacity:**
+**The Reinvestment Cycle:**
 
-**Step 1: Project Delivers Measurable Savings**
-- Example: Business licensing automation reduces processing time from 45 days to 3 days
-- Staffing reduced from 20 FTE to 8 FTE through automation
-- Annual cost reduction: $1.2M (12 FTE × $100K loaded cost)
+Projects that deliver measurable savings create ongoing modernization capacity through a structured feedback loop:
 
-**Step 2: Department Budget Adjusted**
-- Department baseline budget reduced by realized savings ($1.2M annual reduction)
-- Budget reduction implemented in subsequent fiscal year after savings validated
+1. **Project delivers savings** → Department budget adjusted
+2. **25% of realized savings** diverted to Breakthrough Fund annually
+3. **75% returns to General Fund** for other priorities
+4. **Accumulated savings** fund next-generation projects
+5. **Fund becomes self-sustaining** over 5-7 years as portfolio matures
 
-**Step 3: Fixed 25% Diverted to Breakthrough Fund**
-- 25% of $1.2M = $300K diverted to Breakthrough Fund annually
-- 75% ($900K) returns to General Fund for other priorities
-
-**Step 4: Reinvestment Creates Next Generation Projects**
-- Accumulated savings fund new modernization projects
-- Fund becomes self-sustaining over 5-7 years as project portfolio matures
-- Private sector partners can exit once fund reaches self-sustainability, or continue partnership
+*For a detailed worked example showing how a $1.2M annual savings flows through the reinvestment cycle, see [Appendix A.11: Breakthrough Fund Sustainability Model](operational-appendices.md#a11-breakthrough-fund-sustainability-model).*
 
 **Portfolio Management Approach:**
 
 ODI manages Breakthrough Fund using venture capital portfolio principles:
 
-**Risk Diversification:**
-- **70% of funding:** Proven approaches with high success probability (replicating successful pilots, scaling working innovations)
-- **20% of funding:** Medium-risk innovations with demonstrated feasibility (new technologies, novel process redesigns)
-- **10% of funding:** High-risk, high-reward moonshots (emerging AI applications, radical business model changes)
+| Risk Tier | Allocation | Examples |
+|-----------|------------|----------|
+| **Proven (70%)** | High success probability | Replicating successful pilots, scaling working innovations |
+| **Medium (20%)** | Demonstrated feasibility | New technologies, novel process redesigns |
+| **Moonshot (10%)** | High-risk, high-reward | Emerging AI applications, radical business model changes |
 
 **Stage-Gate Investment:**
-- Initial funding: Small pilot/proof-of-concept ($250K-$500K)
+- Initial funding: Pilot/proof-of-concept ($250K-$500K)
 - Phase 2: Scaled pilot in 2-3 departments ($1M-$3M)
 - Phase 3: Statewide deployment ($5M-$10M)
 - Projects advance only after achieving phase milestones; failures stopped early
@@ -1928,7 +1142,7 @@ ODI manages Breakthrough Fund using venture capital portfolio principles:
 
 ### Readiness Assessment Framework
 
-The **Readiness Assessment** is a comprehensive evaluation tool that determines department preparedness for E3 deployment and modernization investments. This framework ensures strategic, risk-mitigated deployment that builds momentum through early wins. For detailed scoring rubrics and assessment instruments, see [Appendix C: Readiness Assessment Framework](appendices.md#appendix-c-readiness-assessment-framework).
+The **Readiness Assessment** is a comprehensive evaluation tool that determines department preparedness for E3 deployment and modernization investments. This framework ensures strategic, risk-mitigated deployment that builds momentum through early wins. For detailed scoring rubrics and assessment instruments, see [Appendix C: Readiness Assessment Framework](technical-appendices.md#appendix-c-readiness-assessment-framework).
 
 **Assessment Domains:**
 1. **Leadership and Governance** (25% weight) - Executive sponsorship, strategic alignment, governance maturity
@@ -2131,7 +1345,7 @@ Rigorously use Readiness Assessment framework to sequence investments. Early suc
 Deliver 5-10 visible improvements within first year to build credibility, demonstrate capability, overcome skepticism. Quick wins create coalition for change; absence of wins fuels opposition.
 
 **Measurement Discipline:**
-Transparent reporting of progress AND setbacks. Publish metrics even when unfavorable. What gets measured gets managed. Create learning culture where failures are analyzed, not hidden. For the complete KPI framework, OKR methodology, and change management approach, see [Appendix G: Performance and Change Management Framework](appendices.md#appendix-g-performance-and-change-management-framework).
+Transparent reporting of progress AND setbacks. Publish metrics even when unfavorable. What gets measured gets managed. Create learning culture where failures are analyzed, not hidden. For the complete KPI framework, OKR methodology, and change management approach, see [Appendix G: Performance and Change Management Framework](technical-appendices.md#appendix-g-performance-and-change-management-framework).
 
 **Talent Development at Scale:**
 Fellowship provides surge capacity (60 new leaders annually) but sustainable transformation requires workforce investment through data governance teams, CalAcademy training, and career pathway development.
@@ -2139,7 +1353,7 @@ Fellowship provides surge capacity (60 new leaders annually) but sustainable tra
 **ODI Integration:**
 Leverage ODI's proven approaches, tools, and expertise. E3 leaders actively partner with ODI, mandate adoption of ODI-developed standards, allocate budget for ODI services. ODI transitions from optional consultant to essential enabler.
 
-For the comprehensive risk mitigation matrix identifying key implementation risks and strategies, see [Appendix G: Performance and Change Management Framework, Section G.8](appendices.md#g8-risk-mitigation-matrix).
+For the comprehensive risk mitigation matrix identifying key implementation risks and strategies, see [Appendix G: Performance and Change Management Framework, Section G.8](technical-appendices.md#g8-risk-mitigation-matrix).
 
 ---
 
@@ -2198,13 +1412,11 @@ The roadmap is clear. The resources are identified. The expertise exists. The on
 
 ---
 
-**For detailed implementation support, see [Appendices (separate document)](appendices.md) containing:**
-- Sample templates and frameworks
-- Technology standards catalog
-- Readiness Assessment framework
-- Glossary and references
-- Budget and financial models
-- Performance and change management framework
+**For detailed implementation support, see companion documents:**
+- [Recommendation Brief](recommendation-brief.md) — Executive summary and recommended actions
+- [Procurement Guide](procurement-guide.md) — Technology and procurement innovation (Sections 5-6)
+- [Operational Appendices](operational-appendices.md) — Sample templates and frameworks (A.1-A.11)
+- [Technical Appendices](technical-appendices.md) — Standards, assessments, and reference materials (B-H)
 
 ---
 
@@ -2222,5 +1434,4 @@ The roadmap is clear. The resources are identified. The expertise exists. The on
 
 ---
 
-*End of California Enterprise Modernization Plan - Unified Document*
-
+*End of California Enterprise Modernization Plan - Strategy Document*
