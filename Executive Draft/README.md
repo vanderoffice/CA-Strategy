@@ -18,14 +18,13 @@ This document suite presents a comprehensive plan to modernize California state 
 ```
 Executive Draft/
 ├── README.md                         ← You are here
-├── recommendation-brief.md           ← Start here (executive summary)
 │
-├── governance-model.md               ← Core governance and structure
+├── governance-model.md               ← Start here (core governance and structure)
 ├── talent-development.md             ← Fellowship and workforce
 ├── funding-implementation.md         ← Fund structure and roadmap
 │
 ├── procurement-guide.md              ← Technology and procurement innovation
-├── operational-appendices.md         ← Templates A.1-A.11
+├── operational-appendices.md         ← Templates A.1-A.12
 ├── technical-appendices.md           ← Standards and reference (Appendices B-H)
 │
 └── readiness-assessment/
@@ -40,12 +39,11 @@ Executive Draft/
 
 | Document | Purpose | Pages | Reading Time |
 |----------|---------|-------|--------------|
-| [Recommendation Brief](recommendation-brief.md) | Executive summary with recommended actions | 3 | 5 min |
-| [Governance Model](governance-model.md) | E3 structure, leadership roles, data governance | 12 | 25 min |
+| [Governance Model](governance-model.md) | E3 structure, leadership roles, data governance, executive summary | 14 | 30 min |
 | [Talent Development](talent-development.md) | Fellowship program, workforce, training | 6 | 15 min |
 | [Funding & Implementation](funding-implementation.md) | Breakthrough Fund, roadmap, success factors | 8 | 20 min |
 | [Procurement Guide](procurement-guide.md) | Modular contracting, RFI², vendor pools | 8 | 20 min |
-| [Operational Appendices](operational-appendices.md) | Templates and operational guides | 28 | Reference |
+| [Operational Appendices](operational-appendices.md) | Templates and operational guides | 30 | Reference |
 | [Technical Appendices](technical-appendices.md) | Standards, architecture, assessments | 25 | Reference |
 
 ---
@@ -53,15 +51,13 @@ Executive Draft/
 ## Reading Order by Role
 
 ### For Executives and Decision-Makers
-1. **[Recommendation Brief](recommendation-brief.md)** — Key actions and timeline (5 min)
-2. **[Governance Model](governance-model.md)** — Sections 1-2 only (15 min)
-3. **[Funding & Implementation](funding-implementation.md)** — Section 8 only (10 min)
+1. **[Governance Model](governance-model.md)** — Executive Summary only (10 min)
+2. **[Funding & Implementation](funding-implementation.md)** — Section 8 only (10 min)
 
 ### For Agency Secretaries and Undersecretaries
-1. **[Recommendation Brief](recommendation-brief.md)** — Full document (5 min)
-2. **[Governance Model](governance-model.md)** — Full document (25 min)
-3. **[Talent Development](talent-development.md)** — Full document (15 min)
-4. **[Funding & Implementation](funding-implementation.md)** — Full document (20 min)
+1. **[Governance Model](governance-model.md)** — Full document (30 min)
+2. **[Talent Development](talent-development.md)** — Full document (15 min)
+3. **[Funding & Implementation](funding-implementation.md)** — Full document (20 min)
 
 ### For E3 Chief Deputy Directors and Project Managers
 1. **[Governance Model](governance-model.md)** — Sections 2-4 (20 min)
@@ -155,4 +151,4 @@ For questions about this document suite, contact the Office of Data and Innovati
 
 ---
 
-*This reading guide helps navigate the California Enterprise Modernization Plan. Start with the [Recommendation Brief](recommendation-brief.md) for the executive summary.*
+*This reading guide helps navigate the California Enterprise Modernization Plan. Start with the Executive Summary in [Governance Model](governance-model.md) for an overview.*

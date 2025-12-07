@@ -8,7 +8,6 @@
 ---
 
 > This document is part of the California Enterprise Modernization recommendation. See also:
-> - [Recommendation Brief](recommendation-brief.md) — Executive summary and recommended actions
 > - [Talent Development](talent-development.md) — Fellowship program and workforce development
 > - [Funding & Implementation](funding-implementation.md) — Fund structure and implementation roadmap
 > - [Procurement Guide](procurement-guide.md) — Technology and procurement innovation
@@ -86,6 +85,17 @@ The **Enterprise Efficiency and Effectiveness (E3) Operational Model** creates i
 - **36 Months:** Full E3 deployment (8-12 Undersecretaries, 30-40 Chief Deputy Directors), 120+ Senior Fellows graduated, 50% digital adoption, 25% legacy reduction (40% by Year 5)
 
 **Critical Success Factors:** Executive commitment (5+ years), actual authority (not advisory roles), readiness-based deployment using the Readiness Assessment framework, quick wins in Year 1, and measurement discipline.
+
+**Recommended Actions:**
+
+| Recommendation | Decision Owner | Suggested Timeline |
+|----------------|----------------|-------------------|
+| Approve E3 leadership structure (8-12 Undersecretaries, 30-40 CDDs) | Governor | Q1 2026 |
+| Authorize $50M state contribution to Breakthrough Fund | Legislature | FY 2026-27 |
+| Establish Independent Office of State Data Governance | Governor + Legislature | Q2 2026 |
+| Issue Executive Order on $15M modular contracting cap | Governor | Q1 2026 |
+
+**Key Risks:** Independent Office legislation delays (mitigate with concurrent planning), resistance to change (mitigate with quick wins and union engagement), political transitions (mitigate with cross-branch structure), vendor lock-in (mitigate with open standards and modular contracting). See [Appendix G.8: Risk Mitigation Matrix](technical-appendices.md#g8-risk-mitigation-matrix) for comprehensive analysis.
 
 ---
 

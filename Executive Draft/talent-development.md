@@ -8,7 +8,6 @@
 ---
 
 > This document is part of the California Enterprise Modernization recommendation. See also:
-> - [Recommendation Brief](recommendation-brief.md) — Executive summary and recommended actions
 > - [Governance Model](governance-model.md) — E3 structure and data governance
 > - [Funding & Implementation](funding-implementation.md) — Fund structure and implementation roadmap
 > - [Procurement Guide](procurement-guide.md) — Technology and procurement innovation
