@@ -22,10 +22,13 @@ Executive Draft/
 ├── 01-executive-summary.md           ← Start here (2-page overview)
 ├── 02-governance-model.md            ← Core governance and structure
 ├── 03-talent-development.md          ← Fellowship and workforce
-├── 04-funding-implementation.md      ← Fund structure and roadmap
+├── 04-funding-implementation.md      ← Breakthrough Fund structure
 ├── 05-procurement-guide.md           ← Technology and procurement innovation
-├── 06-operational-appendices.md      ← Templates A.1-A.12
-├── 07-technical-appendices.md        ← Standards and reference (Appendices B-H)
+├── 06-templates.md                   ← Template summaries (A.1-A.8)
+├── 07-operational-guides.md          ← Program guides and frameworks (B.1-B.4)
+├── 08-technical-appendices.md        ← Technical standards and architecture (C, D, H)
+├── 09-budget-and-governance.md       ← Budget and change management (F, G)
+├── 10-implementation-roadmap.md      ← Phased 36-month implementation plan (I)
 │
 └── readiness-assessment/
     ├── README.md                     ← Assessment framework overview
@@ -42,10 +45,13 @@ Executive Draft/
 | 01 | [Executive Summary](01-executive-summary.md) | Overview and recommended actions | 5 min |
 | 02 | [Governance Model](02-governance-model.md) | E3 structure, leadership roles, data governance | 25 min |
 | 03 | [Talent Development](03-talent-development.md) | Fellowship program, workforce, training | 15 min |
-| 04 | [Funding & Implementation](04-funding-implementation.md) | Breakthrough Fund, roadmap, success factors | 20 min |
+| 04 | [Funding & Implementation](04-funding-implementation.md) | Breakthrough Fund structure | 15 min |
 | 05 | [Procurement Guide](05-procurement-guide.md) | Modular contracting, RFI², vendor pools | 20 min |
-| 06 | [Operational Appendices](06-operational-appendices.md) | Templates and operational guides | Reference |
-| 07 | [Technical Appendices](07-technical-appendices.md) | Standards, architecture, assessments | Reference |
+| 06 | [Templates](06-templates.md) | Fillable forms and templates (A.1-A.8) | Reference |
+| 07 | [Operational Guides](07-operational-guides.md) | Program guides and frameworks (B.1-B.4) | Reference |
+| 08 | [Technical Appendices](08-technical-appendices.md) | Technical standards and architecture | Reference |
+| 09 | [Budget and Governance Appendices](09-budget-and-governance.md) | Budget models and change management | Reference |
+| 10 | [Implementation Roadmap](10-implementation-roadmap.md) | Phased 36-month implementation plan (I) | 15 min |
 
 ---
 
@@ -53,29 +59,31 @@ Executive Draft/
 
 ### For Executives and Decision-Makers
 1. **[Executive Summary](01-executive-summary.md)** — Full document (5 min)
-2. **[Funding & Implementation](04-funding-implementation.md)** — Section 8 only (10 min)
+2. **[Funding & Implementation](04-funding-implementation.md)** — Section 7 Conclusion only (10 min)
 
 ### For Agency Secretaries and Undersecretaries
 1. **[Executive Summary](01-executive-summary.md)** — Full document (5 min)
 2. **[Governance Model](02-governance-model.md)** — Full document (25 min)
 3. **[Talent Development](03-talent-development.md)** — Full document (15 min)
-4. **[Funding & Implementation](04-funding-implementation.md)** — Full document (20 min)
+4. **[Funding & Implementation](04-funding-implementation.md)** — Full document (15 min)
 
 ### For E3 Chief Deputy Directors and Project Managers
 1. **[Executive Summary](01-executive-summary.md)** — Full document (5 min)
 2. **[Governance Model](02-governance-model.md)** — Sections 2-4 (20 min)
 3. **[Procurement Guide](05-procurement-guide.md)** — Full document (20 min)
-4. **[Operational Appendices](06-operational-appendices.md)** — Templates A.4-A.9 (Reference)
-5. **[Readiness Assessment](readiness-assessment/enhanced-readiness-assessment.md)** — Full instrument (Reference)
+4. **[Templates](06-templates.md)** — Templates A.4-A.8 (Reference)
+5. **[Operational Guides](07-operational-guides.md)** — Guide B.1 (Reference)
+6. **[Readiness Assessment](readiness-assessment/enhanced-readiness-assessment.md)** — Full instrument (Reference)
 
 ### For Technical Staff and Architects
 1. **[Procurement Guide](05-procurement-guide.md)** — Section 9 (10 min)
-2. **[Technical Appendices](07-technical-appendices.md)** — Appendix H (Reference)
+2. **[Technical Appendices](08-technical-appendices.md)** — Appendix H (Reference)
 3. **[Governance Model](02-governance-model.md)** — Section 4 (10 min)
 
 ### For Procurement Staff
 1. **[Procurement Guide](05-procurement-guide.md)** — Full document (20 min)
-2. **[Operational Appendices](06-operational-appendices.md)** — Templates A.5-A.9 (Reference)
+2. **[Templates](06-templates.md)** — Templates A.5-A.8 (Reference)
+3. **[Operational Guides](07-operational-guides.md)** — Guide B.1 (Reference)
 
 ---
 
@@ -91,16 +99,16 @@ The plan uses sequential section numbering across documents:
 | 4 | 02-governance-model.md | Product-Led Delivery Framework |
 | 5 | 03-talent-development.md | Talent Development and Sustainability |
 | 6 | 04-funding-implementation.md | Breakthrough Modernization Fund |
-| 7 | 04-funding-implementation.md | Implementation Roadmap |
-| 8 | 04-funding-implementation.md | Conclusion |
-| 9 | 05-procurement-guide.md | Technology Architecture |
-| 10 | 05-procurement-guide.md | Procurement Innovation |
+| 7 | 04-funding-implementation.md | Conclusion |
+| 8 | 05-procurement-guide.md | Technology Architecture |
+| 9 | 05-procurement-guide.md | Procurement Innovation |
+| Appendix I | 10-implementation-roadmap.md | Implementation Roadmap |
 
 ---
 
 ## Appendices Quick Reference
 
-### Operational Appendices (Templates)
+### Templates (06-templates.md)
 | Appendix | Title | Use For |
 |----------|-------|---------|
 | A.1 | E3 Position Description Template | Creating E3 job postings |
@@ -111,21 +119,32 @@ The plan uses sequential section numbering across documents:
 | A.6 | Standard Agile Task Order Template | Vendor task orders |
 | A.7 | Rapid RFI² Problem Statement Template | Challenge-based procurement |
 | A.8 | AI Productivity Disclosure Template | Vendor AI tool disclosure |
-| A.9 | Rapid RFI² Operational Guide | Running RFI² challenges |
-| A.10 | Fellowship Program Curriculum | Fellowship program design |
-| A.11 | Breakthrough Fund Sustainability Model | Fund reinvestment calculations |
-| A.12 | Labor Relations Strategy | Union engagement and workforce transitions |
 
-### Technical Appendices (Reference)
+### Operational Guides (07-operational-guides.md)
 | Appendix | Title | Use For |
 |----------|-------|---------|
-| B | Technology Standards Catalog | (See Appendix H.6) |
+| B.1 | Rapid RFI² Operational Guide | Running RFI² challenges |
+| B.2 | Fellowship Program Curriculum | Fellowship program design |
+| B.3 | Breakthrough Fund Sustainability Model | Fund reinvestment calculations |
+| B.4 | Labor Relations Strategy | Union engagement and workforce transitions |
+
+### Technical Appendices (08-technical-appendices.md)
+| Appendix | Title | Use For |
+|----------|-------|---------|
 | C | Readiness Assessment Framework | Department readiness scoring |
 | D | Glossary | Term definitions |
-| E | References and Source Documents | Background research |
-| F | Budget and Financial Models | Cost projections |
-| G | Performance and Change Management | KPIs, OKRs, risk matrix |
 | H | Technology Architecture Details | API, cloud, security standards |
+
+### Budget and Governance Appendices (09-budget-and-governance.md)
+| Appendix | Title | Use For |
+|----------|-------|---------|
+| F | Budget and Financial Models | Cost projections |
+| G | Performance and Change Management | ADKAR model, risk matrix |
+
+### Implementation Roadmap (10-implementation-roadmap.md)
+| Appendix | Title | Use For |
+|----------|-------|---------|
+| I | Implementation Roadmap | Phased 36-month plan, success metrics, critical success factors |
 
 ---
 

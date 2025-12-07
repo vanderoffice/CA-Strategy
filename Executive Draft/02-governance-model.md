@@ -10,10 +10,13 @@
 > This document is part of the California Enterprise Modernization recommendation. See also:
 > - [Executive Summary](01-executive-summary.md) — Start here for an overview
 > - [Talent Development](03-talent-development.md) — Fellowship program and workforce development
-> - [Funding & Implementation](04-funding-implementation.md) — Fund structure and implementation roadmap
+> - [Funding & Implementation](04-funding-implementation.md) — Breakthrough Fund structure
 > - [Procurement Guide](05-procurement-guide.md) — Technology and procurement innovation
-> - [Operational Appendices](06-operational-appendices.md) — Templates and operational guides
-> - [Technical Appendices](07-technical-appendices.md) — Standards, assessments, and reference materials
+> - [Templates](06-templates.md) — Fillable forms and templates
+> - [Operational Guides](07-operational-guides.md) — Program guides and frameworks
+> - [Technical Appendices](08-technical-appendices.md) — Technical standards and architecture
+> - [Budget and Governance Appendices](09-budget-and-governance.md) — Budget models and change management
+> - [Implementation Roadmap](10-implementation-roadmap.md) — Phased 36-month implementation plan
 
 ---
 
@@ -270,7 +273,7 @@ Undersecretaries for Efficiency and Effectiveness operate at the Agency level, r
 **Why This Position Matters:**
 Without Undersecretaries, modernization efforts fragment across departments with no strategic coordination. Individual departments optimize locally but create incompatibilities system-wide. Undersecretaries provide agency-level strategic direction, ensure cross-department interoperability, allocate resources based on enterprise priorities rather than political influence, and create forcing function for consistent progress. They are the difference between coordinated transformation and chaotic fragmentation.
 
-For sample position descriptions and duty statements, see [Appendix A: Sample Templates and Frameworks](06-operational-appendices.md#appendix-a-sample-templates-and-frameworks).
+For sample position descriptions and duty statements, see [Template A.1: E3 Position Description](06-templates.md#a1-e3-position-description-template).
 
 These are not advisory or coordinator roles. Undersecretaries have authority to approve major technology investments, mandate cross-department data sharing, redirect resources to strategic initiatives, and hold Chief Deputy Directors accountable for results. They serve as the primary interface between their agencies and both ODI and the Office of State Data Governance, ensuring proven methods and mandatory standards are adopted at scale.
 
@@ -483,7 +486,7 @@ TMO prevents these pathologies by:
 - Ensure early engagement with unions on position classifications and organizational changes
 - Support departments on meet and confer requirements related to technology changes
 - Track workforce transition outcomes; maintain commitment to no involuntary separations from modernization
-- For detailed guidance, see [Appendix A.12: Labor Relations Strategy](06-operational-appendices.md#a12-labor-relations-strategy)
+- For detailed guidance, see [Appendix B.4: Labor Relations Strategy](07-operational-guides.md#b4-labor-relations-strategy)
 
 **Innovation Coordination:**
 - Manage Governor's Innovation Fellowship logistics: recruitment, selection, placements, post-graduation engagement
@@ -549,7 +552,7 @@ Each board seat must have an assigned Senior Technical Advisor who provides tech
 
 **Why Four Template Types Matter:**
 
-Data sharing negotiations currently take 18 months because every agreement is custom. Standardized templates reduce this to 4-8 weeks by providing pre-approved legal language, technical specifications, and risk mitigation approaches for common scenarios. For a complete sample Data Sharing Agreement (Type 3: Moderate Sensitivity), see [Appendix A.2](06-operational-appendices.md#a2-data-sharing-agreement-template-type-3-moderate-sensitivity).
+Data sharing negotiations currently take 18 months because every agreement is custom. Standardized templates reduce this to 4-8 weeks by providing pre-approved legal language, technical specifications, and risk mitigation approaches for common scenarios. For a complete sample Data Sharing Agreement (Type 3: Moderate Sensitivity), see [Template A.2](06-templates.md#a2-data-sharing-agreement-template-type-3-moderate-sensitivity).
 
 **Template 1: Public Data Exchange**
 - **Use Case:** Sharing non-sensitive data between state agencies for operational purposes (e.g., business registry data, public facility locations, aggregate statistics)
@@ -633,7 +636,8 @@ For complete procurement framework, policies, and operational details, see [Proc
 This document establishes the governance foundation for California's enterprise modernization. Continue reading:
 
 - **[Talent Development](03-talent-development.md)** — Fellowship program, data governance teams, and training programs
-- **[Funding & Implementation](04-funding-implementation.md)** — Breakthrough Fund structure and implementation roadmap
+- **[Funding & Implementation](04-funding-implementation.md)** — Breakthrough Fund structure
+- **[Implementation Roadmap](10-implementation-roadmap.md)** — Phased 36-month implementation plan
 - **[Procurement Guide](05-procurement-guide.md)** — Technology architecture and procurement innovation
 
 ---

@@ -172,8 +172,8 @@ This assessment directly supports:
 
 ## Related Resources
 
-- [Governance Model](../governance-model.md) — E3 structure and strategic context
-- [Technical Appendices](../technical-appendices.md) — Appendix C summary
+- [Governance Model](../02-governance-model.md) — E3 structure and strategic context
+- [Technical Appendices](../08-technical-appendices.md) — Appendix C summary
 - [CDT Technology Modernization Fund](https://cdt.ca.gov) — Funding programs
 
 ---

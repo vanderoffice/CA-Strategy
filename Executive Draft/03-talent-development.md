@@ -10,10 +10,13 @@
 > This document is part of the California Enterprise Modernization recommendation. See also:
 > - [Executive Summary](01-executive-summary.md) — Start here for an overview
 > - [Governance Model](02-governance-model.md) — E3 structure and data governance
-> - [Funding & Implementation](04-funding-implementation.md) — Fund structure and implementation roadmap
+> - [Funding & Implementation](04-funding-implementation.md) — Breakthrough Fund structure
 > - [Procurement Guide](05-procurement-guide.md) — Technology and procurement innovation
-> - [Operational Appendices](06-operational-appendices.md) — Templates and operational guides
-> - [Technical Appendices](07-technical-appendices.md) — Standards, assessments, and reference materials
+> - [Templates](06-templates.md) — Fillable forms and templates
+> - [Operational Guides](07-operational-guides.md) — Program guides and frameworks
+> - [Technical Appendices](08-technical-appendices.md) — Technical standards and architecture
+> - [Budget and Governance Appendices](09-budget-and-governance.md) — Budget models and change management
+> - [Implementation Roadmap](10-implementation-roadmap.md) — Phased 36-month implementation plan
 
 ---
 
@@ -61,11 +64,10 @@ The Fellowship establishes a continuous pipeline of emerging leaders trained to 
 | **Department Embedding** | Full 6 months | Real project ownership with mentorship and surrogate |
 | **Group Initiatives** | Full 6 months | Cross-agency team projects with executive sponsors |
 
-*For detailed curriculum, training modules, and deliverable requirements, see [Appendix A.10: Fellowship Program Curriculum](06-operational-appendices.md#a10-fellowship-program-curriculum).*
+*For detailed curriculum, training modules, and deliverable requirements, see [Appendix B.2: Fellowship Program Curriculum](07-operational-guides.md#b2-fellowship-program-curriculum).*
 
 **Expected Outcomes:**
 - Actionable recommendations for enterprise-wide improvements
-- 50%+ of group initiatives approved for implementation
 - Some initiatives directly transition to Breakthrough Fund projects
 - Fellows gain experience leading complex, cross-agency initiatives; graduates become Senior Fellows
 
@@ -93,6 +95,7 @@ Upon graduation, Fellows become **Senior Fellows** and join a permanent network 
 - Emergency response roster of Senior Fellows from past 3-5 years
 - Categorized by expertise (IT systems, data, cybersecurity, operations, communications)
 - Pre-authorized for rapid activation
+- **Voluntary participation:** Senior Fellows may opt out of the emergency roster at any time based on personal circumstances, workload, or other factors
 
 **Activation Scenarios:**
 - IT system failures requiring immediate response
@@ -103,7 +106,7 @@ Upon graduation, Fellows become **Senior Fellows** and join a permanent network 
 
 **Response Protocol:**
 - Rapid activation (24-48 hours notice)
-- 3-5 Senior Fellows assembled based on relevant expertise
+- 3-5 Senior Fellows assembled based on relevant expertise and availability
 - Intensive engagement for duration of crisis (typically 2-6 weeks)
 - Full-time detail from home agency or emergency contract
 - After-action documentation and lessons learned
@@ -120,6 +123,16 @@ Upon graduation, Fellows become **Senior Fellows** and join a permanent network 
 - Review of statewide modernization roadmap
 - Input on Fellowship curriculum and improvements
 - Mentoring of current Fellows
+
+**Statewide Advisory Services:**
+
+Senior Fellows are available to provide advisory support to any state department or agency:
+
+- **Consultation requests:** Departments may request Senior Fellow expertise through ODI
+- **Advisory engagements:** Short-term advisory support (hours to days) on specific modernization challenges
+- **Expert matching:** ODI maintains a directory of Senior Fellow expertise areas to match advisors with departmental needs
+- **No-cost consultation:** Initial advisory consultations provided at no cost to requesting departments
+- **Extended engagements:** Longer advisory relationships arranged through interagency agreements or TMO coordination
 
 **Sustainability Model:**
 
@@ -218,11 +231,6 @@ Effective data governance requires combining domain expertise with technical dat
 - Many government datasets require domain knowledge (environmental, engineering, health, public safety)
 - Professional classifications enable hiring experts who understand the data
 
-**Professional Licensure:**
-- PE (Professional Engineer) and PG (Professional Geologist) licenses provide accountability
-- "Responsible charge" concept ensures quality and professional standards
-- Important for data with regulatory or public safety implications
-
 **Classification Alignment:**
 - Consistent with how California already organizes technical work
 - Leverages existing classification infrastructure
@@ -300,12 +308,6 @@ Effective data governance requires combining domain expertise with technical dat
 - Rotation through different technical specialties
 - Path to professional certification or advanced roles
 
-**Talent Rotations:**
-- 6-12 month rotations across departments or agencies
-- Exposure to different technologies and organizational cultures
-- Cross-pollination of ideas and best practices
-- Building enterprise perspective (similar to Fellowship but for technical staff)
-
 **University Partnerships:**
 - Internship programs bringing students into state government
 - Capstone projects addressing real government challenges
@@ -341,7 +343,7 @@ Successful modernization requires partnership with labor organizations represent
 - **Upskilling Priority:** Training programs prepare workers for evolving roles
 - **Classification Coordination:** New data governance positions developed in coordination with CalHR and relevant bargaining units
 
-For comprehensive guidance on union engagement, workforce transitions, and training coordination, see [Appendix A.12: Labor Relations Strategy](06-operational-appendices.md#a12-labor-relations-strategy).
+For comprehensive guidance on union engagement, workforce transitions, and training coordination, see [Appendix B.4: Labor Relations Strategy](07-operational-guides.md#b4-labor-relations-strategy).
 
 ---
 
@@ -349,9 +351,10 @@ For comprehensive guidance on union engagement, workforce transitions, and train
 
 This document establishes the talent development approach for California's enterprise modernization. Continue reading:
 
-- **[Funding & Implementation](04-funding-implementation.md)** — Breakthrough Fund structure and implementation roadmap
+- **[Funding & Implementation](04-funding-implementation.md)** — Breakthrough Fund structure
+- **[Implementation Roadmap](10-implementation-roadmap.md)** — Phased 36-month implementation plan
 - **[Governance Model](02-governance-model.md)** — E3 structure and data governance
-- **[Operational Appendices](06-operational-appendices.md)** — Templates including Fellowship curriculum (A.10)
+- **[Operational Guides](07-operational-guides.md)** — Including Fellowship curriculum (B.2)
 
 ---
 

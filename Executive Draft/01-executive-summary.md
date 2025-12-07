@@ -10,10 +10,13 @@
 > This document is part of the California Enterprise Modernization recommendation. See also:
 > - [Governance Model](02-governance-model.md) — E3 structure, leadership roles, and data governance
 > - [Talent Development](03-talent-development.md) — Fellowship program and workforce development
-> - [Funding & Implementation](04-funding-implementation.md) — Fund structure and implementation roadmap
+> - [Funding & Implementation](04-funding-implementation.md) — Breakthrough Fund structure
 > - [Procurement Guide](05-procurement-guide.md) — Technology and procurement innovation
-> - [Operational Appendices](06-operational-appendices.md) — Templates and operational guides
-> - [Technical Appendices](07-technical-appendices.md) — Standards, assessments, and reference materials
+> - [Templates](06-templates.md) — Fillable forms and templates
+> - [Operational Guides](07-operational-guides.md) — Program guides and frameworks
+> - [Technical Appendices](08-technical-appendices.md) — Technical standards and architecture
+> - [Budget and Governance Appendices](09-budget-and-governance.md) — Budget models and change management
+> - [Implementation Roadmap](10-implementation-roadmap.md) — Phased 36-month implementation plan
 
 ---
 
@@ -104,7 +107,7 @@ See [Funding & Implementation](04-funding-implementation.md) for details.
 | Political transitions | Cross-branch Independent Office structure; bipartisan framing |
 | Vendor lock-in | Open standards; modular contracting; API-first architecture |
 
-See [Appendix G.8: Risk Mitigation Matrix](07-technical-appendices.md#g8-risk-mitigation-matrix) for comprehensive analysis.
+See [Appendix G.6: Risk Mitigation Matrix](09-budget-and-governance.md#g6-risk-mitigation-matrix) for comprehensive analysis.
 
 ---
 
@@ -114,10 +117,13 @@ See [Appendix G.8: Risk Mitigation Matrix](07-technical-appendices.md#g8-risk-mi
 |----------|----------|--------------|
 | [Governance Model](02-governance-model.md) | E3 structure, leadership roles, data governance | 25 min |
 | [Talent Development](03-talent-development.md) | Fellowship program, data governance teams | 15 min |
-| [Funding & Implementation](04-funding-implementation.md) | Breakthrough Fund, implementation roadmap | 20 min |
+| [Funding & Implementation](04-funding-implementation.md) | Breakthrough Fund structure | 15 min |
 | [Procurement Guide](05-procurement-guide.md) | Modular contracting, RFI², vendor pools | 20 min |
-| [Operational Appendices](06-operational-appendices.md) | Templates A.1-A.12 | Reference |
-| [Technical Appendices](07-technical-appendices.md) | Appendices B-H | Reference |
+| [Templates](06-templates.md) | Templates A.1-A.8 | Reference |
+| [Operational Guides](07-operational-guides.md) | Guides B.1-B.4 | Reference |
+| [Technical Appendices](08-technical-appendices.md) | Appendices C, D, H | Reference |
+| [Budget and Governance Appendices](09-budget-and-governance.md) | Appendices F, G | Reference |
+| [Implementation Roadmap](10-implementation-roadmap.md) | Appendix I: 36-month implementation plan | 15 min |
 
 ---
 
