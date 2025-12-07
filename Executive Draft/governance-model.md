@@ -20,7 +20,6 @@
 ## Table of Contents
 
 - [Executive Summary](#executive-summary)
-- [Acronyms and Abbreviations](#acronyms-and-abbreviations)
 
 ### Part 1: Strategic Foundation and Governance
 1. [Strategic Foundation](#1-strategic-foundation)
@@ -68,9 +67,9 @@ The **Enterprise Efficiency and Effectiveness (E3) Operational Model** creates i
    - *Transformation Management Office (TMO)* within GovOps for statewide coordination
 
 2. **Product-Led Delivery** — Modern approaches replacing waterfall:
-   - Service mesh architecture connecting systems via APIs
+   - Service mesh architecture connecting systems via Application Programming Interfaces (APIs)
    - $15M modular contracting cap reducing vendor lock-in
-   - RFI² procurement defining problems rather than prescribing solutions
+   - Request for Innovative Ideas (RFI²) procurement defining problems rather than prescribing solutions
 
 3. **Data Governance Foundation** — Cross-branch authority:
    - Independent Office of State Data Governance with 9-member board
@@ -87,49 +86,6 @@ The **Enterprise Efficiency and Effectiveness (E3) Operational Model** creates i
 - **36 Months:** Full E3 deployment (8-12 Undersecretaries, 30-40 Chief Deputy Directors), 120+ Senior Fellows graduated, 50% digital adoption, 25% legacy reduction (40% by Year 5)
 
 **Critical Success Factors:** Executive commitment (5+ years), actual authority (not advisory roles), readiness-based deployment using the Readiness Assessment framework, quick wins in Year 1, and measurement discipline.
-
----
-
-## Acronyms and Abbreviations
-
-| Acronym | Full Name |
-|---------|-----------|
-| **ADKAR** | Awareness, Desire, Knowledge, Ability, Reinforcement (change management model) |
-| **API** | Application Programming Interface |
-| **CalHHS** | California Health and Human Services Agency |
-| **CalHR** | California Department of Human Resources |
-| **CCPA** | California Consumer Privacy Act |
-| **CDT** | California Department of Technology |
-| **CNRA** | California Natural Resources Agency |
-| **DGS** | Department of General Services |
-| **DIF** | Data and Innovation Fund |
-| **DVBE** | Disabled Veteran Business Enterprise |
-| **E3** | Enterprise Efficiency and Effectiveness |
-| **EO** | Executive Order |
-| **FedRAMP** | Federal Risk and Authorization Management Program |
-| **FISMA** | Federal Information Security Management Act |
-| **FTE** | Full-Time Equivalent |
-| **GovOps** | Government Operations Agency |
-| **KPI** | Key Performance Indicator |
-| **LLM** | Large Language Model |
-| **MFA** | Multi-Factor Authentication |
-| **NIST** | National Institute of Standards and Technology |
-| **ODI** | Office of Data and Innovation |
-| **OKR** | Objectives and Key Results |
-| **PII** | Personally Identifiable Information |
-| **PoC** | Proof of Concept |
-| **RBAC** | Role-Based Access Control |
-| **RFI²** | Request for Innovative Ideas |
-| **ROI** | Return on Investment |
-| **SBE** | Small Business Enterprise |
-| **SIEM** | Security Information and Event Management |
-| **SIMM** | Statewide Information Management Manual |
-| **SLA** | Service Level Agreement |
-| **SME** | Subject Matter Expert |
-| **SOC** | Security Operations Center |
-| **SSO** | Single Sign-On |
-| **TMO** | Transformation Management Office |
-| **WCAG** | Web Content Accessibility Guidelines |
 
 ---
 
@@ -203,8 +159,7 @@ The **Office of Data and Innovation (ODI)** has pioneered the approaches this pl
 
 - **July 1, 2016:** Governor Jerry Brown hired Zachary Townsend as California's inaugural Chief Data Officer within GovOps, signaling commitment to data-driven government
 - **July 1, 2019:** Office of Digital Innovation formally established within GovOps under Government Code Section 11546, with statutory mandate to drive innovation across state government
-- **2022:** Governor Newsom merged Office of Innovation with CalData, creating Office of Data and Innovation to unify data and innovation capabilities
-- **July 1, 2023:** ODI became an independent standalone department (no longer within GovOps hierarchy), signaling expanded mandate and strategic importance
+- **2022:** Governor Newsom merged Office of Innovation with CalData, creating the Office of Data and Innovation (ODI) to unify data and innovation capabilities under a single office within GovOps
 
 **ODI Mission and Strategic Goals:**
 
@@ -718,6 +673,49 @@ This document establishes the governance foundation for California's enterprise 
 - **[Talent Development](talent-development.md)** — Fellowship program, data governance teams, and training programs
 - **[Funding & Implementation](funding-implementation.md)** — Breakthrough Fund structure and implementation roadmap
 - **[Procurement Guide](procurement-guide.md)** — Technology architecture and procurement innovation
+
+---
+
+## Acronyms and Abbreviations
+
+| Acronym | Full Name |
+|---------|-----------|
+| ADKAR | Awareness, Desire, Knowledge, Ability, Reinforcement (change management model) |
+| API | Application Programming Interface |
+| CalHHS | California Health and Human Services Agency |
+| CalHR | California Department of Human Resources |
+| CCPA | California Consumer Privacy Act |
+| CDT | California Department of Technology |
+| CNRA | California Natural Resources Agency |
+| DGS | Department of General Services |
+| DIF | Data and Innovation Fund |
+| DVBE | Disabled Veteran Business Enterprise |
+| E3 | Enterprise Efficiency and Effectiveness |
+| EO | Executive Order |
+| FedRAMP | Federal Risk and Authorization Management Program |
+| FISMA | Federal Information Security Management Act |
+| FTE | Full-Time Equivalent |
+| GovOps | Government Operations Agency |
+| KPI | Key Performance Indicator |
+| LLM | Large Language Model |
+| MFA | Multi-Factor Authentication |
+| NIST | National Institute of Standards and Technology |
+| ODI | Office of Data and Innovation |
+| OKR | Objectives and Key Results |
+| PII | Personally Identifiable Information |
+| PoC | Proof of Concept |
+| RBAC | Role-Based Access Control |
+| RFI² | Request for Innovative Ideas |
+| ROI | Return on Investment |
+| SBE | Small Business Enterprise |
+| SIEM | Security Information and Event Management |
+| SIMM | Statewide Information Management Manual |
+| SLA | Service Level Agreement |
+| SME | Subject Matter Expert |
+| SOC | Security Operations Center |
+| SSO | Single Sign-On |
+| TMO | Transformation Management Office |
+| WCAG | Web Content Accessibility Guidelines |
 
 ---
 
