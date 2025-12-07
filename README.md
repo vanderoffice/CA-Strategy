@@ -1,40 +1,22 @@
-<p align="center">
-  <img src="https://img.shields.io/badge/State_of_California-Government_Modernization-003366?style=for-the-badge" alt="State of California"/>
-  <img src="https://img.shields.io/badge/Status-Active_Development-success?style=for-the-badge" alt="Status"/>
-</p>
+# California Enterprise Modernization Plan
 
-# CA-Strategy
+**A comprehensive strategy for transforming California state government through the Enterprise Efficiency and Effectiveness (E3) Operational Model.**
 
-**Enterprise planning, assessments, and governance frameworks for California state government modernization.**
-
-This repository contains strategic planning documents, readiness assessment frameworks, and governance models developed to support California's digital transformation initiatives. The materials trace the evolution from operational efficiency models to product-led delivery and comprehensive data governance.
-
----
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Repository Structure](#repository-structure)
-- [Projects](#projects)
-  - [Enterprise Plan](#enterprise-plan)
-  - [Readiness Assessment](#readiness-assessment)
-- [Getting Started](#getting-started)
-- [Target Audience](#target-audience)
-- [Related Repositories](#related-repositories)
-- [Contributing](#contributing)
-- [License](#license)
+[![Status](https://img.shields.io/badge/Status-Executive_Draft_v1.0-blue?style=flat-square)](./Executive%20Draft/)
+[![Version](https://img.shields.io/badge/Version-December_2025-green?style=flat-square)]()
 
 ---
 
 ## Overview
 
-California's state government operates across **170 departments** serving nearly 40 million residents. Modernizing this vast infrastructure requires:
+California state government serves nearly **40 million residents** across **170 departments** with a workforce of **230,000+ employees**. This repository contains the comprehensive modernization strategy that addresses systemic challenges:
 
-- **Strategic Vision**: Clear direction for technology investments
-- **Objective Assessment**: Data-driven prioritization of modernization efforts
-- **Governance Frameworks**: Structures that enable execution at scale
+- **70-80%** of IT budgets consumed by legacy systems
+- **18+ months** average time for data sharing agreements
+- **18-24 months** traditional procurement cycles
+- **33%** of government workers with low or no digital skills
 
-This repository provides the foundational documents that guide these efforts, developed in collaboration with the Office of Data and Innovation and the Governor's Office of Operations.
+The E3 Operational Model creates the institutional forcing mechanisms that government currently lacks—dedicated leadership with actual authority, sustainable funding, and continuous talent development.
 
 ---
 
@@ -42,131 +24,125 @@ This repository provides the foundational documents that guide these efforts, de
 
 ```
 CA-Strategy/
-├── README.md                      # This file
-├── enterprise-plan/               # Strategic planning documents
-│   ├── original/                  # E3 Operational Model
-│   ├── Rev1G3/                    # Product-Led Government
-│   ├── Rev2G3/                    # Data Governance Framework
-│   └── Rev3G3/                    # Latest strategic iteration
-└── readiness-assessment/          # Modernization readiness framework
-    ├── enhanced-readiness-assessment.md
-    ├── implementation-guide.md
-    ├── executive-summary.md
-    └── scale-background.md
+├── README.md                          ← You are here
+├── Executive Draft/                   ← Current working documents
+│   ├── 00-README.md                   ← Document suite navigation guide
+│   ├── 01-executive-summary.md        ← Start here (5 min read)
+│   ├── 02-governance-model.md         ← E3 structure and leadership
+│   ├── 03-talent-development.md       ← Fellowship and workforce
+│   ├── 04-funding-implementation.md   ← Breakthrough Fund
+│   ├── 05-procurement-guide.md        ← Modular contracting and RFI²
+│   ├── 06-templates.md                ← Templates A.1-A.8
+│   ├── 07-operational-guides.md       ← Guides B.1-B.4
+│   ├── 08-technical-appendices.md     ← Appendices C, D, H
+│   ├── 09-budget-and-governance.md    ← Appendices F, G
+│   ├── 10-implementation-roadmap.md   ← Appendix I: 36-month plan
+│   └── readiness-assessment/          ← Department readiness framework
+└── Archive/                           ← Previous versions and source materials
 ```
 
 ---
 
-## Projects
+## Quick Start
 
-### Enterprise Plan
+### For Executives
+1. **[Executive Summary](./Executive%20Draft/01-executive-summary.md)** — 5-minute overview of the complete strategy
+2. **[Conclusion](./Executive%20Draft/04-funding-implementation.md#7-conclusion)** — Key recommendations and immediate actions
 
-Strategic planning documents for California state government modernization across multiple phases of evolution.
+### For Agency Leaders
+1. **[Governance Model](./Executive%20Draft/02-governance-model.md)** — E3 Undersecretary and Chief Deputy Director roles
+2. **[Talent Development](./Executive%20Draft/03-talent-development.md)** — Governor's Innovation Fellowship program
+3. **[Implementation Roadmap](./Executive%20Draft/10-implementation-roadmap.md)** — 36-month phased deployment
 
-| Phase | Focus | Key Concept |
-|-------|-------|-------------|
-| **Original (E3)** | Enterprise Efficiency & Effectiveness | Structural forcing mechanism for government efficiency |
-| **Rev1G3** | Product-Led Government | Life Experience Teams, modular contracting, service mesh |
-| **Rev2G3** | Statewide Data Governance | Unified data framework respecting institutional autonomy |
-| **Rev3G3** | Integrated Strategy | Comprehensive modernization roadmap |
-
-**Key Documents:**
-- Executive Briefs for leadership decision-making
-- Strategy Reports with detailed implementation guidance
-- Presentation materials for stakeholder communication
-- Templates and frameworks for practical application
-
-[View Enterprise Plan Documentation](./enterprise-plan/)
+### For Program Managers
+1. **[Procurement Guide](./Executive%20Draft/05-procurement-guide.md)** — Modular contracting and Rapid RFI²
+2. **[Templates](./Executive%20Draft/06-templates.md)** — Ready-to-use governance templates
+3. **[Readiness Assessment](./Executive%20Draft/readiness-assessment/)** — Department evaluation framework
 
 ---
 
-### Readiness Assessment
+## Key Components
 
-A comprehensive framework for evaluating California government departments' readiness for technology modernization.
+### E3 Operational Model
+Establishes dedicated leadership positions with actual authority over modernization:
+- **8-12 Undersecretaries** at agency level for strategic coordination
+- **30-40 Chief Deputy Directors** at department level for operational execution
+- **Transformation Management Office (TMO)** for portfolio management and support
 
-**Six Assessment Domains:**
+### Governor's Innovation Fellowship
+Builds a continuous pipeline of modernization leaders:
+- **60 Fellows annually** across 3 cohorts
+- **6-month intensive program** with department embedding
+- **Senior Fellow network** providing ongoing advisory capacity
 
-| Domain | Description |
-|--------|-------------|
-| Leadership & Governance | Executive sponsorship, strategic alignment, oversight structures |
-| Data & Technology Infrastructure | Cloud adoption, interoperability, data governance |
-| Organizational Culture | Change readiness, digital literacy, workforce capability |
+### Breakthrough Modernization Fund
+Applies venture capital portfolio principles to government investment:
+- **$100M fund** with diversified risk categories
+- **Stage-gate governance** with transparent performance tracking
+- **Sustainability mechanism** reinvesting 25% of realized savings
+
+### Independent Office of State Data Governance
+Creates cross-branch authority for enterprise data management:
+- **9-member board** with staggered terms across branches
+- **Binding authority** over data standards and sharing frameworks
+- **Template-based agreements** reducing negotiation from 18 months to 4-8 weeks
+
+### Procurement Innovation
+Transforms contracting from bottleneck to enabler:
+- **$15M modular cap** forcing smaller, manageable contracts
+- **Rapid RFI²** validating solutions through paid prototypes in 8-10 weeks
+- **Enterprise Vendor Pools** enabling task orders in days, not months
+
+---
+
+## Document Suite
+
+| Document | Purpose | Audience |
+|----------|---------|----------|
+| [Executive Summary](./Executive%20Draft/01-executive-summary.md) | 2-page overview | All stakeholders |
+| [Governance Model](./Executive%20Draft/02-governance-model.md) | E3 structure, roles, data governance | Agency Secretaries, Undersecretaries |
+| [Talent Development](./Executive%20Draft/03-talent-development.md) | Fellowship, workforce, training | HR, Program Leaders |
+| [Funding & Implementation](./Executive%20Draft/04-funding-implementation.md) | Breakthrough Fund structure | Finance, Leadership |
+| [Procurement Guide](./Executive%20Draft/05-procurement-guide.md) | Modular contracting, RFI², vendor pools | Procurement, Project Managers |
+| [Templates](./Executive%20Draft/06-templates.md) | Fillable forms A.1-A.8 | All implementers |
+| [Operational Guides](./Executive%20Draft/07-operational-guides.md) | Program guides B.1-B.4 | Program Managers |
+| [Technical Appendices](./Executive%20Draft/08-technical-appendices.md) | Standards, architecture (C, D, H) | Technical Staff |
+| [Budget & Governance](./Executive%20Draft/09-budget-and-governance.md) | Budget models, change management (F, G) | Finance, Change Managers |
+| [Implementation Roadmap](./Executive%20Draft/10-implementation-roadmap.md) | 36-month phased plan (I) | All implementers |
+
+---
+
+## Readiness Assessment Framework
+
+The [Readiness Assessment](./Executive%20Draft/readiness-assessment/) provides a standardized methodology for evaluating department preparedness across six domains:
+
+| Domain | Focus |
+|--------|-------|
+| Leadership & Governance | Executive sponsorship, strategic alignment |
+| Technology Infrastructure | Cloud adoption, API readiness, legacy systems |
+| Organizational Culture | Change readiness, digital literacy |
 | Cybersecurity & Risk | Policy compliance, security governance |
-| Service Delivery | Digital maturity, user-centered design, accessibility |
-| Funding & Portfolio Management | Project management maturity, prioritization processes |
+| Service Delivery | Digital maturity, user-centered design |
+| Funding & Portfolio | Project management, prioritization |
 
-**Scoring Methodology:**
-- Standardized 1-5 scale with concrete anchor points
-- Self-assessment with validation procedures
-- Weighted domains based on strategic priorities
-- Actionable insights for improvement planning
-
-[View Readiness Assessment Documentation](./readiness-assessment/)
+Departments are classified into tiers (1-4) based on assessment scores, enabling strategic deployment of resources to organizations positioned for success.
 
 ---
 
-## Getting Started
+## Version History
 
-### For State Department Leaders
-
-1. Review the [Executive Summary](./readiness-assessment/executive-summary.md) for strategic context
-2. Conduct self-assessment using the [Enhanced Readiness Assessment](./readiness-assessment/enhanced-readiness-assessment.md)
-3. Follow the [Implementation Guide](./readiness-assessment/implementation-guide.md) for deployment steps
-
-### For Technology Strategists
-
-1. Study the evolution from [E3 Model](./enterprise-plan/original/) to [Product-Led Government](./enterprise-plan/Rev1G3/)
-2. Review [Data Governance Options](./enterprise-plan/Rev2G3/) for interagency collaboration patterns
-3. Use templates in [Rev1G3/templates/](./enterprise-plan/Rev1G3/templates/) for governance charters and KPIs
-
-### For Policy Makers
-
-1. Start with Executive Briefs in each phase folder
-2. Review presentation slides for communication frameworks
-3. Reference strategic critiques for decision support
+| Version | Date | Description |
+|---------|------|-------------|
+| Executive Draft v1.0 | December 2025 | Complete restructured document suite |
 
 ---
 
-## Target Audience
+## Contact
 
-| Audience | Primary Documents |
-|----------|------------------|
-| Governor's Office | Executive Briefs, Strategic Options |
-| Agency Secretaries | Implementation Roadmaps, Governance Charters |
-| Department Directors | Readiness Assessment, Improvement Plans |
-| CIOs/CTOs | Technical Architecture, Data Governance |
-| CDT Leadership | Assessment Framework, Prioritization Methodology |
-
----
-
-## Related Repositories
-
-| Repository | Description |
-|------------|-------------|
-| [CA-AIDev](https://github.com/vanderoffice/CA-AIDev) | AI-powered citizen services (BizBot, CommentBot, etc.) |
-| [CA-DevStacks](https://github.com/vanderoffice/CA-DevStacks) | Docker-based development environments |
-
----
-
-## Contributing
-
-This repository contains strategic planning documents. Contributions should focus on:
-
-- Clarifying existing frameworks
-- Updating assessments based on implementation feedback
-- Adding templates and practical tools
-- Improving documentation accessibility
-
-Please submit issues for questions or suggestions.
-
----
-
-## License
-
-These documents are developed for California state government use. Contact the repository maintainers for usage guidelines.
+For questions about this document suite, contact the **Office of Data and Innovation**.
 
 ---
 
 <p align="center">
-  <i>Prepared for the Office of Data and Innovation & Governor's Office of Operations</i>
+  <strong>Prepared for:</strong> Governor's Office, Office of Data and Innovation, Government Operations Agency
 </p>
