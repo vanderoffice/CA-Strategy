@@ -1,6 +1,12 @@
 # California Technology Readiness Assessment Form
 ## Enhanced Version with Detailed Scoring Examples
 
+**Version:** Executive Draft v1.0
+**Date:** December 2025
+**Prepared for:** California Department of Technology (CDT)
+
+---
+
 ### Instructions for Completing This Assessment
 
 This assessment measures your department's organizational readiness to successfully execute technology modernization projects. The assessment evaluates six critical domains that research and experience have shown are essential for modernization success.

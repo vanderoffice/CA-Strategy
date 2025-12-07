@@ -9,7 +9,9 @@
 
 > This document is part of the California Enterprise Modernization recommendation. See also:
 > - [Recommendation Brief](recommendation-brief.md) — Executive summary and recommended actions
-> - [Strategy Document](strategy-document.md) — Governance, delivery framework, talent, and implementation
+> - [Governance Model](governance-model.md) — E3 structure, leadership roles, and data governance
+> - [Talent Development](talent-development.md) — Fellowship program and workforce development
+> - [Funding & Implementation](funding-implementation.md) — Breakthrough Fund and implementation roadmap
 > - [Procurement Guide](procurement-guide.md) — Technology and procurement innovation
 > - [Technical Appendices](technical-appendices.md) — Standards, assessments, and reference materials
 
@@ -29,10 +31,13 @@
   - A.9 Rapid RFI² Operational Guide
   - A.10 Fellowship Program Curriculum
   - A.11 Breakthrough Fund Sustainability Model
+  - A.12 Labor Relations Strategy
 
 ---
 
 ## Appendix A: Sample Templates and Frameworks
+
+> **Appendix Summary:** This appendix contains 12 ready-to-use templates covering E3 position descriptions (A.1), data sharing agreements (A.2), OKRs (A.3), project stage-gates (A.4), procurement delegation (A.5-A.9), fellowship curriculum (A.10), fund sustainability modeling (A.11), and labor relations strategy (A.12). Templates are designed for immediate use with minimal customization.
 
 ### A.1 E3 Position Description Template
 
@@ -119,7 +124,7 @@ The Undersecretary for Efficiency and Effectiveness serves as the Agency's senio
 - Cost savings and avoidance (target: $50M+ annually by Year 3)
 - Citizen satisfaction score (target: 85%+ by Year 5)
 - Data sharing agreements executed (target: 10+ annually)
-- API publication and adoption (target: 50+ APIs by Year 3)
+- API publication and adoption (target: 75 APIs Year 1, 150 Year 2, 200 Year 3)
 
 **Compensation:**
 - Base salary competitive with private sector for equivalent executive role
@@ -1073,7 +1078,7 @@ Cross-functional team (program staff, IT, E3 leaders, ODI) defines:
 
 ### A.10 Fellowship Program Curriculum
 
-This appendix provides detailed curriculum for the Governor's Innovation Fellowship Program. For the program overview, see [Section 7.1: Governor's Innovation Fellowship Program](strategy-document.md#71-governors-innovation-fellowship-program).
+This appendix provides detailed curriculum for the Governor's Innovation Fellowship Program. For the program overview, see [Section 5.1: Governor's Innovation Fellowship Program](talent-development.md#51-governors-innovation-fellowship-program).
 
 ---
 
@@ -1280,7 +1285,7 @@ This appendix provides detailed curriculum for the Governor's Innovation Fellows
 
 ### A.11 Breakthrough Fund Sustainability Model
 
-This appendix provides a detailed worked example of how the Breakthrough Fund sustainability model operates. For the strategic overview, see [Section 8.3: Feedback Loop and Sustainability Model](strategy-document.md#83-feedback-loop-and-sustainability-model).
+This appendix provides a detailed worked example of how the Breakthrough Fund sustainability model operates. For the strategic overview, see [Section 6.5: Sustainability Mechanism](funding-implementation.md#65-sustainability-mechanism).
 
 ---
 
@@ -1364,11 +1369,126 @@ At self-sustainability:
 
 ---
 
+### A.12 Labor Relations Strategy
+
+This appendix provides guidance for engaging labor unions in enterprise modernization initiatives. Successful modernization requires partnership with labor organizations representing state employees.
+
+---
+
+**Guiding Principles**
+
+1. **No Layoffs from Modernization:** Efficiency gains redirect staff to higher-value work, not unemployment
+2. **Upskilling Over Displacement:** Training programs prepare workers for evolving roles
+3. **Early Engagement:** Labor consulted before, not after, modernization decisions
+4. **Transparency:** Clear communication about timelines, impacts, and opportunities
+5. **Shared Benefits:** Productivity gains benefit both service delivery and workforce
+
+---
+
+**Classification and Compensation Considerations**
+
+**New Position Development:**
+- Data governance teams require new or modified classifications
+- Coordinate with CalHR and relevant bargaining units on position specifications
+- Ensure competitive compensation to attract technical talent (see Section 5.4 on science/engineering classifications)
+
+**Career Pathways:**
+- Define clear advancement paths from technician to specialist to senior roles
+- Recognize certifications and skill development in classification requirements
+- Enable mobility between departments for career growth
+
+**Meet and Confer Requirements:**
+- Engage unions early on new position classifications
+- Provide advance notice of organizational changes
+- Document agreements and implementation timelines
+
+---
+
+**Workforce Transition Framework**
+
+**When Automation Reduces Workload:**
+
+| Phase | Action | Timeline |
+|-------|--------|----------|
+| Assessment | Identify affected positions | 6+ months before go-live |
+| Notification | Inform employees and unions | 4+ months before go-live |
+| Options | Present reassignment, retraining, or attrition choices | 3+ months before go-live |
+| Transition | Execute reassignments, begin training | At go-live |
+| Support | Continued training and adjustment | 6-12 months post go-live |
+
+**Attrition Management:**
+- Natural attrition (retirements, voluntary departures) absorbs most position reductions
+- Hiring freezes in affected classifications accelerate attrition-based reduction
+- No involuntary separations from modernization initiatives
+
+**Reassignment Priorities:**
+1. Within same department to higher-value work
+2. To growing functions (data governance, customer service, compliance)
+3. To other departments with needs matching employee skills
+4. To new positions created by modernization
+
+---
+
+**Union Engagement Protocol**
+
+**Statewide Level:**
+- TMO briefs statewide union leadership quarterly on modernization initiatives
+- Formal meet and confer on policies affecting represented employees
+- Union representatives invited to Breakthrough Fund review committees
+
+**Department Level:**
+- E3 leaders include labor relations in modernization planning
+- Advance consultation on workflow changes affecting bargaining unit work
+- Regular communication through established labor-management committees
+
+**Project Level:**
+- Include union consultation in project stage-gate criteria
+- Document workforce impact assessments
+- Track and report on job transitions
+
+---
+
+**Training Coordination**
+
+**Digital Accelerators Program Integration:**
+- Coordinate training schedules with workload and staffing requirements
+- Ensure protected learning time (20% of work hours) is operationally feasible
+- Partner with unions on training curriculum relevant to represented employees
+
+**Certification Recognition:**
+- Work with CalHR to recognize industry certifications in classification specifications
+- Enable pay differentials for certified skills where appropriate
+- Document certification requirements in duty statements
+
+---
+
+**Success Metrics**
+
+| Metric | Target |
+|--------|--------|
+| Employees displaced (involuntary separation) | 0 |
+| Employees successfully reassigned | 100% of affected |
+| Training completion rate | 95%+ |
+| Union grievances related to modernization | <5 per year statewide |
+| Employee satisfaction with transition | >70% positive |
+
+---
+
+**Escalation Path**
+
+Unresolved labor issues escalate through:
+1. Department labor relations → Agency labor relations
+2. Agency labor relations → CalHR Labor Relations Division
+3. CalHR → State Mediation and Conciliation Service (if needed)
+4. Critical issues → TMO and Governor's Office awareness
+
+---
+
 ## Version History
 
 | Version | Date | Description |
 |---------|------|-------------|
-| Executive Draft v1.0 | December 2025 | Initial executive draft with templates A.1-A.11 |
+| Executive Draft v1.0 | December 2025 | Initial executive draft with templates A.1-A.12 |
 
 ---
 

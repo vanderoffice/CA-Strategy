@@ -9,7 +9,9 @@
 
 > This document is part of the California Enterprise Modernization recommendation. See also:
 > - [Recommendation Brief](recommendation-brief.md) — Executive summary and recommended actions
-> - [Strategy Document](strategy-document.md) — Governance, delivery framework, talent, and implementation
+> - [Governance Model](governance-model.md) — E3 structure, leadership roles, and data governance
+> - [Talent Development](talent-development.md) — Fellowship program and workforce development
+> - [Funding & Implementation](funding-implementation.md) — Breakthrough Fund and implementation roadmap
 > - [Procurement Guide](procurement-guide.md) — Technology and procurement innovation
 > - [Operational Appendices](operational-appendices.md) — Templates and operational guides
 
@@ -42,148 +44,41 @@
 
 ## Appendix C: Readiness Assessment Framework
 
-### C.1 Assessment Domains and Scoring
+> **Note:** The complete Readiness Assessment Framework has been moved to a dedicated folder for easier use and maintenance. This appendix provides a summary; see the full documentation below.
 
-**1. Leadership and Governance (Weight: 25%)**
+**Full Documentation:**
+- [Readiness Assessment Guide](readiness-assessment/readiness-assessment-guide.md) — Strategic rationale, conceptual foundations, and implementation procedures
+- [Enhanced Readiness Assessment](readiness-assessment/enhanced-readiness-assessment.md) — Complete assessment instrument with detailed scoring rubrics
 
-**1.1 Executive Sponsorship**
-- **Score 1:** No executive sponsor identified or engaged
-- **Score 2:** Sponsor identified but limited engagement
-- **Score 3:** Active sponsor with quarterly engagement
-- **Score 4:** Strong sponsor with monthly engagement and barrier removal
-- **Score 5:** Champion sponsor with weekly engagement, public commitment, and resource allocation authority
+### C.1 Assessment Domains (Summary)
 
-**1.2 IT Strategic Alignment**
-- **Score 1:** No IT strategic plan or disconnected from department mission
-- **Score 2:** IT plan exists but not aligned with department goals
-- **Score 3:** IT plan partially aligned with some department priorities
-- **Score 4:** IT plan well-aligned with most department priorities and updated regularly
-- **Score 5:** Fully integrated IT strategy driving department mission achievement
+The assessment evaluates six critical domains:
 
-**1.3 Governance Structures**
-- **Score 1:** No IT governance; ad hoc decision-making
-- **Score 2:** Informal governance with inconsistent processes
-- **Score 3:** Established governance with regular meetings but limited authority
-- **Score 4:** Mature governance with clear authority and accountability
-- **Score 5:** Optimized governance with cross-functional participation and demonstrated effectiveness
+| Domain | Weight | Key Indicators |
+|--------|--------|----------------|
+| **1. Leadership and Governance** | 20% | Executive sponsorship, IT strategic alignment, governance structures |
+| **2. Data and Technology Infrastructure** | 20% | Cloud adoption, API/interoperability, data governance |
+| **3. Organizational Culture and Workforce** | 15% | Change readiness, digital literacy, modern technology roles |
+| **4. Cybersecurity and Risk** | 15% | Policy compliance (SIMM 5300), security governance |
+| **5. Service Delivery** | 15% | Digital service maturity, user-centered design |
+| **6. Funding and Portfolio Management** | 15% | Project management maturity, Stage 1-ready projects |
 
-**2. Data and Technology Infrastructure (Weight: 25%)**
+### C.2 Scoring Methodology (Summary)
 
-**2.1 Cloud Adoption**
-- **Score 1:** No cloud usage; all on-premises legacy systems
-- **Score 2:** Pilot cloud projects but no migration strategy
-- **Score 3:** Active cloud migration with 10-25% of workloads migrated
-- **Score 4:** Significant cloud adoption with 25-50% of workloads migrated
-- **Score 5:** Hybrid cloud strategy with 50%+ workloads in cloud and critical system redundancy
-
-**2.2 API and Interoperability**
-- **Score 1:** No APIs; systems completely siloed
-- **Score 2:** Limited APIs for specific integrations
-- **Score 3:** Growing API catalog with documented specifications
-- **Score 4:** Comprehensive API strategy with developer portal
-- **Score 5:** API-first architecture with extensive reuse and external consumption
-
-**2.3 Data Governance**
-- **Score 1:** No data governance; fragmented data with quality issues
-- **Score 2:** Awareness of need but no formal program
-- **Score 3:** Data governance framework in early implementation
-- **Score 4:** Mature data governance with quality monitoring
-- **Score 5:** Optimized data governance with data sharing agreements and master data management
-
-**3. Organizational Culture and Workforce (Weight: 20%)**
-
-**3.1 Change Readiness**
-- **Score 1:** High resistance; previous changes failed
-- **Score 2:** Cautious culture; limited appetite for change
-- **Score 3:** Mixed readiness; pockets of innovation
-- **Score 4:** Generally positive toward change with support systems
-- **Score 5:** Change-embracing culture with continuous improvement mindset
-
-**3.2 Digital Literacy**
-- **Score 1:** Low digital skills across workforce (< 25% proficient)
-- **Score 2:** Limited digital skills (25-50% proficient)
-- **Score 3:** Moderate digital skills (50-70% proficient)
-- **Score 4:** Strong digital skills (70-85% proficient)
-- **Score 5:** Advanced digital skills across workforce (85%+ proficient)
-
-**3.3 Modern Technology Roles**
-- **Score 1:** No modern roles (cloud architects, data scientists, UX designers)
-- **Score 2:** 1-2 modern roles; heavy reliance on contractors
-- **Score 3:** Several modern roles with hiring plans for more
-- **Score 4:** Comprehensive modern roles with career paths
-- **Score 5:** Full suite of modern roles with competitive compensation and retention
-
-**4. Cybersecurity and Risk (Weight: 15%)**
-
-**4.1 Policy Compliance**
-- **Score 1:** Significant non-compliance with SIMM 5300
-- **Score 2:** Partial compliance with documented gaps
-- **Score 3:** Mostly compliant with remediation plans
-- **Score 4:** Full compliance with regular monitoring
-- **Score 5:** Exceeds compliance requirements with proactive security
-
-**4.2 Security Governance**
-- **Score 1:** No security governance; reactive only
-- **Score 2:** Basic security program with limited resources
-- **Score 3:** Established security program with regular assessments
-- **Score 4:** Mature security program with executive engagement
-- **Score 5:** Optimized security with continuous improvement and threat intelligence
-
-**5. Service Delivery (Weight: 10%)**
-
-**5.1 Digital Service Maturity**
-- **Score 1:** No digital services; all in-person or phone
-- **Score 2:** Basic web presence; limited transactions online
-- **Score 3:** Growing digital services (25-50% of transactions)
-- **Score 4:** Majority digital (50-75% of transactions)
-- **Score 5:** Digital-first (75%+ of transactions online)
-
-**5.2 User-Centered Design**
-- **Score 1:** No user research or accessibility consideration
-- **Score 2:** Awareness of UCD but limited practice
-- **Score 3:** Some user research and accessibility testing
-- **Score 4:** Regular user research with accessibility compliance
-- **Score 5:** UCD embedded in all development with continuous user feedback
-
-**6. Funding and Portfolio Management (Weight: 5%)**
-
-**6.1 Project Management Maturity**
-- **Score 1:** Ad hoc project management; frequent failures
-- **Score 2:** Inconsistent practices with some standards
-- **Score 3:** Established PM methodology (agile or waterfall)
-- **Score 4:** Mature PM with portfolio management
-- **Score 5:** Optimized PM with continuous improvement and high success rates
-
-**6.2 Stage 1 Ready Projects**
-- **Score 1:** No projects ready for funding
-- **Score 2:** Concepts identified but not documented
-- **Score 3:** 1-2 projects with business cases
-- **Score 4:** 3-5 projects fully documented and prioritized
-- **Score 5:** Portfolio of 5+ ready projects with clear ROI
-
-### C.2 Scoring Methodology
-
-**Individual Indicator Scoring:**
-Each indicator scored 1-5 using rubric above.
-
-**Domain Scoring:**
-Average of all indicators within domain.
-
-**Overall Readiness Score:**
-Weighted average of domain scores using weights in section C.1.
+**Maturity Scale (1-5):**
+- **1 (Initial):** Ad hoc, reactive, no formal processes
+- **2 (Emerging):** Basic awareness, inconsistent practices
+- **3 (Developing):** Defined processes, partial implementation
+- **4 (Managed):** Consistent execution, measurable outcomes
+- **5 (Optimized):** Continuous improvement, industry-leading
 
 **Readiness Tiers:**
+- **Tier 1 (4.0-5.0):** Ready Now — Priority funding for high-impact projects
+- **Tier 2 (3.0-3.9):** Near-Ready — Conditional funding with capability-building
+- **Tier 3 (2.0-2.9):** Developing — Capacity-building grants, not project funding
+- **Tier 4 (1.0-1.9):** Early Stage — Foundational organizational development
 
-- **Tier 1 (Score 4.0-5.0):** Ready for immediate modernization funding. High probability of success.
-- **Tier 2 (Score 3.0-3.9):** Ready with targeted support. Identify and address specific gaps.
-- **Tier 3 (Score 2.0-2.9):** Requires significant preparation. 6-12 month capacity building needed.
-- **Tier 4 (Score < 2.0):** Not ready. Fundamental organizational development required.
-
-**Funding Allocation Strategy:**
-- Tier 1: Priority funding for high-impact projects
-- Tier 2: Conditional funding with capability-building requirements
-- Tier 3: Capacity-building grants, not project funding
-- Tier 4: Deferred; focus on foundational improvements
+*For complete scoring rubrics with detailed examples, see [Enhanced Readiness Assessment](readiness-assessment/enhanced-readiness-assessment.md).*
 
 ---
 
@@ -371,6 +266,8 @@ Weighted average of domain scores using weights in section C.1.
 
 ## Appendix F: Budget and Financial Models
 
+> **Cost Estimate Disclaimer:** The budget estimates in this appendix are preliminary planning figures based on comparable positions, programs, and initiatives. Actual costs will vary based on final position classifications, labor negotiations, market conditions, and implementation decisions. These estimates should be refined during detailed budget development with CalHR, Department of Finance, and agency budget offices. All figures are presented in current dollars; multi-year projections do not include inflation adjustments.
+
 ### F.1 E3 Position Costs
 
 **Undersecretary for Efficiency and Effectiveness:**
@@ -497,9 +394,9 @@ California's modernization requires measurement at four distinct levels, from st
 
 **Digital Service Adoption Rate**
 - Current Baseline: 35-40%
-- Year 2 Target: 50%
-- Year 3 Target: 65%
-- Year 5 Target: 75%
+- Year 2 Target: 45%
+- Year 3 Target: 50%
+- Year 5 Target: 65%
 - Measurement: Percentage of transactions completable entirely online
 
 **Citizen Satisfaction Score (CSAT)**
@@ -738,6 +635,8 @@ The following table identifies key risks to the modernization initiative and mit
 
 ## Appendix H: Technology Architecture Details
 
+> **Appendix Summary:** This appendix provides comprehensive technical architecture guidance across six domains: API Management (H.1), Legacy Modernization (H.2), Cloud Strategy (H.3), Cybersecurity (H.4), Agentic Data Systems (H.5), and Technology Standards (H.6). Use as reference for technical implementation decisions.
+
 This appendix provides comprehensive technical architecture guidance for California's enterprise modernization initiative, incorporating and expanding upon the Technology Standards Catalog.
 
 ### H.1 API Management Strategy
@@ -788,7 +687,7 @@ California establishes three tiers of APIs with appropriate access controls and 
 - Internal developer portal with additional security documentation
 - Examples: PII data access, financial systems, law enforcement databases
 
-**Deployment Target:** 200 APIs published within 2 years (50 public, 50 partner, 100 internal)
+**Deployment Targets:** 75 APIs by Year 1, 150 by Year 2, 200 by Year 3 (final distribution: 50 public, 50 partner, 100 internal)
 
 ### H.2 Legacy System Modernization
 

@@ -11,9 +11,11 @@
 
 > **What This Is:** A recommendation to modernize California state government through dedicated leadership, modern procurement, and sustainable funding.
 
-This brief summarizes the recommended Enterprise Efficiency and Effectiveness (E3) Operational Model. The full recommendation is documented in four companion documents:
+This brief summarizes the recommended Enterprise Efficiency and Effectiveness (E3) Operational Model. The full recommendation is documented in companion documents:
 
-- [Strategy Document](strategy-document.md) — Governance, delivery framework, talent, and implementation
+- [Governance Model](governance-model.md) — E3 structure, leadership roles, and data governance
+- [Talent Development](talent-development.md) — Fellowship program and workforce development
+- [Funding & Implementation](funding-implementation.md) — Breakthrough Fund and implementation roadmap
 - [Procurement Guide](procurement-guide.md) — Technology and procurement innovation
 - [Operational Appendices](operational-appendices.md) — Templates and operational guides
 - [Technical Appendices](technical-appendices.md) — Standards, assessments, and reference materials
@@ -50,8 +52,10 @@ MONTH 1-6                    MONTH 7-12                   MONTH 13-36
 ▸ TMO established           ▸ $100M fund capitalized     ▸ 30-40 CDDs
 ▸ Fellowship Cohort 1       ▸ Data Governance Office     ▸ 120+ Fellows
 ▸ 3-5 quick wins            ▸ Vendor pools operational   ▸ 50% digital adoption
-▸ Readiness assessments     ▸ First RFI² challenges      ▸ 25% legacy reduction
+▸ Readiness assessments     ▸ First RFI² challenges      ▸ 25% legacy reduction*
 ```
+
+*Legacy reduction target: 25% by Year 3, 40% by Year 5
 
 ---
 
@@ -104,12 +108,12 @@ The **Enterprise Efficiency and Effectiveness (E3) Operational Model** would cre
 - $15M modular contracting cap reducing vendor lock-in
 - RFI² procurement defining problems rather than prescribing solutions
 
-**3. Data Governance Foundation** — Cross-branch authority:
+**3. Data Governance Foundation** — Cross-branch authority (requires enabling legislation):
 - Independent Office of State Data Governance with 9-member board
-- Standardized data sharing agreement templates (reducing 18 months to 4-8 weeks)
+- Standardized data sharing agreement templates (reducing 18 months to 4-8 weeks for common scenarios)
 - Binding statewide data standards
 
-**Talent Pipeline:** The Governor's Innovation Fellowship would produce 60 trained modernization leaders annually through 6-month cohorts. Permanent Data Governance Teams (300-500 positions statewide) would provide sustainable capacity.
+**Talent Pipeline:** The Governor's Innovation Fellowship would produce 60 trained modernization leaders annually through 6-month cohorts. Permanent Data Governance Teams (400-600 positions statewide) would provide sustainable capacity.
 
 **Funding:** The California Breakthrough Modernization Fund ($100M: 50% state, 50% private sector) would use portfolio management principles. A feedback loop diverting 25% of realized savings back to the fund would create self-sustaining modernization capacity.
 
@@ -125,15 +129,28 @@ For this recommendation to succeed, we believe the following are essential:
 4. **Quick Wins** — Demonstrable successes in Year 1 to build momentum
 5. **Measurement Discipline** — Consistent tracking against defined OKRs
 
+## Key Risks
+
+| Risk | Mitigation |
+|------|------------|
+| Independent Office legislation delayed | Concurrent legislative and planning work; interim steering committee if needed |
+| Resistance to change | No-blame experimentation zones; union engagement early; quick wins |
+| Political transitions | Cross-branch Independent Office structure; bipartisan framing |
+| Vendor lock-in | Open standards; modular contracting; API-first architecture |
+
+For comprehensive risk analysis and mitigation strategies, see [Appendix G.8: Risk Mitigation Matrix](technical-appendices.md#g8-risk-mitigation-matrix).
+
 ---
 
 ## Read the Full Recommendation
 
 | Document | Contents | Audience |
 |----------|----------|----------|
-| [Strategy Document](strategy-document.md) | Governance, PDL framework, talent, implementation roadmap | Agency Secretaries, E3 Undersecretaries |
-| [Procurement Guide](procurement-guide.md) | Technology architecture, procurement innovation | E3 CDDs, Procurement Staff, TMO |
-| [Operational Appendices](operational-appendices.md) | Templates A.1-A.11 | Implementation teams |
+| [Governance Model](governance-model.md) | E3 structure, leadership roles, data governance | Agency Secretaries, E3 Undersecretaries |
+| [Talent Development](talent-development.md) | Fellowship program, data governance teams | E3 Undersecretaries, HR Directors |
+| [Funding & Implementation](funding-implementation.md) | Breakthrough Fund, implementation roadmap | Decision-makers, TMO |
+| [Procurement Guide](procurement-guide.md) | Technology architecture, procurement innovation | E3 CDDs, Procurement Staff |
+| [Operational Appendices](operational-appendices.md) | Templates A.1-A.12 | Implementation teams |
 | [Technical Appendices](technical-appendices.md) | Appendices B-H | CDT, technical staff |
 
 ---

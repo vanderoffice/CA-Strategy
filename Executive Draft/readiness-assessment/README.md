@@ -2,6 +2,10 @@
 
 **A standardized methodology for evaluating California government departments' readiness for technology modernization.**
 
+**Version:** Executive Draft v1.0
+**Date:** December 2025
+**Prepared for:** California Department of Technology (CDT)
+
 ---
 
 ## Overview
@@ -46,10 +50,8 @@ California faces a critical challenge: modernizing technology infrastructure acr
 
 | Document | Purpose | Audience |
 |----------|---------|----------|
-| [executive-summary.md](./executive-summary.md) | Strategic overview and benefits | Executives, Decision Makers |
-| [enhanced-readiness-assessment.md](./enhanced-readiness-assessment.md) | Complete assessment instrument with rubrics | Assessment Teams |
-| [implementation-guide.md](./implementation-guide.md) | Step-by-step deployment procedures | Program Managers |
-| [scale-background.md](./scale-background.md) | Conceptual foundations and methodology | Researchers, Analysts |
+| [readiness-assessment-guide.md](./readiness-assessment-guide.md) | Strategic rationale, conceptual foundations, and implementation procedures | Executives, Program Managers, Researchers |
+| [enhanced-readiness-assessment.md](./enhanced-readiness-assessment.md) | Complete assessment instrument with detailed scoring rubrics | Assessment Teams |
 
 ---
 
@@ -115,12 +117,14 @@ Project management discipline and prioritization processes.
 | **4** | Managed | Consistent execution, measurable outcomes |
 | **5** | Optimized | Continuous improvement, industry-leading |
 
-### Implementation Approach
+### Readiness Tiers
 
-1. **Self-Assessment**: Departments complete using institutional knowledge
-2. **Validation**: CDT reviews through documentation and interviews
-3. **Weighted Scoring**: Domains weighted by strategic priorities
-4. **Actionable Results**: Specific gaps identified with improvement paths
+| Tier | Score | Funding Approach |
+|------|-------|------------------|
+| **Tier 1** | 4.0-5.0 | Ready Now — Priority funding for high-impact projects |
+| **Tier 2** | 3.0-3.9 | Near-Ready — Conditional funding with capability-building |
+| **Tier 3** | 2.0-2.9 | Developing — Capacity-building grants, not project funding |
+| **Tier 4** | 1.0-1.9 | Early Stage — Foundational organizational development |
 
 ---
 
@@ -139,28 +143,16 @@ PILOT (6-8 weeks)         ROLLOUT (8-12 weeks)      ANALYSIS (4-6 weeks)
 
 ---
 
-## Expected Outcomes
-
-| Outcome | Benefit |
-|---------|---------|
-| **Objective Prioritization** | Replace subjective decisions with transparent, criteria-based evaluation |
-| **Risk Mitigation** | Identify capability gaps before funding allocation |
-| **Accelerated Delivery** | Direct resources to departments ready for immediate action |
-| **Continuous Improvement** | Establish baseline for tracking progress over time |
-| **Strategic Alignment** | Ensure investments support statewide goals |
-
----
-
 ## Quick Start
 
 ### For Department Leaders
-1. Read [Executive Summary](./executive-summary.md) (15 min)
+1. Read the Strategic Context section in [Readiness Assessment Guide](./readiness-assessment-guide.md) (15 min)
 2. Review scoring rubrics in [Enhanced Assessment](./enhanced-readiness-assessment.md)
 3. Assemble cross-functional team (CIO, CFO, CISO, HR, PMO)
 4. Complete self-assessment with evidence documentation
 
 ### For CDT/Assessment Administrators
-1. Review [Implementation Guide](./implementation-guide.md)
+1. Review Implementation Procedures in [Readiness Assessment Guide](./readiness-assessment-guide.md)
 2. Select pilot departments representing diverse profiles
 3. Conduct orientation and provide technical assistance
 4. Validate results through documentation review and interviews
@@ -180,20 +172,9 @@ This assessment directly supports:
 
 ## Related Resources
 
-- [Enterprise Plan](../enterprise-plan/) - Strategic context for modernization
-- [CA-AIDev](https://github.com/vanderoffice/CA-AIDev) - AI services being deployed
-- [CDT Technology Modernization Fund](https://cdt.ca.gov) - Funding programs
-
----
-
-**Document Information**
-
-| Field | Value |
-|-------|-------|
-| Version | 1.0 |
-| Last Updated | November 2025 |
-| Prepared For | California Department of Technology (CDT) |
-| Status | Active |
+- [Governance Model](../governance-model.md) — E3 structure and strategic context
+- [Technical Appendices](../technical-appendices.md) — Appendix C summary
+- [CDT Technology Modernization Fund](https://cdt.ca.gov) — Funding programs
 
 ---
 

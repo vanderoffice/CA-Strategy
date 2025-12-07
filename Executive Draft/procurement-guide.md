@@ -9,7 +9,9 @@
 
 > This document is part of the California Enterprise Modernization recommendation. See also:
 > - [Recommendation Brief](recommendation-brief.md) — Executive summary and recommended actions
-> - [Strategy Document](strategy-document.md) — Governance, delivery framework, talent, and implementation
+> - [Governance Model](governance-model.md) — E3 structure, leadership roles, and data governance
+> - [Talent Development](talent-development.md) — Fellowship program and workforce development
+> - [Funding & Implementation](funding-implementation.md) — Breakthrough Fund and implementation roadmap
 > - [Operational Appendices](operational-appendices.md) — Templates and operational guides
 > - [Technical Appendices](technical-appendices.md) — Standards, assessments, and reference materials
 
@@ -17,23 +19,23 @@
 
 ## Table of Contents
 
-5. [Technology Architecture](#5-technology-architecture)
+9. [Technology Architecture](#9-technology-architecture)
 
-6. [Procurement Innovation](#6-procurement-innovation)
-   - 6.1 The Agile Procurement Framework
-   - 6.2 Enterprise Vendor Pools (Multi-Award MSA Model)
-   - 6.3 Modular Contracting
-   - 6.4 Rapid RFI²: Challenge-Based Procurement
-   - 6.5 Procurement On-Ramps by PDL Stage-Gate
-   - 6.6 Delegated Ordering Authority
-   - 6.7 Challenge Manager Role (TMO)
-   - 6.8 Small Business Equity
-   - 6.9 Procurement Automation and Transparency
-   - 6.10 AI-Era Pricing Expectations
+10. [Procurement Innovation](#10-procurement-innovation)
+    - 10.1 The Agile Procurement Framework
+    - 10.2 Enterprise Vendor Pools (Multi-Award MSA Model)
+    - 10.3 Modular Contracting
+    - 10.4 Rapid RFI²: Challenge-Based Procurement
+    - 10.5 Procurement On-Ramps by PDL Stage-Gate
+    - 10.6 Delegated Ordering Authority
+    - 10.7 Challenge Manager Role (TMO)
+    - 10.8 Small Business Equity
+    - 10.9 Procurement Automation and Transparency
+    - 10.10 AI-Era Pricing Expectations
 
 ---
 
-## 5. Technology Architecture
+## 9. Technology Architecture
 
 California's technology architecture establishes the technical foundation for enterprise modernization, enabling secure, scalable, and interoperable systems across state government. The architecture addresses five key domains:
 
@@ -44,7 +46,7 @@ California's technology architecture establishes the technical foundation for en
 5. **Agentic Data Systems** — Staff empowerment through state-approved AI patterns and shared infrastructure for data workflows
 
 **Key Targets:**
-- 200 APIs published (50 public, 50 partner, 100 internal) within 2 years
+- API publication targets: 75 APIs by Year 1, 150 by Year 2, 200 by Year 3 (50 public, 50 partner, 100 internal)
 - 40% legacy system reduction by Year 5
 - 50% of workloads in cloud by Year 3
 - 8-12 week sandbox-to-production for agentic workflows
@@ -53,7 +55,9 @@ For comprehensive technical architecture details, implementation guidance, and s
 
 ---
 
-## 6. Procurement Innovation
+## 10. Procurement Innovation
+
+> **Section Summary:** This section establishes California's agile procurement framework, including Enterprise Vendor Pools (contracts in days), the $15M modular contracting cap, Rapid RFI² challenge-based procurement, and delegated ordering authority for E3 leaders.
 
 **Philosophy:** Fast, modular, competition-driven procurement that treats contracting as a delivery tool—not a separate process.
 
@@ -61,7 +65,7 @@ California's procurement system must operate at the speed of modern product deli
 
 ---
 
-### 6.1 The Agile Procurement Framework
+### 10.1 The Agile Procurement Framework
 
 California establishes a unified procurement framework with three integrated components:
 
@@ -75,7 +79,7 @@ These components work together: Vendor Pools provide the "who," Modular Contract
 
 ---
 
-### 6.2 Enterprise Vendor Pools (Multi-Award MSA Model)
+### 10.2 Enterprise Vendor Pools (Multi-Award MSA Model)
 
 **The Problem:** Traditional procurement takes 18-24 months because every contract starts from scratch—legal negotiation, vendor qualification, compliance verification.
 
@@ -114,9 +118,11 @@ California establishes statewide multi-award Master Service Agreements (MSAs) wi
 
 ---
 
-### 6.3 Modular Contracting
+### 10.3 Modular Contracting
 
-**The Rule:** No IT contract over **$15 million** or **3 years** without legislative waiver.
+**The Rule:** No single IT contract exceeds **$15 million** or **3 years** without legislative waiver.
+
+*Note: This applies to individual contracts, not programs. A $50M program may consist of multiple $15M contracts with different vendors, enabling competition at each phase. This is the intended design—programs should be structured as multiple modular contracts.*
 
 **Why This Works:**
 
@@ -153,7 +159,7 @@ Projects genuinely requiring >$15M single contract must:
 
 ---
 
-### 6.4 Rapid RFI²: Challenge-Based Procurement
+### 10.4 Rapid RFI²: Challenge-Based Procurement
 
 **When to Use:** Problems where the need is clear but the best solution is uncertain. High-uncertainty, cross-agency, or emerging technology challenges where traditional requirements would constrain innovation.
 
@@ -184,7 +190,7 @@ Projects genuinely requiring >$15M single contract must:
 
 ---
 
-### 6.5 Procurement On-Ramps by PDL Stage-Gate
+### 10.5 Procurement On-Ramps by PDL Stage-Gate
 
 Procurement decisions align with Product Delivery Lifecycle gates—no more "procurement as separate process."
 
@@ -200,7 +206,7 @@ Procurement decisions align with Product Delivery Lifecycle gates—no more "pro
 
 ---
 
-### 6.6 Delegated Ordering Authority
+### 10.6 Delegated Ordering Authority
 
 **Purpose:** Push procurement decisions to product teams while maintaining standards.
 
@@ -224,7 +230,7 @@ TMO tracks certifications; delegations subject to periodic review based on perfo
 
 ---
 
-### 6.7 Challenge Manager Role (TMO)
+### 10.7 Challenge Manager Role (TMO)
 
 **Problem:** Agencies want to run Rapid RFI² challenges but lack bandwidth to manage logistics—sandbox provisioning, data sanitization, P-Card payments, vendor coordination.
 
@@ -242,7 +248,7 @@ TMO tracks certifications; delegations subject to periodic review based on perfo
 
 ---
 
-### 6.8 Small Business Equity
+### 10.8 Small Business Equity
 
 **Targets:**
 - **25% of total IT spend** to Tier 1 vendors (small business + DVBE) by Year 3
@@ -263,7 +269,7 @@ TMO tracks certifications; delegations subject to periodic review based on perfo
 
 ---
 
-### 6.9 Procurement Automation and Transparency
+### 10.9 Procurement Automation and Transparency
 
 **Automation:**
 - Standard task order templates embedded in workflow tools
@@ -281,7 +287,7 @@ TMO tracks certifications; delegations subject to periodic review based on perfo
 
 ---
 
-### 6.10 AI-Era Pricing Expectations
+### 10.10 AI-Era Pricing Expectations
 
 **The Productivity Shift:**
 
@@ -354,7 +360,9 @@ This policy:
 
 **For detailed implementation support, see companion documents:**
 - [Recommendation Brief](recommendation-brief.md) — Executive summary and recommended actions
-- [Strategy Document](strategy-document.md) — Governance, delivery framework, talent, and implementation
+- [Governance Model](governance-model.md) — E3 structure and data governance
+- [Talent Development](talent-development.md) — Fellowship program and workforce development
+- [Funding & Implementation](funding-implementation.md) — Breakthrough Fund and implementation roadmap
 - [Operational Appendices](operational-appendices.md) — Templates including A.5-A.9 procurement templates
 - [Technical Appendices](technical-appendices.md) — Technology standards and architecture details
 
