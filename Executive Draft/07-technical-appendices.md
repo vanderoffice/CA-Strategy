@@ -8,11 +8,12 @@
 ---
 
 > This document is part of the California Enterprise Modernization recommendation. See also:
-> - [Governance Model](governance-model.md) — E3 structure, leadership roles, and data governance
-> - [Talent Development](talent-development.md) — Fellowship program and workforce development
-> - [Funding & Implementation](funding-implementation.md) — Breakthrough Fund and implementation roadmap
-> - [Procurement Guide](procurement-guide.md) — Technology and procurement innovation
-> - [Operational Appendices](operational-appendices.md) — Templates and operational guides
+> - [Executive Summary](01-executive-summary.md) — Start here for an overview
+> - [Governance Model](02-governance-model.md) — E3 structure, leadership roles, and data governance
+> - [Talent Development](03-talent-development.md) — Fellowship program and workforce development
+> - [Funding & Implementation](04-funding-implementation.md) — Breakthrough Fund and implementation roadmap
+> - [Procurement Guide](05-procurement-guide.md) — Technology and procurement innovation
+> - [Operational Appendices](06-operational-appendices.md) — Templates and operational guides
 
 ---
 

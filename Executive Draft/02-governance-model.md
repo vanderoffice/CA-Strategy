@@ -8,17 +8,16 @@
 ---
 
 > This document is part of the California Enterprise Modernization recommendation. See also:
-> - [Talent Development](talent-development.md) — Fellowship program and workforce development
-> - [Funding & Implementation](funding-implementation.md) — Fund structure and implementation roadmap
-> - [Procurement Guide](procurement-guide.md) — Technology and procurement innovation
-> - [Operational Appendices](operational-appendices.md) — Templates and operational guides
-> - [Technical Appendices](technical-appendices.md) — Standards, assessments, and reference materials
+> - [Executive Summary](01-executive-summary.md) — Start here for an overview
+> - [Talent Development](03-talent-development.md) — Fellowship program and workforce development
+> - [Funding & Implementation](04-funding-implementation.md) — Fund structure and implementation roadmap
+> - [Procurement Guide](05-procurement-guide.md) — Technology and procurement innovation
+> - [Operational Appendices](06-operational-appendices.md) — Templates and operational guides
+> - [Technical Appendices](07-technical-appendices.md) — Standards, assessments, and reference materials
 
 ---
 
 ## Table of Contents
-
-- [Executive Summary](#executive-summary)
 
 ### Part 1: Strategic Foundation and Governance
 1. [Strategic Foundation](#1-strategic-foundation)
@@ -48,54 +47,7 @@
 
 ---
 
-> **Document Summary:** This document establishes the governance foundation for California's enterprise modernization, including the E3 Operational Model with Undersecretary and Chief Deputy Director positions, the Independent Office of State Data Governance, and the Product-Led Delivery Framework. For talent development, see [Talent Development](talent-development.md). For funding and implementation timeline, see [Funding & Implementation](funding-implementation.md).
-
----
-
-## Executive Summary
-
-California state government lacks the natural forcing mechanism that drives private sector efficiency. Without market pressure, government agencies accumulate technical debt, maintain outdated systems, and perpetuate inefficient processes. Legacy systems consume 70-80% of IT budgets; procurement cycles average 18-24 months; only 35-40% of transactions are completable online.
-
-**The Solution: The E3 Operational Model**
-
-The **Enterprise Efficiency and Effectiveness (E3) Operational Model** creates institutional accountability for modernization through three integrated components:
-
-1. **Institutional Accountability** — New leadership positions with actual authority:
-   - *Undersecretaries for Efficiency and Effectiveness* at Agency level (8-12 positions)
-   - *Chief Deputy Directors for Efficiency and Effectiveness* at Department level (30-40 positions)
-   - *Transformation Management Office (TMO)* within GovOps for statewide coordination
-
-2. **Product-Led Delivery** — Modern approaches replacing waterfall:
-   - Service mesh architecture connecting systems via Application Programming Interfaces (APIs)
-   - $15M modular contracting cap reducing vendor lock-in
-   - Request for Innovative Ideas (RFI²) procurement defining problems rather than prescribing solutions
-
-3. **Data Governance Foundation** — Cross-branch authority:
-   - Independent Office of State Data Governance with 9-member board
-   - Standardized data sharing agreement templates (reducing 18 months to 4-8 weeks for common scenarios)
-   - Binding statewide data standards
-
-**Talent Pipeline:** The Governor's Innovation Fellowship produces 60 trained modernization leaders annually through 6-month cohorts. Permanent Data Governance Teams (400-600 positions statewide) provide sustainable capacity. See [Talent Development](talent-development.md) for details.
-
-**Funding:** The California Breakthrough Modernization Fund ($100M: 50% state, 50% private sector) uses portfolio management principles. A feedback loop diverts 25% of realized savings back to the fund, creating self-sustaining modernization capacity. See [Funding & Implementation](funding-implementation.md) for details.
-
-**Implementation Timeline:**
-- **6 Months:** 4 Undersecretaries appointed, TMO established, Fellowship Cohort 1 launched, 3-5 quick wins
-- **12 Months:** 10 Chief Deputy Directors deployed, Independent Office operational, $100M fund capitalized
-- **36 Months:** Full E3 deployment (8-12 Undersecretaries, 30-40 Chief Deputy Directors), 120+ Senior Fellows graduated, 50% digital adoption, 25% legacy reduction (40% by Year 5)
-
-**Critical Success Factors:** Executive commitment (5+ years), actual authority (not advisory roles), readiness-based deployment using the Readiness Assessment framework, quick wins in Year 1, and measurement discipline.
-
-**Recommended Actions:**
-
-| Recommendation | Decision Owner | Suggested Timeline |
-|----------------|----------------|-------------------|
-| Approve E3 leadership structure (8-12 Undersecretaries, 30-40 CDDs) | Governor | Q1 2026 |
-| Authorize $50M state contribution to Breakthrough Fund | Legislature | FY 2026-27 |
-| Establish Independent Office of State Data Governance | Governor + Legislature | Q2 2026 |
-| Issue Executive Order on $15M modular contracting cap | Governor | Q1 2026 |
-
-**Key Risks:** Independent Office legislation delays (mitigate with concurrent planning), resistance to change (mitigate with quick wins and union engagement), political transitions (mitigate with cross-branch structure), vendor lock-in (mitigate with open standards and modular contracting). See [Appendix G.8: Risk Mitigation Matrix](technical-appendices.md#g8-risk-mitigation-matrix) for comprehensive analysis.
+> **Document Summary:** This document establishes the governance foundation for California's enterprise modernization, including the E3 Operational Model with Undersecretary and Chief Deputy Director positions, the Independent Office of State Data Governance, and the Product-Led Delivery Framework. For an overview, see [Executive Summary](01-executive-summary.md). For talent development, see [Talent Development](03-talent-development.md). For funding and implementation timeline, see [Funding & Implementation](04-funding-implementation.md).
 
 ---
 
@@ -318,7 +270,7 @@ Undersecretaries for Efficiency and Effectiveness operate at the Agency level, r
 **Why This Position Matters:**
 Without Undersecretaries, modernization efforts fragment across departments with no strategic coordination. Individual departments optimize locally but create incompatibilities system-wide. Undersecretaries provide agency-level strategic direction, ensure cross-department interoperability, allocate resources based on enterprise priorities rather than political influence, and create forcing function for consistent progress. They are the difference between coordinated transformation and chaotic fragmentation.
 
-For sample position descriptions and duty statements, see [Appendix A: Sample Templates and Frameworks](operational-appendices.md#appendix-a-sample-templates-and-frameworks).
+For sample position descriptions and duty statements, see [Appendix A: Sample Templates and Frameworks](06-operational-appendices.md#appendix-a-sample-templates-and-frameworks).
 
 These are not advisory or coordinator roles. Undersecretaries have authority to approve major technology investments, mandate cross-department data sharing, redirect resources to strategic initiatives, and hold Chief Deputy Directors accountable for results. They serve as the primary interface between their agencies and both ODI and the Office of State Data Governance, ensuring proven methods and mandatory standards are adopted at scale.
 
@@ -531,7 +483,7 @@ TMO prevents these pathologies by:
 - Ensure early engagement with unions on position classifications and organizational changes
 - Support departments on meet and confer requirements related to technology changes
 - Track workforce transition outcomes; maintain commitment to no involuntary separations from modernization
-- For detailed guidance, see [Appendix A.12: Labor Relations Strategy](operational-appendices.md#a12-labor-relations-strategy)
+- For detailed guidance, see [Appendix A.12: Labor Relations Strategy](06-operational-appendices.md#a12-labor-relations-strategy)
 
 **Innovation Coordination:**
 - Manage Governor's Innovation Fellowship logistics: recruitment, selection, placements, post-graduation engagement
@@ -597,7 +549,7 @@ Each board seat must have an assigned Senior Technical Advisor who provides tech
 
 **Why Four Template Types Matter:**
 
-Data sharing negotiations currently take 18 months because every agreement is custom. Standardized templates reduce this to 4-8 weeks by providing pre-approved legal language, technical specifications, and risk mitigation approaches for common scenarios. For a complete sample Data Sharing Agreement (Type 3: Moderate Sensitivity), see [Appendix A.2](operational-appendices.md#a2-data-sharing-agreement-template-type-3-moderate-sensitivity).
+Data sharing negotiations currently take 18 months because every agreement is custom. Standardized templates reduce this to 4-8 weeks by providing pre-approved legal language, technical specifications, and risk mitigation approaches for common scenarios. For a complete sample Data Sharing Agreement (Type 3: Moderate Sensitivity), see [Appendix A.2](06-operational-appendices.md#a2-data-sharing-agreement-template-type-3-moderate-sensitivity).
 
 **Template 1: Public Data Exchange**
 - **Use Case:** Sharing non-sensitive data between state agencies for operational purposes (e.g., business registry data, public facility locations, aggregate statistics)
@@ -634,7 +586,7 @@ Data sharing negotiations currently take 18 months because every agreement is cu
 
 ## 4. Product-Led Delivery Framework
 
-> **Section Summary:** This section describes the technical delivery approach, including service mesh architecture, citizen journey teams, and integration with procurement. For detailed procurement procedures, see [Procurement Guide](procurement-guide.md).
+> **Section Summary:** This section describes the technical delivery approach, including service mesh architecture, citizen journey teams, and integration with procurement. For detailed procurement procedures, see [Procurement Guide](05-procurement-guide.md).
 
 ### 4.1 Service Mesh Architecture
 
@@ -672,7 +624,7 @@ Product-led delivery requires procurement that moves at the speed of product dev
 - **Modular Contracting:** $15M cap forcing smaller, manageable contracts with reduced risk
 - **Rapid RFI²:** Challenge-based procurement validating solutions through paid prototypes in 8-10 weeks
 
-For complete procurement framework, policies, and operational details, see [Procurement Guide](procurement-guide.md).
+For complete procurement framework, policies, and operational details, see [Procurement Guide](05-procurement-guide.md).
 
 ---
 
@@ -680,9 +632,9 @@ For complete procurement framework, policies, and operational details, see [Proc
 
 This document establishes the governance foundation for California's enterprise modernization. Continue reading:
 
-- **[Talent Development](talent-development.md)** — Fellowship program, data governance teams, and training programs
-- **[Funding & Implementation](funding-implementation.md)** — Breakthrough Fund structure and implementation roadmap
-- **[Procurement Guide](procurement-guide.md)** — Technology architecture and procurement innovation
+- **[Talent Development](03-talent-development.md)** — Fellowship program, data governance teams, and training programs
+- **[Funding & Implementation](04-funding-implementation.md)** — Breakthrough Fund structure and implementation roadmap
+- **[Procurement Guide](05-procurement-guide.md)** — Technology architecture and procurement innovation
 
 ---
 

@@ -8,11 +8,12 @@
 ---
 
 > This document is part of the California Enterprise Modernization recommendation. See also:
-> - [Governance Model](governance-model.md) — E3 structure, leadership roles, and data governance
-> - [Talent Development](talent-development.md) — Fellowship program and workforce development
-> - [Funding & Implementation](funding-implementation.md) — Breakthrough Fund and implementation roadmap
-> - [Operational Appendices](operational-appendices.md) — Templates and operational guides
-> - [Technical Appendices](technical-appendices.md) — Standards, assessments, and reference materials
+> - [Executive Summary](01-executive-summary.md) — Start here for an overview
+> - [Governance Model](02-governance-model.md) — E3 structure, leadership roles, and data governance
+> - [Talent Development](03-talent-development.md) — Fellowship program and workforce development
+> - [Funding & Implementation](04-funding-implementation.md) — Breakthrough Fund and implementation roadmap
+> - [Operational Appendices](06-operational-appendices.md) — Templates and operational guides
+> - [Technical Appendices](07-technical-appendices.md) — Standards, assessments, and reference materials
 
 ---
 
@@ -50,7 +51,7 @@ California's technology architecture establishes the technical foundation for en
 - 50% of workloads in cloud by Year 3
 - 8-12 week sandbox-to-production for agentic workflows
 
-For comprehensive technical architecture details, implementation guidance, and standards specifications, see [Appendix H: Technology Architecture Details](technical-appendices.md#appendix-h-technology-architecture-details).
+For comprehensive technical architecture details, implementation guidance, and standards specifications, see [Appendix H: Technology Architecture Details](07-technical-appendices.md#appendix-h-technology-architecture-details).
 
 ---
 
@@ -177,7 +178,7 @@ Projects genuinely requiring >$15M single contract must:
 
 **Total time from problem to contract: 8-10 weeks**
 
-*For detailed phase-by-phase operational guidance, example problem statements, and evaluation criteria, see [Appendix A.9: Rapid RFI² Operational Guide](operational-appendices.md#a9-rapid-rfi-operational-guide).*
+*For detailed phase-by-phase operational guidance, example problem statements, and evaluation criteria, see [Appendix A.9: Rapid RFI² Operational Guide](06-operational-appendices.md#a9-rapid-rfi-operational-guide).*
 
 **Risk Reduction Value:**
 
@@ -358,11 +359,11 @@ This policy:
 ---
 
 **For detailed implementation support, see companion documents:**
-- [Governance Model](governance-model.md) — E3 structure and data governance
-- [Talent Development](talent-development.md) — Fellowship program and workforce development
-- [Funding & Implementation](funding-implementation.md) — Breakthrough Fund and implementation roadmap
-- [Operational Appendices](operational-appendices.md) — Templates including A.5-A.9 procurement templates
-- [Technical Appendices](technical-appendices.md) — Technology standards and architecture details
+- [Governance Model](02-governance-model.md) — E3 structure and data governance
+- [Talent Development](03-talent-development.md) — Fellowship program and workforce development
+- [Funding & Implementation](04-funding-implementation.md) — Breakthrough Fund and implementation roadmap
+- [Operational Appendices](06-operational-appendices.md) — Templates including A.5-A.9 procurement templates
+- [Technical Appendices](07-technical-appendices.md) — Technology standards and architecture details
 
 ---
 

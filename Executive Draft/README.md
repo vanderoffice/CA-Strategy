@@ -19,13 +19,13 @@ This document suite presents a comprehensive plan to modernize California state 
 Executive Draft/
 ├── README.md                         ← You are here
 │
-├── governance-model.md               ← Start here (core governance and structure)
-├── talent-development.md             ← Fellowship and workforce
-├── funding-implementation.md         ← Fund structure and roadmap
-│
-├── procurement-guide.md              ← Technology and procurement innovation
-├── operational-appendices.md         ← Templates A.1-A.12
-├── technical-appendices.md           ← Standards and reference (Appendices B-H)
+├── 01-executive-summary.md           ← Start here (2-page overview)
+├── 02-governance-model.md            ← Core governance and structure
+├── 03-talent-development.md          ← Fellowship and workforce
+├── 04-funding-implementation.md      ← Fund structure and roadmap
+├── 05-procurement-guide.md           ← Technology and procurement innovation
+├── 06-operational-appendices.md      ← Templates A.1-A.12
+├── 07-technical-appendices.md        ← Standards and reference (Appendices B-H)
 │
 └── readiness-assessment/
     ├── README.md                     ← Assessment framework overview
@@ -37,42 +37,45 @@ Executive Draft/
 
 ## Documents by Purpose
 
-| Document | Purpose | Pages | Reading Time |
-|----------|---------|-------|--------------|
-| [Governance Model](governance-model.md) | E3 structure, leadership roles, data governance, executive summary | 14 | 30 min |
-| [Talent Development](talent-development.md) | Fellowship program, workforce, training | 6 | 15 min |
-| [Funding & Implementation](funding-implementation.md) | Breakthrough Fund, roadmap, success factors | 8 | 20 min |
-| [Procurement Guide](procurement-guide.md) | Modular contracting, RFI², vendor pools | 8 | 20 min |
-| [Operational Appendices](operational-appendices.md) | Templates and operational guides | 30 | Reference |
-| [Technical Appendices](technical-appendices.md) | Standards, architecture, assessments | 25 | Reference |
+| # | Document | Purpose | Reading Time |
+|---|----------|---------|--------------|
+| 01 | [Executive Summary](01-executive-summary.md) | Overview and recommended actions | 5 min |
+| 02 | [Governance Model](02-governance-model.md) | E3 structure, leadership roles, data governance | 25 min |
+| 03 | [Talent Development](03-talent-development.md) | Fellowship program, workforce, training | 15 min |
+| 04 | [Funding & Implementation](04-funding-implementation.md) | Breakthrough Fund, roadmap, success factors | 20 min |
+| 05 | [Procurement Guide](05-procurement-guide.md) | Modular contracting, RFI², vendor pools | 20 min |
+| 06 | [Operational Appendices](06-operational-appendices.md) | Templates and operational guides | Reference |
+| 07 | [Technical Appendices](07-technical-appendices.md) | Standards, architecture, assessments | Reference |
 
 ---
 
 ## Reading Order by Role
 
 ### For Executives and Decision-Makers
-1. **[Governance Model](governance-model.md)** — Executive Summary only (10 min)
-2. **[Funding & Implementation](funding-implementation.md)** — Section 8 only (10 min)
+1. **[Executive Summary](01-executive-summary.md)** — Full document (5 min)
+2. **[Funding & Implementation](04-funding-implementation.md)** — Section 8 only (10 min)
 
 ### For Agency Secretaries and Undersecretaries
-1. **[Governance Model](governance-model.md)** — Full document (30 min)
-2. **[Talent Development](talent-development.md)** — Full document (15 min)
-3. **[Funding & Implementation](funding-implementation.md)** — Full document (20 min)
+1. **[Executive Summary](01-executive-summary.md)** — Full document (5 min)
+2. **[Governance Model](02-governance-model.md)** — Full document (25 min)
+3. **[Talent Development](03-talent-development.md)** — Full document (15 min)
+4. **[Funding & Implementation](04-funding-implementation.md)** — Full document (20 min)
 
 ### For E3 Chief Deputy Directors and Project Managers
-1. **[Governance Model](governance-model.md)** — Sections 2-4 (20 min)
-2. **[Procurement Guide](procurement-guide.md)** — Full document (20 min)
-3. **[Operational Appendices](operational-appendices.md)** — Templates A.4-A.9 (Reference)
-4. **[Readiness Assessment](readiness-assessment/enhanced-readiness-assessment.md)** — Full instrument (Reference)
+1. **[Executive Summary](01-executive-summary.md)** — Full document (5 min)
+2. **[Governance Model](02-governance-model.md)** — Sections 2-4 (20 min)
+3. **[Procurement Guide](05-procurement-guide.md)** — Full document (20 min)
+4. **[Operational Appendices](06-operational-appendices.md)** — Templates A.4-A.9 (Reference)
+5. **[Readiness Assessment](readiness-assessment/enhanced-readiness-assessment.md)** — Full instrument (Reference)
 
 ### For Technical Staff and Architects
-1. **[Procurement Guide](procurement-guide.md)** — Section 5 (10 min)
-2. **[Technical Appendices](technical-appendices.md)** — Appendix H (Reference)
-3. **[Governance Model](governance-model.md)** — Section 4 (10 min)
+1. **[Procurement Guide](05-procurement-guide.md)** — Section 9 (10 min)
+2. **[Technical Appendices](07-technical-appendices.md)** — Appendix H (Reference)
+3. **[Governance Model](02-governance-model.md)** — Section 4 (10 min)
 
 ### For Procurement Staff
-1. **[Procurement Guide](procurement-guide.md)** — Full document (20 min)
-2. **[Operational Appendices](operational-appendices.md)** — Templates A.5-A.9 (Reference)
+1. **[Procurement Guide](05-procurement-guide.md)** — Full document (20 min)
+2. **[Operational Appendices](06-operational-appendices.md)** — Templates A.5-A.9 (Reference)
 
 ---
 
@@ -82,16 +85,16 @@ The plan uses sequential section numbering across documents:
 
 | Section | Document | Topic |
 |---------|----------|-------|
-| 1 | Governance Model | Strategic Foundation |
-| 2 | Governance Model | E3 Operational Model |
-| 3 | Governance Model | Independent Office of State Data Governance |
-| 4 | Governance Model | Product-Led Delivery Framework |
-| 5 | Talent Development | Talent Development and Sustainability |
-| 6 | Funding & Implementation | Breakthrough Modernization Fund |
-| 7 | Funding & Implementation | Implementation Roadmap |
-| 8 | Funding & Implementation | Conclusion |
-| 9 | Procurement Guide | Technology Architecture |
-| 10 | Procurement Guide | Procurement Innovation |
+| 1 | 02-governance-model.md | Strategic Foundation |
+| 2 | 02-governance-model.md | E3 Operational Model |
+| 3 | 02-governance-model.md | Independent Office of State Data Governance |
+| 4 | 02-governance-model.md | Product-Led Delivery Framework |
+| 5 | 03-talent-development.md | Talent Development and Sustainability |
+| 6 | 04-funding-implementation.md | Breakthrough Modernization Fund |
+| 7 | 04-funding-implementation.md | Implementation Roadmap |
+| 8 | 04-funding-implementation.md | Conclusion |
+| 9 | 05-procurement-guide.md | Technology Architecture |
+| 10 | 05-procurement-guide.md | Procurement Innovation |
 
 ---
 
@@ -111,6 +114,7 @@ The plan uses sequential section numbering across documents:
 | A.9 | Rapid RFI² Operational Guide | Running RFI² challenges |
 | A.10 | Fellowship Program Curriculum | Fellowship program design |
 | A.11 | Breakthrough Fund Sustainability Model | Fund reinvestment calculations |
+| A.12 | Labor Relations Strategy | Union engagement and workforce transitions |
 
 ### Technical Appendices (Reference)
 | Appendix | Title | Use For |
@@ -151,4 +155,4 @@ For questions about this document suite, contact the Office of Data and Innovati
 
 ---
 
-*This reading guide helps navigate the California Enterprise Modernization Plan. Start with the Executive Summary in [Governance Model](governance-model.md) for an overview.*
+*This reading guide helps navigate the California Enterprise Modernization Plan. Start with [01-executive-summary.md](01-executive-summary.md) for an overview.*

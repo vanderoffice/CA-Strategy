@@ -8,11 +8,12 @@
 ---
 
 > This document is part of the California Enterprise Modernization recommendation. See also:
-> - [Governance Model](governance-model.md) — E3 structure and data governance
-> - [Talent Development](talent-development.md) — Fellowship program and workforce development
-> - [Procurement Guide](procurement-guide.md) — Technology and procurement innovation
-> - [Operational Appendices](operational-appendices.md) — Templates and operational guides
-> - [Technical Appendices](technical-appendices.md) — Standards, assessments, and reference materials
+> - [Executive Summary](01-executive-summary.md) — Start here for an overview
+> - [Governance Model](02-governance-model.md) — E3 structure and data governance
+> - [Talent Development](03-talent-development.md) — Fellowship program and workforce development
+> - [Procurement Guide](05-procurement-guide.md) — Technology and procurement innovation
+> - [Operational Appendices](06-operational-appendices.md) — Templates and operational guides
+> - [Technical Appendices](07-technical-appendices.md) — Standards, assessments, and reference materials
 
 ---
 
@@ -36,7 +37,7 @@
 
 ---
 
-> **Document Summary:** This document describes the California Breakthrough Modernization Fund structure and the phased implementation roadmap for the E3 Operational Model. For governance structure, see [Governance Model](governance-model.md). For talent development, see [Talent Development](talent-development.md).
+> **Document Summary:** This document describes the California Breakthrough Modernization Fund structure and the phased implementation roadmap for the E3 Operational Model. For governance structure, see [Governance Model](02-governance-model.md). For talent development, see [Talent Development](03-talent-development.md).
 
 ---
 
@@ -200,7 +201,7 @@ The Breakthrough Fund includes a sustainability mechanism that diverts a portion
 
 *Note: Fund projected to become self-sustaining by Year 5-7 through reinvestment of realized savings*
 
-*For detailed sustainability calculations and projections, see [Appendix A.11: Breakthrough Fund Sustainability Model](operational-appendices.md#a11-breakthrough-fund-sustainability-model).*
+*For detailed sustainability calculations and projections, see [Appendix A.11: Breakthrough Fund Sustainability Model](06-operational-appendices.md#a11-breakthrough-fund-sustainability-model).*
 
 ### 6.6 Transparency and Public Reporting
 
@@ -508,11 +509,11 @@ The path to successful modernization begins with these first steps. California's
 
 This document completes the core California Enterprise Modernization Plan. For implementation details, see:
 
-- **[Governance Model](governance-model.md)** — E3 structure and data governance
-- **[Talent Development](talent-development.md)** — Fellowship program and workforce development
-- **[Procurement Guide](procurement-guide.md)** — Technology architecture and procurement innovation
-- **[Operational Appendices](operational-appendices.md)** — Templates and operational guides
-- **[Technical Appendices](technical-appendices.md)** — Standards, assessments, and reference materials
+- **[Governance Model](02-governance-model.md)** — E3 structure and data governance
+- **[Talent Development](03-talent-development.md)** — Fellowship program and workforce development
+- **[Procurement Guide](05-procurement-guide.md)** — Technology architecture and procurement innovation
+- **[Operational Appendices](06-operational-appendices.md)** — Templates and operational guides
+- **[Technical Appendices](07-technical-appendices.md)** — Standards, assessments, and reference materials
 
 ---
 

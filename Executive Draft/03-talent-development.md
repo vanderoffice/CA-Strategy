@@ -8,11 +8,12 @@
 ---
 
 > This document is part of the California Enterprise Modernization recommendation. See also:
-> - [Governance Model](governance-model.md) — E3 structure and data governance
-> - [Funding & Implementation](funding-implementation.md) — Fund structure and implementation roadmap
-> - [Procurement Guide](procurement-guide.md) — Technology and procurement innovation
-> - [Operational Appendices](operational-appendices.md) — Templates and operational guides
-> - [Technical Appendices](technical-appendices.md) — Standards, assessments, and reference materials
+> - [Executive Summary](01-executive-summary.md) — Start here for an overview
+> - [Governance Model](02-governance-model.md) — E3 structure and data governance
+> - [Funding & Implementation](04-funding-implementation.md) — Fund structure and implementation roadmap
+> - [Procurement Guide](05-procurement-guide.md) — Technology and procurement innovation
+> - [Operational Appendices](06-operational-appendices.md) — Templates and operational guides
+> - [Technical Appendices](07-technical-appendices.md) — Standards, assessments, and reference materials
 
 ---
 
@@ -28,7 +29,7 @@
 
 ---
 
-> **Document Summary:** This document describes California's approach to building sustainable modernization capacity through the Governor's Innovation Fellowship, permanent data governance teams, and comprehensive training programs. For governance structure, see [Governance Model](governance-model.md). For funding and implementation timeline, see [Funding & Implementation](funding-implementation.md).
+> **Document Summary:** This document describes California's approach to building sustainable modernization capacity through the Governor's Innovation Fellowship, permanent data governance teams, and comprehensive training programs. For governance structure, see [Governance Model](02-governance-model.md). For funding and implementation timeline, see [Funding & Implementation](04-funding-implementation.md).
 
 ---
 
@@ -60,7 +61,7 @@ The Fellowship establishes a continuous pipeline of emerging leaders trained to 
 | **Department Embedding** | Full 6 months | Real project ownership with mentorship and surrogate |
 | **Group Initiatives** | Full 6 months | Cross-agency team projects with executive sponsors |
 
-*For detailed curriculum, training modules, and deliverable requirements, see [Appendix A.10: Fellowship Program Curriculum](operational-appendices.md#a10-fellowship-program-curriculum).*
+*For detailed curriculum, training modules, and deliverable requirements, see [Appendix A.10: Fellowship Program Curriculum](06-operational-appendices.md#a10-fellowship-program-curriculum).*
 
 **Expected Outcomes:**
 - Actionable recommendations for enterprise-wide improvements
@@ -340,7 +341,7 @@ Successful modernization requires partnership with labor organizations represent
 - **Upskilling Priority:** Training programs prepare workers for evolving roles
 - **Classification Coordination:** New data governance positions developed in coordination with CalHR and relevant bargaining units
 
-For comprehensive guidance on union engagement, workforce transitions, and training coordination, see [Appendix A.12: Labor Relations Strategy](operational-appendices.md#a12-labor-relations-strategy).
+For comprehensive guidance on union engagement, workforce transitions, and training coordination, see [Appendix A.12: Labor Relations Strategy](06-operational-appendices.md#a12-labor-relations-strategy).
 
 ---
 
@@ -348,9 +349,9 @@ For comprehensive guidance on union engagement, workforce transitions, and train
 
 This document establishes the talent development approach for California's enterprise modernization. Continue reading:
 
-- **[Funding & Implementation](funding-implementation.md)** — Breakthrough Fund structure and implementation roadmap
-- **[Governance Model](governance-model.md)** — E3 structure and data governance
-- **[Operational Appendices](operational-appendices.md)** — Templates including Fellowship curriculum (A.10)
+- **[Funding & Implementation](04-funding-implementation.md)** — Breakthrough Fund structure and implementation roadmap
+- **[Governance Model](02-governance-model.md)** — E3 structure and data governance
+- **[Operational Appendices](06-operational-appendices.md)** — Templates including Fellowship curriculum (A.10)
 
 ---
 
