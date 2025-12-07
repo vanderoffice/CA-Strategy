@@ -17,7 +17,7 @@ This document suite presents a comprehensive plan to modernize California state 
 
 ```
 Executive Draft/
-├── README.md                         ← You are here
+├── 00-README.md                      ← You are here
 │
 ├── 01-executive-summary.md           ← Start here (2-page overview)
 ├── 02-governance-model.md            ← Core governance and structure
