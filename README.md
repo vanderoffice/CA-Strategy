@@ -29,7 +29,7 @@ The E3 Operational Model creates the institutional forcing mechanisms that gover
 
 ```
 CA-Strategy/
-├── 00_README.md                      ← You are here
+├── README.md                         ← You are here
 │
 ├── 01-executive-summary.md           ← Start here (5 min read)
 ├── 02-governance-model.md            ← E3 structure and leadership
@@ -127,22 +127,22 @@ The plan uses sequential section numbering across documents:
 
 | Section | Document | Topic |
 |---------|----------|-------|
-| 1 | 02-governance-model.md | Strategic Foundation |
-| 2 | 02-governance-model.md | E3 Operational Model |
-| 3 | 02-governance-model.md | Independent Office of State Data Governance |
-| 4 | 02-governance-model.md | Product-Led Delivery Framework |
-| 5 | 03-talent-development.md | Talent Development and Sustainability |
-| 6 | 04-funding-implementation.md | Breakthrough Modernization Fund |
-| 7 | 04-funding-implementation.md | Sustainable Funding Conclusion |
-| 8 | 05-procurement-guide.md | Procurement Innovation |
-| Appendix A | 06-templates.md | Templates (A.1-A.8) |
-| Appendix B | 07-operational-guides.md | Operational Guides (B.1-B.5) |
-| Appendix C | 08-technical-appendices.md | Readiness Assessment Framework |
-| Appendix D | 08-technical-appendices.md | Glossary |
-| Appendix F | 09-budget-and-governance.md | Budget and Financial Models |
-| Appendix G | 09-budget-and-governance.md | Performance and Change Management |
-| Appendix H | 08-technical-appendices.md | Technology Architecture Details (H.1-H.6) |
-| Appendix I | 10-implementation-roadmap.md | Implementation Roadmap (I.1-I.4) |
+| [1](02-governance-model.md#1-strategic-foundation) | 02-governance-model.md | Strategic Foundation |
+| [2](02-governance-model.md#2-e3-operational-model) | 02-governance-model.md | E3 Operational Model |
+| [3](02-governance-model.md#3-independent-office-of-state-data-governance) | 02-governance-model.md | Independent Office of State Data Governance |
+| [4](02-governance-model.md#4-product-led-delivery-framework) | 02-governance-model.md | Product-Led Delivery Framework |
+| [5](03-talent-development.md#5-talent-development-and-sustainability) | 03-talent-development.md | Talent Development and Sustainability |
+| [6](04-funding-implementation.md#6-breakthrough-modernization-fund) | 04-funding-implementation.md | Breakthrough Modernization Fund |
+| [7](04-funding-implementation.md#7-conclusion) | 04-funding-implementation.md | Sustainable Funding Conclusion |
+| [8](05-procurement-guide.md#8-procurement-innovation) | 05-procurement-guide.md | Procurement Innovation |
+| [Appendix A](appendices/06-templates.md#appendix-a-templates) | 06-templates.md | Templates (A.1-A.8) |
+| [Appendix B](appendices/07-operational-guides.md#appendix-b-operational-guides) | 07-operational-guides.md | Operational Guides (B.1-B.5) |
+| [Appendix C](appendices/08-technical-appendices.md#appendix-c-readiness-assessment-framework) | 08-technical-appendices.md | Readiness Assessment Framework |
+| [Appendix D](appendices/08-technical-appendices.md#appendix-d-glossary) | 08-technical-appendices.md | Glossary |
+| [Appendix F](appendices/09-budget-and-governance.md#appendix-f-budget-and-financial-models) | 09-budget-and-governance.md | Budget and Financial Models |
+| [Appendix G](appendices/09-budget-and-governance.md#appendix-g-performance-and-change-management-framework) | 09-budget-and-governance.md | Performance and Change Management |
+| [Appendix H](appendices/08-technical-appendices.md#appendix-h-technology-architecture-details) | 08-technical-appendices.md | Technology Architecture Details (H.1-H.6) |
+| [Appendix I](appendices/10-implementation-roadmap.md#appendix-i-implementation-roadmap) | 10-implementation-roadmap.md | Implementation Roadmap (I.1-I.4) |
 
 ---
 
@@ -151,41 +151,41 @@ The plan uses sequential section numbering across documents:
 ### Templates (appendices/06-templates.md)
 | Appendix | Title | Use For |
 |----------|-------|---------|
-| A.1 | E3 Position Description Template | Creating E3 job postings |
-| A.2 | Data Sharing Agreement Template | Type 3 (Moderate Sensitivity) agreements |
-| A.3 | OKR Template | Quarterly objective setting |
-| A.4 | Project Stage-Gate Template | Project governance reviews |
-| A.5 | Delegated Ordering Authority Template | Procurement delegation |
-| A.6 | Standard Agile Task Order Template | Vendor task orders |
-| A.7 | Rapid RFI² Problem Statement Template | Challenge-based procurement |
-| A.8 | AI Productivity Disclosure Template | Vendor AI tool disclosure |
+| [A.1](appendices/06-templates.md#a1-e3-position-description-template) | E3 Position Description Template | Creating E3 job postings |
+| [A.2](appendices/06-templates.md#a2-data-sharing-agreement-template-type-3-moderate-sensitivity) | Data Sharing Agreement Template | Type 3 (Moderate Sensitivity) agreements |
+| [A.3](appendices/06-templates.md#a3-okr-template) | OKR Template | Quarterly objective setting |
+| [A.4](appendices/06-templates.md#a4-project-stage-gate-template) | Project Stage-Gate Template | Project governance reviews |
+| [A.5](appendices/06-templates.md#a5-delegated-ordering-authority-template) | Delegated Ordering Authority Template | Procurement delegation |
+| [A.6](appendices/06-templates.md#a6-standard-agile-task-order-template) | Standard Agile Task Order Template | Vendor task orders |
+| [A.7](appendices/06-templates.md#a7-rapid-rfi-problem-statement-template) | Rapid RFI² Problem Statement Template | Challenge-based procurement |
+| [A.8](appendices/06-templates.md#a8-ai-productivity-disclosure-template) | AI Productivity Disclosure Template | Vendor AI tool disclosure |
 
 ### Operational Guides (appendices/07-operational-guides.md)
 | Appendix | Title | Use For |
 |----------|-------|---------|
-| B.1 | Rapid RFI² Operational Guide | Running RFI² challenges |
-| B.2 | Fellowship Program Curriculum | Fellowship program design |
-| B.3 | Breakthrough Fund Sustainability Model | Fund reinvestment calculations |
-| B.4 | Labor Relations Strategy | Union engagement and workforce transitions |
-| B.5 | Citizen Journey Teams Operating Guide | Cross-agency service redesign |
+| [B.1](appendices/07-operational-guides.md#b1-rapid-rfi-operational-guide) | Rapid RFI² Operational Guide | Running RFI² challenges |
+| [B.2](appendices/07-operational-guides.md#b2-fellowship-program-curriculum) | Fellowship Program Curriculum | Fellowship program design |
+| [B.3](appendices/07-operational-guides.md#b3-breakthrough-fund-sustainability-model) | Breakthrough Fund Sustainability Model | Fund reinvestment calculations |
+| [B.4](appendices/07-operational-guides.md#b4-labor-relations-strategy) | Labor Relations Strategy | Union engagement and workforce transitions |
+| [B.5](appendices/07-operational-guides.md#b5-citizen-journey-teams-operating-guide) | Citizen Journey Teams Operating Guide | Cross-agency service redesign |
 
 ### Technical Appendices (appendices/08-technical-appendices.md)
 | Appendix | Title | Use For |
 |----------|-------|---------|
-| C | Readiness Assessment Framework | Department readiness scoring |
-| D | Glossary | Term definitions |
-| H | Technology Architecture Details | API, cloud, security standards |
+| [C](appendices/08-technical-appendices.md#appendix-c-readiness-assessment-framework) | Readiness Assessment Framework | Department readiness scoring |
+| [D](appendices/08-technical-appendices.md#appendix-d-glossary) | Glossary | Term definitions |
+| [H](appendices/08-technical-appendices.md#appendix-h-technology-architecture-details) | Technology Architecture Details | API, cloud, security standards |
 
 ### Budget and Governance Appendices (appendices/09-budget-and-governance.md)
 | Appendix | Title | Use For |
 |----------|-------|---------|
-| F | Budget and Financial Models | Cost projections |
-| G | Performance and Change Management | ADKAR model, risk matrix |
+| [F](appendices/09-budget-and-governance.md#appendix-f-budget-and-financial-models) | Budget and Financial Models | Cost projections |
+| [G](appendices/09-budget-and-governance.md#appendix-g-performance-and-change-management-framework) | Performance and Change Management | ADKAR model, risk matrix |
 
 ### Implementation Roadmap (appendices/10-implementation-roadmap.md)
 | Appendix | Title | Use For |
 |----------|-------|---------|
-| I | Implementation Roadmap | Phased 36-month plan, success metrics, critical success factors |
+| [I](appendices/10-implementation-roadmap.md#appendix-i-implementation-roadmap) | Implementation Roadmap | Phased 36-month plan, success metrics, critical success factors |
 
 ---
 
