@@ -2,21 +2,8 @@
 ## Governance Model
 
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
-**Date:** December 2025
-**Version:** Executive Draft v1.0
-
----
-
-> This document is part of the California Enterprise Modernization recommendation. See also:
-> - [Executive Summary](01-executive-summary.md) — Start here for an overview
-> - [Talent Development](03-talent-development.md) — Fellowship program and workforce development
-> - [Funding & Implementation](04-funding-implementation.md) — Breakthrough Fund structure
-> - [Procurement Guide](05-procurement-guide.md) — Technology and procurement innovation
-> - [Templates](appendices/06-templates.md) — Fillable forms and templates
-> - [Operational Guides](appendices/07-operational-guides.md) — Program guides and frameworks
-> - [Technical Appendices](appendices/08-technical-appendices.md) — Technical standards and architecture
-> - [Budget and Governance Appendices](appendices/09-budget-and-governance.md) — Budget models and change management
-> - [Implementation Roadmap](appendices/10-implementation-roadmap.md) — Phased 36-month implementation plan
+**Date:** December 8, 2025
+**Version:** Executive Draft v1.2
 
 ---
 
@@ -24,29 +11,29 @@
 
 ### Part 1: Strategic Foundation and Governance
 1. [Strategic Foundation](#1-strategic-foundation)
-   - 1.1 Vision Statement
-   - 1.2 Mission Statement
-   - 1.3 Guiding Principles
-   - 1.4 The Core Problem
-   - 1.5 The Office of Data and Innovation: Pioneer and Partner
-   - 1.6 Government Operations Agency: Coordination Hub
+   - [1.1 Vision Statement](#11-vision-statement)
+   - [1.2 Mission Statement](#12-mission-statement)
+   - [1.3 Guiding Principles](#13-guiding-principles)
+   - [1.4 The Core Problem](#14-the-core-problem)
+   - [1.5 The Office of Data and Innovation: Pioneer and Partner](#15-the-office-of-data-and-innovation-pioneer-and-partner)
+   - [1.6 Government Operations Agency: Coordination Hub](#16-government-operations-agency-coordination-hub)
 
 2. [The E3 Operational Model](#2-the-e3-operational-model)
-   - 2.1 Governance Architecture
-   - 2.2 Undersecretary Positions (Strategic Leadership and Agency Coordination)
-   - 2.3 Chief Deputy Director Positions (Operational Execution and Department Transformation)
-   - 2.4 Transformation Management Office (TMO)
+   - [2.1 Governance Architecture](#21-governance-architecture)
+   - [2.2 Undersecretary Positions (Strategic Leadership and Agency Coordination)](#22-undersecretary-positions-strategic-leadership-and-agency-coordination)
+   - [2.3 Chief Deputy Director Positions (Operational Execution and Department Transformation)](#23-chief-deputy-director-positions-operational-execution-and-department-transformation)
+   - [2.4 Transformation Management Office (TMO)](#24-transformation-management-office-tmo)
 
 3. [Independent Office of State Data Governance](#3-independent-office-of-state-data-governance)
-   - 3.1 Constitutional Model and Precedent
-   - 3.2 Board Composition (9 Members Minimum)
-   - 3.3 Authority and Responsibilities
-   - 3.4 Data Sharing Agreement Templates
+   - [3.1 Constitutional Model and Precedent](#31-constitutional-model-and-precedent)
+   - [3.2 Board Composition (9 Members Minimum)](#32-board-composition-9-members-minimum)
+   - [3.3 Authority and Responsibilities](#33-authority-and-responsibilities)
+   - [3.4 Data Sharing Agreement Templates](#34-data-sharing-agreement-templates)
 
 4. [Product-Led Delivery Framework](#4-product-led-delivery-framework)
-   - 4.1 Service Mesh Architecture
-   - 4.2 Citizen Journey Teams
-   - 4.3 Procurement Integration
+   - [4.1 Service Mesh Architecture](#41-service-mesh-architecture)
+   - [4.2 Citizen Journey Teams](#42-citizen-journey-teams)
+   - [4.3 Procurement Integration](#43-procurement-integration)
 
 ---
 
@@ -162,7 +149,7 @@ ODI has demonstrated measurable results through collaborative projects:
 
 **ODI's Role in This Plan:**
 
-The E3 model creates empowered champions at every agency who can mandate adoption of ODI-developed tools, practices, and standards. ODI transitions from optional service provider to essential enabler:
+The proposed E3 model would create empowered champions at every agency who can mandate adoption of ODI-developed tools, practices, and standards. ODI would transition from optional service provider to essential enabler:
 
 - **Innovation Methods:** CalInnovate approaches become standard practice for all E3 initiatives
 - **Training Infrastructure:** CalAcademy becomes foundational training for all E3 leaders, Fellows, and data governance teams
@@ -313,14 +300,14 @@ Department Directors (within each Agency)
 ### 2.2 Undersecretary Positions (Strategic Leadership and Agency Coordination)
 
 **Position Overview:**
-Undersecretaries for Efficiency and Effectiveness operate at the Agency level, reporting directly to Agency Secretaries while coordinating statewide efforts through the Transformation Management Office and Statewide E3 Council. These positions hold explicit authority over technology modernization, business process optimization, data governance, and performance management within their agencies.
+This proposal recommends creating Undersecretaries for Efficiency and Effectiveness who would operate at the Agency level, reporting directly to Agency Secretaries while coordinating statewide efforts through the Transformation Management Office and Statewide E3 Council. These positions would hold explicit authority over technology modernization, business process optimization, data governance, and performance management within their agencies.
 
 **Why This Position Matters:**
 Without Undersecretaries, modernization efforts fragment across departments with no strategic coordination. Individual departments optimize locally but create incompatibilities system-wide. Undersecretaries provide agency-level strategic direction, ensure cross-department interoperability, allocate resources based on enterprise priorities rather than political influence, and create forcing function for consistent progress. They are the difference between coordinated transformation and chaotic fragmentation.
 
 For sample position descriptions and duty statements, see [Template A.1: E3 Position Description](appendices/06-templates.md#a1-e3-position-description-template).
 
-These are not advisory or coordinator roles. Undersecretaries have authority to approve major technology investments, mandate cross-department data sharing, redirect resources to strategic initiatives, and hold Chief Deputy Directors accountable for results. They serve as the primary interface between their agencies and both ODI and the Office of State Data Governance, ensuring proven methods and mandatory standards are adopted at scale.
+These would not be advisory or coordinator roles. Undersecretaries would have authority to approve major technology investments, mandate cross-department data sharing, redirect resources to strategic initiatives, and hold Chief Deputy Directors accountable for results. They would serve as the primary interface between their agencies and both ODI and the Office of State Data Governance, ensuring proven methods and mandatory standards are adopted at scale.
 
 **Deployment Strategy:**
 
@@ -393,7 +380,7 @@ These are not advisory or coordinator roles. Undersecretaries have authority to 
 ### 2.3 Chief Deputy Director Positions (Operational Execution and Department Transformation)
 
 **Position Overview:**
-Chief Deputy Directors for Efficiency and Effectiveness operate within departments, reporting to Department Directors while coordinating with agency-level Undersecretaries and TMO. These positions hold operational responsibility for modernization execution, managing cross-functional teams including data governance staff and embedded Innovation Fellows.
+This proposal recommends creating Chief Deputy Directors for Efficiency and Effectiveness who would operate within departments, reporting to Department Directors while coordinating with agency-level Undersecretaries and TMO. These positions would hold operational responsibility for modernization execution, managing cross-functional teams including data governance staff and embedded Innovation Fellows.
 
 **Why This Position Matters:**
 Department Directors manage complex operations with competing priorities: service delivery, regulatory compliance, budget constraints, legislative mandates, and stakeholder relations. Modernization often falls to the bottom of priority lists without dedicated leadership. Chief Deputy Directors provide persistent focus on transformation, bridging the gap between strategic vision (Undersecretary level) and operational reality (department programs and systems). They translate modernization strategy into tangible improvements citizens experience.
@@ -591,6 +578,26 @@ If enabling legislation is not enacted by Month 12, the following interim struct
 
 4. **Advocacy Continuation:** TMO and E3 leaders continue legislative advocacy; provide progress reports demonstrating value of data sharing to build support for full authorization.
 
+**Transition from CIDC to Independent Office:**
+
+When enabling legislation is enacted, the transition process ensures continuity of data governance work:
+
+| Transition Element | Timeline | Process |
+|-------------------|----------|---------|
+| **Board Appointments** | 60 days post-enactment | Appointing authorities nominate board members; Governor convenes first meeting |
+| **CIDC Asset Transfer** | 90 days | Draft standards, pilot agreements, technical infrastructure transfer to Independent Office; CIDC dissolved |
+| **Staff Transition** | 90-120 days | CIDC technical staff offered positions with Independent Office; hiring for additional capacity |
+| **Ongoing Work Continuity** | Immediate | All active data sharing pilots continue without interruption; agreements signed under CIDC authority remain valid |
+| **Cross-Branch Expansion** | 120 days | Independent Office begins engaging judicial and legislative branches for cross-branch data governance |
+
+**Key Principles:**
+- No disruption to active data sharing projects
+- CIDC-developed standards become foundation for Independent Office standards (refined with cross-branch input)
+- Technical infrastructure investments (APIs, data catalogs) remain operational
+- Lessons learned from CIDC pilots inform Independent Office policies
+
+This transition approach ensures that interim progress accelerates rather than delays full implementation.
+
 ### 3.2 Board Composition (9 Members Minimum)
 
 **Required Seats:**
@@ -625,6 +632,27 @@ Each board seat must have an assigned Senior Technical Advisor who provides tech
 - Resolve inter-agency data disputes
 - Protect privacy while enabling sharing
 - Annual reporting to Legislature
+
+**Authority Delegation and Coordination:**
+
+The data governance structure operates at three levels with clearly defined decision authority:
+
+| Decision Level | Authority | Scope | Examples |
+|----------------|-----------|-------|----------|
+| **Department-Level** | Chief Deputy Director + Data Governance Team | Public data exchange within agency; non-sensitive operational data sharing | DMV shares aggregate vehicle data with Air Resources Board (Template 1) |
+| **Agency-Level** | Undersecretary for E&E | Confidential data with limited PII within agency; cross-department coordination | Health and Human Services shares licensing data between departments (Template 2) |
+| **Cross-Agency / Sensitive** | Independent Office Board | Sensitive PII, cross-agency sensitive data, cross-branch sharing | Corrections shares inmate data with Social Services (Template 3); Executive shares data with Judicial Council (Template 4) |
+
+**Escalation and Dispute Resolution:**
+
+When agency-level data governance councils disagree on data sharing terms or when data sharing crosses agency boundaries with sensitive data categories, the Independent Office provides binding arbitration:
+
+1. **Agency-internal disputes** → Undersecretary resolves (with data governance team support)
+2. **Cross-agency operational disputes** → TMO facilitates resolution between Undersecretaries
+3. **Cross-agency sensitive data disputes** → Independent Office Board provides binding decision
+4. **Cross-branch disputes** → Independent Office Board (includes judicial, legislative representation)
+
+This structure ensures rapid decision-making for routine data sharing while maintaining appropriate oversight for sensitive categories and cross-agency coordination.
 
 ### 3.4 Data Sharing Agreement Templates
 
@@ -800,16 +828,31 @@ This document establishes the governance foundation for California's enterprise 
 
 ---
 
-## Version History
-
-| Version | Date | Description |
-|---------|------|-------------|
-| Executive Draft v1.0 | December 2025 | Initial executive draft with governance model, E3 structure, and data governance framework |
+> This document is part of the California Enterprise Modernization recommendation. See also:
+> - [Executive Summary](01-executive-summary.md) — Start here for an overview
+> - [Talent Development](03-talent-development.md) — Fellowship program and workforce development
+> - [Funding & Implementation](04-funding-implementation.md) — Breakthrough Fund structure
+> - [Procurement Guide](05-procurement-guide.md) — Technology and procurement innovation
+> - [Templates](appendices/06-templates.md) — Fillable forms and templates
+> - [Operational Guides](appendices/07-operational-guides.md) — Program guides and frameworks
+> - [Technical Appendices](appendices/08-technical-appendices.md) — Technical standards and architecture
+> - [Budget and Governance Appendices](appendices/09-budget-and-governance.md) — Budget models and change management
+> - [Implementation Roadmap](appendices/10-implementation-roadmap.md) — Phased 36-month implementation plan
 
 ---
 
-**Document Version:** Executive Draft v1.0
-**Date:** December 2025
+## Version History
+
+| Version | Date | Description | Author |
+|---------|------|-------------|--------|
+| Executive Draft v1.2 | December 8, 2025 | Updated framing to proposal/recommendation language (E3 positions, ODI transition) | Brent Vanderburgh |
+| Executive Draft v1.1 | December 8, 2025 | Added data governance authority clarification, CIDC transition process, and updated section numbering guide | Brent Vanderburgh |
+| Executive Draft v1.0 | December 2025 | Initial executive draft with governance model, E3 structure, and data governance framework | Brent Vanderburgh |
+
+---
+
+**Document Version:** Executive Draft v1.2
+**Date:** December 8, 2025
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 
 ---

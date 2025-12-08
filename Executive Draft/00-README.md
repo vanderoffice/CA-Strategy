@@ -1,8 +1,8 @@
 # California Enterprise Modernization Plan
 ## Executive Draft - Reading Guide
 
-**Version:** Executive Draft v1.0
-**Date:** December 2025
+**Version:** Executive Draft v1.1
+**Date:** December 8, 2025
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 
 ---
@@ -57,38 +57,6 @@ Executive Draft/
 
 ---
 
-## Reading Order by Role
-
-### For Executives and Decision-Makers
-1. **[Executive Summary](01-executive-summary.md)** — Full document (5 min)
-2. **[Funding & Implementation](04-funding-implementation.md)** — Section 7 Conclusion only (10 min)
-
-### For Agency Secretaries and Undersecretaries
-1. **[Executive Summary](01-executive-summary.md)** — Full document (5 min)
-2. **[Governance Model](02-governance-model.md)** — Full document (25 min)
-3. **[Talent Development](03-talent-development.md)** — Full document (15 min)
-4. **[Funding & Implementation](04-funding-implementation.md)** — Full document (15 min)
-
-### For E3 Chief Deputy Directors and Project Managers
-1. **[Executive Summary](01-executive-summary.md)** — Full document (5 min)
-2. **[Governance Model](02-governance-model.md)** — Sections 2-4 (20 min)
-3. **[Procurement Guide](05-procurement-guide.md)** — Full document (20 min)
-4. **[Templates](appendices/06-templates.md)** — Templates A.4-A.8 (Reference)
-5. **[Operational Guides](appendices/07-operational-guides.md)** — Guide B.1 (Reference)
-6. **[Readiness Assessment](readiness-assessment/enhanced-readiness-assessment.md)** — Full instrument (Reference)
-
-### For Technical Staff and Architects
-1. **[Procurement Guide](05-procurement-guide.md)** — Section 9 (10 min)
-2. **[Technical Appendices](appendices/08-technical-appendices.md)** — Appendix H (Reference)
-3. **[Governance Model](02-governance-model.md)** — Section 4 (10 min)
-
-### For Procurement Staff
-1. **[Procurement Guide](05-procurement-guide.md)** — Full document (20 min)
-2. **[Templates](appendices/06-templates.md)** — Templates A.5-A.8 (Reference)
-3. **[Operational Guides](appendices/07-operational-guides.md)** — Guide B.1 (Reference)
-
----
-
 ## Section Numbering Guide
 
 The plan uses sequential section numbering across documents:
@@ -104,7 +72,14 @@ The plan uses sequential section numbering across documents:
 | 7 | 04-funding-implementation.md | Conclusion |
 | 8 | 05-procurement-guide.md | Technology Architecture |
 | 9 | 05-procurement-guide.md | Procurement Innovation |
-| Appendix I | 10-implementation-roadmap.md | Implementation Roadmap |
+| Appendix A | 06-templates.md | Templates (A.1-A.8) |
+| Appendix B | 07-operational-guides.md | Operational Guides (B.1-B.4) |
+| Appendix C | 08-technical-appendices.md | Readiness Assessment Framework |
+| Appendix D | 08-technical-appendices.md | Glossary |
+| Appendix F | 09-budget-and-governance.md | Budget and Financial Models |
+| Appendix G | 09-budget-and-governance.md | Performance and Change Management |
+| Appendix H | 08-technical-appendices.md | Technology Architecture Details (H.1-H.6) |
+| Appendix I | 10-implementation-roadmap.md | Implementation Roadmap (I.1-I.4) |
 
 ---
 
@@ -164,9 +139,10 @@ The `readiness-assessment/` folder contains the framework for evaluating departm
 
 ## Version History
 
-| Version | Date | Description |
-|---------|------|-------------|
-| Executive Draft v1.0 | December 2025 | Initial executive draft with restructured document organization |
+| Version | Date | Description | Author |
+|---------|------|-------------|--------|
+| Executive Draft v1.1 | December 8, 2025 | Removed "Reading Order by Role" section (assumed non-existent positions) | Brent Vanderburgh |
+| Executive Draft v1.0 | December 2025 | Initial executive draft with restructured document organization | Brent Vanderburgh |
 
 ---
 

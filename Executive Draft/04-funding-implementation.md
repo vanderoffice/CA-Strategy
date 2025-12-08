@@ -2,32 +2,19 @@
 ## Funding and Implementation
 
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
-**Date:** December 2025
-**Version:** Executive Draft v1.0
-
----
-
-> This document is part of the California Enterprise Modernization recommendation. See also:
-> - [Executive Summary](01-executive-summary.md) — Start here for an overview
-> - [Governance Model](02-governance-model.md) — E3 structure and data governance
-> - [Talent Development](03-talent-development.md) — Fellowship program and workforce development
-> - [Procurement Guide](05-procurement-guide.md) — Technology and procurement innovation
-> - [Templates](appendices/06-templates.md) — Fillable forms and templates
-> - [Operational Guides](appendices/07-operational-guides.md) — Program guides and frameworks
-> - [Technical Appendices](appendices/08-technical-appendices.md) — Technical standards and architecture
-> - [Budget and Governance Appendices](appendices/09-budget-and-governance.md) — Budget models and change management
-> - [Implementation Roadmap](appendices/10-implementation-roadmap.md) — Phased 36-month implementation plan
+**Date:** December 8, 2025
+**Version:** Executive Draft v1.2
 
 ---
 
 ## Table of Contents
 
 6. [The California Breakthrough Modernization Fund](#6-the-california-breakthrough-modernization-fund)
-   - 6.1 Fund Purpose and Structure
-   - 6.2 Investment Categories
-   - 6.3 Governance and Oversight
-   - 6.4 Sustainability Mechanism
-   - 6.5 Transparency and Public Reporting
+   - [6.1 Fund Purpose and Structure](#61-fund-purpose-and-structure)
+   - [6.2 Investment Categories](#62-investment-categories)
+   - [6.3 Governance and Oversight](#63-governance-and-oversight)
+   - [6.4 Sustainability Mechanism](#64-sustainability-mechanism)
+   - [6.5 Transparency and Public Reporting](#65-transparency-and-public-reporting)
 
 7. [Conclusion](#7-conclusion)
 
@@ -41,13 +28,13 @@
 
 > **Section Summary:** This section establishes a $100M fund governed by portfolio management principles with a sustainability mechanism that reinvests 25% of realized savings.
 
-The Breakthrough Modernization Fund applies proven private sector and venture capital investment patterns—adapted for public sector accountability requirements. Like a VC portfolio, the fund accepts that not all investments succeed; diversification across risk categories maximizes overall return while limiting exposure to any single failure. Unlike traditional government budgets that treat each project as pass/fail, this portfolio approach enables the higher-risk, higher-reward initiatives essential for transformational change while maintaining fiscal responsibility through stage-gate oversight and transparent performance measurement.
+This proposal recommends establishing a Breakthrough Modernization Fund that would apply proven private sector and venture capital investment patterns—adapted for public sector accountability requirements. Like a VC portfolio, the fund would accept that not all investments succeed; diversification across risk categories maximizes overall return while limiting exposure to any single failure. Unlike traditional government budgets that treat each project as pass/fail, this portfolio approach would enable the higher-risk, higher-reward initiatives essential for transformational change while maintaining fiscal responsibility through stage-gate oversight and transparent performance measurement.
 
 ### 6.1 Fund Purpose and Structure
 
 **Fund Overview:**
 
-The California Breakthrough Modernization Fund (Breakthrough Fund) capitalizes modernization initiatives, specifically the Fellowship program and the E3 positions. Unlike traditional government budgets that require annual appropriation battles, the Breakthrough Fund operates with multi-year investment authority using portfolio management principles.
+The proposed California Breakthrough Modernization Fund (Breakthrough Fund) would capitalize modernization initiatives, specifically the Fellowship program and the E3 positions. Unlike traditional government budgets that require annual appropriation battles, the Breakthrough Fund would operate with multi-year investment authority using portfolio management principles.
 
 **Why a Dedicated Fund:**
 
@@ -263,28 +250,31 @@ The path to successful modernization begins with these first steps. California's
 
 ---
 
-## Next Steps
-
-This document describes the Breakthrough Fund structure. Continue reading:
-
-- **[Implementation Roadmap](appendices/10-implementation-roadmap.md)** — Phased 36-month implementation plan
-- **[Governance Model](02-governance-model.md)** — E3 structure and data governance
-- **[Talent Development](03-talent-development.md)** — Fellowship program and workforce development
-- **[Procurement Guide](05-procurement-guide.md)** — Technology architecture and procurement innovation
-- **[Operational Guides](appendices/07-operational-guides.md)** — Program guides and frameworks
+> This document is part of the California Enterprise Modernization recommendation. See also:
+> - [Executive Summary](01-executive-summary.md) — Start here for an overview
+> - [Governance Model](02-governance-model.md) — E3 structure and data governance
+> - [Talent Development](03-talent-development.md) — Fellowship program and workforce development
+> - [Procurement Guide](05-procurement-guide.md) — Technology and procurement innovation
+> - [Templates](appendices/06-templates.md) — Fillable forms and templates
+> - [Operational Guides](appendices/07-operational-guides.md) — Program guides and frameworks
+> - [Technical Appendices](appendices/08-technical-appendices.md) — Technical standards and architecture
+> - [Budget and Governance Appendices](appendices/09-budget-and-governance.md) — Budget models and change management
+> - [Implementation Roadmap](appendices/10-implementation-roadmap.md) — Phased 36-month implementation plan
 
 ---
 
 ## Version History
 
-| Version | Date | Description |
-|---------|------|-------------|
-| Executive Draft v1.0 | December 2025 | Initial executive draft with Breakthrough Fund structure |
+| Version | Date | Description | Author |
+|---------|------|-------------|--------|
+| Executive Draft v1.2 | December 8, 2025 | Updated framing to proposal/recommendation language | Brent Vanderburgh |
+| Executive Draft v1.1 | December 8, 2025 | Updated budget summary and clarified Breakthrough Fund capitalization | Brent Vanderburgh |
+| Executive Draft v1.0 | December 2025 | Initial executive draft with Breakthrough Fund structure | Brent Vanderburgh |
 
 ---
 
-**Document Version:** Executive Draft v1.0
-**Date:** December 2025
+**Document Version:** Executive Draft v1.2
+**Date:** December 8, 2025
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 
 ---

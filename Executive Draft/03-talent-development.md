@@ -2,33 +2,20 @@
 ## Talent Development
 
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
-**Date:** December 2025
-**Version:** Executive Draft v1.0
-
----
-
-> This document is part of the California Enterprise Modernization recommendation. See also:
-> - [Executive Summary](01-executive-summary.md) — Start here for an overview
-> - [Governance Model](02-governance-model.md) — E3 structure and data governance
-> - [Funding & Implementation](04-funding-implementation.md) — Breakthrough Fund structure
-> - [Procurement Guide](05-procurement-guide.md) — Technology and procurement innovation
-> - [Templates](appendices/06-templates.md) — Fillable forms and templates
-> - [Operational Guides](appendices/07-operational-guides.md) — Program guides and frameworks
-> - [Technical Appendices](appendices/08-technical-appendices.md) — Technical standards and architecture
-> - [Budget and Governance Appendices](appendices/09-budget-and-governance.md) — Budget models and change management
-> - [Implementation Roadmap](appendices/10-implementation-roadmap.md) — Phased 36-month implementation plan
+**Date:** December 8, 2025
+**Version:** Executive Draft v1.1
 
 ---
 
 ## Table of Contents
 
 5. [Talent Development and Sustainability](#5-talent-development-and-sustainability)
-   - 5.1 Governor's Innovation Fellowship Program
-   - 5.2 Post-Fellowship Engagement
-   - 5.3 Executive Duty Statement Integration
-   - 5.4 Data Governance Teams (Permanent State Staff)
-   - 5.5 Training Programs
-   - 5.6 Labor Relations
+   - [5.1 Governor's Innovation Fellowship Program](#51-governors-innovation-fellowship-program)
+   - [5.2 Post-Fellowship Engagement](#52-post-fellowship-engagement)
+   - [5.3 Executive Duty Statement Integration](#53-executive-duty-statement-integration)
+   - [5.4 Data Governance Teams (Permanent State Staff)](#54-data-governance-teams-permanent-state-staff)
+   - [5.5 Training Programs](#55-training-programs)
+   - [5.6 Labor Relations](#56-labor-relations)
 
 ---
 
@@ -360,27 +347,30 @@ For comprehensive guidance on union engagement, workforce transitions, and train
 
 ---
 
-## Next Steps
-
-This document establishes the talent development approach for California's enterprise modernization. Continue reading:
-
-- **[Funding & Implementation](04-funding-implementation.md)** — Breakthrough Fund structure
-- **[Implementation Roadmap](appendices/10-implementation-roadmap.md)** — Phased 36-month implementation plan
-- **[Governance Model](02-governance-model.md)** — E3 structure and data governance
-- **[Operational Guides](appendices/07-operational-guides.md)** — Including Fellowship curriculum (B.2)
+> This document is part of the California Enterprise Modernization recommendation. See also:
+> - [Executive Summary](01-executive-summary.md) — Start here for an overview
+> - [Governance Model](02-governance-model.md) — E3 structure and data governance
+> - [Funding & Implementation](04-funding-implementation.md) — Breakthrough Fund structure
+> - [Procurement Guide](05-procurement-guide.md) — Technology and procurement innovation
+> - [Templates](appendices/06-templates.md) — Fillable forms and templates
+> - [Operational Guides](appendices/07-operational-guides.md) — Program guides and frameworks
+> - [Technical Appendices](appendices/08-technical-appendices.md) — Technical standards and architecture
+> - [Budget and Governance Appendices](appendices/09-budget-and-governance.md) — Budget models and change management
+> - [Implementation Roadmap](appendices/10-implementation-roadmap.md) — Phased 36-month implementation plan
 
 ---
 
 ## Version History
 
-| Version | Date | Description |
-|---------|------|-------------|
-| Executive Draft v1.0 | December 2025 | Initial executive draft with Fellowship program, data governance teams, and training programs |
+| Version | Date | Description | Author |
+|---------|------|-------------|--------|
+| Executive Draft v1.1 | December 8, 2025 | Updated budget summary and version numbering | Brent Vanderburgh |
+| Executive Draft v1.0 | December 2025 | Initial executive draft with Fellowship program, data governance teams, and training programs | Brent Vanderburgh |
 
 ---
 
-**Document Version:** Executive Draft v1.0
-**Date:** December 2025
+**Document Version:** Executive Draft v1.1
+**Date:** December 8, 2025
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 
 ---

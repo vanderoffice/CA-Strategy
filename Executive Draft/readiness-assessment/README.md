@@ -2,8 +2,8 @@
 
 **A standardized methodology for evaluating California government departments' readiness for technology modernization.**
 
-**Version:** Executive Draft v1.0
-**Date:** December 2025
+**Version:** Executive Draft v1.1
+**Date:** December 8, 2025
 **Prepared for:** California Department of Technology (CDT)
 
 ---
@@ -175,6 +175,15 @@ This assessment directly supports:
 - [Governance Model](../02-governance-model.md) — E3 structure and strategic context
 - [Technical Appendices](../08-technical-appendices.md) — Appendix C summary
 - [CDT Technology Modernization Fund](https://cdt.ca.gov) — Funding programs
+
+---
+
+## Version History
+
+| Version | Date | Description | Author |
+|---------|------|-------------|--------|
+| Executive Draft v1.1 | December 8, 2025 | Added version history table | Brent Vanderburgh |
+| Executive Draft v1.0 | December 2025 | Initial executive draft with readiness assessment framework | Brent Vanderburgh |
 
 ---
 

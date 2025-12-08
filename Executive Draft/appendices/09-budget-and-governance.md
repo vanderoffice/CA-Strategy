@@ -2,21 +2,8 @@
 ## Budget and Governance Appendices
 
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
-**Date:** December 2025
-**Version:** Executive Draft v1.0
-
----
-
-> This document is part of the California Enterprise Modernization recommendation. See also:
-> - [Executive Summary](../01-executive-summary.md) — Start here for an overview
-> - [Governance Model](../02-governance-model.md) — E3 structure, leadership roles, and data governance
-> - [Talent Development](../03-talent-development.md) — Fellowship program and workforce development
-> - [Funding & Implementation](../04-funding-implementation.md) — Breakthrough Fund structure
-> - [Procurement Guide](../05-procurement-guide.md) — Technology and procurement innovation
-> - [Templates](06-templates.md) — Fillable forms and templates
-> - [Operational Guides](07-operational-guides.md) — Program guides and frameworks
-> - [Technical Appendices](08-technical-appendices.md) — Technical standards and architecture
-> - [Implementation Roadmap](10-implementation-roadmap.md) — Phased 36-month implementation plan
+**Date:** December 8, 2025
+**Version:** Executive Draft v1.1
 
 ---
 
@@ -24,12 +11,12 @@
 
 - [Appendix F: Budget and Financial Models](#appendix-f-budget-and-financial-models)
 - [Appendix G: Performance and Change Management Framework](#appendix-g-performance-and-change-management-framework)
-  - G.1 Public Dashboard
-  - G.2 Reporting Cadence
-  - G.3 Change Management: The ADKAR Model
-  - G.4 Resistance Management
-  - G.5 Communication Strategy
-  - G.6 Risk Mitigation Matrix
+  - [G.1 Public Dashboard](#g1-public-dashboard)
+  - [G.2 Reporting Cadence](#g2-reporting-cadence)
+  - [G.3 Change Management: The ADKAR Model](#g3-change-management-the-adkar-model)
+  - [G.4 Resistance Management](#g4-resistance-management)
+  - [G.5 Communication Strategy](#g5-communication-strategy)
+  - [G.6 Risk Mitigation Matrix](#g6-risk-mitigation-matrix)
 
 ---
 
@@ -323,16 +310,30 @@ The following table identifies key risks to the modernization initiative and mit
 
 ---
 
-## Version History
-
-| Version | Date | Description |
-|---------|------|-------------|
-| Executive Draft v1.0 | December 2025 | Initial executive draft with Budget (F) and Governance (G) appendices |
+> This document is part of the California Enterprise Modernization recommendation. See also:
+> - [Executive Summary](../01-executive-summary.md) — Start here for an overview
+> - [Governance Model](../02-governance-model.md) — E3 structure, leadership roles, and data governance
+> - [Talent Development](../03-talent-development.md) — Fellowship program and workforce development
+> - [Funding & Implementation](../04-funding-implementation.md) — Breakthrough Fund structure
+> - [Procurement Guide](../05-procurement-guide.md) — Technology and procurement innovation
+> - [Templates](06-templates.md) — Fillable forms and templates
+> - [Operational Guides](07-operational-guides.md) — Program guides and frameworks
+> - [Technical Appendices](08-technical-appendices.md) — Technical standards and architecture
+> - [Implementation Roadmap](10-implementation-roadmap.md) — Phased 36-month implementation plan
 
 ---
 
-**Document Version:** Executive Draft v1.0
-**Date:** December 2025
+## Version History
+
+| Version | Date | Description | Author |
+|---------|------|-------------|--------|
+| Executive Draft v1.1 | December 8, 2025 | Updated version numbering and added document owner | Brent Vanderburgh |
+| Executive Draft v1.0 | December 2025 | Initial executive draft with Budget (F) and Governance (G) appendices | Brent Vanderburgh |
+
+---
+
+**Document Version:** Executive Draft v1.1
+**Date:** December 8, 2025
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 
 ---

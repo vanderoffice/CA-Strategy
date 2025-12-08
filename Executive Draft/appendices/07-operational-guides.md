@@ -2,31 +2,18 @@
 ## Appendix B: Operational Guides
 
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
-**Date:** December 2025
-**Version:** Executive Draft v1.0
-
----
-
-> This document is part of the California Enterprise Modernization recommendation. See also:
-> - [Executive Summary](../01-executive-summary.md) — Start here for an overview
-> - [Governance Model](../02-governance-model.md) — E3 structure, leadership roles, and data governance
-> - [Talent Development](../03-talent-development.md) — Fellowship program and workforce development
-> - [Funding & Implementation](../04-funding-implementation.md) — Breakthrough Fund structure
-> - [Procurement Guide](../05-procurement-guide.md) — Technology and procurement innovation
-> - [Templates](06-templates.md) — Fillable forms and templates
-> - [Technical Appendices](08-technical-appendices.md) — Technical standards and architecture
-> - [Budget and Governance Appendices](09-budget-and-governance.md) — Budget models and change management
-> - [Implementation Roadmap](10-implementation-roadmap.md) — Phased 36-month implementation plan
+**Date:** December 8, 2025
+**Version:** Executive Draft v1.1
 
 ---
 
 ## Table of Contents
 
 - [Appendix B: Operational Guides](#appendix-b-operational-guides)
-  - B.1 Rapid RFI² Operational Guide
-  - B.2 Fellowship Program Curriculum
-  - B.3 Breakthrough Fund Sustainability Model
-  - B.4 Labor Relations Strategy
+  - [B.1 Rapid RFI² Operational Guide](#b1-rapid-rfi-operational-guide)
+  - [B.2 Fellowship Program Curriculum](#b2-fellowship-program-curriculum)
+  - [B.3 Breakthrough Fund Sustainability Model](#b3-breakthrough-fund-sustainability-model)
+  - [B.4 Labor Relations Strategy](#b4-labor-relations-strategy)
 
 ---
 
@@ -609,16 +596,30 @@ Unresolved labor issues escalate through:
 
 ---
 
-## Version History
-
-| Version | Date | Description |
-|---------|------|-------------|
-| Executive Draft v1.0 | December 2025 | Initial executive draft with operational guides B.1-B.4 |
+> This document is part of the California Enterprise Modernization recommendation. See also:
+> - [Executive Summary](../01-executive-summary.md) — Start here for an overview
+> - [Governance Model](../02-governance-model.md) — E3 structure, leadership roles, and data governance
+> - [Talent Development](../03-talent-development.md) — Fellowship program and workforce development
+> - [Funding & Implementation](../04-funding-implementation.md) — Breakthrough Fund structure
+> - [Procurement Guide](../05-procurement-guide.md) — Technology and procurement innovation
+> - [Templates](06-templates.md) — Fillable forms and templates
+> - [Technical Appendices](08-technical-appendices.md) — Technical standards and architecture
+> - [Budget and Governance Appendices](09-budget-and-governance.md) — Budget models and change management
+> - [Implementation Roadmap](10-implementation-roadmap.md) — Phased 36-month implementation plan
 
 ---
 
-**Document Version:** Executive Draft v1.0
-**Date:** December 2025
+## Version History
+
+| Version | Date | Description | Author |
+|---------|------|-------------|--------|
+| Executive Draft v1.1 | December 8, 2025 | Updated version numbering and added document owner | Brent Vanderburgh |
+| Executive Draft v1.0 | December 2025 | Initial executive draft with operational guides B.1-B.4 | Brent Vanderburgh |
+
+---
+
+**Document Version:** Executive Draft v1.1
+**Date:** December 8, 2025
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 
 ---

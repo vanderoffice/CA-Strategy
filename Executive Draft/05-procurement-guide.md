@@ -2,21 +2,8 @@
 ## Procurement Guide
 
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
-**Date:** December 2025
-**Version:** Executive Draft v1.0
-
----
-
-> This document is part of the California Enterprise Modernization recommendation. See also:
-> - [Executive Summary](01-executive-summary.md) — Start here for an overview
-> - [Governance Model](02-governance-model.md) — E3 structure, leadership roles, and data governance
-> - [Talent Development](03-talent-development.md) — Fellowship program and workforce development
-> - [Funding & Implementation](04-funding-implementation.md) — Breakthrough Fund structure
-> - [Templates](appendices/06-templates.md) — Fillable forms and templates
-> - [Operational Guides](appendices/07-operational-guides.md) — Program guides and frameworks
-> - [Technical Appendices](appendices/08-technical-appendices.md) — Technical standards and architecture
-> - [Budget and Governance Appendices](appendices/09-budget-and-governance.md) — Budget models and change management
-> - [Implementation Roadmap](appendices/10-implementation-roadmap.md) — Phased 36-month implementation plan
+**Date:** December 8, 2025
+**Version:** Executive Draft v1.2
 
 ---
 
@@ -25,16 +12,16 @@
 8. [Technology Architecture](#8-technology-architecture)
 
 9. [Procurement Innovation](#9-procurement-innovation)
-    - 9.1 The Agile Procurement Framework
-    - 9.2 Enterprise Vendor Pools (Multi-Award MSA Model)
-    - 9.3 Modular Contracting
-    - 9.4 Rapid RFI²: Challenge-Based Procurement
-    - 9.5 Procurement On-Ramps by PDL Stage-Gate
-    - 9.6 Delegated Ordering Authority
-    - 9.7 Challenge Manager Role (TMO)
-    - 9.8 Small Business Equity
-    - 9.9 Procurement Automation and Transparency
-    - 9.10 AI-Era Pricing Expectations
+    - [9.1 The Agile Procurement Framework](#91-the-agile-procurement-framework)
+    - [9.2 Enterprise Vendor Pools (Multi-Award MSA Model)](#92-enterprise-vendor-pools-multi-award-msa-model)
+    - [9.3 Modular Contracting](#93-modular-contracting)
+    - [9.4 Rapid RFI²: Challenge-Based Procurement](#94-rapid-rfi-challenge-based-procurement)
+    - [9.5 Procurement On-Ramps by PDL Stage-Gate](#95-procurement-on-ramps-by-pdl-stage-gate)
+    - [9.6 Delegated Ordering Authority](#96-delegated-ordering-authority)
+    - [9.7 Challenge Manager Role (TMO)](#97-challenge-manager-role-tmo)
+    - [9.8 Small Business Equity](#98-small-business-equity)
+    - [9.9 Procurement Automation and Transparency](#99-procurement-automation-and-transparency)
+    - [9.10 AI-Era Pricing Expectations](#910-ai-era-pricing-expectations)
 
 ---
 
@@ -109,7 +96,7 @@ These components work together: Vendor Pools provide the "who," Modular Contract
 
 **The Solution:** Pre-compete once, order many times.
 
-California establishes statewide multi-award Master Service Agreements (MSAs) with pre-qualified vendors across common technology categories. Once a vendor is in the pool, departments issue task orders without re-competing the base contract.
+This proposal recommends that California establish statewide multi-award Master Service Agreements (MSAs) with pre-qualified vendors across common technology categories. Once a vendor is in the pool, departments would issue task orders without re-competing the base contract.
 
 **Pool Categories:**
 
@@ -144,7 +131,7 @@ California establishes statewide multi-award Master Service Agreements (MSAs) wi
 
 ### 9.3 Modular Contracting
 
-**The Rule:** No single IT contract exceeds **$15 million** or **3 years** without legislative waiver.
+**The Recommended Rule:** No single IT contract should exceed **$15 million** or **3 years** without legislative waiver.
 
 *Note: This applies to individual contracts, not programs. A $50M program may consist of multiple $15M contracts with different vendors, enabling competition at each phase. This is the intended design—programs should be structured as multiple modular contracts.*
 
@@ -416,26 +403,31 @@ This policy:
 
 ---
 
-**For detailed implementation support, see companion documents:**
-- [Governance Model](02-governance-model.md) — E3 structure and data governance
-- [Talent Development](03-talent-development.md) — Fellowship program and workforce development
-- [Funding & Implementation](04-funding-implementation.md) — Breakthrough Fund structure
-- [Templates](appendices/06-templates.md) — Templates A.5-A.8 (procurement-related)
-- [Operational Guides](appendices/07-operational-guides.md) — Including B.1 Rapid RFI² Operational Guide
-- [Technical Appendices](appendices/08-technical-appendices.md) — Technology standards and architecture details
+> This document is part of the California Enterprise Modernization recommendation. See also:
+> - [Executive Summary](01-executive-summary.md) — Start here for an overview
+> - [Governance Model](02-governance-model.md) — E3 structure, leadership roles, and data governance
+> - [Talent Development](03-talent-development.md) — Fellowship program and workforce development
+> - [Funding & Implementation](04-funding-implementation.md) — Breakthrough Fund structure
+> - [Templates](appendices/06-templates.md) — Fillable forms and templates
+> - [Operational Guides](appendices/07-operational-guides.md) — Program guides and frameworks
+> - [Technical Appendices](appendices/08-technical-appendices.md) — Technical standards and architecture
+> - [Budget and Governance Appendices](appendices/09-budget-and-governance.md) — Budget models and change management
+> - [Implementation Roadmap](appendices/10-implementation-roadmap.md) — Phased 36-month implementation plan
 
 ---
 
 ## Version History
 
-| Version | Date | Description |
-|---------|------|-------------|
-| Executive Draft v1.0 | December 2025 | Initial executive draft incorporating modular contracting, RFI² innovation, and AI-era pricing |
+| Version | Date | Description | Author |
+|---------|------|-------------|--------|
+| Executive Draft v1.2 | December 8, 2025 | Updated framing to proposal/recommendation language (vendor pools, modular contracting) | Brent Vanderburgh |
+| Executive Draft v1.1 | December 8, 2025 | Updated version numbering and added document owner | Brent Vanderburgh |
+| Executive Draft v1.0 | December 2025 | Initial executive draft incorporating modular contracting, RFI² innovation, and AI-era pricing | Brent Vanderburgh |
 
 ---
 
-**Document Version:** Executive Draft v1.0
-**Date:** December 2025
+**Document Version:** Executive Draft v1.2
+**Date:** December 8, 2025
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 
 ---
