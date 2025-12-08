@@ -25,8 +25,7 @@
 California state government lacks the natural forcing mechanism that drives private sector efficiency. Without market pressure, government agencies accumulate technical debt, maintain outdated systems, and perpetuate inefficient processes:
 
 - Legacy systems consume **70-80%** of IT budgets
-- Procurement cycles average **18-24 months**
-- Only **35-40%** of transactions are completable online
+- Procurement cycles average **12-18 months**
 
 ---
 
@@ -46,14 +45,14 @@ The **Enterprise Efficiency and Effectiveness (E3) Operational Model** creates i
 
 **3. Data Governance Foundation** — Cross-branch authority:
 - Independent Office of State Data Governance with 9-member board
-- Standardized data sharing agreement templates (reducing 18 months to 4-8 weeks for common scenarios)
+- Standardized data sharing agreement templates (reducing 12-18 months to 4-8 weeks for common scenarios)
 - Binding statewide data standards
 
 ---
 
 ## Talent Pipeline
 
-The Governor's Innovation Fellowship produces 60 trained modernization leaders annually through 6-month cohorts. Permanent Data Governance Teams (400-600 positions statewide) provide sustainable capacity.
+The Governor's Innovation Fellowship produces 60 trained modernization leaders annually through 6-month cohorts. Permanent Data Governance Teams (438-530 positions statewide: 30 dedicated department teams plus 6-8 regional hubs) provide sustainable capacity.
 
 See [Talent Development](03-talent-development.md) for details.
 

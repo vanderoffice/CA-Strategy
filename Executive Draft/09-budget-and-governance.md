@@ -35,7 +35,19 @@
 
 ## Appendix F: Budget and Financial Models
 
-> **Cost Estimate Disclaimer:** The budget estimates in this appendix are preliminary planning figures based on comparable positions, programs, and initiatives. Actual costs will vary based on final position classifications, labor negotiations, market conditions, and implementation decisions. These estimates should be refined during detailed budget development with CalHR, Department of Finance, and agency budget offices. All figures are presented in current dollars; multi-year projections do not include inflation adjustments.
+> **Cost Estimate Disclaimer:** The budget estimates in this appendix are preliminary planning figures based on comparable positions, programs, and initiatives. Actual costs will vary based on final position classifications, labor negotiations, market conditions, and implementation decisions. These estimates should be refined during detailed budget development with CalHR, Department of Finance, and agency budget offices.
+
+**Inflation Adjustment Guidance:**
+
+All figures are presented in 2025 current dollars. For multi-year budget planning:
+
+| Cost Category | Recommended Annual Adjustment | Basis |
+|---------------|-------------------------------|-------|
+| Personnel (salaries, benefits) | 3.0% | State employee COLA patterns |
+| Vendor/contractor costs | 2.5% | Technology services inflation |
+| Infrastructure/cloud services | 1.5% | Technology cost deflation trend |
+
+*Example: Year 3 personnel costs of $10M in 2025 dollars = $10.6M in 2028 nominal dollars (3% annually). Apply adjustments when developing Budget Change Proposals and legislative appropriation requests.*
 
 ### F.1 E3 Position Costs
 
@@ -108,18 +120,23 @@
 - Support staff (2): $160K loaded
 - **Total per team: $1.53M-$1.91M annually**
 
-**Statewide Deployment (30-40 teams by Year 3):**
-- **Total: $45.9M-$76.4M annually**
+**Statewide Deployment (by Year 3):**
+
+| Component | Count | Cost |
+|-----------|-------|------|
+| Dedicated department teams | 30 teams | $45.9M-$57.3M annually |
+| Regional hubs (shared services) | 6-8 hubs × 8-10 FTE | $6.1M-$10.2M annually |
+| **Total** | 438-530 positions | **$52.0M-$67.5M annually** |
 
 ### F.6 Breakthrough Fund Capitalization
 
 **Seed Investment:**
-- State appropriation: $50M-$100M one-time
-- Private sector match: $50M-$100M
-- **Total initial fund: $100M-$200M**
+- State appropriation: $50M one-time
+- Private sector match: $50M (Breakthrough Project partners, philanthropy, federal grants)
+- **Total initial fund: $100M**
 
 **Year 1-2 Deployment:**
-- 15-25 projects funded: $50M-$100M deployed
+- 15-20 projects funded: $60M-$80M deployed
 - Average project size: $2M-$4M
 
 **Year 3 Self-Sustainability:**
@@ -135,16 +152,16 @@
 - Independent Office: $8M-$13M (setup + 2 years operating)
 - Fellowship: $2.6M-$3.6M (2 years, incremental costs only)
 - Data governance teams (pilot): $9M-$12M (2 years, 6-10 teams)
-- Breakthrough Fund seed: $50M-$100M (state contribution)
-- **Total initial investment: $98M-$173M**
+- Breakthrough Fund seed: $50M (state contribution; matched by $50M private sector)
+- **Total initial state investment: $98M-$123M**
 
 **Ongoing Operating (Year 3+):**
 - E3 positions: $10.0M-$16.7M annually
 - TMO: $4.1M-$5.4M annually
 - Independent Office: $2.5M-$4M annually
 - Fellowship: $1.3M-$1.8M annually (incremental costs only)
-- Data governance teams: $45.9M-$76.4M annually
-- **Total annual operating: $64M-$104M**
+- Data governance teams (30 dedicated + 6-8 hubs): $52.0M-$67.5M annually
+- **Total annual operating: $70M-$95M**
 
 **Return on Investment:**
 - Year 3 documented savings: $250M+ cumulative
@@ -159,16 +176,35 @@
 
 **Design Principles:**
 - Simple, visual presentation for non-technical audiences
-- Real-time or near-real-time data (updated weekly)
+- Data updated weekly (every Monday by 9am)
 - Drill-down capability (statewide → agency → department → project)
-- Mobile-responsive
+- Mobile-responsive, accessible (WCAG 2.1 AA)
 
 **Dashboard Sections:**
-1. Transformation Overview (progress toward targets, current OKR scores, major milestones)
-2. Project Portfolio Health (total active projects, status breakdown, recent completions)
-3. Agency Scorecards (digital maturity, key metrics, achievements)
-4. Citizen Impact (services digitized, testimonials, savings achieved)
-5. Innovation Highlights (RFI² solicitations, pilots, Fellow spotlights)
+
+| Section | Key Metrics | Data Source |
+|---------|-------------|-------------|
+| **1. Transformation Overview** | OKR scores, milestone progress, overall health | TMO Portfolio System |
+| **2. Project Portfolio** | Active projects, status (green/yellow/red), completions | TMO Portfolio System |
+| **3. Agency Scorecards** | Digital maturity score, readiness tier, YoY improvement | Readiness Assessment data |
+| **4. Citizen Impact** | Services digitized, transactions online, satisfaction scores | Agency service metrics |
+| **5. Innovation Highlights** | RFI² challenges, pilot status, Fellow spotlights | TMO Innovation Team |
+
+**Technical Specification:**
+
+| Attribute | Specification |
+|-----------|---------------|
+| Platform | State-hosted, cloud-based BI tool (Power BI or equivalent) |
+| URL | *dashboard.modernization.ca.gov (to be established)* |
+| Update Frequency | Weekly automated refresh; ad-hoc for major announcements |
+| Data Retention | Rolling 3-year history for trend analysis |
+| Access | Public; no login required for summary views |
+| Maintenance | TMO Performance Analytics Team (0.5 FTE) |
+
+**Implementation Timeline:**
+- Month 3: Dashboard v1.0 operational with Sections 1-2
+- Month 6: Add Sections 3-5; agency drill-down enabled
+- Month 12: Full functionality with citizen feedback integration
 
 ### G.2 Reporting Cadence
 

@@ -34,8 +34,6 @@
 
 ---
 
-## Appendix A: Templates
-
 > **Note:** The templates summarized below are available as separate fillable documents. Contact the Transformation Management Office (TMO) for current versions.
 
 ---
@@ -223,8 +221,8 @@ Vendors claiming minimal AI productivity benefit must explain why:
 
 Current versions of all templates are maintained by the Transformation Management Office. To request templates:
 
-1. **TMO Portal:** [Portal URL to be established]
-2. **Email:** [TMO email to be established]
+1. **TMO Portal:** *URL pending — to be established upon TMO launch*
+2. **Email:** *Address pending — to be established upon TMO launch*
 3. **Intranet:** Available on the GovOps modernization intranet site
 
 Templates are updated periodically. Always verify you have the current version before use.

@@ -268,18 +268,31 @@ Effective data governance requires combining domain expertise with technical dat
 - Shared services (e.g., data infrastructure, training) reducing duplication
 
 **Phase 3 (Months 25-36): Statewide Deployment**
-- Complete deployment across all major departments (40-50 total teams)
+- Complete deployment to 30 departments with dedicated teams
+- Establish 6-8 regional data governance hubs serving remaining departments
 - Mature operating model and standards
 - Self-sustaining communities supporting each other
 - Integration with Office of State Data Governance standards
 
-*Note: Data governance teams will be deployed to the 40-50 largest departments representing approximately 85% of state IT spending and citizen interactions. Smaller departments (approximately 120 of 170 total) will receive shared services support through regional data governance hubs and TMO technical assistance rather than dedicated teams.*
+**Deployment Model:**
+
+| Tier | Departments | Model | Staffing |
+|------|-------------|-------|----------|
+| **Tier 1-2** (Dedicated Teams) | 30 largest departments (~85% of IT spend) | Full 13-15 FTE data governance team | 390-450 positions |
+| **Tier 3-4** (Shared Services) | 140 smaller departments | Regional hub support + TMO technical assistance | 6-8 hubs × 8-10 FTE = 48-80 positions |
+| **Total** | 170 departments | Hybrid model | **438-530 positions** |
+
+**Regional Hub Structure:**
+- 6-8 hubs geographically distributed (Northern CA, Bay Area, Central Valley, Greater LA, etc.)
+- Each hub serves 15-25 smaller departments
+- Hub services: data quality consulting, standards implementation, training, technical assistance
+- Departments retain ownership; hubs provide expertise and surge capacity
 
 **Expected Impact:**
 - 95%+ data quality for critical datasets (up from 60-70% baseline)
-- 80% reduction in data sharing negotiation time (from 18 months to 4-8 weeks for standard scenarios using templates)
+- 80% reduction in data sharing negotiation time (from 12-18 months to 4-8 weeks for standard scenarios using templates)
 - 50%+ increase in data-driven decision making (measured by analytics tool usage)
-- 400-600 permanent civil service positions created (distributed across departments)
+- 438-530 permanent civil service positions created (390-450 in dedicated teams, 48-80 in regional hubs)
 - Sustainable capacity independent of Fellowship program or external consultants
 
 ### 5.5 Training Programs

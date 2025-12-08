@@ -85,6 +85,13 @@ The California Breakthrough Modernization Fund (Breakthrough Fund) capitalizes m
 - **Risk Profile:** Low risk, moderate return
 - **Success Target:** 80%+ success rate
 
+**Quick Win Success Criteria:** A Quick Win is "successful" when it achieves any measurable improvement verified within 6 months:
+- **Time savings:** Reduced processing time (e.g., 40% faster)
+- **Cost reduction:** Lower operating costs or FTE reallocation
+- **Error reduction:** Fewer mistakes, rework, or complaints
+- **User adoption:** Staff or citizens actively using the new capability
+- **Failure acknowledgment:** ~20% of Quick Wins may not deliver expected value; this is acceptable risk. Document lessons learned and move on.
+
 **Category 2: Strategic Initiatives (40% of portfolio)**
 - **Investment Range:** $500K-$5M per initiative
 - **Timeline:** 6-18 months to completion

@@ -1,23 +1,22 @@
-# Enterprise Plan
+# Enterprise Plan (Archive)
 
-**Strategic planning documents for California state government modernization.**
+**Historical strategic planning documents tracing the evolution of California's modernization strategy.**
 
-This folder contains the evolving strategic plans and frameworks developed to guide California's technology modernization journey. The documents trace the evolution from an initial focus on operational efficiency to a product-led delivery model, and finally to comprehensive statewide data governance.
+> **Note:** These are archived versions. For the current authoritative documents, see the [Executive Draft](../../Executive%20Draft/).
 
 ---
 
 ## Strategic Evolution
 
 ```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│  original/          Rev1G3/            Rev2G3/            Rev3G3/           │
-│  ─────────          ───────            ───────            ───────           │
-│  E3 Operational  →  Product-Led     →  Data Governance →  Integrated       │
-│  Model              Government         Framework          Strategy          │
-│                                                                             │
-│  "Forcing           "Life Experience   "Unified data      "Comprehensive    │
-│   mechanism"         Teams"             framework"         roadmap"         │
-└─────────────────────────────────────────────────────────────────────────────┘
+original/     Rev1G3/        Rev2G3/        Rev3C1/       Rev3G3/       Rev4C2/
+─────────     ───────        ───────        ───────       ───────       ───────
+E3 Model  →   Product-Led →  Data Gov   →   Consolidated → Integrated → Pre-Exec
+                             Options                                     Draft
+
+"Forcing      "Life          "Unified       "Combined     "Comprehensive "Final
+ mechanism"    Experience     data           elements"     roadmap"       consolidation"
+               Teams"         framework"
 ```
 
 ---
@@ -28,7 +27,7 @@ This folder contains the evolving strategic plans and frameworks developed to gu
 
 **Focus:** Enterprise Efficiency and Effectiveness (E3)
 
-The initial strategy focused on establishing a structural "forcing mechanism" for government efficiency. Proposes leadership structures (Undersecretaries and Chief Deputy Directors) to drive modernization through an optimized project-centric approach.
+The initial strategy establishing a structural "forcing mechanism" for government efficiency. Proposes leadership structures (Undersecretaries and Chief Deputy Directors).
 
 | Document | Purpose |
 |----------|---------|
@@ -39,20 +38,13 @@ The initial strategy focused on establishing a structural "forcing mechanism" fo
 | Presentation-Slides.md | Stakeholder presentation materials |
 | Templates-Frameworks.md | Practical implementation tools |
 
-**Key Concept:** *"Government without a profit motive needs a structural forcing mechanism."*
-
 ---
 
 ### `Rev1G3/` - Product-Led Government
 
 **Focus:** Product-Led Delivery & Life Experience Teams
 
-A fundamental shift from "managing IT projects" to "delivering products." Introduces cross-agency Life Experience Teams (e.g., "Having a Baby," "Starting a Business") and advocates for:
-
-- Modular contracting
-- Service mesh architecture
-- Revolving technology fund
-- Continuous value delivery
+Shift from "managing IT projects" to "delivering products." Introduces cross-agency Life Experience Teams and modular contracting.
 
 | Document | Purpose |
 |----------|---------|
@@ -61,20 +53,18 @@ A fundamental shift from "managing IT projects" to "delivering products." Introd
 | Rev1G3-Presentation-Slides.md | Communication framework |
 | templates/ | Governance Charter, KPI Dashboard, RFI Guide |
 
-**Key Concept:** *"Move from monolithic systems to modular, autonomous teams delivering value continuously."*
-
 ---
 
 ### `Rev2G3/` - Statewide Data Governance
 
 **Focus:** Data Governance & Interagency Collaboration
 
-Addresses the critical challenge of fragmented data across the state. Presents two strategic options for the Governor:
+Presents strategic options for unified data governance:
 
 | Option | Approach |
 |--------|----------|
-| **Option A** | Strengthen existing interagency governance (Statutory Council + Executive Actions) |
-| **Option B** | Establish new, independent Office of State Data Governance |
+| **Option A** | Strengthen existing interagency governance |
+| **Option B** | Establish Independent Office of State Data Governance |
 
 | Document | Purpose |
 |----------|---------|
@@ -82,15 +72,23 @@ Addresses the critical challenge of fragmented data across the state. Presents t
 | option-a-detailed-implementation.md | Council-based approach |
 | option-b-detailed-implementation.md | Independent office approach |
 
-**Key Concept:** *"Unlocking the value of state data requires a unified governance framework that respects institutional autonomy."*
+---
+
+### `Rev3C1/` - Consolidated Strategy
+
+**Focus:** Initial consolidation of strategy elements
+
+| Document | Purpose |
+|----------|---------|
+| executive-summary.md | Combined executive overview |
+| master-plan.md | Consolidated strategy document |
+| appendices.md | Supporting materials |
 
 ---
 
 ### `Rev3G3/` - Integrated Strategy
 
 **Focus:** Comprehensive Modernization Roadmap
-
-The latest iteration integrating lessons from previous phases into a cohesive, actionable strategy.
 
 | Document | Purpose |
 |----------|---------|
@@ -102,24 +100,17 @@ The latest iteration integrating lessons from previous phases into a cohesive, a
 
 ---
 
-## Reading Order
+### `Rev4C2/` - Pre-Executive Draft
 
-### For Executives (30 minutes)
-1. `original/Executive-Brief.md` - Understand the foundation
-2. `Rev1G3/Rev1G3-Executive-Brief.md` - See the strategic pivot
-3. `Rev2G3/data-governance-main-brief.md` - Review data governance options
-4. `Rev3G3/01_Executive_Brief.md` - Current state summary
+**Focus:** Final consolidation before Executive Draft
 
-### For Strategists (2-3 hours)
-1. Complete executive reading above
-2. `Rev1G3/Rev1G3-Strategy-Report-Part1.md` through Part3
-3. `Rev2G3/option-a-detailed-implementation.md` and `option-b-detailed-implementation.md`
-4. `Rev3G3/02_Strategic_Plan.md` and `03_Implementation_Roadmap.md`
+This version represents the immediate predecessor to the current Executive Draft, containing the unified strategy document and appendices that were restructured into the final document suite.
 
-### For Implementation Teams (Full review)
-1. All documents in reading order
-2. Focus on templates in `Rev1G3/templates/`
-3. Reference `Rev3G3/04_Operational_Toolkit.md` for practical guidance
+| Document | Purpose |
+|----------|---------|
+| california-enterprise-modernization-plan-unified.md | Complete unified document |
+| appendices.md | Supporting appendices |
+| Executive Draft/ | Working drafts |
 
 ---
 
@@ -135,11 +126,12 @@ The latest iteration integrating lessons from previous phases into a cohesive, a
 
 ---
 
-## Related Documents
+## Current Version
 
-- [Readiness Assessment Framework](../readiness-assessment/) - Evaluate department preparation
-- [CA-AIDev Projects](https://github.com/vanderoffice/CA-AIDev) - AI services implementing these strategies
+These archived materials show the evolution of thinking. For implementation, use:
+
+**[Executive Draft](../../Executive%20Draft/)** — Current authoritative version (December 2025)
 
 ---
 
-*Prepared for the Office of Data and Innovation & Governor's Office of Operations*
+*Preserved for historical reference and audit purposes.*

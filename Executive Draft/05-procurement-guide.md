@@ -40,7 +40,21 @@
 
 ## 8. Technology Architecture
 
-California's technology architecture establishes the technical foundation for enterprise modernization, enabling secure, scalable, and interoperable systems across state government. The architecture addresses five key domains:
+California's technology architecture establishes the technical foundation for enterprise modernization, enabling secure, scalable, and interoperable systems across state government.
+
+> **Note:** This section provides a strategic overview. For comprehensive technical specifications, implementation patterns, and standards, see [Appendix H: Technology Architecture Details](08-technical-appendices.md#appendix-h-technology-architecture-details).
+
+### 8.1 Architecture Principles
+
+| Principle | Description |
+|-----------|-------------|
+| **API-First** | All systems expose capabilities through documented APIs; no point-to-point integrations |
+| **Cloud-Native** | New applications designed for cloud deployment; existing systems migrated systematically |
+| **Security by Design** | Zero Trust architecture; security embedded from inception, not added later |
+| **Open Standards** | Prefer open source and open standards; avoid vendor lock-in |
+| **Modular** | Small, independently deployable components; replace strangler pattern for legacy |
+
+### 8.2 Five Architecture Domains
 
 1. **API Management** — Centralized API gateway with developer portal, enabling 200+ APIs across public, partner, and internal tiers
 2. **Legacy Modernization** — Strangler pattern approach achieving 40% legacy reduction over 5 years while maintaining service continuity
@@ -48,13 +62,20 @@ California's technology architecture establishes the technical foundation for en
 4. **Cybersecurity** — Zero Trust architecture with federated identity, continuous monitoring, and NIST/SIMM 5300 compliance
 5. **Agentic Data Systems** — Staff empowerment through state-approved AI patterns and shared infrastructure for data workflows
 
-**Key Targets:**
-- API publication targets: 75 APIs by Year 1, 150 by Year 2, 200 by Year 3 (50 public, 50 partner, 100 internal)
-- 40% legacy system reduction by Year 5
-- 50% of workloads in cloud by Year 3
-- 8-12 week sandbox-to-production for agentic workflows
+### 8.3 Key Targets
 
-For comprehensive technical architecture details, implementation guidance, and standards specifications, see [Appendix H: Technology Architecture Details](08-technical-appendices.md#appendix-h-technology-architecture-details).
+| Domain | Year 1 | Year 3 | Year 5 |
+|--------|--------|--------|--------|
+| APIs Published | 75 | 200 | 300+ |
+| Cloud Workloads | 25% | 50% | 70% |
+| Legacy Reduction | — | 15% | 40% |
+| Agentic Workflows | Sandbox | Production pilots | Scaled adoption |
+
+### 8.4 Governance and Standards
+
+- **Architecture Review Board:** CDT-led, includes E3 Undersecretaries and TMO representation
+- **Standards Compliance:** All projects must demonstrate alignment with architecture principles at stage-gate reviews
+- **Exception Process:** Waivers require CDT and TMO approval; documented rationale; sunset date for compliance
 
 ---
 
@@ -181,7 +202,13 @@ Projects genuinely requiring >$15M single contract must:
 
 **Total time from problem to contract: 8-10 weeks**
 
-*For detailed phase-by-phase operational guidance, example problem statements, and evaluation criteria, see [Appendix B.1: Rapid RFI² Operational Guide](07-operational-guides.md#b1-rapid-rfi-operational-guide).*
+**RFI² Resources:**
+
+| Resource | Location | Contents |
+|----------|----------|----------|
+| Operational Guide | [Appendix B.1](07-operational-guides.md#b1-rapid-rfi-operational-guide) | Phase-by-phase procedures, example problem statements, evaluation criteria |
+| Problem Statement Template | [Template A.7](06-templates.md#a7-rapid-rfi-problem-statement-template) | Standard format for challenge solicitations |
+| AI Disclosure Template | [Template A.8](06-templates.md#a8-ai-productivity-disclosure-template) | Required vendor productivity disclosure |
 
 **Risk Reduction Value:**
 
@@ -330,7 +357,7 @@ Proposals that ignore AI productivity gains or price as if it were 2019 will rec
 AI-assisted development introduces specific risks that vendors must address:
 
 - **Code Review Requirements:** All AI-generated code must undergo human review before deployment. "Vibe coding" (accepting AI output without understanding it) is not acceptable for State systems.
-- **Security Scanning:** AI-generated code must pass security scanning; [research indicates](https://www.glideapps.com/blog/vibe-coding-cost) up to 19% of AI code suggestions contain vulnerabilities
+- **Security Scanning:** AI-generated code must pass security scanning before deployment
 - **Technical Debt Management:** Vendors must demonstrate processes to prevent AI-generated technical debt from accumulating
 - **Accountability:** Vendors remain fully responsible for code quality regardless of AI assistance; AI tools do not shift liability
 
@@ -343,6 +370,34 @@ This policy:
 - **Rewards innovation** by favoring vendors who effectively leverage AI
 - **Maintains quality** by requiring appropriate safeguards for AI-assisted work
 - **Creates transparency** so the State understands how its systems are being built
+
+**Verification and Enforcement:**
+
+| Mechanism | Description |
+|-----------|-------------|
+| **Proposal Review** | Evaluation teams score AI disclosure quality; missing or implausible disclosures reduce technical scores |
+| **Contract Provisions** | Task orders include AI disclosure as deliverable requirement; false disclosure = material breach |
+| **Audit Rights** | State retains right to review vendor tooling, commit histories, and productivity metrics during contract performance |
+| **Sampling Reviews** | TMO conducts random quarterly reviews of 5-10% of active task orders; verifies AI disclosure accuracy |
+| **Remedies** | Unsupported productivity claims may result in: (1) price adjustments, (2) reduced scope, (3) exclusion from future pools |
+
+**Acceptable Productivity Ranges:**
+
+| Work Type | Expected AI Benefit | Low Claim Flag |
+|-----------|--------------------| ---------------|
+| Standard web/mobile development | 25-40% | <10% requires justification |
+| Data engineering/ETL | 20-35% | <10% requires justification |
+| Legacy system maintenance | 10-25% | <5% requires justification |
+| Security/compliance work | 15-30% | <10% requires justification |
+| Custom/specialized development | 15-30% | <10% requires justification |
+
+*Note: Vendors claiming minimal AI benefit must provide written justification (security restrictions, highly specialized domain, primarily non-coding work). TMO reviews and may challenge unsupported claims.*
+
+**Transition for Existing Contracts:**
+
+- New task orders under existing frameworks: AI disclosure required immediately
+- Contract renewals/extensions: AI disclosure required at renewal
+- Existing active task orders: Voluntary disclosure encouraged; not mandatory until next modification
 
 ---
 

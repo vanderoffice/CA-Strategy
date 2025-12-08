@@ -102,15 +102,15 @@ Government agencies operate without this pressure. Budget allocations continue r
 
 - **Legacy System Crisis:** Legacy systems consume 70-80% of IT budgets, leaving 20-30% for innovation, modernization, and new capabilities. The average age of critical government systems exceeds 25 years, with some mainframe systems dating to the 1970s and early 1980s. These systems require increasingly scarce technical expertise (COBOL, Fortran, AS/400) and face mounting failure risks.
 
-- **Data Fragmentation:** Over 400 independent systems across state government prevent information sharing, forcing citizens to provide the same information multiple times to different agencies. Data sharing agreements take 18 months on average to negotiate and execute, creating barriers to cross-agency collaboration and integrated service delivery.
+- **Data Fragmentation:** Over 400 independent systems across state government prevent information sharing, forcing citizens to provide the same information multiple times to different agencies. Data sharing agreements take 12-18 months on average to negotiate and execute, creating barriers to cross-agency collaboration and integrated service delivery.
 
-- **Procurement Delays:** Traditional procurement cycles average 18-24 months from requirement definition to contract award, delaying technology adoption by years and compounding costs. Large monolithic contracts create vendor lock-in, reduce competition, and concentrate risk in single points of failure.
+- **Procurement Delays:** Traditional procurement cycles average 12-18 months from requirement definition to contract award, delaying technology adoption by years and compounding costs. Large monolithic contracts create vendor lock-in, reduce competition, and concentrate risk in single points of failure.
 
 - **Cybersecurity Vulnerabilities:** Outdated infrastructure exposes citizen data to increasing threats. Systems lacking modern security controls (multi-factor authentication, encryption at rest and in transit, continuous monitoring, zero-trust architecture) create organizational risk and compliance challenges.
 
 - **Workforce Skills Gap:** 33% of government workers have low or no digital skills despite 92% of jobs now requiring them. Compensation gaps of 20-40% versus private sector drive technical talent attrition, particularly in high-demand specialties (cloud architecture, data science, cybersecurity, DevOps). The average age of IT workers in government exceeds 50, with retirement wave creating knowledge loss.
 
-- **Service Delivery Gaps:** Only 35-40% of government transactions are completable entirely online as of 2024. Citizens must navigate fragmented services, visit multiple agencies for related needs, and interact with systems designed around bureaucratic structures rather than user needs. Multi-language support and accessibility compliance remain inconsistent.
+- **Service Delivery Gaps:** Citizens must navigate fragmented services, visit multiple agencies for related needs, and interact with systems designed around bureaucratic structures rather than user needs. Multi-language support and accessibility compliance remain inconsistent.
 
 - **Innovation Deficit:** Risk-averse cultures penalize failure more than they reward innovation. Experimentation requires extensive approvals; pilots struggle to reach production; "not invented here" syndrome limits knowledge sharing across agencies. First-mover disadvantage discourages initiative.
 
@@ -170,6 +170,26 @@ The E3 model creates empowered champions at every agency who can mandate adoptio
 - **Partnership Model:** E3 leaders allocate budget for ODI services and mandate department participation in ODI programs
 - **Performance Analytics:** ODI expertise supports TMO performance measurement and dashboard development
 
+**ODI-E3 Collaboration Model:**
+
+| Service | ODI Role | E3 Role | Governance |
+|---------|----------|---------|------------|
+| **CalInnovate** | Deliver service design sprints | Mandate participation; fund projects | Undersecretary sponsors each engagement |
+| **CalAcademy** | Develop curriculum; deliver training | Require completion for E3 staff | TMO tracks completion rates |
+| **Design System** | Maintain California Design System | Mandate use for citizen services | CDT enforces compliance at procurement |
+| **Data Standards** | Develop templates, schemas | Adopt and implement | Independent Office reviews compliance |
+| **Analytics Support** | Provide methodology, tools | Execute departmental analytics | CDD requests; ODI prioritizes |
+
+**Decision Authority:**
+- **Mandatory Services:** CalAcademy training, Design System compliance, API standards — E3 leaders must require these
+- **Optional Services:** CalInnovate engagements, analytics consulting — E3 leaders request based on need; ODI prioritizes based on capacity and impact
+- **Conflict Resolution:** If ODI and E3 leader disagree on approach/priority, escalate to TMO Director then GovOps Secretary
+
+**Performance Metrics:** ODI success in E3 context measured by:
+- Training completion rates (target: 90%+ of E3 staff complete CalAcademy foundations within 6 months)
+- Design System adoption (target: 100% of new citizen-facing services use California Design System)
+- Service design engagement outcomes (target: 80%+ of CalInnovate projects show measurable improvement)
+
 By embedding ODI methods in E3 structure, proven approaches scale from pilot projects to enterprise-wide practice.
 
 ### 1.6 Government Operations Agency: Coordination Hub
@@ -217,11 +237,36 @@ This Enterprise Modernization Plan establishes a framework that enables GovOps t
 - Creates peer network enabling collaboration and best practice sharing
 - Coordination, not command-and-control
 
+**E3 Council Operating Structure:**
+
+| Attribute | Specification |
+|-----------|---------------|
+| **Membership** | All appointed Undersecretaries + TMO Director + ODI Director + CDT Director (advisory) |
+| **Chair** | Rotating annually among Undersecretaries; GovOps Secretary serves as inaugural Chair (Year 1) |
+| **Frequency** | Monthly (first Tuesday); special sessions as needed |
+| **Quorum** | Majority of appointed Undersecretaries |
+| **Decision Model** | Consensus preferred; formal votes by simple majority when needed |
+| **Scope** | Information sharing, best practices, cross-agency coordination; no binding authority over individual agencies |
+| **Staff Support** | TMO provides agenda, minutes, logistics; tracks action items |
+| **Escalation** | Unresolved disputes escalate to GovOps Secretary, then Governor's Office |
+
 **Leveraging GovOps Expertise Statewide:**
 - **CDT** provides technology standards, cybersecurity guidance, cloud infrastructure, and enterprise architecture services to all E3 initiatives
 - **ODI** provides innovation methods, human-centered design, CalAcademy training, and DIF funding partnerships across all agencies
 - **CalHR** provides workforce planning, classification support for data governance teams, and change management guidance statewide
 - **DGS** supports procurement innovation, modular contracting, and facilities management for all agencies
+
+**CDT-E3 Governance Relationship:**
+
+| Domain | CDT Role | E3 Role | Decision Authority |
+|--------|----------|---------|-------------------|
+| **Standards** | Develop and maintain SIMM/SAM | Implement within projects | CDT sets; E3 complies |
+| **Security** | Set policies, operate SOC, provide guidance | Implement within departments | CDT policies binding; E3 executes |
+| **Cloud** | Manage infrastructure, negotiate enterprise contracts | Select services for projects | CDT provides options; E3 selects within approved services |
+| **Architecture** | Define enterprise architecture principles | Design solutions within principles | CDT reviews $2M+ projects; E3 owns design |
+| **Procurement** | Technical review for IT procurements | Lead procurement process | Joint review for major procurements ($5M+) |
+
+**Dispute Resolution:** If Undersecretary and CDT disagree on technical approach, escalate to GovOps Secretary. CDT security policies are non-negotiable; architecture and cloud decisions allow flexibility within standards.
 
 The E3 structure transforms GovOps from an agency with limited direct authority into the **coordination hub** for statewide modernization, providing infrastructure, expertise, and support that enables E3 leaders across all agencies to succeed. This respects California's decentralized governance while creating the coordination necessary for enterprise transformation.
 
@@ -392,7 +437,7 @@ Chief Deputy Directors are hands-on leaders who understand both technology and d
 - Implement Independent Office data governance policies and standards within department context
 - Lead department data governance teams (blended scientists/engineers + data specialists)
 - Ensure data quality and master data alignment with statewide definitions; track data quality KPIs
-- Execute data sharing agreements with partner agencies; reduce negotiation time from 18 months to 4-8 weeks for standard scenarios using templates
+- Execute data sharing agreements with partner agencies; reduce negotiation time from 12-18 months to 4-8 weeks for standard scenarios using templates
 - Deploy analytics and reporting capabilities; democratize data access for evidence-based decision making
 
 **User Experience and Service Design (10% of role):**
@@ -407,6 +452,17 @@ Chief Deputy Directors are hands-on leaders who understand both technology and d
 - Recommend vendor selections and contract awards to Department Director and Undersecretary
 - Escalate barriers to Undersecretary, Department Director, or TMO as appropriate
 - Mandate ODI CalAcademy training completion for modernization team members
+
+**Decision Authority Matrix (Undersecretary vs. Chief Deputy Director):**
+
+| Decision Type | Under $500K | $500K-$2M | $2M-$5M | Over $5M |
+|--------------|-------------|-----------|---------|----------|
+| **Project Approval** | CDD approves | CDD approves; Undersecretary notified | CDD recommends; Undersecretary approves | Undersecretary + TMO review |
+| **Vendor Selection** | CDD approves | CDD approves; Undersecretary notified | CDD recommends; Undersecretary approves | Undersecretary + CDT consultation |
+| **Architecture Decisions** | CDD approves (CDT standards apply) | CDD approves; Undersecretary notified | Undersecretary approves; CDT consultation | Undersecretary + CDT mandatory review |
+| **Data Sharing Agreements** | CDD approves (Template 1-2) | CDD recommends; Undersecretary approves (Template 2-3) | Undersecretary approves (Template 3) | Independent Office review (Template 4) |
+
+**Escalation Path:** CDD → Undersecretary → TMO → GovOps Secretary (for cross-agency conflicts)
 
 **Qualifications:**
 - **Preferential Hiring:** Completion of Governor's Innovation Fellowship with successful project delivery and positive evaluations
@@ -513,6 +569,28 @@ The Independent Office of State Data Governance follows California's Little Hoov
 
 *Note: Establishing the Independent Office of State Data Governance requires enabling legislation. The cross-branch appointment structure and binding authority outlined below cannot be achieved through executive order alone. This recommendation assumes legislative partnership and should be developed in coordination with the Legislature.*
 
+**Legislative Strategy and Timeline:**
+
+| Phase | Timeline | Activities |
+|-------|----------|------------|
+| **Draft Development** | Months 1-3 | Develop model legislation with Governor's office and legislative counsel; stakeholder consultation |
+| **Legislative Introduction** | Months 4-6 | Bill introduction; committee hearings; amendments |
+| **Passage Target** | Months 7-10 | Floor votes; conference committee if needed; Governor signature |
+| **Board Formation** | Months 11-14 | Appointment process; initial board meetings; hire Executive Director |
+| **Operational Launch** | Months 15-18 | Office staffing; initial standards development; begin data sharing framework |
+
+**Interim Governance (If Legislation Delayed):**
+
+If enabling legislation is not enacted by Month 12, the following interim structure will operate under executive authority:
+
+1. **California Interagency Data Council (CIDC):** Executive-branch-only body convened by GovOps Secretary with representation from all cabinet agencies. Limited to executive branch coordination; cannot bind legislative/judicial branches.
+
+2. **Interim Powers:** CIDC can develop draft standards, pilot data sharing agreements between executive agencies, and build technical infrastructure. All work designed to transition seamlessly to Independent Office once established.
+
+3. **Limitations Acknowledged:** Interim structure lacks cross-branch authority and binding enforcement. Data sharing with courts, Legislature, and external entities will require case-by-case negotiation until Independent Office established.
+
+4. **Advocacy Continuation:** TMO and E3 leaders continue legislative advocacy; provide progress reports demonstrating value of data sharing to build support for full authorization.
+
 ### 3.2 Board Composition (9 Members Minimum)
 
 **Required Seats:**
@@ -552,7 +630,7 @@ Each board seat must have an assigned Senior Technical Advisor who provides tech
 
 **Why Four Template Types Matter:**
 
-Data sharing negotiations currently take 18 months because every agreement is custom. Standardized templates reduce this to 4-8 weeks by providing pre-approved legal language, technical specifications, and risk mitigation approaches for common scenarios. For a complete sample Data Sharing Agreement (Type 3: Moderate Sensitivity), see [Template A.2](06-templates.md#a2-data-sharing-agreement-template-type-3-moderate-sensitivity).
+Data sharing negotiations currently take 12-18 months because every agreement is custom. Standardized templates reduce this to 4-8 weeks by providing pre-approved legal language, technical specifications, and risk mitigation approaches for common scenarios. For a complete sample Data Sharing Agreement (Type 3: Moderate Sensitivity), see [Template A.2](06-templates.md#a2-data-sharing-agreement-template-type-3-moderate-sensitivity).
 
 **Template 1: Public Data Exchange**
 - **Use Case:** Sharing non-sensitive data between state agencies for operational purposes (e.g., business registry data, public facility locations, aggregate statistics)
@@ -619,6 +697,43 @@ Traditional government organizes around agencies. Citizens experience life event
 
 Citizen Journey Teams bring together E3 leaders, SMEs, and Fellows from relevant agencies to redesign experiences around these journeys, creating seamless integrated services.
 
+**Team Structure and Governance:**
+
+| Role | Source | Responsibility |
+|------|--------|----------------|
+| **Executive Sponsor** | Undersecretary from lead agency | Champion, resource allocation, barrier removal |
+| **Journey Lead** | Senior Fellow or CDD | Day-to-day leadership, coordination, delivery |
+| **Agency Representatives** | CDDs or delegates from each participating agency | Subject matter expertise, agency commitment |
+| **Design Lead** | ODI CalInnovate | User research, service design, prototyping |
+| **Technical Lead** | TMO or agency IT | Architecture, API integration, data sharing |
+| **Data Governance** | Data governance team members | Data standards, privacy, sharing agreements |
+
+**Operating Model:**
+
+1. **Formation (Month 1):** Governor's Office or E3 Council selects priority journeys; assigns Executive Sponsor; charters team with clear scope, success metrics, and timeline
+2. **Discovery (Months 2-3):** Map current citizen experience; identify pain points; quantify baseline metrics (time to completion, touchpoints, error rates, satisfaction)
+3. **Design (Months 4-5):** Co-design improved experience with citizens; prototype key interactions; validate with user testing
+4. **Build (Months 6-12):** Implement changes using Service Mesh, APIs, and coordinated agency processes; deploy incrementally
+5. **Measure (Ongoing):** Track success metrics; iterate based on feedback; document and share learnings
+
+**Success Metrics:**
+
+| Metric | Definition | Target |
+|--------|------------|--------|
+| Journey Completion Time | Days from initiation to resolution | 50% reduction |
+| Touchpoints Required | Number of agency interactions | 60% reduction |
+| Digital Completion Rate | % of journeys completed online | 80%+ |
+| Citizen Satisfaction | Post-journey survey score | +20 points (NPS) |
+| Error/Rework Rate | % requiring resubmission or correction | <5% |
+
+**Initial Priority Journeys (Phase 2 Launch):**
+
+| Journey | Lead Agency | Participating Agencies | Estimated Impact |
+|---------|-------------|----------------------|------------------|
+| New Business Formation | Secretary of State | FTB, EDD, ABC, CalOSHA | 100K+ businesses/year |
+| Disaster Recovery | CalOES | HCD, CDI, CalSBA, EDD | Critical resilience |
+| Workforce Retraining | EDD | CCC, CWDB, DSS | Economic mobility |
+
 ### 4.3 Procurement Integration
 
 Product-led delivery requires procurement that moves at the speed of product development. California integrates contracting directly into the Product Delivery Lifecycle through:
@@ -681,7 +796,7 @@ This document establishes the governance foundation for California's enterprise 
 | SOC | Security Operations Center |
 | SSO | Single Sign-On |
 | TMO | Transformation Management Office |
-| WCAG | Web Content Accessibility Guidelines |
+| WCAG | Web Content Accessibility Guidelines (2.1 AA is California minimum) |
 
 ---
 

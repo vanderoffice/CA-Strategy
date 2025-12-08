@@ -152,7 +152,7 @@
 |--------|--------|
 | Undersecretaries appointed (cumulative) | 8 |
 | Chief Deputy Directors deployed (cumulative) | 15 |
-| Fellows graduated (cumulative) | 60 |
+| Fellows graduated (cumulative) | 60 (Cohorts 1-3) |
 | Quick Wins completed (cumulative) | 18 |
 | Strategic Initiatives launched | 5 |
 | Verified savings | $5M |
@@ -206,8 +206,8 @@
 |--------|--------|
 | Undersecretaries deployed | 8-12 |
 | Chief Deputy Directors deployed | 30-40 |
-| Fellows graduated (cumulative) | 120+ |
-| Data governance team members | 300-500 |
+| Fellows graduated (cumulative) | 120+ (Cohorts 1-6) |
+| Data governance team members | 438-530 (30 teams + 6-8 hubs) |
 | Quick Wins completed (cumulative) | 50+ |
 | Strategic Initiatives completed | 10+ |
 | Verified savings (cumulative) | $25M+ |

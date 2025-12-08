@@ -170,6 +170,18 @@ The assessment evaluates six critical domains:
 
 **Undersecretary for E3:** Agency-level position with authority over technology, data governance, and performance management
 
+**Citizen Journey Team:** Cross-agency team redesigning government services around life events rather than agency boundaries
+
+**Modular Contracting:** Contract structure limiting individual IT contracts to $15M maximum to reduce risk and increase competition
+
+**PAL:** Project Approval Lifecycle - CDT's four-stage framework for IT project oversight (Stage 1: Business Analysis, Stage 2: Alternatives Analysis, Stage 3: Solution Development, Stage 4: Project Readiness)
+
+**Readiness Assessment:** Technology Readiness Assessment Framework - Standardized methodology evaluating department readiness for modernization across six domains
+
+**Senior Fellow:** Graduate of Governor's Innovation Fellowship who remains engaged as mentor, advisor, or transition to permanent E3 position
+
+**Stage 1:** First phase of PAL focusing on business case development, problem definition, and preliminary cost-benefit analysis
+
 **Zero Trust:** Security model requiring continuous verification, not one-time authentication
 
 ---
@@ -179,6 +191,23 @@ The assessment evaluates six critical domains:
 > **Appendix Summary:** This appendix provides comprehensive technical architecture guidance across six domains: API Management (H.1), Legacy Modernization (H.2), Cloud Strategy (H.3), Cybersecurity (H.4), Agentic Data Systems (H.5), and Technology Standards (H.6). Use as reference for technical implementation decisions.
 
 This appendix provides comprehensive technical architecture guidance for California's enterprise modernization initiative, incorporating and expanding upon the Technology Standards Catalog.
+
+### Standards Hierarchy
+
+California's technology implementations must comply with multiple regulatory frameworks. The following hierarchy applies when standards conflict or overlap:
+
+| Priority | Framework | Scope | Authority |
+|----------|-----------|-------|-----------|
+| 1 | **Federal Program Requirements** | Systems handling federal data (HIPAA, CJIS, FedRAMP) | Required for federal funding/data access |
+| 2 | **California SIMM/SAM** | All state IT systems | CDT policy; mandatory compliance |
+| 3 | **NIST Frameworks** | Security, risk management | Recommended baseline; exceeds SIMM where specified |
+| 4 | **Industry Standards** | Domain-specific (HL7 FHIR, NIEM) | Required for interoperability |
+
+**Decision Tree for Compliance:**
+1. Does the system handle federal data (health, criminal justice, tax)? → Apply federal program requirements (HIPAA, CJIS, IRS Pub 1075)
+2. Does the system require federal authorization? → Apply FedRAMP + SIMM 5300
+3. All other systems → Apply SIMM 5300 as baseline; NIST 800-53 controls where SIMM is silent
+4. Domain-specific data exchange → Apply relevant interoperability standards (HL7 FHIR for health, NIEM for justice)
 
 ### H.1 API Management Strategy
 

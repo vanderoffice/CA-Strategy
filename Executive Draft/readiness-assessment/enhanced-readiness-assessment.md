@@ -951,13 +951,15 @@ I certify that this assessment accurately represents the current state of our de
 1. **Complete all sections** of this assessment form
 2. **Gather supporting documentation** listed above
 3. **Obtain executive approval** and signature
-4. **Submit assessment package** to: [CDT Contact/Portal Information]
-5. **Submission deadline**: _______________
+4. **Submit assessment package** to: CDT Technology Modernization Office via secure portal
+5. **Submission deadline**: *Per CDT assessment cycle announcement*
 
 For questions or technical assistance during the assessment process, contact:
 - Email: technology.readiness@cdt.ca.gov
-- Office Hours: [Schedule and contact information]
-- Resource Portal: [URL]
+- Office Hours: Tuesdays and Thursdays, 10am-12pm PT (during assessment period)
+- Resource Portal: *URL to be established at assessment launch*
+
+*Note: Digital submission via secure portal preferred. Electronic signatures accepted. Contact CDT for accessibility accommodations.*
 
 ---
 

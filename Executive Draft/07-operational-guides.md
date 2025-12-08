@@ -30,8 +30,6 @@
 
 ---
 
-## Appendix B: Operational Guides
-
 > **Appendix Summary:** This appendix contains four operational guides: the Rapid RFI² process guide (B.1), Fellowship program curriculum (B.2), Breakthrough Fund sustainability model (B.3), and labor relations strategy (B.4).
 
 ---
@@ -472,6 +470,17 @@ At self-sustainability:
 | Savings not captured in budget | TMO tracks savings; automatic budget adjustment policy |
 | Departments resist budget reduction | Savings reinvested in department priorities; not purely extractive |
 | Political pressure to redirect funds | Statutory protection for 25% diversion; transparent reporting |
+| Diminishing returns (low-hanging fruit exhausted) | See Long-Term Sustainability Note below |
+
+**Long-Term Sustainability Note:**
+
+This model assumes continued discovery of modernization opportunities with at least 60% ROI. As early Quick Wins are completed, remaining opportunities may be more complex and expensive with lower returns. If annual reinvestment drops below $10M by Year 6:
+
+1. **Trigger Review:** TMO conducts strategic assessment of remaining modernization backlog
+2. **Options:** (a) Expand scope to include operational efficiency beyond IT, (b) Increase reinvestment percentage from 25% to 35%, (c) Request General Fund supplemental appropriation
+3. **Contingency:** State commits to baseline funding (~$10M/year) if self-sustainability not achieved by Year 7
+
+The goal is self-sustainability, but modernization is too important to abandon if the financial model requires adjustment.
 
 ---
 
@@ -526,6 +535,16 @@ This appendix provides guidance for engaging labor unions in enterprise moderniz
 - Natural attrition (retirements, voluntary departures) absorbs most position reductions
 - Hiring freezes in affected classifications accelerate attrition-based reduction
 - No involuntary separations from modernization initiatives
+
+**Enforcement of No-Layoff Commitment:**
+
+| Mechanism | Description |
+|-----------|-------------|
+| **Monitoring** | TMO tracks all separations monthly; flags any coded as "modernization-related" |
+| **Reporting** | Quarterly reports to Governor's Office and labor unions on workforce transitions |
+| **Escalation** | Departments proposing layoffs must demonstrate: (1) exhausted reassignment options, (2) offered retraining, (3) attrition timeline infeasible. TMO Director and CalHR Deputy Director must concur before any exception. |
+| **Consequences** | Departments violating commitment lose access to Breakthrough Fund, face E3 leader performance review |
+| **Employee Remedy** | Affected employees may appeal to CalHR; reinstatement + back pay if separation found improper |
 
 **Reassignment Priorities:**
 1. Within same department to higher-value work
