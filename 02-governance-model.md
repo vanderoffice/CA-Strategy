@@ -62,7 +62,7 @@ Every technology investment and process change must demonstrably improve citizen
 Data, metrics, and rigorous evaluation guide resource allocation, project prioritization, and performance assessment. The Readiness Assessment framework ensures strategic deployment of resources based on department preparedness, reducing risk and maximizing probability of success. Transparency in both successes and failures enables organizational learning. What gets measured gets managed; what gets shared gets improved.
 
 **Actual Authority**
-E3 leaders and governance bodies must have real decision-making power over technology investments, data sharing mandates, procurement approvals, and performance accountability—not merely advisory roles. The Independent Office structure and E3 leadership positions provide enforceable authority that transcends traditional agency boundaries. Without authority, modernization becomes optional; with authority, it becomes inevitable.
+Modernization leaders and governance bodies must have real decision-making power over technology investments, data sharing mandates, procurement approvals, and performance accountability—not merely advisory roles. The Independent Office of State Data Governance structure and the E3 Undersecretary and E3 Chief Deputy Director positions proposed in this plan provide enforceable authority that transcends traditional agency boundaries. Without authority, modernization becomes optional; with authority, it becomes inevitable.
 
 **Readiness-Based Deployment**
 Not all departments are equally prepared for modernization. Strategic use of the Readiness Assessment framework ensures resources flow to departments positioned for success, creating early wins that build momentum rather than premature failures that generate resistance. This principle recognizes that transformation requires capability, not just commitment.
@@ -109,34 +109,34 @@ The **Office of Data and Innovation (ODI)** has pioneered the approaches this pl
 
 **ODI's Role in This Plan:**
 
-The proposed E3 model would create empowered champions at every agency who can mandate adoption of ODI-developed tools, practices, and standards. ODI would transition from optional service provider to essential enabler:
+The proposed E3 Operational Model would create empowered champions at every agency who can mandate adoption of ODI-developed tools, practices, and standards. ODI would transition from optional service provider to essential enabler:
 
-- **Innovation Methods:** CalInnovate approaches become standard practice for all E3 initiatives
-- **Training Infrastructure:** CalAcademy becomes foundational training for all E3 leaders, Fellows, and data governance teams
+- **Innovation Methods:** CalInnovate approaches become standard practice for all modernization initiatives
+- **Training Infrastructure:** CalAcademy becomes foundational training for all E3 Undersecretaries, E3 Chief Deputy Directors, Fellows, and data governance teams
 - **Technical Standards:** ODI-developed API standards, data sharing templates, and design systems become mandatory rather than voluntary
-- **Partnership Model:** E3 leaders allocate budget for ODI services and mandate department participation in ODI programs
+- **Partnership Model:** E3 Undersecretaries and E3 Chief Deputy Directors allocate budget for ODI services and mandate department participation in ODI programs
 - **Performance Analytics:** ODI expertise supports TMO performance measurement and dashboard development
 
-**ODI-E3 Collaboration Model:**
+**ODI Collaboration with E3 Leadership:**
 
-| Service | ODI Role | E3 Role | Governance |
-|---------|----------|---------|------------|
-| **CalInnovate** | Deliver service design sprints | Mandate participation; fund projects | Undersecretary sponsors each engagement |
+| Service | ODI Role | E3 Undersecretary/CDD Role | Governance |
+|---------|----------|----------------------------|------------|
+| **CalInnovate** | Deliver service design sprints | Mandate participation; fund projects | E3 Undersecretary sponsors each engagement |
 | **CalAcademy** | Develop curriculum; deliver training | Require completion for E3 staff | TMO tracks completion rates |
 | **Design System** | Maintain California Design System | Mandate use for citizen services | CDT enforces compliance at procurement |
 | **Data Standards** | Develop templates, schemas | Adopt and implement | Independent Office reviews compliance |
-| **Analytics Support** | Provide methodology, tools | Execute departmental analytics | CDD requests; ODI prioritizes |
+| **Analytics Support** | Provide methodology, tools | Execute departmental analytics | E3 Chief Deputy Director requests; ODI prioritizes |
 
 **Decision Authority:**
-- **Mandatory Services:** CalAcademy training, Design System compliance, API standards — E3 leaders must require these
-- **Optional Services:** CalInnovate engagements, analytics consulting — E3 leaders request based on need; ODI prioritizes based on capacity and impact
-- **Conflict Resolution:** If ODI and E3 leader disagree on approach/priority, escalate to TMO Director then GovOps Secretary
+- **Mandatory Services:** CalAcademy training, Design System compliance, API standards — E3 Undersecretaries and E3 Chief Deputy Directors must require these
+- **Optional Services:** CalInnovate engagements, analytics consulting — E3 Undersecretaries and E3 Chief Deputy Directors request based on need; ODI prioritizes based on capacity and impact
+- **Conflict Resolution:** If ODI and E3 leaders disagree on approach/priority, escalate to TMO Director then GovOps Secretary
 
 ### 1.6 Government Operations Agency: Coordination Hub
 
 The **Government Operations Agency (GovOps)** serves as California's management and efficiency agency. GovOps houses the expertise in technology (CDT), innovation (ODI), and workforce management (CalHR) that all agencies need.
 
-**How E3 Expands GovOps Coordination Capability:**
+**How This Plan Expands GovOps Coordination Capability:**
 
 This Enterprise Modernization Plan establishes a framework that enables GovOps to coordinate statewide efficiency and effectiveness initiatives while respecting the autonomy of other cabinet agencies:
 
@@ -147,7 +147,7 @@ This Enterprise Modernization Plan establishes a framework that enables GovOps t
 
 **Statewide E3 Council:**
 - Convened through Governor's Office with TMO providing staff support
-- Brings together E3 Undersecretaries from all agencies for coordination, alignment, and peer learning
+- Brings together all E3 Undersecretaries from all agencies for coordination, alignment, and peer learning
 - Coordination, not command-and-control
 
 **Leveraging GovOps Expertise Statewide:**
@@ -158,21 +158,21 @@ This Enterprise Modernization Plan establishes a framework that enables GovOps t
 
 **CDT-E3 Governance Relationship:**
 
-| Domain | CDT Role | E3 Role | Decision Authority |
-|--------|----------|---------|-------------------|
-| **Standards** | Develop and maintain SIMM/SAM | Implement within projects | CDT sets; E3 complies |
-| **Security** | Set policies, operate SOC, provide guidance | Implement within departments | CDT policies binding; E3 executes |
-| **Cloud** | Manage infrastructure, negotiate enterprise contracts | Select services for projects | CDT provides options; E3 selects within approved services |
-| **Architecture** | Define enterprise architecture principles | Design solutions within principles | CDT reviews $2M+ projects; E3 owns design |
+| Domain | CDT Role | E3 Undersecretary/CDD Role | Decision Authority |
+|--------|----------|----------------------------|-------------------|
+| **Standards** | Develop and maintain SIMM/SAM | Implement within projects | CDT sets standards; E3 leaders comply |
+| **Security** | Set policies, operate SOC, provide guidance | Implement within departments | CDT policies binding; E3 leaders execute |
+| **Cloud** | Manage infrastructure, negotiate enterprise contracts | Select services for projects | CDT provides options; E3 leaders select within approved services |
+| **Architecture** | Define enterprise architecture principles | Design solutions within principles | CDT reviews $2M+ projects; E3 leaders own design |
 | **Procurement** | Technical review for IT procurements | Lead procurement process | Joint review for major procurements ($5M+) |
 
-**Dispute Resolution:** If Undersecretary and CDT disagree on technical approach, escalate to GovOps Secretary. CDT security policies are non-negotiable; architecture and cloud decisions allow flexibility within standards.
+**Dispute Resolution:** If E3 Undersecretary and CDT disagree on technical approach, escalate to GovOps Secretary. CDT security policies are non-negotiable; architecture and cloud decisions allow flexibility within standards.
 
 ---
 
 ## 2. The E3 Operational Model
 
-> **Section Summary:** This section defines the E3 governance architecture, including the roles, responsibilities, authorities, and deployment strategy for Undersecretaries, Chief Deputy Directors, and the Transformation Management Office.
+> **Section Summary:** This section defines the governance architecture for the E3 Operational Model, including the roles, responsibilities, authorities, and deployment strategy for Undersecretaries, Chief Deputy Directors, and the Transformation Management Office.
 
 The E3 Operational Model establishes explicit accountability for modernization through new leadership positions with direct authority over technology, process, and organizational transformation.
 
@@ -193,36 +193,36 @@ Government Operations Agency (GovOps)
 │   └── Knowledge Management
 │
 Agency Secretaries (GovOps, CalHHS, CNRA, Transportation, Corrections, etc.)
-├── Undersecretary for Efficiency and Effectiveness
+├── E3 Undersecretary (Undersecretary for Efficiency and Effectiveness)
 │   ├── Reports to: Agency Secretary
-│   ├── Coordinates with: TMO, Office of State Data Governance, other Undersecretaries
+│   ├── Coordinates with: TMO, Office of State Data Governance, other E3 Undersecretaries
 │   ├── Partners with: ODI for innovation methods and CalAcademy training
 │   └── Oversees: Agency-wide modernization portfolio
 │
 Department Directors (within each Agency)
-└── Chief Deputy Director for Efficiency and Effectiveness
+└── E3 Chief Deputy Director (Chief Deputy Director for Efficiency and Effectiveness)
     ├── Reports to: Department Director
-    ├── Coordinates with: Undersecretary (Agency level), TMO
+    ├── Coordinates with: E3 Undersecretary (Agency level), TMO
     ├── Partners with: ODI for service design, data projects, training
     ├── Executes: Department modernization initiatives
     └── Manages: Cross-functional transformation teams including data governance staff
 ```
 
-### 2.2 Undersecretary Positions (Strategic Leadership and Agency Coordination)
+### 2.2 E3 Undersecretary Positions (Strategic Leadership and Agency Coordination)
 
 **Position Overview:**
-This proposal recommends creating Undersecretaries for Efficiency and Effectiveness who would operate at the Agency level, reporting directly to Agency Secretaries while coordinating statewide efforts through the Transformation Management Office and Statewide E3 Council. These positions would hold explicit authority over technology modernization, business process optimization, data governance, and performance management within their agencies.
+This proposal recommends creating **E3 Undersecretaries** (Undersecretaries for Efficiency and Effectiveness) who would operate at the Agency level, reporting directly to Agency Secretaries while coordinating statewide efforts through the Transformation Management Office and Statewide E3 Council. These positions would hold explicit authority over technology modernization, business process optimization, data governance, and performance management within their agencies.
 
 **Why This Position Matters:**
-Without Undersecretaries, modernization efforts fragment across departments with no strategic coordination. Individual departments optimize locally but create incompatibilities system-wide. Undersecretaries provide agency-level strategic direction, ensure cross-department interoperability, allocate resources based on enterprise priorities rather than political influence, and create forcing function for consistent progress. They are the difference between coordinated transformation and chaotic fragmentation.
+Without E3 Undersecretaries, modernization efforts fragment across departments with no strategic coordination. Individual departments optimize locally but create incompatibilities system-wide. E3 Undersecretaries provide agency-level strategic direction, ensure cross-department interoperability, allocate resources based on enterprise priorities rather than political influence, and create forcing function for consistent progress. They are the difference between coordinated transformation and chaotic fragmentation.
 
 For sample position descriptions and duty statements, see [Template A.1: E3 Position Description](appendices/06-templates.md#a1-e3-position-description-template).
 
-These would not be advisory or coordinator roles. Undersecretaries would have authority to approve major technology investments, mandate cross-department data sharing, redirect resources to strategic initiatives, and hold Chief Deputy Directors accountable for results. They would serve as the primary interface between their agencies and both ODI and the Office of State Data Governance, ensuring proven methods and mandatory standards are adopted at scale.
+These would not be advisory or coordinator roles. E3 Undersecretaries would have authority to approve major technology investments, mandate cross-department data sharing, redirect resources to strategic initiatives, and hold E3 Chief Deputy Directors accountable for results. They would serve as the primary interface between their agencies and both ODI and the Office of State Data Governance, ensuring proven methods and mandatory standards are adopted at scale.
 
 **Deployment Strategy:**
 
-*Recommendation: Begin with 8 Undersecretaries covering the highest-priority agencies, with expansion to 12 based on demonstrated results and Readiness Assessment improvements.*
+*Recommendation: Begin with 8 E3 Undersecretaries covering the highest-priority agencies, with expansion to 12 based on demonstrated results and Readiness Assessment improvements.*
 
 - **Phase 1 (Months 1-6):** Deploy to 4 highest-priority agencies based on Readiness Assessment and strategic importance (GovOps, CalHHS, Transportation, Corrections)
 - **Phase 2 (Months 7-18):** Expand to 4 additional agencies based on Phase 1 learnings (Natural Resources, Labor, Business/Consumer Services, Environmental Protection)
@@ -231,7 +231,7 @@ These would not be advisory or coordinator roles. Undersecretaries would have au
 **Comprehensive Responsibilities:**
 
 **Strategic Leadership and Vision (30% of role):**
-- Define agency-wide modernization vision aligned with Governor's priorities, E3 statewide objectives, and ODI strategic goals
+- Define agency-wide modernization vision aligned with Governor's priorities, statewide modernization objectives, and ODI strategic goals
 - Set performance targets for digital service adoption (% of transactions online), legacy system reduction (% decrease), cost efficiency ($ saved), citizen satisfaction (CSAT scores)
 - Allocate modernization budget across department-level initiatives based on ROI projections, Readiness Assessment scores, and strategic alignment
 - Represent agency on Statewide E3 Council; coordinate cross-agency efforts; share lessons learned
@@ -259,7 +259,7 @@ These would not be advisory or coordinator roles. Undersecretaries would have au
 
 **Performance Management and Accountability (15% of role):**
 - Define and track agency-level KPIs aligned with statewide framework and TMO performance measurement system
-- Conduct quarterly performance reviews with Chief Deputy Directors; address underperformance early
+- Conduct quarterly performance reviews with E3 Chief Deputy Directors; address underperformance early
 - Report progress to Agency Secretary, Governor's Office, TMO, and Statewide E3 Council
 - Publish transparent performance dashboards accessible to Legislature, press, and public
 - Hold departments accountable for achieving targets; reallocate resources from consistently underperforming initiatives
@@ -288,19 +288,19 @@ These would not be advisory or coordinator roles. Undersecretaries would have au
 - Understanding of government operations, procurement processes, policy development, budget cycles, and legislative relations
 - Executive presence and ability to influence Cabinet-level leadership; comfort presenting to Governor, Legislature, media
 
-### 2.3 Chief Deputy Director Positions (Operational Execution and Department Transformation)
+### 2.3 E3 Chief Deputy Director Positions (Operational Execution and Department Transformation)
 
 **Position Overview:**
-This proposal recommends creating Chief Deputy Directors for Efficiency and Effectiveness who would operate within departments, reporting to Department Directors while coordinating with agency-level Undersecretaries and TMO. These positions would hold operational responsibility for modernization execution, managing cross-functional teams including data governance staff and embedded Innovation Fellows.
+This proposal recommends creating **E3 Chief Deputy Directors** (Chief Deputy Directors for Efficiency and Effectiveness) who would operate within departments, reporting to Department Directors while coordinating with agency-level E3 Undersecretaries and TMO. These positions would hold operational responsibility for modernization execution, managing cross-functional teams including data governance staff and embedded Innovation Fellows.
 
 **Why This Position Matters:**
-Department Directors manage complex operations with competing priorities: service delivery, regulatory compliance, budget constraints, legislative mandates, and stakeholder relations. Modernization often falls to the bottom of priority lists without dedicated leadership. Chief Deputy Directors provide persistent focus on transformation, bridging the gap between strategic vision (Undersecretary level) and operational reality (department programs and systems). They translate modernization strategy into tangible improvements citizens experience.
+Department Directors manage complex operations with competing priorities: service delivery, regulatory compliance, budget constraints, legislative mandates, and stakeholder relations. Modernization often falls to the bottom of priority lists without dedicated leadership. E3 Chief Deputy Directors provide persistent focus on transformation, bridging the gap between strategic vision (E3 Undersecretary level) and operational reality (department programs and systems). They translate modernization strategy into tangible improvements citizens experience.
 
-Chief Deputy Directors are hands-on leaders who understand both technology and domain operations. They manage project portfolios, lead business process improvement initiatives, deploy new technologies, ensure data quality, and deliver measurable service improvements. They are the change agents embedded in department operations.
+E3 Chief Deputy Directors are hands-on leaders who understand both technology and domain operations. They manage project portfolios, lead business process improvement initiatives, deploy new technologies, ensure data quality, and deliver measurable service improvements. They are the change agents embedded in department operations.
 
 **Deployment Strategy:**
 
-*Recommendation: Deploy 30 Chief Deputy Directors (E3 CDDs) initially to departments with highest readiness and citizen impact, with expansion to 40 based on results.*
+*Recommendation: Deploy 30 E3 Chief Deputy Directors (E3 CDDs) initially to departments with highest readiness and citizen impact, with expansion to 40 based on results.*
 
 - **Phase 1 (Months 1-12):** Deploy to 10 highest-readiness departments (Tier 1 Readiness scores) to establish early wins and demonstrate value
 - **Phase 2 (Months 13-24):** Expand to 20 additional departments (Tier 2 with targeted capability building to address specific gaps)
@@ -372,7 +372,7 @@ Chief Deputy Directors are hands-on leaders who understand both technology and d
 ### 2.4 Transformation Management Office (TMO)
 
 **Purpose and Strategic Importance:**
-The TMO provides centralized coordination, portfolio management, performance tracking, and support services essential to the entire modernization initiative. Without TMO, E3 efforts risk becoming fragmented silos where well-intentioned leaders pursue similar solutions in parallel, wasting resources and foregoing economies of scale.
+The TMO provides centralized coordination, portfolio management, performance tracking, and support services essential to the entire modernization initiative. Without TMO, modernization efforts risk becoming fragmented silos where well-intentioned leaders pursue similar solutions in parallel, wasting resources and foregoing economies of scale.
 
 **Why TMO Matters - The Case for Centralized Coordination:**
 
@@ -388,12 +388,12 @@ TMO prevents these pathologies by:
 - **Managing Dependencies:** Identifying where projects rely on each other; preventing conflicts; enabling sequencing
 - **Enabling Reuse:** Capturing what works; packaging for adoption by other departments; preventing reinvention
 - **Providing Early Warning:** Detecting troubled projects before they fail catastrophically; enabling intervention
-- **Building Community:** Connecting E3 leaders for peer learning, mutual support, and collaborative problem-solving
+- **Building Community:** Connecting E3 leaders (E3 Undersecretaries and E3 Chief Deputy Directors) for peer learning, mutual support, and collaborative problem-solving
 
 **Organizational Placement:**
 - **Reports to:** Government Operations Agency Secretary
 - **Coordinates with:** Statewide E3 Council, ODI, CDT, Office of State Data Governance, Department of Finance
-- **Supports:** All Undersecretaries and Chief Deputy Directors across all agencies
+- **Supports:** All E3 Undersecretaries and E3 Chief Deputy Directors across all agencies
 
 **Staffing:**
 - **Director:** Executive leadership, external representation, agency Secretary interface, Statewide E3 Council staff support
@@ -424,13 +424,13 @@ TMO prevents these pathologies by:
 **Knowledge Management:**
 - Document lessons learned from all initiatives (retrospectives, post-implementation reviews)
 - Maintain playbooks and templates (governance charters, procurement guides, vendor evaluations, agentic design patterns, API specifications)
-- Facilitate Communities of Practice connecting E3 leaders across agencies for peer learning
+- Facilitate Communities of Practice connecting E3 Undersecretaries and E3 Chief Deputy Directors across agencies for peer learning
 - Conduct retrospectives and capture insights; synthesize cross-agency patterns
 - Share best practices and reusable components across agencies; prevent reinvention
 
 **Change Management Support:**
-- Provide change management consulting to E3 leaders using ADKAR or similar frameworks
-- Coordinate CalAcademy training curriculum with ODI; ensure E3-relevant course offerings
+- Provide change management consulting to Undersecretaries and Chief Deputy Directors using ADKAR or similar frameworks
+- Coordinate CalAcademy training curriculum with ODI; ensure modernization-relevant course offerings
 - Support culture change initiatives; recognize innovation champions; celebrate calculated risk-taking
 - Produce communication materials and talking points for executives; support change narratives
 - Measure change adoption and resistance; recommend mitigation strategies
@@ -446,7 +446,7 @@ TMO prevents these pathologies by:
 - Manage Governor's Innovation Fellowship logistics: recruitment, selection, placements, post-graduation engagement
 - Coordinate California Breakthrough Project partnerships and seed investment commitments
 - Operate innovation sandbox for safe experimentation with emerging technologies
-- Run quarterly innovation showcases connecting Fellows, E3 leaders, executives, and Breakthrough partners
+- Run quarterly innovation showcases connecting Fellows, modernization leaders, executives, and Breakthrough partners
 - Track innovation metrics (experiments launched, pilots approved, production adoptions, reuse instances)
 
 ---
@@ -627,7 +627,7 @@ Data sharing negotiations currently take 12-18 months because every agreement is
 
 ### 4.2 Citizen Journey Teams
 
-Citizen Journey Teams bring together E3 leaders, SMEs, and Fellows from relevant agencies to redesign citizen experiences around life events (having a baby, starting a business, disaster recovery) rather than agency boundaries. This creates seamless integrated services across traditional organizational silos.
+Citizen Journey Teams bring together E3 Undersecretaries, E3 Chief Deputy Directors, subject matter experts, and Fellows from relevant agencies to redesign citizen experiences around life events (having a baby, starting a business, disaster recovery) rather than agency boundaries. This creates seamless integrated services across traditional organizational silos.
 
 Teams include Executive Sponsors (Undersecretaries), Journey Leads (Senior Fellows or CDDs), agency representatives, ODI design leads, and technical/data governance support. They follow a 12-month operating model: formation, discovery, design, build, and ongoing measurement.
 
