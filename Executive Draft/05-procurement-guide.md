@@ -12,11 +12,11 @@
 > - [Governance Model](02-governance-model.md) — E3 structure, leadership roles, and data governance
 > - [Talent Development](03-talent-development.md) — Fellowship program and workforce development
 > - [Funding & Implementation](04-funding-implementation.md) — Breakthrough Fund structure
-> - [Templates](06-templates.md) — Fillable forms and templates
-> - [Operational Guides](07-operational-guides.md) — Program guides and frameworks
-> - [Technical Appendices](08-technical-appendices.md) — Technical standards and architecture
-> - [Budget and Governance Appendices](09-budget-and-governance.md) — Budget models and change management
-> - [Implementation Roadmap](10-implementation-roadmap.md) — Phased 36-month implementation plan
+> - [Templates](appendices/06-templates.md) — Fillable forms and templates
+> - [Operational Guides](appendices/07-operational-guides.md) — Program guides and frameworks
+> - [Technical Appendices](appendices/08-technical-appendices.md) — Technical standards and architecture
+> - [Budget and Governance Appendices](appendices/09-budget-and-governance.md) — Budget models and change management
+> - [Implementation Roadmap](appendices/10-implementation-roadmap.md) — Phased 36-month implementation plan
 
 ---
 
@@ -42,7 +42,7 @@
 
 California's technology architecture establishes the technical foundation for enterprise modernization, enabling secure, scalable, and interoperable systems across state government.
 
-> **Note:** This section provides a strategic overview. For comprehensive technical specifications, implementation patterns, and standards, see [Appendix H: Technology Architecture Details](08-technical-appendices.md#appendix-h-technology-architecture-details).
+> **Note:** This section provides a strategic overview. For comprehensive technical specifications, implementation patterns, and standards, see [Appendix H: Technology Architecture Details](appendices/08-technical-appendices.md#appendix-h-technology-architecture-details).
 
 ### 8.1 Architecture Principles
 
@@ -206,9 +206,9 @@ Projects genuinely requiring >$15M single contract must:
 
 | Resource | Location | Contents |
 |----------|----------|----------|
-| Operational Guide | [Appendix B.1](07-operational-guides.md#b1-rapid-rfi-operational-guide) | Phase-by-phase procedures, example problem statements, evaluation criteria |
-| Problem Statement Template | [Template A.7](06-templates.md#a7-rapid-rfi-problem-statement-template) | Standard format for challenge solicitations |
-| AI Disclosure Template | [Template A.8](06-templates.md#a8-ai-productivity-disclosure-template) | Required vendor productivity disclosure |
+| Operational Guide | [Appendix B.1](appendices/07-operational-guides.md#b1-rapid-rfi-operational-guide) | Phase-by-phase procedures, example problem statements, evaluation criteria |
+| Problem Statement Template | [Template A.7](appendices/06-templates.md#a7-rapid-rfi-problem-statement-template) | Standard format for challenge solicitations |
+| AI Disclosure Template | [Template A.8](appendices/06-templates.md#a8-ai-productivity-disclosure-template) | Required vendor productivity disclosure |
 
 **Risk Reduction Value:**
 
@@ -420,9 +420,9 @@ This policy:
 - [Governance Model](02-governance-model.md) — E3 structure and data governance
 - [Talent Development](03-talent-development.md) — Fellowship program and workforce development
 - [Funding & Implementation](04-funding-implementation.md) — Breakthrough Fund structure
-- [Templates](06-templates.md) — Templates A.5-A.8 (procurement-related)
-- [Operational Guides](07-operational-guides.md) — Including B.1 Rapid RFI² Operational Guide
-- [Technical Appendices](08-technical-appendices.md) — Technology standards and architecture details
+- [Templates](appendices/06-templates.md) — Templates A.5-A.8 (procurement-related)
+- [Operational Guides](appendices/07-operational-guides.md) — Including B.1 Rapid RFI² Operational Guide
+- [Technical Appendices](appendices/08-technical-appendices.md) — Technology standards and architecture details
 
 ---
 

@@ -8,11 +8,11 @@
 ---
 
 > This document is part of the California Enterprise Modernization recommendation. See also:
-> - [Executive Summary](01-executive-summary.md) — Start here for an overview
-> - [Governance Model](02-governance-model.md) — E3 structure, leadership roles, and data governance
-> - [Talent Development](03-talent-development.md) — Fellowship program and workforce development
-> - [Funding & Implementation](04-funding-implementation.md) — Breakthrough Fund structure
-> - [Procurement Guide](05-procurement-guide.md) — Technology and procurement innovation
+> - [Executive Summary](../01-executive-summary.md) — Start here for an overview
+> - [Governance Model](../02-governance-model.md) — E3 structure, leadership roles, and data governance
+> - [Talent Development](../03-talent-development.md) — Fellowship program and workforce development
+> - [Funding & Implementation](../04-funding-implementation.md) — Breakthrough Fund structure
+> - [Procurement Guide](../05-procurement-guide.md) — Technology and procurement innovation
 > - [Templates](06-templates.md) — Fillable forms and templates
 > - [Technical Appendices](08-technical-appendices.md) — Technical standards and architecture
 > - [Budget and Governance Appendices](09-budget-and-governance.md) — Budget models and change management
@@ -36,7 +36,7 @@
 
 ### B.1 Rapid RFI² Operational Guide
 
-This appendix provides detailed operational guidance for executing Rapid RFI² challenges. For the strategic overview, see [Section 9.4: Rapid RFI²](05-procurement-guide.md#94-rapid-rfi-challenge-based-procurement).
+This appendix provides detailed operational guidance for executing Rapid RFI² challenges. For the strategic overview, see [Section 9.4: Rapid RFI²](../05-procurement-guide.md#94-rapid-rfi-challenge-based-procurement).
 
 ---
 
@@ -182,7 +182,7 @@ Cross-functional team (program staff, IT, E3 leaders, ODI) defines:
 
 ### B.2 Fellowship Program Curriculum
 
-This appendix provides detailed curriculum for the Governor's Innovation Fellowship Program. For the program overview, see [Section 5.1: Governor's Innovation Fellowship Program](03-talent-development.md#51-governors-innovation-fellowship-program).
+This appendix provides detailed curriculum for the Governor's Innovation Fellowship Program. For the program overview, see [Section 5.1: Governor's Innovation Fellowship Program](../03-talent-development.md#51-governors-innovation-fellowship-program).
 
 ---
 
@@ -389,7 +389,7 @@ This appendix provides detailed curriculum for the Governor's Innovation Fellows
 
 ### B.3 Breakthrough Fund Sustainability Model
 
-This appendix provides a detailed worked example of how the Breakthrough Fund sustainability model operates. For the strategic overview, see [Section 6.4: Sustainability Mechanism](04-funding-implementation.md#64-sustainability-mechanism).
+This appendix provides a detailed worked example of how the Breakthrough Fund sustainability model operates. For the strategic overview, see [Section 6.4: Sustainability Mechanism](../04-funding-implementation.md#64-sustainability-mechanism).
 
 ---
 

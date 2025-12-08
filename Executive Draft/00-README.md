@@ -24,11 +24,13 @@ Executive Draft/
 ├── 03-talent-development.md          ← Fellowship and workforce
 ├── 04-funding-implementation.md      ← Breakthrough Fund structure
 ├── 05-procurement-guide.md           ← Technology and procurement innovation
-├── 06-templates.md                   ← Template summaries (A.1-A.8)
-├── 07-operational-guides.md          ← Program guides and frameworks (B.1-B.4)
-├── 08-technical-appendices.md        ← Technical standards and architecture (C, D, H)
-├── 09-budget-and-governance.md       ← Budget and change management (F, G)
-├── 10-implementation-roadmap.md      ← Phased 36-month implementation plan (I)
+│
+├── appendices/
+│   ├── 06-templates.md               ← Template summaries (A.1-A.8)
+│   ├── 07-operational-guides.md      ← Program guides and frameworks (B.1-B.4)
+│   ├── 08-technical-appendices.md    ← Technical standards and architecture (C, D, H)
+│   ├── 09-budget-and-governance.md   ← Budget and change management (F, G)
+│   └── 10-implementation-roadmap.md  ← Phased 36-month implementation plan (I)
 │
 └── readiness-assessment/
     ├── README.md                     ← Assessment framework overview
@@ -47,11 +49,11 @@ Executive Draft/
 | 03 | [Talent Development](03-talent-development.md) | Fellowship program, workforce, training | 15 min |
 | 04 | [Funding & Implementation](04-funding-implementation.md) | Breakthrough Fund structure | 15 min |
 | 05 | [Procurement Guide](05-procurement-guide.md) | Modular contracting, RFI², vendor pools | 20 min |
-| 06 | [Templates](06-templates.md) | Fillable forms and templates (A.1-A.8) | Reference |
-| 07 | [Operational Guides](07-operational-guides.md) | Program guides and frameworks (B.1-B.4) | Reference |
-| 08 | [Technical Appendices](08-technical-appendices.md) | Technical standards and architecture | Reference |
-| 09 | [Budget and Governance Appendices](09-budget-and-governance.md) | Budget models and change management | Reference |
-| 10 | [Implementation Roadmap](10-implementation-roadmap.md) | Phased 36-month implementation plan (I) | 15 min |
+| 06 | [Templates](appendices/06-templates.md) | Fillable forms and templates (A.1-A.8) | Reference |
+| 07 | [Operational Guides](appendices/07-operational-guides.md) | Program guides and frameworks (B.1-B.4) | Reference |
+| 08 | [Technical Appendices](appendices/08-technical-appendices.md) | Technical standards and architecture | Reference |
+| 09 | [Budget and Governance Appendices](appendices/09-budget-and-governance.md) | Budget models and change management | Reference |
+| 10 | [Implementation Roadmap](appendices/10-implementation-roadmap.md) | Phased 36-month implementation plan (I) | 15 min |
 
 ---
 
@@ -71,19 +73,19 @@ Executive Draft/
 1. **[Executive Summary](01-executive-summary.md)** — Full document (5 min)
 2. **[Governance Model](02-governance-model.md)** — Sections 2-4 (20 min)
 3. **[Procurement Guide](05-procurement-guide.md)** — Full document (20 min)
-4. **[Templates](06-templates.md)** — Templates A.4-A.8 (Reference)
-5. **[Operational Guides](07-operational-guides.md)** — Guide B.1 (Reference)
+4. **[Templates](appendices/06-templates.md)** — Templates A.4-A.8 (Reference)
+5. **[Operational Guides](appendices/07-operational-guides.md)** — Guide B.1 (Reference)
 6. **[Readiness Assessment](readiness-assessment/enhanced-readiness-assessment.md)** — Full instrument (Reference)
 
 ### For Technical Staff and Architects
 1. **[Procurement Guide](05-procurement-guide.md)** — Section 9 (10 min)
-2. **[Technical Appendices](08-technical-appendices.md)** — Appendix H (Reference)
+2. **[Technical Appendices](appendices/08-technical-appendices.md)** — Appendix H (Reference)
 3. **[Governance Model](02-governance-model.md)** — Section 4 (10 min)
 
 ### For Procurement Staff
 1. **[Procurement Guide](05-procurement-guide.md)** — Full document (20 min)
-2. **[Templates](06-templates.md)** — Templates A.5-A.8 (Reference)
-3. **[Operational Guides](07-operational-guides.md)** — Guide B.1 (Reference)
+2. **[Templates](appendices/06-templates.md)** — Templates A.5-A.8 (Reference)
+3. **[Operational Guides](appendices/07-operational-guides.md)** — Guide B.1 (Reference)
 
 ---
 
@@ -108,7 +110,7 @@ The plan uses sequential section numbering across documents:
 
 ## Appendices Quick Reference
 
-### Templates (06-templates.md)
+### Templates (appendices/06-templates.md)
 | Appendix | Title | Use For |
 |----------|-------|---------|
 | A.1 | E3 Position Description Template | Creating E3 job postings |
@@ -120,7 +122,7 @@ The plan uses sequential section numbering across documents:
 | A.7 | Rapid RFI² Problem Statement Template | Challenge-based procurement |
 | A.8 | AI Productivity Disclosure Template | Vendor AI tool disclosure |
 
-### Operational Guides (07-operational-guides.md)
+### Operational Guides (appendices/07-operational-guides.md)
 | Appendix | Title | Use For |
 |----------|-------|---------|
 | B.1 | Rapid RFI² Operational Guide | Running RFI² challenges |
@@ -128,20 +130,20 @@ The plan uses sequential section numbering across documents:
 | B.3 | Breakthrough Fund Sustainability Model | Fund reinvestment calculations |
 | B.4 | Labor Relations Strategy | Union engagement and workforce transitions |
 
-### Technical Appendices (08-technical-appendices.md)
+### Technical Appendices (appendices/08-technical-appendices.md)
 | Appendix | Title | Use For |
 |----------|-------|---------|
 | C | Readiness Assessment Framework | Department readiness scoring |
 | D | Glossary | Term definitions |
 | H | Technology Architecture Details | API, cloud, security standards |
 
-### Budget and Governance Appendices (09-budget-and-governance.md)
+### Budget and Governance Appendices (appendices/09-budget-and-governance.md)
 | Appendix | Title | Use For |
 |----------|-------|---------|
 | F | Budget and Financial Models | Cost projections |
 | G | Performance and Change Management | ADKAR model, risk matrix |
 
-### Implementation Roadmap (10-implementation-roadmap.md)
+### Implementation Roadmap (appendices/10-implementation-roadmap.md)
 | Appendix | Title | Use For |
 |----------|-------|---------|
 | I | Implementation Roadmap | Phased 36-month plan, success metrics, critical success factors |

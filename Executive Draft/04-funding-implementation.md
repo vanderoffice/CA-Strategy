@@ -12,11 +12,11 @@
 > - [Governance Model](02-governance-model.md) — E3 structure and data governance
 > - [Talent Development](03-talent-development.md) — Fellowship program and workforce development
 > - [Procurement Guide](05-procurement-guide.md) — Technology and procurement innovation
-> - [Templates](06-templates.md) — Fillable forms and templates
-> - [Operational Guides](07-operational-guides.md) — Program guides and frameworks
-> - [Technical Appendices](08-technical-appendices.md) — Technical standards and architecture
-> - [Budget and Governance Appendices](09-budget-and-governance.md) — Budget models and change management
-> - [Implementation Roadmap](10-implementation-roadmap.md) — Phased 36-month implementation plan
+> - [Templates](appendices/06-templates.md) — Fillable forms and templates
+> - [Operational Guides](appendices/07-operational-guides.md) — Program guides and frameworks
+> - [Technical Appendices](appendices/08-technical-appendices.md) — Technical standards and architecture
+> - [Budget and Governance Appendices](appendices/09-budget-and-governance.md) — Budget models and change management
+> - [Implementation Roadmap](appendices/10-implementation-roadmap.md) — Phased 36-month implementation plan
 
 ---
 
@@ -33,7 +33,7 @@
 
 ---
 
-> **Document Summary:** This document describes the California Breakthrough Modernization Fund structure. For the phased implementation roadmap, see [Implementation Roadmap](10-implementation-roadmap.md). For governance structure, see [Governance Model](02-governance-model.md). For talent development, see [Talent Development](03-talent-development.md).
+> **Document Summary:** This document describes the California Breakthrough Modernization Fund structure. For the phased implementation roadmap, see [Implementation Roadmap](appendices/10-implementation-roadmap.md). For governance structure, see [Governance Model](02-governance-model.md). For talent development, see [Talent Development](03-talent-development.md).
 
 ---
 
@@ -182,7 +182,7 @@ The Breakthrough Fund includes a sustainability mechanism that diverts a portion
 
 *Note: Fund projected to become self-sustaining by Year 5-7 through reinvestment of realized savings*
 
-*For detailed sustainability calculations and projections, see [Appendix B.3: Breakthrough Fund Sustainability Model](07-operational-guides.md#b3-breakthrough-fund-sustainability-model).*
+*For detailed sustainability calculations and projections, see [Appendix B.3: Breakthrough Fund Sustainability Model](appendices/07-operational-guides.md#b3-breakthrough-fund-sustainability-model).*
 
 ### 6.5 Transparency and Public Reporting
 
@@ -267,11 +267,11 @@ The path to successful modernization begins with these first steps. California's
 
 This document describes the Breakthrough Fund structure. Continue reading:
 
-- **[Implementation Roadmap](10-implementation-roadmap.md)** — Phased 36-month implementation plan
+- **[Implementation Roadmap](appendices/10-implementation-roadmap.md)** — Phased 36-month implementation plan
 - **[Governance Model](02-governance-model.md)** — E3 structure and data governance
 - **[Talent Development](03-talent-development.md)** — Fellowship program and workforce development
 - **[Procurement Guide](05-procurement-guide.md)** — Technology architecture and procurement innovation
-- **[Operational Guides](07-operational-guides.md)** — Program guides and frameworks
+- **[Operational Guides](appendices/07-operational-guides.md)** — Program guides and frameworks
 
 ---
 

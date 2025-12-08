@@ -12,8 +12,8 @@
 California state government serves nearly **40 million residents** across **170 departments** with a workforce of **230,000+ employees**. This repository contains the comprehensive modernization strategy that addresses systemic challenges:
 
 - **70-80%** of IT budgets consumed by legacy systems
-- **18+ months** average time for data sharing agreements
-- **18-24 months** traditional procurement cycles
+- **12-18 months** average time for data sharing agreements
+- **12-18 months** traditional procurement cycles
 - **33%** of government workers with low or no digital skills
 
 The E3 Operational Model creates the institutional forcing mechanisms that government currently lacks—dedicated leadership with actual authority, sustainable funding, and continuous talent development.
@@ -32,11 +32,12 @@ CA-Strategy/
 │   ├── 03-talent-development.md       ← Fellowship and workforce
 │   ├── 04-funding-implementation.md   ← Breakthrough Fund
 │   ├── 05-procurement-guide.md        ← Modular contracting and RFI²
-│   ├── 06-templates.md                ← Templates A.1-A.8
-│   ├── 07-operational-guides.md       ← Guides B.1-B.4
-│   ├── 08-technical-appendices.md     ← Appendices C, D, H
-│   ├── 09-budget-and-governance.md    ← Appendices F, G
-│   ├── 10-implementation-roadmap.md   ← Appendix I: 36-month plan
+│   ├── appendices/                    ← Supporting appendices
+│   │   ├── 06-templates.md            ← Templates A.1-A.8
+│   │   ├── 07-operational-guides.md   ← Guides B.1-B.4
+│   │   ├── 08-technical-appendices.md ← Appendices C, D, H
+│   │   ├── 09-budget-and-governance.md← Appendices F, G
+│   │   └── 10-implementation-roadmap.md← Appendix I: 36-month plan
 │   └── readiness-assessment/          ← Department readiness framework
 └── Archive/                           ← Previous versions and source materials
 ```
@@ -52,11 +53,11 @@ CA-Strategy/
 ### For Agency Leaders
 1. **[Governance Model](./Executive%20Draft/02-governance-model.md)** — E3 Undersecretary and Chief Deputy Director roles
 2. **[Talent Development](./Executive%20Draft/03-talent-development.md)** — Governor's Innovation Fellowship program
-3. **[Implementation Roadmap](./Executive%20Draft/10-implementation-roadmap.md)** — 36-month phased deployment
+3. **[Implementation Roadmap](./Executive%20Draft/appendices/10-implementation-roadmap.md)** — 36-month phased deployment
 
 ### For Program Managers
 1. **[Procurement Guide](./Executive%20Draft/05-procurement-guide.md)** — Modular contracting and Rapid RFI²
-2. **[Templates](./Executive%20Draft/06-templates.md)** — Ready-to-use governance templates
+2. **[Templates](./Executive%20Draft/appendices/06-templates.md)** — Ready-to-use governance templates
 3. **[Readiness Assessment](./Executive%20Draft/readiness-assessment/)** — Department evaluation framework
 
 ---
@@ -85,7 +86,7 @@ Applies venture capital portfolio principles to government investment:
 Creates cross-branch authority for enterprise data management:
 - **9-member board** with staggered terms across branches
 - **Binding authority** over data standards and sharing frameworks
-- **Template-based agreements** reducing negotiation from 18 months to 4-8 weeks
+- **Template-based agreements** reducing negotiation from 12-18 months to 4-8 weeks
 
 ### Procurement Innovation
 Transforms contracting from bottleneck to enabler:
@@ -104,11 +105,11 @@ Transforms contracting from bottleneck to enabler:
 | [Talent Development](./Executive%20Draft/03-talent-development.md) | Fellowship, workforce, training | HR, Program Leaders |
 | [Funding & Implementation](./Executive%20Draft/04-funding-implementation.md) | Breakthrough Fund structure | Finance, Leadership |
 | [Procurement Guide](./Executive%20Draft/05-procurement-guide.md) | Modular contracting, RFI², vendor pools | Procurement, Project Managers |
-| [Templates](./Executive%20Draft/06-templates.md) | Fillable forms A.1-A.8 | All implementers |
-| [Operational Guides](./Executive%20Draft/07-operational-guides.md) | Program guides B.1-B.4 | Program Managers |
-| [Technical Appendices](./Executive%20Draft/08-technical-appendices.md) | Standards, architecture (C, D, H) | Technical Staff |
-| [Budget & Governance](./Executive%20Draft/09-budget-and-governance.md) | Budget models, change management (F, G) | Finance, Change Managers |
-| [Implementation Roadmap](./Executive%20Draft/10-implementation-roadmap.md) | 36-month phased plan (I) | All implementers |
+| [Templates](./Executive%20Draft/appendices/06-templates.md) | Fillable forms A.1-A.8 | All implementers |
+| [Operational Guides](./Executive%20Draft/appendices/07-operational-guides.md) | Program guides B.1-B.4 | Program Managers |
+| [Technical Appendices](./Executive%20Draft/appendices/08-technical-appendices.md) | Standards, architecture (C, D, H) | Technical Staff |
+| [Budget & Governance](./Executive%20Draft/appendices/09-budget-and-governance.md) | Budget models, change management (F, G) | Finance, Change Managers |
+| [Implementation Roadmap](./Executive%20Draft/appendices/10-implementation-roadmap.md) | 36-month phased plan (I) | All implementers |
 
 ---
 

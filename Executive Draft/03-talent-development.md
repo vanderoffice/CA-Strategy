@@ -12,11 +12,11 @@
 > - [Governance Model](02-governance-model.md) — E3 structure and data governance
 > - [Funding & Implementation](04-funding-implementation.md) — Breakthrough Fund structure
 > - [Procurement Guide](05-procurement-guide.md) — Technology and procurement innovation
-> - [Templates](06-templates.md) — Fillable forms and templates
-> - [Operational Guides](07-operational-guides.md) — Program guides and frameworks
-> - [Technical Appendices](08-technical-appendices.md) — Technical standards and architecture
-> - [Budget and Governance Appendices](09-budget-and-governance.md) — Budget models and change management
-> - [Implementation Roadmap](10-implementation-roadmap.md) — Phased 36-month implementation plan
+> - [Templates](appendices/06-templates.md) — Fillable forms and templates
+> - [Operational Guides](appendices/07-operational-guides.md) — Program guides and frameworks
+> - [Technical Appendices](appendices/08-technical-appendices.md) — Technical standards and architecture
+> - [Budget and Governance Appendices](appendices/09-budget-and-governance.md) — Budget models and change management
+> - [Implementation Roadmap](appendices/10-implementation-roadmap.md) — Phased 36-month implementation plan
 
 ---
 
@@ -64,7 +64,7 @@ The Fellowship establishes a continuous pipeline of emerging leaders trained to 
 | **Department Embedding** | Full 6 months | Real project ownership with mentorship and surrogate |
 | **Group Initiatives** | Full 6 months | Cross-agency team projects with executive sponsors |
 
-*For detailed curriculum, training modules, and deliverable requirements, see [Appendix B.2: Fellowship Program Curriculum](07-operational-guides.md#b2-fellowship-program-curriculum).*
+*For detailed curriculum, training modules, and deliverable requirements, see [Appendix B.2: Fellowship Program Curriculum](appendices/07-operational-guides.md#b2-fellowship-program-curriculum).*
 
 **Expected Outcomes:**
 - Actionable recommendations for enterprise-wide improvements
@@ -356,7 +356,7 @@ Successful modernization requires partnership with labor organizations represent
 - **Upskilling Priority:** Training programs prepare workers for evolving roles
 - **Classification Coordination:** New data governance positions developed in coordination with CalHR and relevant bargaining units
 
-For comprehensive guidance on union engagement, workforce transitions, and training coordination, see [Appendix B.4: Labor Relations Strategy](07-operational-guides.md#b4-labor-relations-strategy).
+For comprehensive guidance on union engagement, workforce transitions, and training coordination, see [Appendix B.4: Labor Relations Strategy](appendices/07-operational-guides.md#b4-labor-relations-strategy).
 
 ---
 
@@ -365,9 +365,9 @@ For comprehensive guidance on union engagement, workforce transitions, and train
 This document establishes the talent development approach for California's enterprise modernization. Continue reading:
 
 - **[Funding & Implementation](04-funding-implementation.md)** — Breakthrough Fund structure
-- **[Implementation Roadmap](10-implementation-roadmap.md)** — Phased 36-month implementation plan
+- **[Implementation Roadmap](appendices/10-implementation-roadmap.md)** — Phased 36-month implementation plan
 - **[Governance Model](02-governance-model.md)** — E3 structure and data governance
-- **[Operational Guides](07-operational-guides.md)** — Including Fellowship curriculum (B.2)
+- **[Operational Guides](appendices/07-operational-guides.md)** — Including Fellowship curriculum (B.2)
 
 ---
 

@@ -12,11 +12,11 @@
 > - [Talent Development](03-talent-development.md) — Fellowship program and workforce development
 > - [Funding & Implementation](04-funding-implementation.md) — Breakthrough Fund structure
 > - [Procurement Guide](05-procurement-guide.md) — Technology and procurement innovation
-> - [Templates](06-templates.md) — Fillable forms and templates
-> - [Operational Guides](07-operational-guides.md) — Program guides and frameworks
-> - [Technical Appendices](08-technical-appendices.md) — Technical standards and architecture
-> - [Budget and Governance Appendices](09-budget-and-governance.md) — Budget models and change management
-> - [Implementation Roadmap](10-implementation-roadmap.md) — Phased 36-month implementation plan
+> - [Templates](appendices/06-templates.md) — Fillable forms and templates
+> - [Operational Guides](appendices/07-operational-guides.md) — Program guides and frameworks
+> - [Technical Appendices](appendices/08-technical-appendices.md) — Technical standards and architecture
+> - [Budget and Governance Appendices](appendices/09-budget-and-governance.md) — Budget models and change management
+> - [Implementation Roadmap](appendices/10-implementation-roadmap.md) — Phased 36-month implementation plan
 
 ---
 
@@ -106,7 +106,7 @@ See [Funding & Implementation](04-funding-implementation.md) for details.
 | Political transitions | Cross-branch Independent Office structure; bipartisan framing |
 | Vendor lock-in | Open standards; modular contracting; API-first architecture |
 
-See [Appendix G.6: Risk Mitigation Matrix](09-budget-and-governance.md#g6-risk-mitigation-matrix) for comprehensive analysis.
+See [Appendix G.6: Risk Mitigation Matrix](appendices/09-budget-and-governance.md#g6-risk-mitigation-matrix) for comprehensive analysis.
 
 ---
 
@@ -118,11 +118,11 @@ See [Appendix G.6: Risk Mitigation Matrix](09-budget-and-governance.md#g6-risk-m
 | [Talent Development](03-talent-development.md) | Fellowship program, data governance teams | 15 min |
 | [Funding & Implementation](04-funding-implementation.md) | Breakthrough Fund structure | 15 min |
 | [Procurement Guide](05-procurement-guide.md) | Modular contracting, RFI², vendor pools | 20 min |
-| [Templates](06-templates.md) | Templates A.1-A.8 | Reference |
-| [Operational Guides](07-operational-guides.md) | Guides B.1-B.4 | Reference |
-| [Technical Appendices](08-technical-appendices.md) | Appendices C, D, H | Reference |
-| [Budget and Governance Appendices](09-budget-and-governance.md) | Appendices F, G | Reference |
-| [Implementation Roadmap](10-implementation-roadmap.md) | Appendix I: 36-month implementation plan | 15 min |
+| [Templates](appendices/06-templates.md) | Templates A.1-A.8 | Reference |
+| [Operational Guides](appendices/07-operational-guides.md) | Guides B.1-B.4 | Reference |
+| [Technical Appendices](appendices/08-technical-appendices.md) | Appendices C, D, H | Reference |
+| [Budget and Governance Appendices](appendices/09-budget-and-governance.md) | Appendices F, G | Reference |
+| [Implementation Roadmap](appendices/10-implementation-roadmap.md) | Appendix I: 36-month implementation plan | 15 min |
 
 ---
 

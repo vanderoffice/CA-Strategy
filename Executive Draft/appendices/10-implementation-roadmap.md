@@ -8,11 +8,11 @@
 ---
 
 > This document is part of the California Enterprise Modernization recommendation. See also:
-> - [Executive Summary](01-executive-summary.md) — Start here for an overview
-> - [Governance Model](02-governance-model.md) — E3 structure and data governance
-> - [Talent Development](03-talent-development.md) — Fellowship program and workforce development
-> - [Funding & Implementation](04-funding-implementation.md) — Breakthrough Fund structure
-> - [Procurement Guide](05-procurement-guide.md) — Technology and procurement innovation
+> - [Executive Summary](../01-executive-summary.md) — Start here for an overview
+> - [Governance Model](../02-governance-model.md) — E3 structure and data governance
+> - [Talent Development](../03-talent-development.md) — Fellowship program and workforce development
+> - [Funding & Implementation](../04-funding-implementation.md) — Breakthrough Fund structure
+> - [Procurement Guide](../05-procurement-guide.md) — Technology and procurement innovation
 > - [Templates](06-templates.md) — Fillable forms and templates
 > - [Operational Guides](07-operational-guides.md) — Program guides and frameworks
 > - [Technical Appendices](08-technical-appendices.md) — Technical standards and architecture
@@ -30,7 +30,7 @@
 
 ---
 
-> **Document Summary:** This appendix provides the phased implementation plan spanning 36 months, with specific milestones, success metrics, and critical success factors for the E3 Operational Model. For the Breakthrough Fund structure, see [Funding & Implementation](04-funding-implementation.md). For governance structure, see [Governance Model](02-governance-model.md).
+> **Document Summary:** This appendix provides the phased implementation plan spanning 36 months, with specific milestones, success metrics, and critical success factors for the E3 Operational Model. For the Breakthrough Fund structure, see [Funding & Implementation](../04-funding-implementation.md). For governance structure, see [Governance Model](../02-governance-model.md).
 
 ---
 
