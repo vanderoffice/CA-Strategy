@@ -670,7 +670,6 @@ California establishes a streamlined pathway from idea to production:
 > - [Templates](06-templates.md) — Fillable forms and templates
 > - [Operational Guides](07-operational-guides.md) — Program guides and frameworks
 > - [Budget and Governance Appendices](09-budget-and-governance.md) — Budget models and change management
-> - [Implementation Roadmap](10-implementation-roadmap.md) — Phased 36-month implementation plan
 
 ---
 

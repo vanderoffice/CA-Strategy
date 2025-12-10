@@ -319,7 +319,6 @@ The following table identifies key risks to the modernization initiative and mit
 > - [Templates](06-templates.md) — Fillable forms and templates
 > - [Operational Guides](07-operational-guides.md) — Program guides and frameworks
 > - [Technical Appendices](08-technical-appendices.md) — Technical standards and architecture
-> - [Implementation Roadmap](10-implementation-roadmap.md) — Phased 36-month implementation plan
 
 ---
 

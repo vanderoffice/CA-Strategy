@@ -606,7 +606,6 @@ Unresolved labor issues escalate through:
 > - [Templates](06-templates.md) — Fillable forms and templates
 > - [Technical Appendices](08-technical-appendices.md) — Technical standards and architecture
 > - [Budget and Governance Appendices](09-budget-and-governance.md) — Budget models and change management
-> - [Implementation Roadmap](10-implementation-roadmap.md) — Phased 36-month implementation plan
 
 ---
 

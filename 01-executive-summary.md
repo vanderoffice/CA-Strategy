@@ -144,8 +144,6 @@ See [Procurement Guide](05-procurement-guide.md) for complete procurement framew
 | **12 Months** | 10 Chief Deputy Directors deployed, Independent Office operational, $100M fund capitalized |
 | **36 Months** | Full E3 deployment (8-12 Undersecretaries, 30-40 Chief Deputy Directors), 120+ Senior Fellows graduated, 50% digital adoption, 25% legacy reduction (40% by Year 5) |
 
-See [Appendix I: Implementation Roadmap](appendices/10-implementation-roadmap.md) for detailed phase descriptions, milestones, and critical dependencies.
-
 ---
 
 ## How the Plan Components Interrelate
@@ -195,7 +193,6 @@ The appendices provide the operational detail needed to implement this plan. Her
 | **[Budget Models (F)](appendices/09-budget-and-governance.md#appendix-f-budget-and-financial-models)** | Detailed cost breakdowns and multi-year financial projections | When building budget requests or justifying investments |
 | **[Performance & Change Management (G)](appendices/09-budget-and-governance.md#appendix-g-performance-and-change-management-framework)** | Public dashboard design, reporting cadence, ADKAR change model, resistance management, communication strategy, and risk mitigation | When designing accountability systems or managing organizational change |
 | **[Technology Architecture (H)](appendices/08-technical-appendices.md#appendix-h-technology-architecture-details)** | API strategy, legacy modernization approach, cloud strategy, cybersecurity architecture, AI standards | When making technical decisions or evaluating vendor proposals |
-| **[Implementation Roadmap (I)](appendices/10-implementation-roadmap.md)** | Detailed 36-month phased plan with specific milestones and owners | When sequencing activities or tracking progress |
 
 For a complete assessment instrument with detailed scoring rubrics, see the [Enhanced Readiness Assessment](readiness-assessment/enhanced-readiness-assessment.md).
 
@@ -205,8 +202,6 @@ For a complete assessment instrument with detailed scoring rubrics, see the [Enh
 
 For detailed treatment of topics summarized in this executive summary:
 
-- **Recommended Actions and Decision Points:** See [Appendix I: Implementation Roadmap](appendices/10-implementation-roadmap.md) for specific actions, owners, and sequencing
-- **Critical Success Factors:** See [Appendix I.4: Critical Success Factors](appendices/10-implementation-roadmap.md#i4-critical-success-factors) for detailed success criteria
 - **Risk Assessment and Mitigation:** See [Appendix G.6: Risk Mitigation Matrix](appendices/09-budget-and-governance.md#g6-risk-mitigation-matrix) for comprehensive risk analysis and contingency plans
 - **Change Management Approach:** See [Appendix G.3-G.5](appendices/09-budget-and-governance.md#appendix-g-performance-and-change-management-framework) for ADKAR model, resistance management, and communication strategy
 
@@ -224,7 +219,6 @@ For detailed treatment of topics summarized in this executive summary:
 | [Operational Guides](appendices/07-operational-guides.md) | Guides B.1-B.5 | Reference |
 | [Technical Appendices](appendices/08-technical-appendices.md) | Appendices C, D, H | Reference |
 | [Budget and Governance Appendices](appendices/09-budget-and-governance.md) | Appendices F, G | Reference |
-| [Implementation Roadmap](appendices/10-implementation-roadmap.md) | Appendix I: 36-month implementation plan | 15 min |
 
 ---
 

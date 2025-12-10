@@ -20,7 +20,7 @@
 
 ---
 
-> **Document Summary:** This document describes the California Breakthrough Modernization Fund structure. For the phased implementation roadmap, see [Implementation Roadmap](appendices/10-implementation-roadmap.md). For governance structure, see [Governance Model](02-governance-model.md). For talent development, see [Talent Development](03-talent-development.md).
+> **Document Summary:** This document describes the California Breakthrough Modernization Fund structure. For governance structure, see [Governance Model](02-governance-model.md). For talent development, see [Talent Development](03-talent-development.md).
 
 ---
 
@@ -233,7 +233,7 @@ The Breakthrough Fund would enable California to break free from the short-term 
 
 This funding approach is particularly critical as AI transforms service delivery across sectors. AI capabilities are advancing rapidly, and organizations that can move quickly will capture significant efficiency gains and service improvements. Traditional annual budget cycles cannot keep pace with this evolution. The Breakthrough Fund gives California the agility to adopt AI responsibly as opportunities emerge—ensuring the state leads rather than lags in applying these transformative technologies to improve government efficiency and citizen service.
 
-For implementation timeline and initial fund allocation strategy, see [Appendix I: Implementation Roadmap](appendices/10-implementation-roadmap.md). For detailed financial projections and sustainability models, see [Appendix F: Budget and Financial Models](appendices/09-budget-and-governance.md#appendix-f-budget-and-financial-models).
+For detailed financial projections and sustainability models, see [Appendix F: Budget and Financial Models](appendices/09-budget-and-governance.md#appendix-f-budget-and-financial-models).
 
 ---
 
@@ -246,7 +246,6 @@ For implementation timeline and initial fund allocation strategy, see [Appendix 
 > - [Operational Guides](appendices/07-operational-guides.md) — Program guides and frameworks
 > - [Technical Appendices](appendices/08-technical-appendices.md) — Technical standards and architecture
 > - [Budget and Governance Appendices](appendices/09-budget-and-governance.md) — Budget models and change management
-> - [Implementation Roadmap](appendices/10-implementation-roadmap.md) — Phased 36-month implementation plan
 
 ---
 

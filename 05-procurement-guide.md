@@ -380,7 +380,6 @@ This policy:
 > - [Operational Guides](appendices/07-operational-guides.md) — Program guides and frameworks
 > - [Technical Appendices](appendices/08-technical-appendices.md) — Technical standards and architecture
 > - [Budget and Governance Appendices](appendices/09-budget-and-governance.md) — Budget models and change management
-> - [Implementation Roadmap](appendices/10-implementation-roadmap.md) — Phased 36-month implementation plan
 
 ---
 

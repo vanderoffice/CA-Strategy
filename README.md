@@ -41,8 +41,7 @@ CA-Strategy/
 │   ├── 06-templates.md               ← Template summaries (A.1-A.8)
 │   ├── 07-operational-guides.md      ← Program guides and frameworks (B.1-B.5)
 │   ├── 08-technical-appendices.md    ← Technical standards and architecture (C, D, H)
-│   ├── 09-budget-and-governance.md   ← Budget and change management (F, G)
-│   └── 10-implementation-roadmap.md  ← Phased 36-month implementation plan (I)
+│   └── 09-budget-and-governance.md   ← Budget and change management (F, G)
 │
 └── readiness-assessment/
     ├── README.md                     ← Assessment framework overview
@@ -61,7 +60,7 @@ CA-Strategy/
 ### For Agency Leaders
 1. **[Governance Model](02-governance-model.md)** — E3 Undersecretary and Chief Deputy Director roles
 2. **[Talent Development](03-talent-development.md)** — Governor's Innovation Fellowship program
-3. **[Implementation Roadmap](appendices/10-implementation-roadmap.md)** — 36-month phased deployment
+3. **[Funding & Implementation](04-funding-implementation.md)** — Breakthrough Fund and investment strategy
 
 ### For Program Managers
 1. **[Procurement Guide](05-procurement-guide.md)** — Modular contracting and Rapid RFI²
@@ -117,7 +116,6 @@ Transforms contracting from bottleneck to enabler:
 | 07 | [Operational Guides](appendices/07-operational-guides.md) | Program guides and frameworks (B.1-B.5) | Reference |
 | 08 | [Technical Appendices](appendices/08-technical-appendices.md) | Technical standards and architecture | Reference |
 | 09 | [Budget and Governance Appendices](appendices/09-budget-and-governance.md) | Budget models and change management | Reference |
-| 10 | [Implementation Roadmap](appendices/10-implementation-roadmap.md) | Phased 36-month implementation plan (I) | 15 min |
 
 ---
 
@@ -142,7 +140,6 @@ The plan uses sequential section numbering across documents:
 | [Appendix F](appendices/09-budget-and-governance.md#appendix-f-budget-and-financial-models) | 09-budget-and-governance.md | Budget and Financial Models |
 | [Appendix G](appendices/09-budget-and-governance.md#appendix-g-performance-and-change-management-framework) | 09-budget-and-governance.md | Performance and Change Management |
 | [Appendix H](appendices/08-technical-appendices.md#appendix-h-technology-architecture-details) | 08-technical-appendices.md | Technology Architecture Details (H.1-H.6) |
-| [Appendix I](appendices/10-implementation-roadmap.md#appendix-i-implementation-roadmap) | 10-implementation-roadmap.md | Implementation Roadmap (I.1-I.4) |
 
 ---
 
@@ -181,11 +178,6 @@ The plan uses sequential section numbering across documents:
 |----------|-------|---------|
 | [F](appendices/09-budget-and-governance.md#appendix-f-budget-and-financial-models) | Budget and Financial Models | Cost projections |
 | [G](appendices/09-budget-and-governance.md#appendix-g-performance-and-change-management-framework) | Performance and Change Management | ADKAR model, risk matrix |
-
-### Implementation Roadmap (appendices/10-implementation-roadmap.md)
-| Appendix | Title | Use For |
-|----------|-------|---------|
-| [I](appendices/10-implementation-roadmap.md#appendix-i-implementation-roadmap) | Implementation Roadmap | Phased 36-month plan, success metrics, critical success factors |
 
 ---
 
