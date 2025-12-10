@@ -21,7 +21,7 @@ California state government serves nearly **40 million residents** across **170 
 - **12-18 months** traditional procurement cycles
 - **33%** of government workers with low or no digital skills
 
-The E3 Operational Model creates the institutional forcing mechanisms that government currently lacks—dedicated leadership with actual authority, sustainable funding, and continuous talent development.
+The E3 Operational Model creates the institutional forcing mechanisms that government currently lacks—dedicated leadership with actual authority, sustainable funding, and continuous talent development. The plan also positions California to adopt artificial intelligence responsibly, establishing the data governance, procurement agility, and workforce capability required to capture AI's efficiency and service delivery benefits.
 
 ---
 
