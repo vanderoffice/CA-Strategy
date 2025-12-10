@@ -33,9 +33,9 @@ For complete architecture principles, five architecture domains (API Management,
 
 ## 8. Procurement Innovation
 
-> **Section Summary:** This section establishes California's agile procurement framework, including Enterprise Vendor Pools (contracts in days), the $15M modular contracting cap, Rapid RFI² challenge-based procurement, and delegated ordering authority for E3 leaders.
+> **Section Summary:** This section establishes California's agile procurement framework, including Enterprise Vendor Pools (contracts in days), the $15M modular contracting cap, Rapid RFI² challenge-based procurement, and delegated ordering authority for E3 leaders. Modern procurement is essential for AI adoption—AI capabilities are evolving rapidly, and California needs contracting mechanisms that can keep pace.
 
-**Philosophy:** Fast, modular, competition-driven procurement that treats contracting as a delivery tool—not a separate process.
+**Philosophy:** Fast, modular, competition-driven procurement that treats contracting as a delivery tool—not a separate process. This is particularly critical as AI transforms what's possible—rigid, slow procurement means missing opportunities to apply AI for efficiency gains and better citizen service.
 
 California's procurement system must operate at the speed of modern product delivery. This means embedding procurement directly into the Product Delivery Lifecycle, using pre-competed vendor pools to eliminate redundant negotiations, and validating solutions through paid prototypes before committing to full contracts.
 
@@ -68,10 +68,12 @@ This proposal recommends that California establish statewide multi-award Master 
 | Category | Scope |
 |----------|-------|
 | **Agile Digital Services** | User-centered design, web/mobile development, API integration, DevOps |
-| **Data & Analytics** | Data engineering, ML/AI, visualization, legacy data migration |
-| **Cloud & Platform** | Cloud architecture, platform engineering, identity/payments/document services |
-| **Cybersecurity** | Security assessments, monitoring, incident response, compliance |
-| **Change Management** | Training, adoption support, communication, stakeholder engagement |
+| **Data & Analytics** | Data engineering, ML/AI implementation, AI application development, visualization, legacy data migration |
+| **Cloud & Platform** | Cloud architecture, platform engineering, identity/payments/document services, AI infrastructure |
+| **Cybersecurity** | Security assessments, monitoring, incident response, compliance, AI security evaluation |
+| **Change Management** | Training, adoption support, communication, stakeholder engagement, AI literacy programs |
+
+*Note: As AI capabilities mature, the Data & Analytics pool includes vendors qualified to implement AI solutions that comply with Independent Office AI governance standards.*
 
 **Tiered Vendor Structure:**
 
@@ -137,7 +139,7 @@ Projects genuinely requiring >$15M single contract must:
 
 ### 8.4 Rapid RFI²: Challenge-Based Procurement
 
-**When to Use:** Problems where the need is clear but the best solution is uncertain. High-uncertainty, cross-agency, or emerging technology challenges where traditional requirements would constrain innovation.
+**When to Use:** Problems where the need is clear but the best solution is uncertain. High-uncertainty, cross-agency, or emerging technology challenges where traditional requirements would constrain innovation. **AI applications are ideal candidates for Rapid RFI²**—the field is evolving rapidly, and prototypes demonstrate whether AI solutions actually work for specific government use cases.
 
 **When NOT to Use:** Well-defined requirements with proven solutions, commodity purchases, time-critical needs, low-risk implementations.
 
@@ -365,6 +367,7 @@ This policy:
 | Written proposals evaluated | Working prototypes demonstrated |
 | Risk transferred to State at contract signing | Risk validated through paid sprints before commitment |
 | 2019 pricing assumptions | AI-era pricing reflecting productivity gains |
+| AI adoption waits for annual budget cycles | AI solutions acquired rapidly as capabilities mature |
 
 ---
 

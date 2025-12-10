@@ -47,7 +47,7 @@
 
 ### 1.1 Vision Statement
 
-California state government operates with the efficiency, effectiveness, and innovation of leading organizations while maintaining public sector values of equity, transparency, and accessibility. Every Californian experiences government services that are digital-first, user-centered, and seamlessly integrated across agencies—delivered through empowered teams using modern tools, shared data, and continuous improvement practices that make government as responsive as the best private sector organizations.
+California state government operates with the efficiency, effectiveness, and innovation of leading organizations while maintaining public sector values of equity, transparency, and accessibility. Every Californian experiences government services that are digital-first, user-centered, and seamlessly integrated across agencies—delivered through empowered teams using modern tools, shared data, artificial intelligence, and continuous improvement practices that make government as responsive as the best private sector organizations.
 
 ### 1.2 Mission Statement
 
@@ -100,6 +100,8 @@ Government agencies operate without this pressure. Budget allocations continue r
 - **Service Delivery Gaps:** Citizens must navigate fragmented services, visit multiple agencies for related needs, and interact with systems designed around bureaucratic structures rather than user needs. Multi-language support and accessibility compliance remain inconsistent.
 
 - **Innovation Deficit:** Risk-averse cultures penalize failure more than they reward innovation. Experimentation requires extensive approvals; pilots struggle to reach production; "not invented here" syndrome limits knowledge sharing across agencies. First-mover disadvantage discourages initiative.
+
+- **AI Readiness Gap:** Artificial intelligence is transforming service delivery across sectors, yet California state government lacks the foundations to adopt AI effectively. Fragmented data prevents AI systems from accessing comprehensive information. Outdated infrastructure cannot support modern AI platforms. Absent governance frameworks create risk of inconsistent or inequitable AI deployment. Without deliberate preparation, the state will fall further behind private sector capabilities and miss opportunities to improve efficiency and citizen service.
 
 California cannot rely on organic improvement. These structural problems require structural solutions. The state must deliberately create the forcing mechanism that drives efficiency and effectiveness through institutional design.
 
@@ -248,14 +250,15 @@ These would not be advisory or coordinator roles. E3 Undersecretaries would have
 - Ensure systems enable, not prevent, staff use of modern tools and agentic workflows for data analysis, automation, and decision support
 - Coordinate with CDT on cybersecurity, infrastructure, and statewide technology standards
 
-**Data Governance and Stewardship (20% of role):**
+**Data Governance, AI Oversight, and Stewardship (20% of role):**
 - Chair Agency Data Governance Council; convene monthly meetings; set agenda and priorities
 - Approve data sharing agreements with other agencies and external partners; reduce negotiation time from months to weeks
 - Ensure privacy compliance (CCPA), ethical AI governance, and responsible data use
-- Mandate data quality standards and master data management practices aligned with Independent Office requirements
+- Oversee agency AI adoption: approve AI use cases, ensure appropriate human oversight, monitor for bias and equity impacts, and enforce Independent Office AI standards
+- Mandate data quality standards and master data management practices aligned with Independent Office requirements—recognizing that high-quality, unified data is prerequisite for effective AI deployment
 - Oversee deployment, performance, and funding of departmental data governance teams
 - Partner with Office of State Data Governance on statewide standards development; implement agency-specific adaptations
-- Represent agency data interests in cross-branch data policy discussions
+- Represent agency data and AI interests in cross-branch policy discussions
 
 **Performance Management and Accountability (15% of role):**
 - Define and track agency-level KPIs aligned with statewide framework and TMO performance measurement system
@@ -535,14 +538,16 @@ Each board seat must have an assigned Senior Technical Advisor who provides tech
 **Binding Powers:**
 - Set statewide data standards (schemas, formats, quality rules)
 - Approve/mandate data sharing frameworks
+- Establish statewide AI governance standards including approved use cases, human oversight requirements, bias testing protocols, and transparency guidelines
 - Convene all branches for policy development
 - Enforce compliance through budget/procurement mechanisms
 
 **Key Functions:**
-- Develop statewide data architecture
+- Develop statewide data architecture that enables AI adoption across agencies
 - Resolve inter-agency data disputes
-- Protect privacy while enabling sharing
-- Annual reporting to Legislature
+- Protect privacy while enabling sharing and responsible AI use
+- Maintain registry of approved AI applications and their oversight requirements
+- Annual reporting to Legislature on data governance and AI deployment
 
 **Authority Delegation and Coordination:**
 
@@ -610,7 +615,7 @@ Data sharing negotiations currently take 12-18 months because every agreement is
 
 ### 4.1 Service Mesh Architecture
 
-**Vision:** Replace monolithic point-to-point integrations with service mesh where every system exposes APIs and discovers services through a catalog.
+**Vision:** Replace monolithic point-to-point integrations with service mesh where every system exposes APIs and discovers services through a catalog. This architecture is foundational for AI adoption—AI systems require access to data from multiple sources, and APIs provide the standardized interfaces that make this possible without building custom integrations for each AI application.
 
 **API Standards:**
 - RESTful APIs with OpenAPI 3.0+ specs
@@ -618,12 +623,14 @@ Data sharing negotiations currently take 12-18 months because every agreement is
 - Agency API catalogs for discovery
 - Semantic versioning, backward compatibility
 - Rate limiting and monitoring
+- AI-ready data formats that support machine learning and automated analysis
 
 **Implementation:**
 1. Pilot with high-value cross-agency services
 2. Mandate for all new procurements
 3. Retrofit legacy with API wrappers
 4. TMO maintains statewide catalog
+5. Prioritize APIs that enable high-value AI use cases (e.g., eligibility determination, fraud detection, service personalization)
 
 ### 4.2 Citizen Journey Teams
 

@@ -25,7 +25,7 @@
 
 ## 5. Talent Development and Sustainability
 
-> **Section Summary:** This section establishes the talent pipeline for enterprise modernization, including the Governor's Innovation Fellowship (60 leaders annually), permanent data governance teams (400-600 positions), and training programs to upskill the existing workforce.
+> **Section Summary:** This section establishes the talent pipeline for enterprise modernization, including the Governor's Innovation Fellowship (60 leaders annually), permanent data governance teams (400-600 positions), and training programs to upskill the existing workforce. As AI transforms how organizations operate, building workforce capability to effectively adopt, oversee, and collaborate with AI systems is essential—this talent strategy prepares California's workforce for that transformation.
 
 ### 5.1 Governor's Innovation Fellowship Program
 
@@ -45,9 +45,9 @@ The Fellowship establishes a continuous pipeline of emerging leaders trained to 
 
 | Component | Duration | Focus |
 |-----------|----------|-------|
-| **Foundational Bootcamp** | Weeks 1-2 | Executive presence, innovation methods, California government landscape |
+| **Foundational Bootcamp** | Weeks 1-2 | Executive presence, innovation methods, California government landscape, AI literacy and responsible AI use |
 | **Leadership Breadth** | Months 1-3 | Listening sessions with 8-10 departments; executive shadowing |
-| **Innovation Training** | Months 1-4 | Human-centered design, prototyping, change management |
+| **Innovation Training** | Months 1-4 | Human-centered design, prototyping, change management, AI applications in government |
 | **Department Embedding** | Full 6 months | Real project ownership with mentorship and surrogate |
 | **Group Initiatives** | Full 6 months | Cross-agency team projects with executive sponsors |
 
@@ -181,6 +181,8 @@ As executive positions open or are reclassified, include fellowship participatio
 
 Provide sustainable capacity to support current Fellows' projects and sustain innovations after Fellows graduate to Senior Fellow status. Data governance teams are permanent civil service staff providing ongoing data management, quality, and integration capabilities.
 
+These teams are also foundational to AI readiness. AI systems require high-quality, well-governed data to function effectively—and human oversight to ensure responsible use. Data governance teams provide both: they prepare the data AI needs and establish the oversight processes that ensure AI is used appropriately.
+
 **Blended Expertise Model:**
 
 Effective data governance requires combining domain expertise with technical data skills:
@@ -286,11 +288,11 @@ Effective data governance requires combining domain expertise with technical dat
 
 **Digital Accelerators Program:**
 
-**Purpose:** Upskill existing IT staff in modern technologies and methods
+**Purpose:** Upskill existing IT staff in modern technologies and methods, with particular emphasis on AI capabilities that are rapidly transforming government service delivery
 
 **Curriculum:**
 - Cloud technologies (AWS, Azure, Google Cloud)
-- AI/ML fundamentals and applications
+- AI/ML fundamentals and applications—including understanding AI capabilities and limitations, evaluating AI tools, and implementing AI solutions responsibly
 - Agile and DevOps methodologies
 - API development and microservices
 - Cybersecurity and zero trust
@@ -326,6 +328,7 @@ Effective data governance requires combining domain expertise with technical dat
 - Innovation methods and design thinking
 - Digital service delivery
 - Accessibility and inclusive design
+- AI literacy for government—understanding what AI can and cannot do, identifying appropriate use cases, and ensuring human oversight of AI-assisted decisions
 
 **Requirement for Data Governance Teams:**
 - 100% of data governance team members complete foundational tracks within first year
