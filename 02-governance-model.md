@@ -56,7 +56,7 @@ Transform California's government operations through the Enterprise Efficiency a
 ### 1.3 Guiding Principles
 
 **Citizen-Centric Design**
-Every technology investment and process change must demonstrably improve citizen experiences. User research, accessibility testing, and satisfaction measurement inform all decisions. Services should be organized around life experiences—not organizational charts. Government exists to serve people, and every system, process, and policy should reflect that fundamental purpose.
+Every technology investment and process change must clearly improve citizen experiences. User research, accessibility testing, and satisfaction measurement inform all decisions. Services should be organized around life experiences—not organizational charts. Government exists to serve people, and every system, process, and policy should reflect that fundamental purpose.
 
 **Evidence-Based Decision Making**
 Data, metrics, and rigorous evaluation guide resource allocation, project prioritization, and performance assessment. The Readiness Assessment framework ensures strategic deployment of resources based on department preparedness, reducing risk and maximizing probability of success. Transparency in both successes and failures enables organizational learning. What gets measured gets managed; what gets shared gets improved.
