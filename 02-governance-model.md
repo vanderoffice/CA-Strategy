@@ -55,7 +55,7 @@ Transform California's government operations through the Enterprise Efficiency a
 
 ### 1.3 Guiding Principles
 
-**Citizen-Centric Design**
+**Citizen-Centric Design:**
 Every technology investment and process change must clearly improve citizen experiences. User research, accessibility testing, and satisfaction measurement inform all decisions. Services should be organized around life experiences—not organizational charts. Government exists to serve people, and every system, process, and policy should reflect that fundamental purpose.
 
 **Evidence-Based Decision Making**
