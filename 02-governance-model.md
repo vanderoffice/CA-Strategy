@@ -58,25 +58,25 @@ Transform California's government operations through the Enterprise Efficiency a
 **Citizen-Centric Design:**
 Every technology investment and process change must clearly improve citizen experiences. User research, accessibility testing, and satisfaction measurement inform all decisions. Services should be organized around life experiences—not organizational charts. Government exists to serve people, and every system, process, and policy should reflect that fundamental purpose.
 
-**Evidence-Based Decision Making**
+**Evidence-Based Decision Making:**
 Data, metrics, and rigorous evaluation guide resource allocation, project prioritization, and performance assessment. The Readiness Assessment framework ensures strategic deployment of resources based on department preparedness, reducing risk and maximizing probability of success. Transparency in both successes and failures enables organizational learning. What gets measured gets managed; what gets shared gets improved.
 
-**Actual Authority**
+**Actual Authority:**
 Modernization leaders and governance bodies must have real decision-making power over technology investments, data sharing mandates, procurement approvals, and performance accountability—not merely advisory roles. The Independent Office of State Data Governance structure and the E3 Undersecretary and E3 Chief Deputy Director positions proposed in this plan provide enforceable authority that transcends traditional agency boundaries. Without authority, modernization becomes optional; with authority, it becomes inevitable.
 
-**Readiness-Based Deployment**
+**Readiness-Based Deployment:**
 Not all departments are equally prepared for modernization. Strategic use of the Readiness Assessment framework ensures resources flow to departments positioned for success, creating early wins that build momentum rather than premature failures that generate resistance. This principle recognizes that transformation requires capability, not just commitment.
 
-**Open and Collaborative**
+**Open and Collaborative:**
 California's modernization serves as an open-source model for peer states. Collaboration with private sector partners, academic institutions, ODI expertise, and other governments accelerates progress. Breakthrough Fund partners co-invest and co-learn, creating replicable patterns applicable beyond California. Open innovation multiplies impact.
 
-**Equity and Inclusion**
+**Equity and Inclusion:**
 Digital transformation must not create new barriers for underserved populations. Multi-language support, accessibility compliance (WCAG 2.1 AA minimum), digital literacy programs, and alternative service channels ensure universal access. Services must be designed with—not just for—the communities they serve. Technology should reduce disparities, not amplify them.
 
-**Sustainable and Scalable**
+**Sustainable and Scalable:**
 Solutions must work at California's scale (40 million residents, 170 departments, 230,000+ employees) and remain maintainable over decades. Avoid bespoke systems and proprietary vendor lock-in. Prefer cheap, scalable, self-supportable innovative solutions over giant monolithic systems that create long-term dependencies and technical debt. Sustainability means both financial and operational longevity.
 
-**Security and Privacy by Design**
+**Security and Privacy by Design:**
 Cybersecurity, data privacy (CCPA compliance), and ethical AI use are embedded from project inception, not added retrospectively. Every data sharing agreement, every API, every system must meet stringent security standards appropriate to data sensitivity. Trust is California's most valuable asset—and most fragile.
 
 ### 1.4 The Core Problem
