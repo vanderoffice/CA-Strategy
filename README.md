@@ -1,12 +1,12 @@
 # California Enterprise Modernization Plan
 ## Executive Draft - Complete Document Suite
 
-**Version:** Executive Draft v1.2
-**Date:** December 8, 2025
+**Version:** Executive Draft v1.3
+**Date:** December 15, 2025
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 
-[![Status](https://img.shields.io/badge/Status-Executive_Draft_v1.2-blue?style=flat-square)]()
-[![Version](https://img.shields.io/badge/Version-December_8,_2025-green?style=flat-square)]()
+[![Status](https://img.shields.io/badge/Status-Executive_Draft_v1.3-blue?style=flat-square)]()
+[![Version](https://img.shields.io/badge/Version-December_15,_2025-green?style=flat-square)]()
 
 ---
 
@@ -43,10 +43,16 @@ CA-Strategy/
 │   ├── 08-technical-appendices.md    ← Technical standards and architecture (C, D, H)
 │   └── 09-budget-and-governance.md   ← Budget and change management (F, G)
 │
-└── readiness-assessment/
-    ├── README.md                     ← Assessment framework overview
-    ├── readiness-assessment-guide.md ← Combined guide and rationale
-    └── enhanced-readiness-assessment.md ← Full assessment instrument
+├── readiness-assessment/
+│   ├── README.md                     ← Assessment framework overview
+│   ├── readiness-assessment-guide.md ← Combined guide and rationale
+│   └── enhanced-readiness-assessment.md ← Full assessment instrument
+│
+├── docs/
+│   └── google-docs-workflow.md       ← Markdown ↔ Google Docs conversion guide
+│
+└── .claude/
+    └── CLAUDE.md                     ← AI assistant context for this repo
 ```
 
 ---
@@ -210,6 +216,7 @@ Departments are classified into tiers (1-4) based on assessment scores, enabling
 
 | Version | Date | Description | Author |
 |---------|------|-------------|--------|
+| Executive Draft v1.3 | December 15, 2025 | Added contributor documentation and workflow guides | Brent Vanderburgh |
 | Executive Draft v1.2 | December 8, 2025 | Merged navigation guides; clarified E3 terminology; final pre-publication review | Brent Vanderburgh |
 | Executive Draft v1.1 | December 8, 2025 | Added version history and document owner metadata | Brent Vanderburgh |
 | Executive Draft v1.0 | December 2025 | Initial executive draft with restructured document organization | Brent Vanderburgh |
