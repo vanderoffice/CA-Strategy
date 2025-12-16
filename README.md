@@ -48,11 +48,8 @@ CA-Strategy/
 │   ├── readiness-assessment-guide.md ← Combined guide and rationale
 │   └── enhanced-readiness-assessment.md ← Full assessment instrument
 │
-├── docs/
-│   └── google-docs-workflow.md       ← Markdown ↔ Google Docs conversion guide
-│
-└── .claude/
-    └── CLAUDE.md                     ← AI assistant context for this repo
+└── docs/
+    └── google-docs-workflow.md       ← Markdown ↔ Google Docs conversion guide
 ```
 
 ---
