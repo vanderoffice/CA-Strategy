@@ -2,8 +2,8 @@
 ## Budget and Governance Appendices
 
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
-**Date:** December 8, 2025
-**Version:** Executive Draft v1.2
+**Date:** December 2025
+**Version:** Executive Draft v1.3
 
 ---
 
@@ -307,6 +307,7 @@ The following table identifies key risks to the modernization initiative and mit
 | **Low-readiness departments failing E3 deployment** | MEDIUM | LOW | Readiness Assessment-based deployment sequencing, capacity building before E3 assignment, Tier 3-4 departments receive intensive training before projects, realistic timelines |
 | **GovOps coordination challenges across agencies** | MEDIUM | LOW | Clear TMO charter, adequate staffing, Governor's Office support, Statewide E3 Council peer accountability, respect for agency autonomy |
 | **Breakthrough Fund project failures** | LOW | MEDIUM | Portfolio diversification (70/20/10 risk allocation), stage-gate governance stopping failing projects early, metrics-driven decisions, no sunk cost fallacy |
+| **Federal AI policy preemption** | MEDIUM | MEDIUM | Frame modernization as service improvement and adoption (not AI regulation); leverage state procurement authority independent of federal policy; document efficiency gains; maintain legal separation between AI policy and operational modernization |
 
 ---
 
@@ -326,14 +327,15 @@ The following table identifies key risks to the modernization initiative and mit
 
 | Version | Date | Description | Author |
 |---------|------|-------------|--------|
+| Executive Draft v1.3 | December 2025 | Added federal AI policy preemption to risk matrix; aligned with Governor's December 16, 2025 announcement | Brent Vanderburgh |
 | Executive Draft v1.2 | December 8, 2025 | Removed "Document Owner" footer line | Brent Vanderburgh |
 | Executive Draft v1.1 | December 8, 2025 | Updated version numbering and added document owner | Brent Vanderburgh |
 | Executive Draft v1.0 | December 2025 | Initial executive draft with Budget (F) and Governance (G) appendices | Brent Vanderburgh |
 
 ---
 
-**Document Version:** Executive Draft v1.2
-**Date:** December 8, 2025
+**Document Version:** Executive Draft v1.3
+**Date:** December 2025
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 
 ---

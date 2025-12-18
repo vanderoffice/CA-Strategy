@@ -2,11 +2,11 @@
 ## Executive Draft - Complete Document Suite
 
 **Version:** Executive Draft v1.3
-**Date:** December 15, 2025
+**Date:** December 2025
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 
 [![Status](https://img.shields.io/badge/Status-Executive_Draft_v1.3-blue?style=flat-square)]()
-[![Version](https://img.shields.io/badge/Version-December_15,_2025-green?style=flat-square)]()
+[![Version](https://img.shields.io/badge/Version-December_2025-green?style=flat-square)]()
 
 ---
 
@@ -79,12 +79,14 @@ Establishes dedicated leadership positions with actual authority over modernizat
 - **8-12 E3 Undersecretaries** at agency level for strategic coordination
 - **30-40 E3 Chief Deputy Directors** at department level for operational execution
 - **Transformation Management Office (TMO)** for portfolio management and support
+- **California Innovation Council Interface** connecting E3 leaders to the Governor's four council working groups
 
 ### Governor's Innovation Fellowship
 Builds a continuous pipeline of modernization leaders:
 - **60 Fellows annually** across 3 cohorts
 - **6-month intensive program** with department embedding
 - **Senior Fellow network** providing ongoing advisory capacity
+- **Emerging Technology Accelerator partners** providing specialized training and research collaboration
 
 ### Breakthrough Modernization Fund
 Applies venture capital portfolio principles to government investment:
@@ -130,6 +132,7 @@ The plan uses sequential section numbering across documents:
 |---------|----------|-------|
 | [1](02-governance-model.md#1-strategic-foundation) | 02-governance-model.md | Strategic Foundation |
 | [2](02-governance-model.md#2-e3-operational-model) | 02-governance-model.md | E3 Operational Model |
+| [2.5](02-governance-model.md#25-california-innovation-council-interface) | 02-governance-model.md | California Innovation Council Interface |
 | [3](02-governance-model.md#3-independent-office-of-state-data-governance) | 02-governance-model.md | Independent Office of State Data Governance |
 | [4](02-governance-model.md#4-product-led-delivery-framework) | 02-governance-model.md | Product-Led Delivery Framework |
 | [5](03-talent-development.md#5-talent-development-and-sustainability) | 03-talent-development.md | Talent Development and Sustainability |
@@ -213,7 +216,7 @@ Departments are classified into tiers (1-4) based on assessment scores, enabling
 
 | Version | Date | Description | Author |
 |---------|------|-------------|--------|
-| Executive Draft v1.3 | December 15, 2025 | Added contributor documentation and workflow guides | Brent Vanderburgh |
+| Executive Draft v1.3 | December 2025 | Aligned with Governor's Innovation Council and Emerging Technology Accelerator announcement (December 16, 2025); added Section 2.5 Innovation Council Interface; added Accelerator partners to talent development; added federal AI policy preemption to risk matrix | Brent Vanderburgh |
 | Executive Draft v1.2 | December 8, 2025 | Merged navigation guides; clarified E3 terminology; final pre-publication review | Brent Vanderburgh |
 | Executive Draft v1.1 | December 8, 2025 | Added version history and document owner metadata | Brent Vanderburgh |
 | Executive Draft v1.0 | December 2025 | Initial executive draft with restructured document organization | Brent Vanderburgh |

@@ -2,8 +2,8 @@
 ## Talent Development
 
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
-**Date:** December 8, 2025
-**Version:** Executive Draft v1.2
+**Date:** December 2025
+**Version:** Executive Draft v1.3
 
 ---
 
@@ -316,6 +316,25 @@ Effective data governance requires combining domain expertise with technical dat
 - Pipeline development (interns becoming full-time employees)
 - Research collaborations with universities
 
+**Emerging Technology Accelerator Partners:**
+
+In December 2025, the Governor formalized the Emerging Technology Accelerator, establishing partnerships with leading academic and civic technology organizations. These partners provide specialized expertise, training capacity, and research collaboration for the Fellowship and data governance programs:
+
+| Partner | Contribution |
+|---------|--------------|
+| Stanford Institute for Human-Centered AI | AI ethics curriculum, research partnerships, responsible AI frameworks |
+| UC Berkeley | Academic partnerships, policy research, graduate program coordination |
+| Mozilla Foundation | Open technology expertise, responsible AI guidance |
+| Tech Talent Project | Talent pipeline development, recruitment strategies, hiring best practices |
+| U.S. Digital Response | Delivery expertise, sprint capacity, civic tech methodology |
+| Nava Labs | Service design, human-centered design training, civic tech implementation |
+
+**Integration with Fellowship:**
+- Accelerator partners serve as Fellowship placement opportunities for AI-focused cohorts
+- Specialized training modules developed in partnership with Accelerator organizations
+- Research collaborations inform CalAcademy curriculum updates
+- Joint projects between Fellows and Accelerator partners on priority modernization challenges
+
 **CalAcademy Integration:**
 
 **Purpose:** ODI's CalAcademy provides comprehensive training across innovation methods
@@ -366,14 +385,15 @@ For comprehensive guidance on union engagement, workforce transitions, and train
 
 | Version | Date | Description | Author |
 |---------|------|-------------|--------|
+| Executive Draft v1.3 | December 2025 | Added Emerging Technology Accelerator partners; aligned with Governor's December 16, 2025 announcement | Brent Vanderburgh |
 | Executive Draft v1.2 | December 8, 2025 | Removed "Document Owner" footer line | Brent Vanderburgh |
 | Executive Draft v1.1 | December 8, 2025 | Updated budget summary and version numbering | Brent Vanderburgh |
 | Executive Draft v1.0 | December 2025 | Initial executive draft with Fellowship program, data governance teams, and training programs | Brent Vanderburgh |
 
 ---
 
-**Document Version:** Executive Draft v1.2
-**Date:** December 8, 2025
+**Document Version:** Executive Draft v1.3
+**Date:** December 2025
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 
 ---

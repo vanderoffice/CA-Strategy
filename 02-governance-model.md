@@ -2,8 +2,8 @@
 ## Governance Model
 
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
-**Date:** December 8, 2025
-**Version:** Executive Draft v1.2
+**Date:** December 2025
+**Version:** Executive Draft v1.3
 
 ---
 
@@ -452,6 +452,26 @@ TMO prevents these pathologies by:
 - Run quarterly innovation showcases connecting Fellows, modernization leaders, executives, and Breakthrough partners
 - Track innovation metrics (experiments launched, pilots approved, production adoptions, reuse instances)
 
+### 2.5 California Innovation Council Interface
+
+In December 2025, the Governor established the California Innovation Council with four working groups to guide AI integration and technology policy across state government. The E3 Operational Model provides the execution capacity for council policy recommendations through designated liaisons.
+
+**Council Working Group Alignment:**
+
+| Council Working Group | Lead Agencies | E3 Liaison |
+|-----------------------|---------------|------------|
+| Modernizing Government Service Delivery | GovOps, CDT, ODI | TMO Director + GovOps E3 Undersecretary |
+| Technology, Economic Development and Workforce | GO-Biz, Labor & Workforce Development | Labor E3 Undersecretary |
+| Countering Tech Fraud | Business, Consumer Services & Housing, DFPI | Business E3 Undersecretary |
+| Protecting Child Online Safety | First Partner's Office, CDT, State Board of Education | CalHHS E3 Undersecretary (youth services) |
+
+**Interface Responsibilities:**
+
+- **Policy-to-Operations Flow:** E3 Undersecretaries translate council policy recommendations into department-level implementation plans
+- **Operational Feedback:** E3 leaders provide ground-level insights to inform council deliberations
+- **Quarterly Alignment:** TMO coordinates quarterly briefings between E3 Undersecretaries and relevant working groups
+- **Portfolio Integration:** Council-prioritized initiatives receive expedited consideration in TMO portfolio management
+
 ---
 
 ## 3. Independent Office of State Data Governance
@@ -717,14 +737,15 @@ This document establishes the governance foundation for California's enterprise 
 
 | Version | Date | Description | Author |
 |---------|------|-------------|--------|
+| Executive Draft v1.3 | December 2025 | Added Section 2.5 California Innovation Council Interface; aligned with Governor's December 16, 2025 announcement | Brent Vanderburgh |
 | Executive Draft v1.2 | December 8, 2025 | Updated framing to proposal/recommendation language; removed "Document Owner" footer line | Brent Vanderburgh |
 | Executive Draft v1.1 | December 8, 2025 | Added data governance authority clarification, CIDC transition process, and updated section numbering guide | Brent Vanderburgh |
 | Executive Draft v1.0 | December 2025 | Initial executive draft with governance model, E3 structure, and data governance framework | Brent Vanderburgh |
 
 ---
 
-**Document Version:** Executive Draft v1.2
-**Date:** December 8, 2025
+**Document Version:** Executive Draft v1.3
+**Date:** December 2025
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 
 ---
