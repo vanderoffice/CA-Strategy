@@ -319,6 +319,52 @@ _Supporting Evidence and Comments:_
 
 ---
 
+### 2.4 AI Readiness and Automation Capability
+
+**Why This Matters:** Artificial intelligence and automation are increasingly central to government modernization—from intelligent document processing to predictive analytics to citizen service chatbots. Departments must have the data foundation, governance awareness, and use case maturity to responsibly adopt AI capabilities as they become available.
+
+**Rating Scale and Examples:**
+
+**Score 1 - No AI Awareness or Preparation:**
+- No awareness of AI capabilities or potential applications
+- Data quality and accessibility insufficient to support any AI use
+- No staff with AI literacy or understanding of AI governance requirements
+- No identified use cases for AI or automation
+- Concerns about AI are based on misconceptions rather than informed assessment
+- Example: "We haven't thought about AI for our department. Our data is scattered across different systems and formats. Staff have heard about AI in the news but don't understand how it might apply to government work. We have no plans or interest in exploring AI applications."
+
+**Score 3 - Emerging AI Awareness, Limited Readiness:**
+- Leadership and staff have basic AI literacy (understand capabilities and limitations)
+- Some data assets are of sufficient quality to potentially support AI applications
+- Initial use cases have been identified but not piloted
+- Awareness of AI governance requirements (human oversight, bias testing) but no formal processes
+- Some staff interested in AI but training is ad hoc
+- Data governance foundation exists but not AI-optimized
+- Example: "Our leadership attended an AI briefing and understands basic concepts. We've identified 2-3 potential use cases (document classification, eligibility screening) but haven't moved beyond discussion. Our data governance program exists but hasn't addressed AI-specific requirements. A few staff have taken online AI courses on their own initiative. We understand AI projects need human oversight but haven't documented our approach."
+
+**Score 5 - AI-Ready with Governance and Pilot Experience:**
+- Comprehensive AI literacy across leadership and relevant staff
+- Data foundation supports AI: quality data, accessible formats, documented lineage
+- Multiple AI use cases identified, prioritized, and at least one piloted or implemented
+- Formal AI governance processes in place: use case approval, bias testing, human oversight requirements
+- Staff trained in AI oversight, prompt engineering, or AI tool administration
+- Clear understanding of ethical, legal, and equity considerations
+- AI readiness integrated into technology strategy and investment planning
+- Example: "Our department has implemented AI governance aligned with state and Independent Office requirements. We've piloted an intelligent document processing system for permit applications with documented bias testing and human oversight protocols. Leadership completed AI governance training, and 15 staff have been trained in AI tool administration. Our data governance program includes AI readiness assessments for key datasets. We maintain an approved AI use case registry and conduct quarterly reviews. Our IT strategic plan includes AI adoption roadmap with prioritized use cases."
+
+**Your Department's Rating:**
+
+_Score: [ ]_
+
+_Supporting Evidence and Comments:_
+```
+
+
+
+```
+
+---
+
 ## DOMAIN 3: Organizational Culture and Workforce Capability
 
 *This domain examines the human and cultural dimensions of readiness: staff openness to change, digital skills, and the presence of modern technology roles necessary to sustain innovation.*
@@ -825,7 +871,7 @@ Calculate the average score for each domain by averaging all indicators within t
 | Domain | Indicators | Total Score | Average Score |
 |--------|-----------|-------------|---------------|
 | **1. Leadership and Governance** | 3 indicators | ___ | ___ / 3 = ___ |
-| **2. Data and Technology Infrastructure** | 3 indicators | ___ | ___ / 3 = ___ |
+| **2. Data and Technology Infrastructure** | 4 indicators | ___ | ___ / 4 = ___ |
 | **3. Organizational Culture & Workforce** | 3 indicators | ___ | ___ / 3 = ___ |
 | **4. Cybersecurity & Risk Management** | 2 indicators | ___ | ___ / 2 = ___ |
 | **5. Service Delivery & Citizen Experience** | 2 indicators | ___ | ___ / 2 = ___ |

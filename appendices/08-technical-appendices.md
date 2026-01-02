@@ -38,7 +38,7 @@ The assessment evaluates six critical domains:
 | Domain | Weight | Key Indicators |
 |--------|--------|----------------|
 | **1. Leadership and Governance** | 20% | Executive sponsorship, IT strategic alignment, governance structures |
-| **2. Data and Technology Infrastructure** | 20% | Cloud adoption, API/interoperability, data governance |
+| **2. Data and Technology Infrastructure** | 20% | Cloud adoption, API/interoperability, data governance, AI readiness |
 | **3. Organizational Culture and Workforce** | 15% | Change readiness, digital literacy, modern technology roles |
 | **4. Cybersecurity and Risk** | 15% | Policy compliance (SIMM 5300), security governance |
 | **5. Service Delivery** | 15% | Digital service maturity, user-centered design |
@@ -195,6 +195,164 @@ California's technology implementations must comply with multiple regulatory fra
 2. Does the system require federal authorization? → Apply FedRAMP + SIMM 5300
 3. All other systems → Apply SIMM 5300 as baseline; NIST 800-53 controls where SIMM is silent
 4. Domain-specific data exchange → Apply relevant interoperability standards (HL7 FHIR for health, NIEM for justice)
+
+### H.0 Enterprise Integration Architecture Diagram
+
+The following diagram illustrates how the E3 modernization components connect across the technology landscape:
+
+```
+┌─────────────────────────────────────────────────────────────────────────────────────┐
+│                        CALIFORNIA ENTERPRISE MODERNIZATION                           │
+│                          Integration Architecture Overview                           │
+└─────────────────────────────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────────────────────────────┐
+│                              CITIZEN & PARTNER LAYER                                  │
+├──────────────────────────────────────────────────────────────────────────────────────┤
+│  ┌─────────────┐   ┌─────────────┐   ┌─────────────┐   ┌─────────────┐              │
+│  │   Web/Mobile │   │   Partner   │   │   Federal   │   │   Local Gov  │              │
+│  │   Portals    │   │   Systems   │   │   Systems   │   │   Systems    │              │
+│  └──────┬──────┘   └──────┬──────┘   └──────┬──────┘   └──────┬──────┘              │
+└─────────┼─────────────────┼─────────────────┼─────────────────┼──────────────────────┘
+          │                 │                 │                 │
+          └────────────────┬┴─────────────────┴─────────────────┘
+                           ▼
+┌──────────────────────────────────────────────────────────────────────────────────────┐
+│                              API GATEWAY & SECURITY                                   │
+├──────────────────────────────────────────────────────────────────────────────────────┤
+│  ┌──────────────────────────────────────────────────────────────────────────────┐   │
+│  │                         ENTERPRISE API GATEWAY                                │   │
+│  │  ┌────────────┐  ┌────────────┐  ┌────────────┐  ┌────────────┐             │   │
+│  │  │   OAuth    │  │   Rate     │  │   API      │  │   Request  │             │   │
+│  │  │   2.0/OIDC │  │   Limiting │  │   Catalog  │  │   Routing  │             │   │
+│  │  └────────────┘  └────────────┘  └────────────┘  └────────────┘             │   │
+│  └──────────────────────────────────────────────────────────────────────────────┘   │
+│  ┌──────────────────────────────────────────────────────────────────────────────┐   │
+│  │                         ZERO TRUST SECURITY LAYER                             │   │
+│  │         Identity Federation  │  RBAC/ABAC  │  Audit Logging  │  Encryption  │   │
+│  └──────────────────────────────────────────────────────────────────────────────┘   │
+└──────────────────────────────────────────────────────────────────────────────────────┘
+                                          │
+                                          ▼
+┌──────────────────────────────────────────────────────────────────────────────────────┐
+│                                 SERVICE MESH                                          │
+├──────────────────────────────────────────────────────────────────────────────────────┤
+│                                                                                       │
+│  ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐                  │
+│  │  IDENTITY       │    │  BENEFITS       │    │  LICENSING      │                  │
+│  │  SERVICES       │    │  SERVICES       │    │  SERVICES       │                  │
+│  │ ─────────────── │    │ ─────────────── │    │ ─────────────── │                  │
+│  │ • Citizen ID    │    │ • Eligibility   │    │ • Business Lic  │                  │
+│  │ • Authentication│    │ • Enrollment    │    │ • Professional  │                  │
+│  │ • Consent Mgmt  │    │ • Case Status   │    │ • Permits       │                  │
+│  └────────┬────────┘    └────────┬────────┘    └────────┬────────┘                  │
+│           │                      │                      │                            │
+│  ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐                  │
+│  │  DATA           │    │  DOCUMENT       │    │  NOTIFICATION   │                  │
+│  │  SERVICES       │    │  SERVICES       │    │  SERVICES       │                  │
+│  │ ─────────────── │    │ ─────────────── │    │ ─────────────── │                  │
+│  │ • Query/Search  │    │ • Upload/Store  │    │ • Email/SMS     │                  │
+│  │ • Analytics     │    │ • OCR/Extract   │    │ • Push Alerts   │                  │
+│  │ • Reporting     │    │ • Verification  │    │ • Preferences   │                  │
+│  └────────┬────────┘    └────────┬────────┘    └────────┬────────┘                  │
+│           │                      │                      │                            │
+│           └──────────────────────┴──────────────────────┘                            │
+│                                  │                                                    │
+│                    ┌─────────────┴─────────────┐                                     │
+│                    │    SERVICE REGISTRY       │                                     │
+│                    │    (Discovery, Health,    │                                     │
+│                    │     Load Balancing)       │                                     │
+│                    └───────────────────────────┘                                     │
+└──────────────────────────────────────────────────────────────────────────────────────┘
+                                          │
+                                          ▼
+┌──────────────────────────────────────────────────────────────────────────────────────┐
+│                              DATA & INTEGRATION LAYER                                 │
+├──────────────────────────────────────────────────────────────────────────────────────┤
+│  ┌────────────────────────────────────────────────────────────────────────────┐     │
+│  │                         DATA SHARING PLATFORM                              │     │
+│  │   ┌──────────────┐  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐ │     │
+│  │   │   Master     │  │   Consent    │  │   Data       │  │   Audit      │ │     │
+│  │   │   Data Mgmt  │  │   Registry   │  │   Quality    │  │   Trail      │ │     │
+│  │   └──────────────┘  └──────────────┘  └──────────────┘  └──────────────┘ │     │
+│  └────────────────────────────────────────────────────────────────────────────┘     │
+│                                          │                                           │
+│  ┌────────────────────┐  ┌────────────────────┐  ┌────────────────────┐            │
+│  │  EVENT BUS         │  │  MESSAGE QUEUE     │  │  ETL/DATA PIPELINE │            │
+│  │  (Real-time)       │  │  (Async)           │  │  (Batch)           │            │
+│  └─────────┬──────────┘  └─────────┬──────────┘  └─────────┬──────────┘            │
+│            └────────────────────────┴────────────────────────┘                       │
+└──────────────────────────────────────────────────────────────────────────────────────┘
+                                          │
+                                          ▼
+┌──────────────────────────────────────────────────────────────────────────────────────┐
+│                           LEGACY & MODERN SYSTEMS                                     │
+├──────────────────────────────────────────────────────────────────────────────────────┤
+│                                                                                       │
+│   ┌─────────────────────────────────┐    ┌─────────────────────────────────┐        │
+│   │      MODERNIZED SYSTEMS          │    │      LEGACY SYSTEMS              │        │
+│   │      (Cloud-Native)              │    │      (API-Wrapped)               │        │
+│   │  ┌─────────┐  ┌─────────┐       │    │  ┌─────────────────────────┐    │        │
+│   │  │ Cloud   │  │ Container│       │    │  │     API WRAPPER LAYER   │    │        │
+│   │  │ Apps    │  │ Platform │       │    │  │  ┌───────┐  ┌───────┐  │    │        │
+│   │  └─────────┘  └─────────┘       │    │  │  │Mainframe│ │ AS/400 │  │    │        │
+│   │  ┌─────────┐  ┌─────────┐       │    │  │  │ COBOL  │  │ RPG   │  │    │        │
+│   │  │ Modern  │  │ Data    │       │    │  │  └───────┘  └───────┘  │    │        │
+│   │  │ DB      │  │ Lake    │       │    │  └─────────────────────────┘    │        │
+│   │  └─────────┘  └─────────┘       │    │          (Strangler Pattern)     │        │
+│   └─────────────────────────────────┘    └─────────────────────────────────┘        │
+│                                                                                       │
+└──────────────────────────────────────────────────────────────────────────────────────┘
+                                          │
+                                          ▼
+┌──────────────────────────────────────────────────────────────────────────────────────┐
+│                           INFRASTRUCTURE LAYER                                        │
+├──────────────────────────────────────────────────────────────────────────────────────┤
+│  ┌────────────────────┐  ┌────────────────────┐  ┌────────────────────┐            │
+│  │   STATE DATA       │  │   PUBLIC CLOUD     │  │   DISASTER         │            │
+│  │   CENTERS          │  │   (FedRAMP High)   │  │   RECOVERY         │            │
+│  │   (Critical        │  │   Azure Gov / AWS  │  │   (Geo-Redundant)  │            │
+│  │    Systems)        │  │   GovCloud / GCP   │  │                    │            │
+│  └────────────────────┘  └────────────────────┘  └────────────────────┘            │
+└──────────────────────────────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────────────────────────────┐
+│                              AI & AUTOMATION LAYER                                    │
+│                        (Horizontally Integrated Across All Layers)                   │
+├──────────────────────────────────────────────────────────────────────────────────────┤
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐            │
+│  │  Document    │  │  Chatbots &  │  │  Predictive  │  │  Process     │            │
+│  │  Processing  │  │  Assistants  │  │  Analytics   │  │  Automation  │            │
+│  │  (IDP)       │  │  (Citizen    │  │  (Fraud,     │  │  (RPA, BPM)  │            │
+│  │              │  │   Service)   │  │   Eligibility)│  │              │            │
+│  └──────────────┘  └──────────────┘  └──────────────┘  └──────────────┘            │
+│                                                                                       │
+│       All AI systems governed by Independent Office AI Standards                     │
+│       (Human oversight, bias testing, transparency, approved use cases)              │
+└──────────────────────────────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────────────────────────────┐
+│                                    KEY                                                │
+├──────────────────────────────────────────────────────────────────────────────────────┤
+│  ─────►  Synchronous API call (REST/GraphQL)                                         │
+│  - - -►  Asynchronous message/event                                                  │
+│  ═════►  Batch data flow                                                             │
+│                                                                                       │
+│  Standards: OpenAPI 3.0+ | OAuth 2.0/OIDC | TLS 1.3 | JSON/XML | NIST 800-53        │
+└──────────────────────────────────────────────────────────────────────────────────────┘
+```
+
+**Architecture Principles:**
+
+1. **API-First:** All capabilities exposed as documented, versioned APIs
+2. **Loosely Coupled:** Services communicate through APIs and events, not direct database access
+3. **Hybrid Cloud:** Critical systems on-premises with cloud burst capacity; non-critical cloud-native
+4. **Zero Trust:** Every request authenticated and authorized; no implicit trust
+5. **Data Sovereignty:** Citizen data governed by consent; agencies access only what they need
+6. **Strangler Pattern:** Legacy systems wrapped with APIs and gradually replaced
+7. **AI-Ready:** Data architecture supports machine learning and automation
+
+---
 
 ### H.1 API Management Strategy
 

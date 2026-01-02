@@ -63,6 +63,99 @@ The proposed California Breakthrough Modernization Fund (Breakthrough Fund) woul
 - Transparency to Legislature, press, and public
 - Private sector co-investment creates external accountability
 
+### 6.1.1 Private Sector Partnership Framework
+
+> **Guiding Principle:** Private sector partnership enhances accountability and brings expertise, but must be structured to avoid conflicts of interest, preserve public control, and maintain transparency. Partners contribute capital and knowledge; they do not gain preferential treatment in procurement.
+
+**Fund Capitalization:**
+- State appropriation: $50M one-time
+- Private sector contribution: $50M (per framework below)
+- **Total initial fund: $100M**
+
+**Partnership Categories:**
+
+| Category | Contribution Type | Role in Governance | Restrictions |
+|----------|-------------------|-------------------|--------------|
+| **Philanthropic Partners** | Grant capital (no ROI expectation) | Advisory only; no voting | Standard disclosure |
+| **Civic Technology Partners** | In-kind expertise, fellowships, research | Advisory; may serve on Investment Committee | Cannot bid on funded projects |
+| **Corporate Partners** | Capital contribution, expertise sharing | Rotating observer on Investment Committee | Strict procurement firewall (see below) |
+| **Federal/Foundation Grants** | Grant capital | Per grant terms | Grant compliance |
+
+**Contribution Tiers:**
+
+| Tier | Contribution | Recognition | Engagement Level |
+|------|-------------|-------------|-----------------|
+| **Founding Partner** | $5M+ | Named partnership, annual report recognition | Quarterly strategy briefings; eligible for Committee observer role |
+| **Innovation Partner** | $1M-$4.9M | Annual report recognition | Semi-annual briefings; RFI² challenge co-sponsorship |
+| **Supporting Partner** | $250K-$999K | Website recognition | Annual briefings; event participation |
+| **In-Kind Partner** | Equivalent value | Website recognition | Per contribution agreement |
+
+**Procurement Firewall (Critical for Public Trust):**
+
+To ensure public trust and avoid conflicts of interest:
+
+1. **No Bid Privilege:** Partners receive *no preferential treatment* in any procurement process. Contributing capital does not influence vendor selection.
+
+2. **Recusal Requirements:**
+   - Partners must recuse from any Investment Committee discussion involving projects where they might bid
+   - Partners cannot serve on evaluation committees for projects they may pursue
+   - 12-month cooling-off period: Partners who exit partnership cannot bid on funded projects for 12 months
+
+3. **Transparency:**
+   - All partnership agreements publicly posted
+   - All contributions disclosed in quarterly reports
+   - Investment Committee meeting minutes (with appropriate redactions) published
+   - Any perceived conflict flagged and documented with resolution
+
+4. **Structural Separation:**
+   - Corporate partners' contributions go to general fund pool, not earmarked projects
+   - Partner representatives on Investment Committee serve as non-voting observers
+   - Voting authority remains with government officials only
+
+**Partner Value Proposition:**
+
+Why would private sector entities contribute without procurement advantage?
+
+| Partner Type | Value Received |
+|--------------|----------------|
+| **Philanthropic Foundations** | Mission alignment (civic tech, digital equity); measurable impact on California residents |
+| **Technology Companies** | Demonstrated commitment to public sector; talent pipeline exposure; industry leadership reputation |
+| **Consulting Firms** | Relationship building with state leadership (within ethical bounds); thought leadership platform |
+| **Academic Institutions** | Research access; student placement; policy influence |
+| **Civic Tech Organizations** | Scale impact; influence on government modernization practices |
+
+**Target Partner Mix:**
+
+| Partner Category | Target Contribution | Potential Sources |
+|------------------|--------------------|--------------------|
+| Philanthropic Foundations | $15M | Foundations focused on civic technology, digital equity, government innovation |
+| Civic Tech Organizations | $10M (including in-kind) | National civic technology organizations, digital service nonprofits |
+| Corporate Partners | $15M | Technology companies, consulting firms (with procurement firewall) |
+| Federal Grants | $10M | NSF, GSA Technology Modernization Fund, other federal programs |
+
+**Partnership Governance:**
+
+- **Partnership Director** (within TMO): Manages relationships, ensures compliance, reports to Investment Committee
+- **Partnership Agreement Template:** Standardized agreement covering contribution terms, recognition, restrictions, exit provisions
+- **Annual Partnership Review:** Assess partner engagement, contribution status, compliance, renewal
+
+**Risk Mitigation:**
+
+| Risk | Mitigation |
+|------|------------|
+| Partner expects procurement favor | Explicit agreement terms; recusal requirements; public transparency |
+| Perception of pay-to-play | Philanthropic partners prioritized; firewall enforcement; public disclosure |
+| Partner exit mid-commitment | Multi-year pledges with annual tranches; diversified partner base |
+| Insufficient partner interest | Phased approach; state can proceed at reduced scale if needed |
+
+**Fallback Position:**
+
+If private sector partnership is delayed or falls short of $50M target:
+- State proceeds with $50M appropriation
+- Fund operates at smaller scale (50% of planned investments Year 1-2)
+- Partnership continues to be cultivated; contributions added as secured
+- Partnership positioned as enhancement, not requirement
+
 ### 6.2 Investment Categories
 
 **Category 1: Quick Wins (40% of portfolio)**

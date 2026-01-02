@@ -115,6 +115,65 @@ All figures are presented in 2025 current dollars. For multi-year budget plannin
 | Regional hubs (shared services) | 6-8 hubs × 8-10 FTE | $6.1M-$10.2M annually |
 | **Total** | 438-530 positions | **$52.0M-$67.5M annually** |
 
+### F.5.1 Phased Deployment Schedule for Data Governance Teams
+
+The $52M-$67.5M annual cost for data governance teams represents the fully operational state by Year 3. To manage budget impact and ensure quality implementation, teams deploy in three phases:
+
+**Phase 1: Foundation (Year 1)**
+
+| Component | Count | FTE | Annual Cost |
+|-----------|-------|-----|-------------|
+| Pilot department teams (high-readiness, Tier 1-2) | 6 | 78-90 | $9.2M-$11.5M |
+| Initial regional hubs | 2 | 16-20 | $2.0M-$2.5M |
+| Central coordination (within TMO) | 1 | 5 | $0.8M |
+| **Phase 1 Total** | 9 units | 99-115 | **$12.0M-$14.8M** |
+
+*Year 1 Focus:* Establish operating model, develop training curriculum, document best practices, validate staffing model.
+
+**Phase 2: Expansion (Year 2)**
+
+| Component | Count | FTE | Annual Cost |
+|-----------|-------|-----|-------------|
+| Existing Phase 1 teams | 6 | 78-90 | $9.2M-$11.5M |
+| Additional department teams (Tier 2-3) | 12 | 156-180 | $18.4M-$22.9M |
+| Additional regional hubs | 2 | 16-20 | $2.0M-$2.5M |
+| **Phase 2 Total** | 20 units | 250-290 | **$29.6M-$36.9M** |
+
+*Year 2 Focus:* Scale proven model, refine based on Phase 1 lessons, begin cross-agency data sharing initiatives.
+
+**Phase 3: Full Operations (Year 3+)**
+
+| Component | Count | FTE | Annual Cost |
+|-----------|-------|-----|-------------|
+| All department teams | 30 | 390-450 | $45.9M-$57.3M |
+| All regional hubs | 6-8 | 48-80 | $6.1M-$10.2M |
+| **Phase 3 Total** | 36-38 units | 438-530 | **$52.0M-$67.5M** |
+
+*Year 3 Focus:* Full operational capability, continuous improvement, measurable data quality outcomes.
+
+**Deployment Sequencing Criteria:**
+
+Teams deploy based on:
+1. **Readiness Assessment Score:** Tier 1-2 departments first (leadership commitment, governance foundation)
+2. **Data Sharing Priority:** Departments with high-value cross-agency data
+3. **E3 Leadership Presence:** Departments with assigned Undersecretary or CDD
+4. **Budget Availability:** Phased appropriation aligned with demonstrated success
+
+**Ramp-Up Summary:**
+
+| Year | Teams | Hubs | Total FTE | Annual Cost | Cumulative Investment |
+|------|-------|------|-----------|-------------|----------------------|
+| 1 | 6 | 2 | 99-115 | $12.0M-$14.8M | $12.0M-$14.8M |
+| 2 | 18 | 4 | 250-290 | $29.6M-$36.9M | $41.6M-$51.7M |
+| 3 | 30 | 6-8 | 438-530 | $52.0M-$67.5M | $93.6M-$119.2M |
+
+**Risk Mitigation:**
+
+- **Hiring delays:** Partner with CalHR on expedited classification review; leverage contractor bridge staffing
+- **Training bottleneck:** CalAcademy capacity expansion in Year 1; train-the-trainer model
+- **Quality concerns:** Phase 1 establishes baseline; expansion contingent on demonstrated effectiveness
+- **Budget pressure:** Phased approach allows adjustment if savings underperform projections
+
 ### F.6 Breakthrough Fund Capitalization
 
 **Seed Investment:**

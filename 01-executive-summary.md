@@ -106,7 +106,7 @@ See [Appendix F: Budget and Financial Models](appendices/09-budget-and-governanc
 
 1. **Executive Commitment** — Sustained support over 5+ years
 2. **Actual Authority** — E3 roles must have line authority, not advisory roles
-3. **Readiness-Based Deployment** — The Readiness Assessment Framework scores departments across 8 dimensions (leadership, technical capability, data governance, cybersecurity, service delivery, workforce culture, funding, and project portfolio management) to prioritize E3 deployment where success probability is highest
+3. **Readiness-Based Deployment** — The Readiness Assessment Framework scores departments across 6 domains (Leadership and Governance; Data and Technology Infrastructure; Organizational Culture and Workforce; Cybersecurity and Risk; Service Delivery and Citizen Experience; Funding, Planning, and Portfolio Management) to prioritize E3 deployment where success probability is highest
 4. **Quick Wins** — Demonstrable successes in Year 1 to build momentum
 5. **Measurement Discipline** — Consistent tracking against defined Objectives and Key Results (OKRs)
 
@@ -138,7 +138,6 @@ For detailed mitigation strategies, risk assessment matrix, and contingency plan
 | [Operational Guides](appendices/07-operational-guides.md) | Guides B.1-B.5 | Reference |
 | [Technical Appendices](appendices/08-technical-appendices.md) | Appendices C, D, H | Reference |
 | [Budget and Governance Appendices](appendices/09-budget-and-governance.md) | Appendices F, G | Reference |
-| [Implementation Roadmap](appendices/10-implementation-roadmap.md) | Appendix I: 36-month implementation plan | 15 min |
 
 ---
 
