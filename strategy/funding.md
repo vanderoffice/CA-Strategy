@@ -3,7 +3,7 @@
 
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 **Date:** December 8, 2025
-**Version:** Executive Draft v1.3
+**Version:** Executive Draft v1.5
 
 ---
 
@@ -20,7 +20,7 @@
 
 ---
 
-> **Document Summary:** This document describes the California Breakthrough Modernization Fund structure. For governance structure, see [Governance Model](02-governance-model.md). For talent development, see [Talent Development](03-talent-development.md).
+> **Document Summary:** This document describes the California Breakthrough Modernization Fund structure. For governance structure, see [Governance Model](governance-model.md). For talent development, see [Talent Development](talent-development.md).
 
 ---
 
@@ -65,32 +65,28 @@ The proposed California Breakthrough Modernization Fund (Breakthrough Fund) woul
 
 ### 6.1.1 Private Sector Partnership Framework
 
-> **Guiding Principle:** Private sector partnership enhances accountability and brings expertise, but must be structured to avoid conflicts of interest, preserve public control, and maintain transparency. Partners contribute capital and knowledge; they do not gain preferential treatment in procurement.
+> **Guiding Principle:** Private sector partnership enhances accountability and brings expertise, but must preserve public control and transparency. Partners contribute capital and knowledge; they do not gain procurement preference.
 
-**Fund Capitalization:**
-- State appropriation: $50M one-time
-- Private sector contribution: $50M (per framework below)
-- **Total initial fund: $100M**
+#### Structure and Capitalization
+
+| Source | Amount |
+|--------|--------|
+| State appropriation | $50M |
+| Private sector | $50M |
+| **Total** | **$100M** |
 
 **Partnership Categories:**
 
-| Category | Contribution Type | Role in Governance | Restrictions |
-|----------|-------------------|-------------------|--------------|
-| **Philanthropic Partners** | Grant capital (no ROI expectation) | Advisory only; no voting | Standard disclosure |
-| **Civic Technology Partners** | In-kind expertise, fellowships, research | Advisory; may serve on Investment Committee | Cannot bid on funded projects |
-| **Corporate Partners** | Capital contribution, expertise sharing | Rotating observer on Investment Committee | Strict procurement firewall (see below) |
-| **Federal/Foundation Grants** | Grant capital | Per grant terms | Grant compliance |
+| Category | Contribution | Governance Role | Restrictions |
+|----------|--------------|-----------------|--------------|
+| Philanthropic | Grant capital | Advisory only | Standard disclosure |
+| Civic Tech | In-kind expertise | Advisory; may join Committee | Cannot bid on projects |
+| Corporate | Capital + expertise | Rotating observer | Procurement firewall |
+| Federal/Foundation | Grant capital | Per grant terms | Grant compliance |
 
-**Contribution Tiers:**
+**Contribution Tiers:** Founding ($5M+), Innovation ($1-5M), Supporting ($250K-1M), In-Kind (equivalent value) — each with corresponding recognition and engagement levels.
 
-| Tier | Contribution | Recognition | Engagement Level |
-|------|-------------|-------------|-----------------|
-| **Founding Partner** | $5M+ | Named partnership, annual report recognition | Quarterly strategy briefings; eligible for Committee observer role |
-| **Innovation Partner** | $1M-$4.9M | Annual report recognition | Semi-annual briefings; RFI² challenge co-sponsorship |
-| **Supporting Partner** | $250K-$999K | Website recognition | Annual briefings; event participation |
-| **In-Kind Partner** | Equivalent value | Website recognition | Per contribution agreement |
-
-**Procurement Firewall (Critical for Public Trust):**
+#### Ethics and Compliance
 
 To ensure public trust and avoid conflicts of interest:
 
@@ -107,54 +103,33 @@ To ensure public trust and avoid conflicts of interest:
    - Investment Committee meeting minutes (with appropriate redactions) published
    - Any perceived conflict flagged and documented with resolution
 
-4. **Structural Separation:**
-   - Corporate partners' contributions go to general fund pool, not earmarked projects
-   - Partner representatives on Investment Committee serve as non-voting observers
-   - Voting authority remains with government officials only
+4. **Structural Separation:** Corporate contributions go to general pool (not earmarked). Partner representatives serve as non-voting observers; voting authority remains with government officials.
 
-**Partner Value Proposition:**
+#### Partner Benefits and Targets
 
-Why would private sector entities contribute without procurement advantage?
+Why contribute without procurement advantage?
 
 | Partner Type | Value Received |
 |--------------|----------------|
-| **Philanthropic Foundations** | Mission alignment (civic tech, digital equity); measurable impact on California residents |
-| **Technology Companies** | Demonstrated commitment to public sector; talent pipeline exposure; industry leadership reputation |
-| **Consulting Firms** | Relationship building with state leadership (within ethical bounds); thought leadership platform |
-| **Academic Institutions** | Research access; student placement; policy influence |
-| **Civic Tech Organizations** | Scale impact; influence on government modernization practices |
+| Philanthropic Foundations | Mission alignment; measurable California impact |
+| Technology Companies | Public sector commitment; talent pipeline; industry reputation |
+| Academic Institutions | Research access; student placement; policy influence |
+| Civic Tech Organizations | Scale impact; influence on government practices |
 
-**Target Partner Mix:**
+**Target Mix:** Philanthropic ($15M), Civic Tech ($10M in-kind), Corporate ($15M), Federal Grants ($10M)
 
-| Partner Category | Target Contribution | Potential Sources |
-|------------------|--------------------|--------------------|
-| Philanthropic Foundations | $15M | Foundations focused on civic technology, digital equity, government innovation |
-| Civic Tech Organizations | $10M (including in-kind) | National civic technology organizations, digital service nonprofits |
-| Corporate Partners | $15M | Technology companies, consulting firms (with procurement firewall) |
-| Federal Grants | $10M | NSF, GSA Technology Modernization Fund, other federal programs |
+#### Governance and Risk
 
-**Partnership Governance:**
-
-- **Partnership Director** (within TMO): Manages relationships, ensures compliance, reports to Investment Committee
-- **Partnership Agreement Template:** Standardized agreement covering contribution terms, recognition, restrictions, exit provisions
-- **Annual Partnership Review:** Assess partner engagement, contribution status, compliance, renewal
-
-**Risk Mitigation:**
+**Partnership Director** (within TMO) manages relationships and compliance. Annual reviews assess engagement, contribution status, and renewal.
 
 | Risk | Mitigation |
 |------|------------|
-| Partner expects procurement favor | Explicit agreement terms; recusal requirements; public transparency |
-| Perception of pay-to-play | Philanthropic partners prioritized; firewall enforcement; public disclosure |
-| Partner exit mid-commitment | Multi-year pledges with annual tranches; diversified partner base |
-| Insufficient partner interest | Phased approach; state can proceed at reduced scale if needed |
+| Partner expects favor | Explicit terms; recusal; transparency |
+| Pay-to-play perception | Philanthropic priority; firewall enforcement |
+| Partner exit | Multi-year pledges; diversified base |
+| Insufficient interest | Phased approach; state can proceed at $50M |
 
-**Fallback Position:**
-
-If private sector partnership is delayed or falls short of $50M target:
-- State proceeds with $50M appropriation
-- Fund operates at smaller scale (50% of planned investments Year 1-2)
-- Partnership continues to be cultivated; contributions added as secured
-- Partnership positioned as enhancement, not requirement
+**Fallback:** If private partnership falls short, state proceeds at smaller scale with $50M appropriation. Partnership positioned as enhancement, not requirement.
 
 ### 6.2 Investment Categories
 
@@ -264,7 +239,7 @@ The Breakthrough Fund includes a sustainability mechanism that diverts a portion
 
 *Note: Fund projected to become self-sustaining by Year 5-7 through reinvestment of realized savings*
 
-*For detailed sustainability calculations and projections, see [Appendix B.3: Breakthrough Fund Sustainability Model](appendices/07-operational-guides.md#b3-breakthrough-fund-sustainability-model).*
+*For detailed sustainability calculations and projections, see [Appendix B.3: Breakthrough Fund Sustainability Model](../appendices/operational-guides.md#b3-breakthrough-fund-sustainability-model).*
 
 ### 6.5 Transparency and Public Reporting
 
@@ -326,19 +301,20 @@ The Breakthrough Fund would enable California to break free from the short-term 
 
 This funding approach is particularly critical as AI transforms service delivery across sectors. AI capabilities are advancing rapidly, and organizations that can move quickly will capture significant efficiency gains and service improvements. Traditional annual budget cycles cannot keep pace with this evolution. The Breakthrough Fund gives California the agility to adopt AI responsibly as opportunities emerge—ensuring the state leads rather than lags in applying these transformative technologies to improve government efficiency and citizen service.
 
-For detailed financial projections and sustainability models, see [Appendix F: Budget and Financial Models](appendices/09-budget-and-governance.md#appendix-f-budget-and-financial-models).
+For detailed financial projections and sustainability models, see [Appendix F: Budget and Financial Models](../appendices/budget-models.md#appendix-f-budget-and-financial-models).
 
 ---
 
 > This document is part of the California Enterprise Modernization recommendation. See also:
-> - [Executive Summary](01-executive-summary.md) — Start here for an overview
-> - [Governance Model](02-governance-model.md) — E3 structure and data governance
-> - [Talent Development](03-talent-development.md) — Fellowship program and workforce development
-> - [Procurement Guide](05-procurement-guide.md) — Technology and procurement innovation
-> - [Templates](appendices/06-templates.md) — Fillable forms and templates
-> - [Operational Guides](appendices/07-operational-guides.md) — Program guides and frameworks
-> - [Technical Appendices](appendices/08-technical-appendices.md) — Technical standards and architecture
-> - [Budget and Governance Appendices](appendices/09-budget-and-governance.md) — Budget models and change management
+> - [Executive Summary](executive-summary.md) — Start here for an overview
+> - [Governance Model](governance-model.md) — E3 structure and leadership
+> - [Data Governance](data-governance.md) — Independent Office and data sharing
+> - [Talent Development](talent-development.md) — Fellowship program and workforce development
+> - [Procurement Guide](procurement.md) — Technology and procurement innovation
+> - [Templates](../appendices/templates.md) — Fillable forms and templates
+> - [Operational Guides](../appendices/operational-guides.md) — Program guides and frameworks
+> - [Technical Appendices](../appendices/technical-standards.md) — Technical standards and architecture
+> - [Budget and Governance](../appendices/budget-models.md) — Budget models and change management
 
 ---
 
@@ -346,6 +322,7 @@ For detailed financial projections and sustainability models, see [Appendix F: B
 
 | Version | Date | Description | Author |
 |---------|------|-------------|--------|
+| Executive Draft v1.4 | January 2026 | Readability improvements: organized partnership framework with H4 subheadings | Claude |
 | Executive Draft v1.3 | December 8, 2025 | Replaced Section 7 with focused Breakthrough Fund conclusion | Brent Vanderburgh |
 | Executive Draft v1.2 | December 8, 2025 | Updated framing to proposal/recommendation language; removed "Document Owner" footer line | Brent Vanderburgh |
 | Executive Draft v1.1 | December 8, 2025 | Updated budget summary and clarified Breakthrough Fund capitalization | Brent Vanderburgh |
@@ -353,8 +330,8 @@ For detailed financial projections and sustainability models, see [Appendix F: B
 
 ---
 
-**Document Version:** Executive Draft v1.3
-**Date:** December 8, 2025
+**Document Version:** Executive Draft v1.5
+**Date:** January 2026
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 
 ---

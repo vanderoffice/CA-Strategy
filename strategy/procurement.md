@@ -3,7 +3,7 @@
 
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 **Date:** December 8, 2025
-**Version:** Executive Draft v1.2
+**Version:** Executive Draft v1.5
 
 ---
 
@@ -27,7 +27,7 @@
 
 California's product-led delivery operates within the technology architecture principles established by CDT: API-first design, cloud-native development, security by design, open standards, and modular architecture. Procurement supports these principles through vendor pool selection criteria, contract requirements, and stage-gate reviews.
 
-For complete architecture principles, five architecture domains (API Management, Legacy Modernization, Cloud Strategy, Cybersecurity, Agentic Data Systems), key targets, and governance structures, see [Appendix H: Technology Architecture Details](appendices/08-technical-appendices.md#appendix-h-technology-architecture-details).
+For complete architecture principles, five architecture domains (API Management, Legacy Modernization, Cloud Strategy, Cybersecurity, Agentic Data Systems), key targets, and governance structures, see [Appendix H: Technology Architecture Details](../appendices/technical-standards.md#appendix-h-technology-architecture-details).
 
 ---
 
@@ -160,9 +160,9 @@ Projects genuinely requiring >$15M single contract must:
 
 | Resource | Location | Contents |
 |----------|----------|----------|
-| Operational Guide | [Appendix B.1](appendices/07-operational-guides.md#b1-rapid-rfi-operational-guide) | Phase-by-phase procedures, example problem statements, evaluation criteria |
-| Problem Statement Template | [Template A.7](appendices/06-templates.md#a7-rapid-rfi-problem-statement-template) | Standard format for challenge solicitations |
-| AI Disclosure Template | [Template A.8](appendices/06-templates.md#a8-ai-productivity-disclosure-template) | Required vendor productivity disclosure |
+| Operational Guide | [Appendix B.1](../appendices/operational-guides.md#b1-rapid-rfi-operational-guide) | Phase-by-phase procedures, example problem statements, evaluation criteria |
+| Problem Statement Template | [Template A.7](../appendices/templates.md#a7-rapid-rfi-problem-statement-template) | Standard format for challenge solicitations |
+| AI Disclosure Template | [Template A.8](../appendices/templates.md#a8-ai-productivity-disclosure-template) | Required vendor productivity disclosure |
 
 **Risk Reduction Value:**
 
@@ -372,14 +372,15 @@ This policy:
 ---
 
 > This document is part of the California Enterprise Modernization recommendation. See also:
-> - [Executive Summary](01-executive-summary.md) — Start here for an overview
-> - [Governance Model](02-governance-model.md) — E3 structure, leadership roles, and data governance
-> - [Talent Development](03-talent-development.md) — Fellowship program and workforce development
-> - [Funding & Implementation](04-funding-implementation.md) — Breakthrough Fund structure
-> - [Templates](appendices/06-templates.md) — Fillable forms and templates
-> - [Operational Guides](appendices/07-operational-guides.md) — Program guides and frameworks
-> - [Technical Appendices](appendices/08-technical-appendices.md) — Technical standards and architecture
-> - [Budget and Governance Appendices](appendices/09-budget-and-governance.md) — Budget models and change management
+> - [Executive Summary](executive-summary.md) — Start here for an overview
+> - [Governance Model](governance-model.md) — E3 structure and leadership
+> - [Data Governance](data-governance.md) — Independent Office and data sharing
+> - [Talent Development](talent-development.md) — Fellowship program and workforce development
+> - [Funding & Implementation](funding.md) — Breakthrough Fund structure
+> - [Templates](../appendices/templates.md) — Fillable forms and templates
+> - [Operational Guides](../appendices/operational-guides.md) — Program guides and frameworks
+> - [Technical Appendices](../appendices/technical-standards.md) — Technical standards and architecture
+> - [Budget and Governance](../appendices/budget-models.md) — Budget models and change management
 
 ---
 
@@ -393,7 +394,7 @@ This policy:
 
 ---
 
-**Document Version:** Executive Draft v1.2
+**Document Version:** Executive Draft v1.5
 **Date:** December 8, 2025
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 

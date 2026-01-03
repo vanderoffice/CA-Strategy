@@ -3,7 +3,7 @@
 
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 **Date:** December 8, 2025
-**Version:** Executive Draft v1.2
+**Version:** Executive Draft v1.5
 
 ---
 
@@ -38,7 +38,7 @@
 - **Authorities:** Final approval on technology investments over $5M, mandate cross-department data sharing, voting authority in Independent Data Governance Office
 - **Performance Metrics:** Digital service adoption (75% by Year 5), legacy system reduction (40% by Year 5), cost savings ($50M+ annually by Year 3), citizen satisfaction (85%+)
 
-**Related Documents:** [Section 2.2: E3 Leadership Positions](./02-governance-model.md#22-e3-leadership-positions)
+**Related Documents:** [Section 2.2: E3 Leadership Positions](../strategy/governance-model.md#22-e3-leadership-positions)
 
 ---
 
@@ -59,7 +59,7 @@
 
 **Signature Requirements:** Agency Undersecretary or delegated authority from both parties, plus Independent Office of State Data Governance approval.
 
-**Related Documents:** [Section 3.4: Data Sharing Framework](./02-governance-model.md#34-data-sharing-framework)
+**Related Documents:** [Section 3.4: Data Sharing Framework](../strategy/data-governance.md#34-data-sharing-agreement-templates)
 
 ---
 
@@ -85,7 +85,7 @@
 - KR2: Launch 10 pilot projects with 3+ showing measurable improvements
 - KR3: Achieve 500 employees enrolled in Digital Accelerators program
 
-**Related Documents:** [Appendix G.3: Change Management](09-budget-and-governance.md#g3-change-management-the-adkar-model)
+**Related Documents:** [Appendix G.3: Change Management](budget-models.md#g3-change-management-the-adkar-model)
 
 ---
 
@@ -106,7 +106,7 @@
 | 4 | Go-Live Approval | Testing complete, training complete, cutover plan, rollback plan | E3 Undersecretary, CDD, Director |
 | 5 | Benefits Realization | Post-implementation review (90 days), benefits measurement, lessons learned | E3 Undersecretary, TMO |
 
-**Related Documents:** [Section 4.3: Stage-Gate Governance](./02-governance-model.md#43-stage-gate-governance)
+**Related Documents:** [Section 3.3: Stage-Gate Governance](../strategy/governance-model.md#33-stage-gate-governance)
 
 ---
 
@@ -131,7 +131,7 @@
 
 **Signature Requirements:** Delegated official, delegating authority, TMO acknowledgment.
 
-**Related Documents:** [Section 8.2: Enterprise Vendor Pools](./05-procurement-guide.md#82-enterprise-vendor-pools-multi-award-msa-model)
+**Related Documents:** [Section 8.2: Enterprise Vendor Pools](../strategy/procurement.md#82-enterprise-vendor-pools-multi-award-msa-model)
 
 ---
 
@@ -153,7 +153,7 @@
 
 **Signature Requirements:** State authorized representative, vendor authorized representative.
 
-**Related Documents:** [Section 8.10: AI-Era Pricing Expectations](./05-procurement-guide.md#810-ai-era-pricing-expectations)
+**Related Documents:** [Section 8.10: AI-Era Pricing Expectations](../strategy/procurement.md#810-ai-era-pricing-expectations)
 
 ---
 
@@ -176,7 +176,7 @@
 **Example Problem Statement:**
 > "Staff spend 40% of time manually re-keying data from PDF forms. We seek a partner to prototype a solution achieving 85% auto-adjudication rate. We are not prescribing technology stack."
 
-**Related Documents:** [Section 8.4: Rapid RFI²](./05-procurement-guide.md#84-rapid-rfi-challenge-based-procurement), [Appendix B.1: RFI² Operational Guide](07-operational-guides.md#b1-rapid-rfi-operational-guide)
+**Related Documents:** [Section 8.4: Rapid RFI²](../strategy/procurement.md#84-rapid-rfi-challenge-based-procurement), [Appendix B.1: RFI² Operational Guide](operational-guides.md#b1-rapid-rfi-operational-guide)
 
 ---
 
@@ -200,7 +200,7 @@ Vendors claiming minimal AI productivity benefit must explain why:
 - Highly specialized domain where AI tools are not effective
 - Other documented reason
 
-**Related Documents:** [Section 8.10: AI-Era Pricing Expectations](./05-procurement-guide.md#810-ai-era-pricing-expectations)
+**Related Documents:** [Section 8.10: AI-Era Pricing Expectations](../strategy/procurement.md#810-ai-era-pricing-expectations)
 
 ---
 
@@ -217,14 +217,15 @@ Templates are updated periodically. Always verify you have the current version b
 ---
 
 > This document is part of the California Enterprise Modernization recommendation. See also:
-> - [Executive Summary](./01-executive-summary.md) — Start here for an overview
-> - [Governance Model](./02-governance-model.md) — E3 structure, leadership roles, and data governance
-> - [Talent Development](./03-talent-development.md) — Fellowship program and workforce development
-> - [Funding & Implementation](./04-funding-implementation.md) — Breakthrough Fund structure
-> - [Procurement Guide](./05-procurement-guide.md) — Technology and procurement innovation
-> - [Operational Guides](07-operational-guides.md) — Program guides and frameworks
-> - [Technical Appendices](08-technical-appendices.md) — Technical standards and architecture
-> - [Budget and Governance Appendices](09-budget-and-governance.md) — Budget models and change management
+> - [Executive Summary](../strategy/executive-summary.md) — Start here for an overview
+> - [Governance Model](../strategy/governance-model.md) — E3 structure and leadership
+> - [Data Governance](../strategy/data-governance.md) — Independent Office and data sharing
+> - [Talent Development](../strategy/talent-development.md) — Fellowship program and workforce development
+> - [Funding & Implementation](../strategy/funding.md) — Breakthrough Fund structure
+> - [Procurement Guide](../strategy/procurement.md) — Technology and procurement innovation
+> - [Operational Guides](operational-guides.md) — Program guides and frameworks
+> - [Technical Standards](technical-standards.md) — Technical standards and architecture
+> - [Budget and Governance](budget-models.md) — Budget models and change management
 
 ---
 
@@ -238,8 +239,8 @@ Templates are updated periodically. Always verify you have the current version b
 
 ---
 
-**Document Version:** Executive Draft v1.2
-**Date:** December 8, 2025
+**Document Version:** Executive Draft v1.5
+**Date:** January 2026
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 
 ---

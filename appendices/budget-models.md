@@ -3,7 +3,7 @@
 
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 **Date:** December 2025
-**Version:** Executive Draft v1.3
+**Version:** Executive Draft v1.5
 
 ---
 
@@ -371,14 +371,15 @@ The following table identifies key risks to the modernization initiative and mit
 ---
 
 > This document is part of the California Enterprise Modernization recommendation. See also:
-> - [Executive Summary](./01-executive-summary.md) — Start here for an overview
-> - [Governance Model](./02-governance-model.md) — E3 structure, leadership roles, and data governance
-> - [Talent Development](./03-talent-development.md) — Fellowship program and workforce development
-> - [Funding & Implementation](./04-funding-implementation.md) — Breakthrough Fund structure
-> - [Procurement Guide](./05-procurement-guide.md) — Technology and procurement innovation
-> - [Templates](06-templates.md) — Fillable forms and templates
-> - [Operational Guides](07-operational-guides.md) — Program guides and frameworks
-> - [Technical Appendices](08-technical-appendices.md) — Technical standards and architecture
+> - [Executive Summary](../strategy/executive-summary.md) — Start here for an overview
+> - [Governance Model](../strategy/governance-model.md) — E3 structure and leadership
+> - [Data Governance](../strategy/data-governance.md) — Independent Office and data sharing
+> - [Talent Development](../strategy/talent-development.md) — Fellowship program and workforce development
+> - [Funding & Implementation](../strategy/funding.md) — Breakthrough Fund structure
+> - [Procurement Guide](../strategy/procurement.md) — Technology and procurement innovation
+> - [Templates](templates.md) — Fillable forms and templates
+> - [Operational Guides](operational-guides.md) — Program guides and frameworks
+> - [Technical Standards](technical-standards.md) — Technical standards and architecture
 
 ---
 

@@ -3,7 +3,7 @@
 
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 **Date:** December 2025
-**Version:** Executive Draft v1.3
+**Version:** Executive Draft v1.5
 
 ---
 
@@ -41,7 +41,7 @@ The **Enterprise Efficiency and Effectiveness (E3) Operational Model** creates i
 
 The Governor's Innovation Fellowship produces 60 trained modernization leaders annually through 6-month cohorts. Permanent Data Governance Teams (438-530 positions statewide: 30 dedicated department teams plus 6-8 regional hubs) provide sustainable capacity.
 
-See [Talent Development](03-talent-development.md) for details.
+See [Talent Development](talent-development.md) for details.
 
 ---
 
@@ -49,7 +49,7 @@ See [Talent Development](03-talent-development.md) for details.
 
 The California Breakthrough Modernization Fund ($100M: 50% state, 50% private sector) uses portfolio management principles. A feedback loop diverts 25% of realized savings back to the fund, creating self-sustaining modernization capacity.
 
-See [Funding & Implementation](04-funding-implementation.md) for details.
+See [Funding & Implementation](funding.md) for details.
 
 ---
 
@@ -77,7 +77,7 @@ See [Funding & Implementation](04-funding-implementation.md) for details.
 - Year 5 cumulative savings: $200M-$350M
 - Breakthrough Fund becomes 30-50% self-sustaining by Year 3 (25% savings reinvestment)
 
-See [Appendix F: Budget and Financial Models](appendices/09-budget-and-governance.md#appendix-f-budget-and-financial-models) for detailed cost breakdowns and multi-year projections.
+See [Appendix F: Budget and Financial Models](../appendices/budget-models.md#appendix-f-budget-and-financial-models) for detailed cost breakdowns and multi-year projections.
 
 ---
 
@@ -122,7 +122,7 @@ See [Appendix F: Budget and Financial Models](appendices/09-budget-and-governanc
 | Vendor lock-in | Open standards; modular contracts |
 | Federal AI policy preemption | Frame as service improvement and adoption (not regulation); leverage state procurement authority; document efficiency gains |
 
-For detailed mitigation strategies, risk assessment matrix, and contingency plans, see [Appendix G.6: Risk Mitigation Matrix](appendices/09-budget-and-governance.md#g6-risk-mitigation-matrix).
+For detailed mitigation strategies, risk assessment matrix, and contingency plans, see [Appendix G.6: Risk Mitigation Matrix](../appendices/budget-models.md#g6-risk-mitigation-matrix).
 
 ---
 
@@ -130,19 +130,20 @@ For detailed mitigation strategies, risk assessment matrix, and contingency plan
 
 | Document | Contents | Reading Time |
 |----------|----------|--------------|
-| [Governance Model](02-governance-model.md) | E3 structure, leadership roles, data governance | 25 min |
-| [Talent Development](03-talent-development.md) | Fellowship program, data governance teams | 15 min |
-| [Funding & Implementation](04-funding-implementation.md) | Breakthrough Fund structure | 15 min |
-| [Procurement Guide](05-procurement-guide.md) | Modular contracting, RFI², vendor pools | 20 min |
-| [Templates](appendices/06-templates.md) | Templates A.1-A.8 | Reference |
-| [Operational Guides](appendices/07-operational-guides.md) | Guides B.1-B.5 | Reference |
-| [Technical Appendices](appendices/08-technical-appendices.md) | Appendices C, D, H | Reference |
-| [Budget and Governance Appendices](appendices/09-budget-and-governance.md) | Appendices F, G | Reference |
+| [Governance Model](governance-model.md) | E3 structure, leadership roles | 20 min |
+| [Data Governance](data-governance.md) | Independent Office, data sharing | 10 min |
+| [Talent Development](talent-development.md) | Fellowship program, data governance teams | 15 min |
+| [Funding & Implementation](funding.md) | Breakthrough Fund structure | 15 min |
+| [Procurement Guide](procurement.md) | Modular contracting, RFI², vendor pools | 20 min |
+| [Templates](../appendices/templates.md) | Templates A.1-A.8 | Reference |
+| [Operational Guides](../appendices/operational-guides.md) | Guides B.1-B.5 | Reference |
+| [Technical Appendices](../appendices/technical-standards.md) | Appendices C, D, H | Reference |
+| [Budget and Governance](../appendices/budget-models.md) | Appendices F, G | Reference |
 
 ---
 
-**Document Version:** Executive Draft v1.3
-**Date:** December 2025
+**Document Version:** Executive Draft v1.5
+**Date:** January 2026
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 
 ---

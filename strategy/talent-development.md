@@ -3,7 +3,7 @@
 
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 **Date:** December 2025
-**Version:** Executive Draft v1.3
+**Version:** Executive Draft v1.5
 
 ---
 
@@ -19,7 +19,7 @@
 
 ---
 
-> **Document Summary:** This document describes California's approach to building sustainable modernization capacity through the Governor's Innovation Fellowship, permanent data governance teams, and comprehensive training programs. For governance structure, see [Governance Model](02-governance-model.md). For funding and implementation timeline, see [Funding & Implementation](04-funding-implementation.md).
+> **Document Summary:** This document describes California's approach to building sustainable modernization capacity through the Governor's Innovation Fellowship, permanent data governance teams, and comprehensive training programs. For governance structure, see [Governance Model](governance-model.md). For funding and implementation timeline, see [Funding & Implementation](funding.md).
 
 ---
 
@@ -51,7 +51,7 @@ The Fellowship establishes a continuous pipeline of emerging leaders trained to 
 | **Department Embedding** | Full 6 months | Real project ownership with mentorship and surrogate |
 | **Group Initiatives** | Full 6 months | Cross-agency team projects with executive sponsors |
 
-*For detailed curriculum, training modules, and deliverable requirements, see [Appendix B.2: Fellowship Program Curriculum](appendices/07-operational-guides.md#b2-fellowship-program-curriculum).*
+*For detailed curriculum, training modules, and deliverable requirements, see [Appendix B.2: Fellowship Program Curriculum](../appendices/operational-guides.md#b2-fellowship-program-curriculum).*
 
 **Expected Outcomes:**
 - Actionable recommendations for enterprise-wide improvements
@@ -177,11 +177,9 @@ As executive positions open or are reclassified, include fellowship participatio
 
 ### 5.4 Data Governance Teams (Permanent State Staff)
 
-**Purpose:**
+> **See also:** [Independent Office of State Data Governance](data-governance.md) for governance structure, and [Data Sharing Agreement Templates](data-governance.md#34-data-sharing-agreement-templates) for standardized agreements these teams will execute.
 
-Provide sustainable capacity to support current Fellows' projects and sustain innovations after Fellows graduate to Senior Fellow status. Data governance teams are permanent civil service staff providing ongoing data management, quality, and integration capabilities.
-
-These teams are also foundational to AI readiness. AI systems require high-quality, well-governed data to function effectively—and human oversight to ensure responsible use. Data governance teams provide both: they prepare the data AI needs and establish the oversight processes that ensure AI is used appropriately.
+**Purpose:** Provide sustainable civil service capacity to support modernization and sustain innovations after Fellows graduate. These teams are foundational to AI readiness—preparing the high-quality data AI needs and establishing oversight for responsible use.
 
 **Blended Expertise Model:**
 
@@ -206,41 +204,13 @@ Effective data governance requires combining domain expertise with technical dat
 
 **Why Science and Engineering Classifications:**
 
-**Higher Compensation:**
-- Professional classifications pay 20-30% more than administrative equivalents
-- Essential for recruiting talent with technical degrees and expertise
-- Competitive with private sector data roles (though still 20-40% gap)
-
-**Critical Thinking Skills:**
-- Scientists and engineers trained in analytical thinking, experimentation, validation
-- Apply scientific method to data problems
-- Comfortable with uncertainty and complexity
-
-**Domain Expertise:**
-- Many government datasets require domain knowledge (environmental, engineering, health, public safety)
-- Professional classifications enable hiring experts who understand the data
-
-**Classification Alignment:**
-- Consistent with how California already organizes technical work
-- Leverages existing classification infrastructure
-- Reduces HR complexity and approval challenges
-
-**Professional Accountability:**
-
-**Supervisory-Level Authority:**
-- Supervisory classifications provide "responsible charge" over data systems and quality
-- Similar to engineering supervisors responsible for project quality and safety
-- Creates accountability for data governance outcomes
-
-**Licensure (Where Applicable):**
-- PE/PG licensure preferred for certain roles (engineering data systems, geospatial analysis)
-- Professional ethics and standards applicable to data work
-- Continuing education requirements keeping skills current
-
-**Quality Requirements:**
-- Classification standards embed scientific and engineering quality expectations
-- Performance standards tied to data quality, accuracy, compliance
-- Career advancement linked to demonstrated expertise and impact
+| Benefit | Rationale |
+|---------|-----------|
+| **Higher Compensation** | Professional classifications pay 20-30% more, essential for recruiting technical talent |
+| **Critical Thinking** | Scientists/engineers trained in analytical thinking, experimentation, validation |
+| **Domain Expertise** | Many datasets require specialized knowledge (environmental, health, public safety) |
+| **Classification Alignment** | Leverages existing CA infrastructure, reduces HR complexity |
+| **Professional Accountability** | Supervisory roles provide "responsible charge" over data quality; licensure (PE/PG) preferred for some roles |
 
 **Deployment Strategy:**
 
@@ -365,19 +335,20 @@ Successful modernization requires partnership with labor organizations represent
 - **Upskilling Priority:** Training programs prepare workers for evolving roles
 - **Classification Coordination:** New data governance positions developed in coordination with CalHR and relevant bargaining units
 
-For comprehensive guidance on union engagement, workforce transitions, and training coordination, see [Appendix B.4: Labor Relations Strategy](appendices/07-operational-guides.md#b4-labor-relations-strategy).
+For comprehensive guidance on union engagement, workforce transitions, and training coordination, see [Appendix B.4: Labor Relations Strategy](../appendices/operational-guides.md#b4-labor-relations-strategy).
 
 ---
 
 > This document is part of the California Enterprise Modernization recommendation. See also:
-> - [Executive Summary](01-executive-summary.md) — Start here for an overview
-> - [Governance Model](02-governance-model.md) — E3 structure and data governance
-> - [Funding & Implementation](04-funding-implementation.md) — Breakthrough Fund structure
-> - [Procurement Guide](05-procurement-guide.md) — Technology and procurement innovation
-> - [Templates](appendices/06-templates.md) — Fillable forms and templates
-> - [Operational Guides](appendices/07-operational-guides.md) — Program guides and frameworks
-> - [Technical Appendices](appendices/08-technical-appendices.md) — Technical standards and architecture
-> - [Budget and Governance Appendices](appendices/09-budget-and-governance.md) — Budget models and change management
+> - [Executive Summary](executive-summary.md) — Start here for an overview
+> - [Governance Model](governance-model.md) — E3 structure and leadership
+> - [Data Governance](data-governance.md) — Independent Office and data sharing
+> - [Funding & Implementation](funding.md) — Breakthrough Fund structure
+> - [Procurement Guide](procurement.md) — Technology and procurement innovation
+> - [Templates](../appendices/templates.md) — Fillable forms and templates
+> - [Operational Guides](../appendices/operational-guides.md) — Program guides and frameworks
+> - [Technical Appendices](../appendices/technical-standards.md) — Technical standards and architecture
+> - [Budget and Governance](../appendices/budget-models.md) — Budget models and change management
 
 ---
 
@@ -385,6 +356,7 @@ For comprehensive guidance on union engagement, workforce transitions, and train
 
 | Version | Date | Description | Author |
 |---------|------|-------------|--------|
+| Executive Draft v1.4 | January 2026 | Readability improvements: condensed HR justification, added cross-references | Claude |
 | Executive Draft v1.3 | December 2025 | Added Emerging Technology Accelerator partners; aligned with Governor's December 16, 2025 announcement | Brent Vanderburgh |
 | Executive Draft v1.2 | December 8, 2025 | Removed "Document Owner" footer line | Brent Vanderburgh |
 | Executive Draft v1.1 | December 8, 2025 | Updated budget summary and version numbering | Brent Vanderburgh |
@@ -392,8 +364,8 @@ For comprehensive guidance on union engagement, workforce transitions, and train
 
 ---
 
-**Document Version:** Executive Draft v1.3
-**Date:** December 2025
+**Document Version:** Executive Draft v1.5
+**Date:** January 2026
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 
 ---
