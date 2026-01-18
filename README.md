@@ -1,3 +1,6 @@
+[\![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[\![Status: Executive Draft](https://img.shields.io/badge/Status-Executive_Draft_v1.5-blue.svg)]()
+
 # California Enterprise Modernization Plan
 
 **A comprehensive strategy to transform how California state government delivers services to 40 million residents.**
