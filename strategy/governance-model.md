@@ -23,6 +23,7 @@
    - [2.3 Chief Deputy Director Positions](#23-chief-deputy-director-positions-operational-execution-and-department-transformation)
    - [2.4 Transformation Management Office (TMO)](#24-transformation-management-office-tmo)
    - [2.5 California Innovation Council Interface](#25-california-innovation-council-interface)
+   - [2.6 Technical Executive Standards Integration](#26-technical-executive-standards-integration)
 
 3. [Product-Led Delivery Framework](#3-product-led-delivery-framework)
    - [3.1 Service Mesh Architecture](#31-service-mesh-architecture)
@@ -31,7 +32,7 @@
 
 ---
 
-> **Document Summary:** This document establishes the governance foundation for California's enterprise modernization, including the E3 Operational Model with Undersecretary and Chief Deputy Director positions, and the Product-Led Delivery Framework. For the Independent Office of State Data Governance, see [Data Governance](data-governance.md). For talent development, see [Talent Development](talent-development.md).
+> **Document Summary:** This document establishes the governance foundation for California's enterprise modernization, including the E3 Operational Model with Undersecretary and Chief Deputy Director positions, and the Product-Led Delivery Framework. For the Independent Office of State Data Governance, see [Data Governance](data-governance.md). For talent development, see [Talent Development](talent-development.md). For technical executive qualification standards, see [Executive Accountability](executive-accountability.md).
 
 ---
 
@@ -57,6 +58,9 @@ Data, metrics, and rigorous evaluation guide resource allocation, project priori
 
 **Actual Authority:**
 Modernization leaders and governance bodies must have real decision-making power—not merely advisory roles. Without authority, modernization becomes optional; with authority, it becomes inevitable.
+
+**Qualified Leadership:**
+Technical positions require verified technical competence. The Technical Executive Assignment (TEA) framework ensures CIOs, CISOs, CDOs, and CTOs possess demonstrated expertise. See [Executive Accountability](executive-accountability.md) for standards.
 
 **Readiness-Based Deployment:**
 Strategic use of the Readiness Assessment framework ensures resources flow to departments positioned for success, creating early wins that build momentum.
@@ -95,6 +99,9 @@ Outdated infrastructure exposes citizen data to threats. Systems lacking modern 
 
 #### Workforce Skills Gap
 33% of government workers have low or no digital skills despite 92% of jobs requiring them. Compensation gaps of 20-40% drive talent attrition. Average IT worker age exceeds 50, creating knowledge loss risk.
+
+#### Executive Qualification Gap
+CIO, CISO, CDO, and CTO positions have no domain-specific competence requirements under current CalHR standards. The State Auditor has flagged IT oversight as high-risk for 18 consecutive years. See [Executive Accountability](executive-accountability.md) for the Technical Executive Assignment (TEA) solution.
 
 #### Service Delivery Gaps
 Citizens navigate fragmented services designed around bureaucratic structures rather than user needs. Multi-language support and accessibility compliance remain inconsistent.
@@ -142,14 +149,14 @@ The **Government Operations Agency (GovOps)** serves as California's management 
 **Leveraging GovOps Expertise Statewide:**
 - **CDT** provides technology standards, cybersecurity, cloud infrastructure
 - **ODI** provides innovation methods, human-centered design, CalAcademy training
-- **CalHR** provides workforce planning, classification support, change management
+- **CalHR** provides workforce planning, classification support, change management, and TEA qualification standards
 - **DGS** supports procurement innovation and modular contracting
 
 ---
 
 ## 2. The E3 Operational Model
 
-> **Section Summary:** This section defines the governance architecture for the E3 Operational Model, including roles, responsibilities, authorities, and deployment strategy for Undersecretaries, Chief Deputy Directors, and the Transformation Management Office.
+> **Section Summary:** This section defines the governance architecture for the E3 Operational Model, including roles, responsibilities, authorities, and deployment strategy for Undersecretaries, Chief Deputy Directors, and the Transformation Management Office. Technical positions with IT responsibility require Technical Executive Assignment (TEA) qualifications—see [Section 2.6](#26-technical-executive-standards-integration) and [Executive Accountability](executive-accountability.md).
 
 The E3 Operational Model establishes explicit accountability for modernization through new leadership positions with direct authority over technology, process, and organizational transformation.
 
@@ -167,13 +174,13 @@ Government Operations Agency (GovOps)
 │   └── Innovation Coordination
 │
 Agency Secretaries (GovOps, CalHHS, CNRA, Transportation, Corrections, etc.)
-├── E3 Undersecretary
+├── E3 Undersecretary [TEA-qualified if technology portfolio]
 │   ├── Reports to: Agency Secretary
 │   ├── Coordinates with: TMO, Data Governance Office, other Undersecretaries
 │   └── Oversees: Agency-wide modernization portfolio
 │
 Department Directors (within each Agency)
-└── E3 Chief Deputy Director
+└── E3 Chief Deputy Director [TEA-qualified if IT responsibility]
     ├── Reports to: Department Director
     ├── Coordinates with: E3 Undersecretary, TMO
     └── Manages: Cross-functional transformation teams
@@ -183,6 +190,9 @@ Department Directors (within each Agency)
 
 **Position Overview:**
 E3 Undersecretaries operate at the Agency level, reporting directly to Agency Secretaries while coordinating statewide efforts through the TMO and Statewide E3 Council. These positions hold explicit authority over technology modernization, business process optimization, data governance, and performance management.
+
+**Technical Executive Assignment Requirement:**
+E3 Undersecretaries with significant technology portfolio responsibility (oversight of agency IT strategy, architecture approval, cybersecurity posture) must meet Technical Executive Assignment (TEA) qualifications. See [Section 2.6](#26-technical-executive-standards-integration) and [Executive Accountability](executive-accountability.md) for qualification pathways.
 
 **Why This Position Matters:**
 Without E3 Undersecretaries, modernization efforts fragment across departments with no strategic coordination. E3 Undersecretaries provide agency-level strategic direction, ensure cross-department interoperability, and create forcing function for consistent progress.
@@ -233,6 +243,9 @@ Oversee Innovation Fellows and mentor candidates for leadership positions. Spons
 
 **Position Overview:**
 E3 Chief Deputy Directors operate within departments, reporting to Department Directors while coordinating with agency-level E3 Undersecretaries and TMO. These positions hold operational responsibility for modernization execution.
+
+**Technical Executive Assignment Requirement:**
+E3 Chief Deputy Directors with direct IT delivery responsibility (managing IT staff, overseeing IT projects, IT budget authority) must meet Technical Executive Assignment (TEA) qualifications. See [Section 2.6](#26-technical-executive-standards-integration) and [Executive Accountability](executive-accountability.md) for qualification pathways.
 
 **Why This Position Matters:**
 Department Directors manage complex operations with competing priorities. Modernization often falls to the bottom without dedicated leadership. E3 Chief Deputy Directors provide persistent focus on transformation, bridging strategic vision and operational reality.
@@ -329,6 +342,52 @@ In December 2025, the Governor established the California Innovation Council wit
 - **Operational Feedback:** E3 leaders provide ground-level insights to inform council deliberations
 - **Portfolio Integration:** Council-prioritized initiatives receive expedited consideration
 
+### 2.6 Technical Executive Standards Integration
+
+> **See also:** [Executive Accountability](executive-accountability.md) for complete TEA framework, qualification pathways, and Executive Order language.
+
+**Purpose:**
+The Technical Executive Assignment (TEA) framework ensures that technology leadership positions are filled by executives with verified technical competence—addressing the root cause of California's 18-year high-risk IT oversight status.
+
+**Which E3 Positions Require TEA Qualification:**
+
+| Position | TEA Required? | Rationale |
+|----------|---------------|-----------|
+| E3 Undersecretary (with technology portfolio) | **Yes** | Approves architectures, IT investments, cybersecurity posture |
+| E3 Undersecretary (non-technology focus) | No | Focus on business process, not IT delivery |
+| E3 Chief Deputy Director (with IT responsibility) | **Yes** | Manages IT projects, staff, budget |
+| E3 Chief Deputy Director (non-IT focus) | No | Focus on operations, not technology |
+
+**Qualification Pathways:**
+
+TEA qualification may be demonstrated through any of three pathways:
+
+1. **Professional Certification** — CISSP, CISM, PMP, TOGAF, ITIL Expert, or equivalent
+2. **Demonstrated Experience** — 10+ years technical leadership with documented outcomes
+3. **Independent Technical Panel** — Three-person evaluation (CalHR, CDT, external expert)
+
+**Appointing Authority Requirements:**
+
+Secretaries and Department Directors appointing to TEA-covered positions must:
+- Verify candidate meets TEA qualification through one of the three pathways
+- Document technical qualifications assessment in writing
+- Obtain independent technical review for positions above $200K
+- Certify understanding of position's technical scope
+
+**Integration with E3 Hiring:**
+
+- **Phase 1 (CDT Pilot):** All new E3 positions at CDT filled using TEA process
+- **Phase 2 (Agency Expansion):** TEA requirements extend to agency E3 Undersecretaries with technology portfolios
+- **Phase 3 (Statewide):** All covered E3 positions require TEA qualification
+
+**Performance Accountability:**
+
+E3 leaders in TEA-covered positions have performance objectives that include measurable technical outcomes:
+- Project delivery (on-time, on-budget, meeting requirements)
+- Security posture (incidents, vulnerabilities, compliance)
+- Operational effectiveness (system availability, user satisfaction)
+- Team development (retention, skills advancement, succession planning)
+
 ---
 
 ## 3. Product-Led Delivery Framework
@@ -371,6 +430,7 @@ For comprehensive procurement framework, see [Procurement](procurement.md).
 
 This document establishes the governance foundation for California's enterprise modernization. Continue reading:
 
+- **[Executive Accountability](executive-accountability.md)** — Technical Executive Standards (TEA) and audit enforcement
 - **[Data Governance](data-governance.md)** — Independent Office and data sharing templates
 - **[Talent Development](talent-development.md)** — Fellowship program and workforce
 - **[Funding](funding.md)** — Breakthrough Fund structure
@@ -392,12 +452,14 @@ This document establishes the governance foundation for California's enterprise 
 | GovOps | Government Operations Agency |
 | KPI | Key Performance Indicator |
 | ODI | Office of Data and Innovation |
+| TEA | Technical Executive Assignment |
 | TMO | Transformation Management Office |
 
 ---
 
 > This document is part of the California Enterprise Modernization recommendation. See also:
 > - [Executive Summary](executive-summary.md) — Start here for an overview
+> - [Executive Accountability](executive-accountability.md) — TEA standards and audit enforcement
 > - [Data Governance](data-governance.md) — Independent Office of State Data Governance
 > - [Talent Development](talent-development.md) — Fellowship program and workforce
 > - [Funding](funding.md) — Breakthrough Fund structure
@@ -413,13 +475,14 @@ This document establishes the governance foundation for California's enterprise 
 
 | Version | Date | Description | Author |
 |---------|------|-------------|--------|
+| Executive Draft v1.6 | January 2026 | Added Section 2.6 Technical Executive Standards Integration; TEA requirements for E3 positions | Governor's Innovation Fellow |
 | Executive Draft v1.5 | January 2026 | Split data governance to separate document; renumbered sections; restructured for public repo | Claude |
 | Executive Draft v1.4 | January 2026 | Readability improvements: H4 subheadings, summary tables, condensed responsibilities | Claude |
 | Executive Draft v1.3 | December 2025 | Added California Innovation Council Interface | Brent Vanderburgh |
 
 ---
 
-**Document Version:** Executive Draft v1.5
+**Document Version:** Executive Draft v1.6
 **Date:** January 2026
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 

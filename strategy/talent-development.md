@@ -2,8 +2,8 @@
 ## Talent Development
 
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
-**Date:** December 2025
-**Version:** Executive Draft v1.5
+**Date:** January 2026
+**Version:** Executive Draft v1.6
 
 ---
 
@@ -12,20 +12,21 @@
 5. [Talent Development and Sustainability](#5-talent-development-and-sustainability)
    - [5.1 Governor's Innovation Fellowship Program](#51-governors-innovation-fellowship-program)
    - [5.2 Post-Fellowship Engagement](#52-post-fellowship-engagement)
-   - [5.3 Executive Duty Statement Integration](#53-executive-duty-statement-integration)
-   - [5.4 Data Governance Teams (Permanent State Staff)](#54-data-governance-teams-permanent-state-staff)
-   - [5.5 Training Programs](#55-training-programs)
-   - [5.6 Labor Relations](#56-labor-relations)
+   - [5.3 Fellowship-to-Technical Executive Pathway](#53-fellowship-to-technical-executive-pathway)
+   - [5.4 Executive Duty Statement Integration](#54-executive-duty-statement-integration)
+   - [5.5 Data Governance Teams (Permanent State Staff)](#55-data-governance-teams-permanent-state-staff)
+   - [5.6 Training Programs](#56-training-programs)
+   - [5.7 Labor Relations](#57-labor-relations)
 
 ---
 
-> **Document Summary:** This document describes California's approach to building sustainable modernization capacity through the Governor's Innovation Fellowship, permanent data governance teams, and comprehensive training programs. For governance structure, see [Governance Model](governance-model.md). For funding and implementation timeline, see [Funding & Implementation](funding.md).
+> **Document Summary:** This document describes California's approach to building sustainable modernization capacity through the Governor's Innovation Fellowship, permanent data governance teams, and comprehensive training programs. For governance structure, see [Governance Model](governance-model.md). For funding and implementation timeline, see [Funding & Implementation](funding.md). For technical executive qualification standards (TEA), see [Executive Accountability](executive-accountability.md).
 
 ---
 
 ## 5. Talent Development and Sustainability
 
-> **Section Summary:** This section establishes the talent pipeline for enterprise modernization, including the Governor's Innovation Fellowship (60 leaders annually), permanent data governance teams (400-600 positions), and training programs to upskill the existing workforce. As AI transforms how organizations operate, building workforce capability to effectively adopt, oversee, and collaborate with AI systems is essential—this talent strategy prepares California's workforce for that transformation.
+> **Section Summary:** This section establishes the talent pipeline for enterprise modernization, including the Governor's Innovation Fellowship (60 leaders annually), permanent data governance teams (400-600 positions), and training programs to upskill the existing workforce. As AI transforms how organizations operate, building workforce capability to effectively adopt, oversee, and collaborate with AI systems is essential—this talent strategy prepares California's workforce for that transformation. Additionally, the Fellowship creates a pathway to Technical Executive Assignment (TEA) positions for graduates pursuing CIO, CISO, CDO, or CTO roles.
 
 ### 5.1 Governor's Innovation Fellowship Program
 
@@ -57,6 +58,7 @@ The Fellowship establishes a continuous pipeline of emerging leaders trained to 
 - Actionable recommendations for enterprise-wide improvements
 - Some initiatives directly transition to Breakthrough Fund projects
 - Fellows gain experience leading complex, cross-agency initiatives; graduates become Senior Fellows
+- Graduates with technical backgrounds develop toward TEA qualification for future CIO/CISO/CDO/CTO roles
 
 ### 5.2 Post-Fellowship Engagement
 
@@ -132,7 +134,60 @@ With 6-month cohorts starting every 4 months, California builds sustained Senior
 
 This creates a self-sustaining pipeline that compounds over time, with Senior Fellows deployed throughout state government driving continuous modernization.
 
-### 5.3 Executive Duty Statement Integration
+### 5.3 Fellowship-to-Technical Executive Pathway
+
+> **See also:** [Executive Accountability](executive-accountability.md) for complete TEA framework and qualification pathways.
+
+**Purpose:**
+The Governor's Innovation Fellowship provides a structured pathway for emerging leaders to develop toward Technical Executive Assignment (TEA) qualification. Fellows with technical backgrounds who complete the program gain experience and credentials that count toward TEA eligibility.
+
+**How Fellowship Supports TEA Qualification:**
+
+| TEA Pathway | How Fellowship Contributes |
+|-------------|---------------------------|
+| **Professional Certification** | Fellowship provides protected time and resources for certification preparation; CalAcademy offers certification prep courses |
+| **Demonstrated Experience** | 6-month project ownership with documented outcomes; cross-agency leadership experience; enterprise perspective |
+| **Independent Technical Panel** | Fellows build relationships with CDT, CalHR, and external experts who may serve on TEA panels; documented outcomes strengthen panel applications |
+
+**Fellowship-to-TEA Timeline:**
+
+```
+Year 1: Fellowship Participation
+├── Complete 6-month cohort
+├── Pursue relevant certifications (if certification pathway)
+├── Document project outcomes for portfolio
+└── Graduate as Senior Fellow
+
+Years 2-5: Experience Building
+├── Continue in technical leadership role (state or private sector)
+├── Accumulate documented outcomes
+├── Maintain Senior Fellow network engagement
+└── Build toward 10-year experience threshold (if experience pathway)
+
+Year 5+: TEA-Eligible Positions
+├── Apply for CIO, CISO, CDO, CTO roles
+├── Present Fellowship outcomes as part of qualification package
+└── Leverage Senior Fellow network for references and mentorship
+```
+
+**Senior Fellows in TEA Positions:**
+
+As the Fellowship program matures, Senior Fellows will increasingly fill TEA-qualified positions:
+
+- **Year 3:** First Senior Fellows with 10+ years prior experience become TEA-eligible
+- **Year 5:** Senior Fellows who pursued certification pathway become eligible
+- **Year 8+:** Original cohorts reach 10-year experience threshold
+
+**Benefits of Fellowship-to-TEA Pathway:**
+
+| For the State | For the Fellow |
+|---------------|----------------|
+| Pipeline of TEA-qualified candidates with enterprise perspective | Clear career pathway to technical executive roles |
+| Leaders who understand California government from the inside | Recognition of Fellowship investment |
+| Built-in network reducing onboarding time | Access to Senior Fellow network for ongoing support |
+| Continuity of modernization leadership | Competitive advantage in executive hiring |
+
+### 5.4 Executive Duty Statement Integration
 
 **Positioning Fellowship as Desired Qualification:**
 
@@ -142,6 +197,16 @@ As executive positions open or are reclassified, include fellowship participatio
 
 > **Desirable Qualifications:**
 > Completion of Governor's Innovation Fellowship (Senior Fellow status) or equivalent executive leadership development program focused on organizational modernization, cross-functional collaboration, and enterprise perspective. Senior Fellows bring demonstrated understanding of state government systems, authentic relationships across multiple departments, hands-on experience with change management in complex organizations, and commitment to evidence-based modernization.
+
+**TEA-Covered Position Integration:**
+
+For positions requiring Technical Executive Assignment (TEA) qualification, duty statements include both TEA requirements and Fellowship recognition:
+
+> **Minimum Qualifications:**
+> Technical Executive Assignment (TEA) qualification through professional certification, demonstrated experience (10+ years technical leadership), or Independent Technical Panel recommendation. See [Executive Accountability](executive-accountability.md) for details.
+>
+> **Desirable Qualifications:**
+> Governor's Innovation Fellowship (Senior Fellow status); experience with California enterprise systems; demonstrated cross-agency collaboration.
 
 **Implementation Phases:**
 
@@ -159,6 +224,7 @@ As executive positions open or are reclassified, include fellowship participatio
 - Routine inclusion in executive position duty statements
 - Integration into succession planning
 - Recognition as premier leadership development pathway
+- Alignment with TEA requirements for technical positions
 
 **Benefits:**
 
@@ -174,8 +240,9 @@ As executive positions open or are reclassified, include fellowship participatio
 - Reduced onboarding time (already know state government)
 - Continuity of modernization efforts
 - Culture of innovation and continuous improvement
+- Pipeline of TEA-qualified candidates for technical executive roles
 
-### 5.4 Data Governance Teams (Permanent State Staff)
+### 5.5 Data Governance Teams (Permanent State Staff)
 
 > **See also:** [Independent Office of State Data Governance](data-governance.md) for governance structure, and [Data Sharing Agreement Templates](data-governance.md#34-data-sharing-agreement-templates) for standardized agreements these teams will execute.
 
@@ -254,7 +321,7 @@ Effective data governance requires combining domain expertise with technical dat
 - 438-530 permanent civil service positions created (390-450 in dedicated teams, 48-80 in regional hubs)
 - Sustainable capacity independent of Fellowship program or external consultants
 
-### 5.5 Training Programs
+### 5.6 Training Programs
 
 **Digital Accelerators Program:**
 
@@ -273,6 +340,17 @@ Effective data governance requires combining domain expertise with technical dat
 - **Cohort-based learning:** Teams learning together (better retention and application)
 - **Hands-on labs:** Real-world scenarios and projects
 - **Certification paths:** Industry certifications (AWS Certified, Certified Kubernetes Administrator, etc.)
+
+**TEA Certification Preparation:**
+
+For staff aspiring to Technical Executive Assignment (TEA) positions, training programs include certification preparation tracks:
+
+| Certification | Target Role | Training Support |
+|--------------|-------------|------------------|
+| CISSP, CISM, CISA | CISO | 40-hour prep course + study groups |
+| PMP | CIO, CTO | 35-hour PMP prep + exam voucher |
+| TOGAF | CIO, CTO | TOGAF Foundation + Practitioner |
+| ITIL Expert | CIO | ITIL pathway (Foundation through Expert) |
 
 **Apprenticeship Programs:**
 - Junior staff paired with experienced mentors
@@ -326,7 +404,7 @@ In December 2025, the Governor formalized the Emerging Technology Accelerator, e
 
 **Target:** 100% of data governance team members trained in foundational competencies by Year 2
 
-### 5.6 Labor Relations
+### 5.7 Labor Relations
 
 Successful modernization requires partnership with labor organizations representing state employees. Key principles include:
 
@@ -335,12 +413,19 @@ Successful modernization requires partnership with labor organizations represent
 - **Upskilling Priority:** Training programs prepare workers for evolving roles
 - **Classification Coordination:** New data governance positions developed in coordination with CalHR and relevant bargaining units
 
+**TEA and Executive Classifications:**
+The Technical Executive Assignment (TEA) framework applies only to Career Executive Assignments and exempt positions—not to civil service classifications or represented employees. Labor relations for TEA focus on:
+- Ensuring clear boundaries between TEA-covered executive roles and represented positions
+- Training programs that help represented employees develop toward future executive roles
+- No scope creep of executive requirements into civil service classifications
+
 For comprehensive guidance on union engagement, workforce transitions, and training coordination, see [Appendix B.4: Labor Relations Strategy](../appendices/operational-guides.md#b4-labor-relations-strategy).
 
 ---
 
 > This document is part of the California Enterprise Modernization recommendation. See also:
 > - [Executive Summary](executive-summary.md) — Start here for an overview
+> - [Executive Accountability](executive-accountability.md) — TEA standards and audit enforcement
 > - [Governance Model](governance-model.md) — E3 structure and leadership
 > - [Data Governance](data-governance.md) — Independent Office and data sharing
 > - [Funding & Implementation](funding.md) — Breakthrough Fund structure
@@ -356,6 +441,8 @@ For comprehensive guidance on union engagement, workforce transitions, and train
 
 | Version | Date | Description | Author |
 |---------|------|-------------|--------|
+| Executive Draft v1.6 | January 2026 | Added Section 5.3 Fellowship-to-Technical Executive Pathway; TEA integration throughout | Governor's Innovation Fellow |
+| Executive Draft v1.5 | January 2026 | Renumbered sections 5.3-5.6 to 5.4-5.7 | Claude |
 | Executive Draft v1.4 | January 2026 | Readability improvements: condensed HR justification, added cross-references | Claude |
 | Executive Draft v1.3 | December 2025 | Added Emerging Technology Accelerator partners; aligned with Governor's December 16, 2025 announcement | Brent Vanderburgh |
 | Executive Draft v1.2 | December 8, 2025 | Removed "Document Owner" footer line | Brent Vanderburgh |
@@ -364,7 +451,7 @@ For comprehensive guidance on union engagement, workforce transitions, and train
 
 ---
 
-**Document Version:** Executive Draft v1.5
+**Document Version:** Executive Draft v1.6
 **Date:** January 2026
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 

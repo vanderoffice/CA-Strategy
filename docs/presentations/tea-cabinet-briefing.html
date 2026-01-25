@@ -1,0 +1,1969 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="generator" content="Deck Pipeline">
+  <meta name="color-scheme" content="dark">
+  <title>Technical Executive Standards Initiative</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏛️</text></svg>">
+
+  <!-- Reveal.js Core -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Chart.js for data visualization -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+
+  <!-- Highlight.js for code -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+  <style>
+    /* ============================================
+       CSS Custom Properties
+       ============================================ */
+
+    :root {
+      /* Background colors */
+      --bg-primary: #08080f;
+      --bg-secondary: #0e0e18;
+      --bg-tertiary: #151520;
+      --bg-elevated: #1a1a28;
+
+      /* Text colors */
+      --text-primary: #f2f2f8;
+      --text-secondary: #a5a5b8;
+      --text-muted: #65657a;
+      --text-accent: #78b8ff;
+
+      /* Accent colors */
+      --accent-primary: #5c9eff;
+      --accent-primary-hover: #7eb8ff;
+      --accent-success: #55f09a;
+      --accent-warning: #ffcc35;
+      --accent-danger: #ff7878;
+      --accent-info: #45d0ff;
+      --accent-purple: #d090ff;
+      --accent-teal: #40e0d0;
+
+      /* Callout backgrounds */
+      --callout-note-bg: rgba(92, 158, 255, 0.08);
+      --callout-success-bg: rgba(85, 240, 154, 0.08);
+      --callout-warning-bg: rgba(255, 204, 53, 0.08);
+      --callout-danger-bg: rgba(255, 120, 120, 0.08);
+
+      /* Navigation */
+      --nav-bg: #060610;
+      --nav-active: #1a1a28;
+      --nav-border: #252535;
+      --nav-hover: #12121c;
+      --nav-width: 280px;
+      --nav-width-collapsed: 60px;
+
+      /* Code */
+      --code-bg: #0a0a14;
+      --code-text: #f2f2f8;
+
+      /* Typography */
+      --font-heading: 'Inter', system-ui, sans-serif;
+      --font-body: 'Inter', system-ui, sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+
+      /* Effects */
+      --radius-sm: 4px;
+      --radius-md: 8px;
+      --radius-lg: 12px;
+      --radius-xl: 16px;
+      --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.5);
+      --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.6);
+      --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.7);
+      --shadow-glow: 0 0 20px rgba(92, 158, 255, 0.15);
+      --transition-fast: 150ms ease;
+      --transition-normal: 250ms ease;
+    }
+
+    /* ============================================
+       Base Styles
+       ============================================ */
+
+    *, *::before, *::after { box-sizing: border-box; }
+
+    html {
+      font-size: 16px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: var(--font-body);
+      background-color: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.5;
+    }
+
+    /* ============================================
+       Layout
+       ============================================ */
+
+    .deck-container {
+      display: flex;
+      height: 100vh;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .deck-content {
+      flex: 1;
+      height: 100vh;
+      margin-left: var(--nav-width);
+      overflow: hidden;
+      transition: margin-left var(--transition-normal);
+    }
+
+    .deck-container.nav-collapsed .deck-content {
+      margin-left: var(--nav-width-collapsed);
+    }
+
+    /* ============================================
+       Typography
+       ============================================ */
+
+    h1, h2, h3, h4 {
+      font-family: var(--font-heading);
+      font-weight: 600;
+      line-height: 1.15;
+      margin-top: 0;
+      color: var(--text-primary);
+      letter-spacing: -0.02em;
+    }
+
+    h1 { font-size: 2.75rem; font-weight: 700; margin-bottom: 1.5rem; }
+    h2 { font-size: 2rem; margin-bottom: 1.25rem; }
+    h3 { font-size: 1.5rem; font-weight: 500; margin-bottom: 1rem; color: var(--text-accent); }
+    h4 { font-size: 1.25rem; font-weight: 500; margin-bottom: 0.75rem; }
+
+    p { margin-top: 0; margin-bottom: 1.125rem; line-height: 1.65; }
+
+    a { color: var(--text-accent); text-decoration: none; }
+    a:hover { color: var(--accent-primary-hover); }
+
+    strong { font-weight: 600; }
+
+    /* ============================================
+       Reveal.js Overrides
+       ============================================ */
+
+    .reveal {
+      font-family: var(--font-body);
+      font-size: 1.125rem;
+      color: var(--text-primary);
+      background-color: var(--bg-primary);
+      height: 100%;
+    }
+
+    .reveal .slides { text-align: left; }
+
+    .reveal .slides section {
+      height: auto !important;
+      min-height: 100%;
+      max-height: 100vh;
+      padding: 2.5rem 3.5rem;
+      background-color: var(--bg-primary);
+      overflow-y: auto !important;
+      overflow-x: hidden !important;
+    }
+
+    .reveal .slides section::-webkit-scrollbar { width: 8px; }
+    .reveal .slides section::-webkit-scrollbar-track { background: transparent; }
+    .reveal .slides section::-webkit-scrollbar-thumb { background: var(--nav-border); border-radius: 4px; }
+
+    .reveal h1, .reveal h2, .reveal h3 {
+      font-family: var(--font-heading);
+      color: var(--text-primary);
+      text-transform: none;
+    }
+
+    .reveal h1 { font-size: 2.75rem; font-weight: 700; }
+    .reveal h2 {
+      font-size: 1.875rem;
+      border-bottom: 3px solid var(--accent-primary);
+      padding-bottom: 0.625rem;
+      margin-bottom: 1.75rem;
+    }
+    .reveal h3 { font-size: 1.375rem; color: var(--text-accent); }
+
+    .reveal ul, .reveal ol { margin-left: 0; padding-left: 1.75rem; }
+    .reveal li { margin-bottom: 0.625rem; line-height: 1.6; }
+    .reveal li::marker { color: var(--accent-primary); }
+
+    .reveal blockquote {
+      border-left: 4px solid var(--accent-primary);
+      margin: 1.75rem 0;
+      font-style: normal;
+      background: var(--callout-note-bg);
+      padding: 1.125rem 1.5rem;
+      border-radius: var(--radius-md);
+    }
+
+    /* ============================================
+       Tables
+       ============================================ */
+
+    table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      margin: 1.75rem 0;
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      border: 1px solid var(--nav-border);
+    }
+
+    th, td {
+      text-align: left;
+      padding: 0.875rem 1.125rem;
+      border-bottom: 1px solid var(--nav-border);
+    }
+
+    th {
+      background: var(--bg-tertiary);
+      font-weight: 600;
+      font-size: 0.9375rem;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+
+    tr:last-child td { border-bottom: none; }
+    tr:nth-child(even) td { background: rgba(255, 255, 255, 0.02); }
+    tr:hover td { background: var(--bg-secondary); }
+
+    /* ============================================
+       Big Numbers / Metrics
+       ============================================ */
+
+    .big-number {
+      font-size: 4rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-primary), var(--accent-info));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      line-height: 1;
+      margin-bottom: 0.625rem;
+    }
+
+    .big-number.danger {
+      background: linear-gradient(135deg, var(--accent-danger), var(--accent-warning));
+      -webkit-background-clip: text;
+      background-clip: text;
+    }
+
+    .big-number.success {
+      background: linear-gradient(135deg, var(--accent-success), var(--accent-teal));
+      -webkit-background-clip: text;
+      background-clip: text;
+    }
+
+    .metric-label {
+      font-size: 0.875rem;
+      color: var(--text-secondary);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-weight: 500;
+    }
+
+    .metric-card {
+      background: var(--bg-secondary);
+      border-radius: var(--radius-lg);
+      padding: 1.75rem;
+      text-align: center;
+      border: 1px solid var(--nav-border);
+    }
+
+    /* ============================================
+       Cards & Columns
+       ============================================ */
+
+    .card {
+      background: var(--bg-secondary);
+      border-radius: var(--radius-lg);
+      padding: 1.75rem;
+      box-shadow: var(--shadow-md);
+      border: 1px solid var(--nav-border);
+    }
+
+    .columns { display: flex; gap: 2rem; margin: 1.5rem 0; }
+    .column { flex: 1; }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+      margin: 1.5rem 0;
+    }
+
+    .grid-4 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.25rem;
+      margin: 1.5rem 0;
+    }
+
+    /* ============================================
+       Callouts
+       ============================================ */
+
+    .callout {
+      background: var(--callout-note-bg);
+      border-left: 4px solid var(--accent-primary);
+      border-radius: var(--radius-md);
+      padding: 1.125rem 1.5rem;
+      margin: 1.75rem 0;
+    }
+
+    .callout-danger {
+      border-left-color: var(--accent-danger);
+      background: var(--callout-danger-bg);
+    }
+
+    .callout-warning {
+      border-left-color: var(--accent-warning);
+      background: var(--callout-warning-bg);
+    }
+
+    .callout-success {
+      border-left-color: var(--accent-success);
+      background: var(--callout-success-bg);
+    }
+
+    /* ============================================
+       Charts
+       ============================================ */
+
+    .chart-container {
+      background: var(--bg-secondary);
+      border-radius: var(--radius-lg);
+      padding: 1.75rem;
+      margin: 1.75rem 0;
+      border: 1px solid var(--nav-border);
+    }
+
+    .chart-title {
+      font-size: 1.0625rem;
+      font-weight: 600;
+      margin-bottom: 1.25rem;
+    }
+
+    .chart-wrapper {
+      position: relative;
+      height: 320px;
+    }
+
+    /* ============================================
+       Timeline
+       ============================================ */
+
+    .timeline {
+      position: relative;
+      padding-left: 2rem;
+      margin: 2rem 0;
+    }
+
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 3px;
+      background: linear-gradient(to bottom, var(--accent-primary), var(--accent-teal));
+      border-radius: 2px;
+    }
+
+    .timeline-item {
+      position: relative;
+      margin-bottom: 2rem;
+      padding-left: 1.5rem;
+    }
+
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -2.35rem;
+      top: 0.25rem;
+      width: 12px;
+      height: 12px;
+      background: var(--accent-primary);
+      border-radius: 50%;
+      border: 3px solid var(--bg-primary);
+    }
+
+    .timeline-date {
+      font-size: 0.875rem;
+      color: var(--accent-primary);
+      font-weight: 600;
+      margin-bottom: 0.25rem;
+    }
+
+    .timeline-title {
+      font-size: 1.125rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .timeline-desc {
+      color: var(--text-secondary);
+      font-size: 0.9375rem;
+    }
+
+    /* ============================================
+       Diagram / Flow
+       ============================================ */
+
+    .flow-diagram {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      margin: 2rem 0;
+      flex-wrap: wrap;
+    }
+
+    .flow-box {
+      background: var(--bg-secondary);
+      border: 2px solid var(--nav-border);
+      border-radius: var(--radius-md);
+      padding: 1rem 1.5rem;
+      text-align: center;
+      min-width: 140px;
+    }
+
+    .flow-box.highlight {
+      border-color: var(--accent-primary);
+      box-shadow: var(--shadow-glow);
+    }
+
+    .flow-box.danger {
+      border-color: var(--accent-danger);
+      background: var(--callout-danger-bg);
+    }
+
+    .flow-box-title {
+      font-weight: 600;
+      font-size: 0.9375rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .flow-box-subtitle {
+      font-size: 0.8125rem;
+      color: var(--text-muted);
+    }
+
+    .flow-arrow {
+      font-size: 1.5rem;
+      color: var(--text-muted);
+    }
+
+    /* ============================================
+       Quote Block
+       ============================================ */
+
+    .quote-block {
+      background: var(--bg-secondary);
+      border-left: 4px solid var(--accent-warning);
+      padding: 1.5rem 2rem;
+      margin: 2rem 0;
+      border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    }
+
+    .quote-text {
+      font-size: 1.25rem;
+      font-style: italic;
+      color: var(--text-primary);
+      margin-bottom: 0.75rem;
+      line-height: 1.5;
+    }
+
+    .quote-source {
+      font-size: 0.875rem;
+      color: var(--text-secondary);
+    }
+
+    /* ============================================
+       Pathway Cards
+       ============================================ */
+
+    .pathway-card {
+      background: var(--bg-secondary);
+      border: 1px solid var(--nav-border);
+      border-radius: var(--radius-lg);
+      padding: 1.5rem;
+      height: 100%;
+    }
+
+    .pathway-number {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 32px;
+      height: 32px;
+      background: var(--accent-primary);
+      color: var(--bg-primary);
+      font-weight: 700;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
+
+    .pathway-title {
+      font-size: 1.125rem;
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+    }
+
+    .pathway-desc {
+      font-size: 0.9375rem;
+      color: var(--text-secondary);
+    }
+
+    /* ============================================
+       Track Cards (Reform Tracks)
+       ============================================ */
+
+    .track-card {
+      background: var(--bg-secondary);
+      border-radius: var(--radius-lg);
+      padding: 1.5rem;
+      border-left: 4px solid var(--accent-primary);
+      height: 100%;
+    }
+
+    .track-card.legislative { border-left-color: var(--accent-purple); }
+    .track-card.constitutional { border-left-color: var(--accent-teal); }
+
+    .track-badge {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 0.25rem 0.75rem;
+      border-radius: 100px;
+      margin-bottom: 1rem;
+      background: rgba(92, 158, 255, 0.15);
+      color: var(--accent-primary);
+    }
+
+    .track-card.legislative .track-badge {
+      background: rgba(208, 144, 255, 0.15);
+      color: var(--accent-purple);
+    }
+
+    .track-card.constitutional .track-badge {
+      background: rgba(64, 224, 208, 0.15);
+      color: var(--accent-teal);
+    }
+
+    .track-title {
+      font-size: 1.125rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .track-timeline {
+      font-size: 0.875rem;
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+    }
+
+    /* ============================================
+       Title Slide
+       ============================================ */
+
+    .title-slide {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      min-height: 100%;
+    }
+
+    .title-slide h1 {
+      font-size: 3.5rem;
+      margin-bottom: 1rem;
+      background: linear-gradient(135deg, var(--text-primary), var(--accent-primary));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .title-slide .subtitle {
+      font-size: 1.5rem;
+      color: var(--text-secondary);
+      margin-bottom: 3rem;
+    }
+
+    .title-meta {
+      display: flex;
+      gap: 2rem;
+      font-size: 0.9375rem;
+      color: var(--text-muted);
+    }
+
+    .title-meta-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    /* ============================================
+       Navigation
+       ============================================ */
+
+    .deck-nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: var(--nav-width);
+      height: 100vh;
+      background: var(--nav-bg);
+      border-right: 1px solid var(--nav-border);
+      display: flex;
+      flex-direction: column;
+      z-index: 100;
+      transition: width var(--transition-normal);
+      box-shadow: 4px 0 24px rgba(0, 0, 0, 0.4);
+    }
+
+    .deck-container.nav-collapsed .deck-nav { width: var(--nav-width-collapsed); }
+    .deck-container.nav-collapsed .deck-nav .nav-text { opacity: 0; visibility: hidden; }
+
+    .nav-header {
+      padding: 1.5rem;
+      border-bottom: 1px solid var(--nav-border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .nav-title {
+      font-size: 1rem;
+      font-weight: 600;
+      margin: 0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .nav-toggle {
+      background: none;
+      border: none;
+      color: var(--text-secondary);
+      cursor: pointer;
+      padding: 0.5rem;
+      border-radius: var(--radius-sm);
+      display: flex;
+    }
+
+    .nav-toggle:hover { background: var(--nav-hover); color: var(--text-primary); }
+    .nav-toggle svg { width: 20px; height: 20px; }
+
+    .nav-progress {
+      padding: 1rem 1.5rem;
+      border-bottom: 1px solid var(--nav-border);
+    }
+
+    .nav-progress-bar {
+      background: var(--bg-tertiary);
+      border-radius: var(--radius-sm);
+      height: 4px;
+      overflow: hidden;
+      margin-bottom: 0.5rem;
+    }
+
+    .nav-progress-fill {
+      background: linear-gradient(90deg, var(--accent-primary), var(--accent-teal));
+      height: 100%;
+      width: var(--progress, 0%);
+      transition: width var(--transition-normal);
+    }
+
+    .nav-progress-text {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      text-align: center;
+    }
+
+    .nav-sections {
+      flex: 1;
+      overflow-y: auto;
+      padding: 1rem 0;
+      list-style: none;
+      margin: 0;
+    }
+
+    .nav-section > a {
+      display: block;
+      padding: 0.75rem 1.5rem;
+      color: var(--text-secondary);
+      text-decoration: none;
+      font-size: 0.875rem;
+      border-left: 3px solid transparent;
+      transition: all var(--transition-fast);
+    }
+
+    .nav-section > a:hover { background: var(--nav-hover); color: var(--text-primary); }
+    .nav-section.active > a { background: var(--nav-active); color: var(--text-accent); border-left-color: var(--accent-primary); }
+
+    .nav-footer {
+      padding: 1rem 1.5rem;
+      border-top: 1px solid var(--nav-border);
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    .nav-action {
+      flex: 1;
+      background: var(--bg-tertiary);
+      border: none;
+      color: var(--text-secondary);
+      padding: 0.5rem;
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .nav-action:hover { background: var(--nav-hover); color: var(--text-primary); }
+    .nav-action svg { width: 18px; height: 18px; }
+
+    .nav-mobile-toggle { display: none; }
+    .nav-overlay { display: none; }
+
+    /* Search overlay */
+    .nav-search-overlay {
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(6, 6, 12, 0.92);
+      backdrop-filter: blur(12px);
+      display: none;
+      align-items: flex-start;
+      justify-content: center;
+      padding-top: 15vh;
+      z-index: 200;
+    }
+
+    .nav-search-overlay.open { display: flex; }
+
+    .nav-search-box {
+      background: var(--bg-secondary);
+      border-radius: var(--radius-xl);
+      width: 90%;
+      max-width: 640px;
+      box-shadow: var(--shadow-lg);
+      overflow: hidden;
+    }
+
+    .nav-search-input {
+      width: 100%;
+      background: none;
+      border: none;
+      padding: 1.25rem 1.5rem;
+      font-size: 1.125rem;
+      color: var(--text-primary);
+      outline: none;
+    }
+
+    .nav-search-input::placeholder { color: var(--text-muted); }
+
+    .nav-search-results {
+      max-height: 400px;
+      overflow-y: auto;
+      border-top: 1px solid var(--nav-border);
+    }
+
+    .nav-search-result {
+      padding: 0.75rem 1.5rem;
+      cursor: pointer;
+    }
+
+    .nav-search-result:hover { background: var(--nav-hover); }
+    .nav-search-result-title { font-weight: 500; margin-bottom: 0.25rem; }
+    .nav-search-result-context { font-size: 0.8125rem; color: var(--text-muted); }
+    .nav-search-result mark { background: rgba(79, 140, 255, 0.3); color: var(--text-accent); }
+
+    /* Lightbox */
+    .lightbox {
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.9);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 300;
+      cursor: zoom-out;
+    }
+
+    .lightbox.open { display: flex; }
+    .lightbox-image { max-width: 90%; max-height: 90vh; border-radius: var(--radius-md); }
+
+    .lightbox-close {
+      position: absolute;
+      top: 1rem; right: 1rem;
+      background: var(--bg-secondary);
+      border: none;
+      color: var(--text-primary);
+      width: 40px; height: 40px;
+      border-radius: 50%;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .lightbox-caption {
+      position: absolute;
+      bottom: 2rem;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--bg-secondary);
+      padding: 0.75rem 1.5rem;
+      border-radius: var(--radius-md);
+      color: var(--text-secondary);
+      font-size: 0.875rem;
+    }
+
+    /* Footer */
+    .slide-footer {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      opacity: 0.7;
+    }
+
+    /* ============================================
+       Collapsible
+       ============================================ */
+
+    .collapsible {
+      margin: 1.75rem 0;
+      border: 1px solid var(--nav-border);
+      border-radius: var(--radius-lg);
+    }
+
+    .collapsible-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1.125rem 1.5rem;
+      background: var(--bg-secondary);
+      cursor: pointer;
+      user-select: none;
+      border-radius: var(--radius-lg);
+    }
+
+    .collapsible-header:hover { background: var(--bg-tertiary); }
+    .collapsible.open .collapsible-header { border-radius: var(--radius-lg) var(--radius-lg) 0 0; }
+
+    .collapsible-title { font-weight: 500; margin: 0; }
+
+    .collapsible-icon {
+      width: 20px; height: 20px;
+      color: var(--accent-primary);
+      transition: transform var(--transition-fast);
+    }
+
+    .collapsible.open .collapsible-icon { transform: rotate(180deg); }
+
+    .collapsible-content {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height var(--transition-normal);
+    }
+
+    .collapsible.open .collapsible-content { max-height: 50vh; overflow-y: auto; }
+
+    .collapsible-body {
+      padding: 1.5rem;
+      border-top: 1px solid var(--nav-border);
+      background: rgba(0, 0, 0, 0.15);
+    }
+
+    .collapsible-body ul { list-style: none; padding-left: 0; }
+    .collapsible-body li { padding-left: 0.25rem; }
+
+    /* ============================================
+       Responsive
+       ============================================ */
+
+    @media (max-width: 1024px) {
+      :root { --nav-width: 240px; }
+      html { font-size: 15px; }
+      .reveal .slides section { padding: 2rem 2.5rem; }
+      .grid-3, .grid-4 { grid-template-columns: repeat(2, 1fr); }
+      .big-number { font-size: 3rem; }
+    }
+
+    @media (max-width: 768px) {
+      :root { --nav-width: 0px; }
+      html { font-size: 14px; }
+      .deck-content { margin-left: 0; }
+      .deck-nav { transform: translateX(-100%); width: 280px; }
+      .deck-nav.open { transform: translateX(0); }
+      .nav-mobile-toggle {
+        display: flex;
+        position: fixed;
+        top: 1rem; left: 1rem;
+        z-index: 150;
+        background: var(--bg-secondary);
+        border: 1px solid var(--nav-border);
+        color: var(--text-primary);
+        padding: 0.75rem;
+        border-radius: var(--radius-md);
+        cursor: pointer;
+      }
+      .reveal .slides section { padding: 1.25rem 1.5rem; }
+      .columns { flex-direction: column; }
+      .grid-3, .grid-4 { grid-template-columns: 1fr; }
+      .title-slide h1 { font-size: 2rem; }
+      .big-number { font-size: 2.5rem; }
+      .flow-diagram { flex-direction: column; }
+      .flow-arrow { transform: rotate(90deg); }
+    }
+
+    @media print {
+      .deck-nav, .nav-mobile-toggle { display: none !important; }
+      .deck-content { margin-left: 0 !important; }
+      .reveal .slides section { page-break-after: always; }
+    }
+  </style>
+</head>
+<body>
+  <div class="deck-container">
+
+    <!-- Left Navigation -->
+    <nav class="deck-nav" aria-label="Presentation navigation">
+      <div class="nav-header">
+        <h1 class="nav-title nav-text">Technical Executive Standards</h1>
+        <button class="nav-toggle" aria-label="Toggle navigation" onclick="toggleNav()">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+
+      <div class="nav-progress">
+        <div class="nav-progress-bar">
+          <div class="nav-progress-fill" style="--progress: 0%"></div>
+        </div>
+        <div class="nav-progress-text nav-text">
+          <span class="current-slide">1</span> of <span class="total-slides">15</span>
+        </div>
+      </div>
+
+      <ul class="nav-sections">
+        <li class="nav-section active"><a href="#/0" class="nav-text" onclick="goToSlide(0)">Title</a></li>
+        <li class="nav-section"><a href="#/1" class="nav-text" onclick="goToSlide(1)">The Crisis</a></li>
+        <li class="nav-section"><a href="#/2" class="nav-text" onclick="goToSlide(2)">By The Numbers</a></li>
+        <li class="nav-section"><a href="#/3" class="nav-text" onclick="goToSlide(3)">18 Years of Failure</a></li>
+        <li class="nav-section"><a href="#/4" class="nav-text" onclick="goToSlide(4)">The Root Cause</a></li>
+        <li class="nav-section"><a href="#/5" class="nav-text" onclick="goToSlide(5)">Frontline Reality</a></li>
+        <li class="nav-section"><a href="#/6" class="nav-text" onclick="goToSlide(6)">The Solution: TEA</a></li>
+        <li class="nav-section"><a href="#/7" class="nav-text" onclick="goToSlide(7)">Qualification Pathways</a></li>
+        <li class="nav-section"><a href="#/8" class="nav-text" onclick="goToSlide(8)">Three-Track Reform</a></li>
+        <li class="nav-section"><a href="#/9" class="nav-text" onclick="goToSlide(9)">Administrative Track</a></li>
+        <li class="nav-section"><a href="#/10" class="nav-text" onclick="goToSlide(10)">Legislative Track</a></li>
+        <li class="nav-section"><a href="#/11" class="nav-text" onclick="goToSlide(11)">Constitutional Track</a></li>
+        <li class="nav-section"><a href="#/12" class="nav-text" onclick="goToSlide(12)">Implementation Timeline</a></li>
+        <li class="nav-section"><a href="#/13" class="nav-text" onclick="goToSlide(13)">Success Metrics</a></li>
+        <li class="nav-section"><a href="#/14" class="nav-text" onclick="goToSlide(14)">The Ask</a></li>
+      </ul>
+
+      <div class="nav-footer">
+        <button class="nav-action" aria-label="Search" onclick="openSearch()">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"/>
+            <path d="M21 21l-4.35-4.35"/>
+          </svg>
+        </button>
+        <button class="nav-action" aria-label="Fullscreen" onclick="toggleFullscreen()">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/>
+          </svg>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile nav toggle -->
+    <button class="nav-mobile-toggle" aria-label="Open navigation" onclick="toggleMobileNav()">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M4 6h16M4 12h16M4 18h16"/>
+      </svg>
+    </button>
+
+    <!-- Mobile overlay -->
+    <div class="nav-overlay" onclick="toggleMobileNav()"></div>
+
+    <!-- Main Content -->
+    <div class="deck-content">
+      <div class="reveal">
+        <div class="slides">
+
+          <!-- Slide 0: Title -->
+          <section>
+            <div class="title-slide">
+              <h1>Technical Executive Standards Initiative</h1>
+              <p class="subtitle">Fixing California's $3 Billion IT Leadership Gap</p>
+              <div class="title-meta">
+                <div class="title-meta-item">
+                  <span>📅</span>
+                  <span>January 2026</span>
+                </div>
+                <div class="title-meta-item">
+                  <span>👤</span>
+                  <span>Governor's Innovation Fellow</span>
+                </div>
+                <div class="title-meta-item">
+                  <span>🎯</span>
+                  <span>Cabinet Briefing</span>
+                </div>
+              </div>
+            </div>
+            <div class="slide-footer"><span class="slide-footer-text">Technical Executive Standards Initiative | January 2026</span></div>
+          </section>
+
+          <!-- Slide 1: The Crisis -->
+          <section>
+            <h2>The Crisis: Accountability Theater</h2>
+            <p>California has <strong>five oversight bodies</strong> for executive performance. <span style="color: var(--accent-danger);">None have enforcement power.</span></p>
+
+            <div class="flow-diagram">
+              <div class="flow-box">
+                <div class="flow-box-title">State Auditor</div>
+                <div class="flow-box-subtitle">Recommends</div>
+              </div>
+              <span class="flow-arrow">→</span>
+              <div class="flow-box danger">
+                <div class="flow-box-title">Agencies</div>
+                <div class="flow-box-subtitle">Ignore</div>
+              </div>
+              <span class="flow-arrow">→</span>
+              <div class="flow-box danger">
+                <div class="flow-box-title">18 Years Later</div>
+                <div class="flow-box-subtitle">Still failing</div>
+              </div>
+            </div>
+
+            <blockquote>
+              <strong>State Auditor 2025-601:</strong> "The State Auditor first designated CDT's oversight of IT projects as a high-risk issue in May 2007."
+            </blockquote>
+
+            <p>Result: <strong>Billions lost</strong> to fraud, failed projects, and unqualified leadership.</p>
+            <div class="slide-footer"><span class="slide-footer-text">Technical Executive Standards Initiative | January 2026</span></div>
+          </section>
+
+          <!-- Slide 2: By The Numbers -->
+          <section>
+            <h2>By The Numbers: Taxpayer Harm</h2>
+            <p>Documented losses from IT leadership failures <em>(verified December 2025)</em>:</p>
+
+            <div class="grid-4">
+              <div class="metric-card">
+                <div class="big-number danger">$500M+</div>
+                <div class="metric-label">EDD Fraud / Year</div>
+              </div>
+              <div class="metric-card">
+                <div class="big-number danger">$1.5B</div>
+                <div class="metric-label">Improper Payments</div>
+              </div>
+              <div class="metric-card">
+                <div class="big-number danger">$1.06B+</div>
+                <div class="metric-label">FI$Cal (20 yrs)</div>
+              </div>
+              <div class="metric-card">
+                <div class="big-number danger">$2.5B</div>
+                <div class="metric-label">CalFresh Risk</div>
+              </div>
+            </div>
+
+            <div class="chart-container">
+              <div class="chart-title">Cumulative IT Failures by Duration on High-Risk List</div>
+              <div class="chart-wrapper">
+                <canvas id="durationChart"></canvas>
+              </div>
+            </div>
+            <div class="slide-footer"><span class="slide-footer-text">Technical Executive Standards Initiative | January 2026</span></div>
+          </section>
+
+          <!-- Slide 3: 18 Years of Failure -->
+          <section>
+            <h2>18 Years of High-Risk Status</h2>
+            <p>How long agencies have been on the State Auditor's high-risk list—<strong>without resolution</strong>:</p>
+
+            <div class="chart-container">
+              <div class="chart-wrapper">
+                <canvas id="yearsChart"></canvas>
+              </div>
+            </div>
+
+            <div class="callout callout-danger">
+              <strong>The definition of insanity:</strong> The same oversight approach for 18 years with the same failing results. We need <strong>enforcement authority</strong>, not more recommendations.
+            </div>
+            <div class="slide-footer"><span class="slide-footer-text">Technical Executive Standards Initiative | January 2026</span></div>
+          </section>
+
+          <!-- Slide 4: The Root Cause -->
+          <section>
+            <h2>Root Cause: No Technical Competence Requirements</h2>
+            <p>The appointment chain has <strong>no technical validation</strong> at any level:</p>
+
+            <div class="flow-diagram">
+              <div class="flow-box">
+                <div class="flow-box-title">Governor</div>
+                <div class="flow-box-subtitle">Political</div>
+              </div>
+              <span class="flow-arrow">→</span>
+              <div class="flow-box">
+                <div class="flow-box-title">Secretary</div>
+                <div class="flow-box-subtitle">Political</div>
+              </div>
+              <span class="flow-arrow">→</span>
+              <div class="flow-box danger">
+                <div class="flow-box-title">CIO / CISO</div>
+                <div class="flow-box-subtitle">No test required</div>
+              </div>
+            </div>
+
+            <div class="columns">
+              <div class="column">
+                <h3>What CalHR Requires</h3>
+                <p>Per the CEA Manual, minimum qualifications are <strong>generic management abilities</strong>:</p>
+                <blockquote style="font-size: 0.9rem;">
+                  "(a) Knowledge of the organization and functions of California State Government..."
+                </blockquote>
+              </div>
+              <div class="column">
+                <h3>What's Missing</h3>
+                <ul>
+                  <li>No technical certifications</li>
+                  <li>No domain expertise validation</li>
+                  <li>No independent technical review</li>
+                  <li>No performance baselines</li>
+                </ul>
+              </div>
+            </div>
+
+            <p><strong>Technical exceptions exist</strong> for doctors, attorneys, engineers—but <strong>NOT</strong> for CIOs, CISOs, or CTOs.</p>
+            <div class="slide-footer"><span class="slide-footer-text">Technical Executive Standards Initiative | January 2026</span></div>
+          </section>
+
+          <!-- Slide 5: Frontline Reality -->
+          <section>
+            <h2>Frontline Reality: October 2025</h2>
+            <p>California's Cybersecurity Integration Center Commander was fired after raising concerns about unqualified oversight:</p>
+
+            <div class="quote-block">
+              <p class="quote-text">"You wouldn't let your plumber perform surgery on you. How does it make any sense for someone who has no basis in the reality of the cyber world to dictate policy?"</p>
+              <p class="quote-source">— Cybersecurity Center Employee, CalMatters (October 10, 2025)</p>
+            </div>
+
+            <div class="quote-block">
+              <p class="quote-text">"[They are] completely out of their depth when it comes to cyber."</p>
+              <p class="quote-source">— Cybersecurity Center Employee on their supervisors</p>
+            </div>
+
+            <div class="callout callout-warning">
+              <strong>Result:</strong> Technical staff are leaving. Those who stay face retaliation for speaking truth to power. Data on 40 million Californians remains at risk.
+            </div>
+            <div class="slide-footer"><span class="slide-footer-text">Technical Executive Standards Initiative | January 2026</span></div>
+          </section>
+
+          <!-- Slide 6: The Solution -->
+          <section>
+            <h2>The Solution: Technical Executive Assignment</h2>
+            <p>Create a new executive classification requiring <strong>verified technical competence</strong> for IT leadership positions.</p>
+
+            <div class="columns">
+              <div class="column">
+                <h3>Covered Positions</h3>
+                <ul>
+                  <li>State & Agency <strong>CIOs</strong></li>
+                  <li>State & Agency <strong>CISOs</strong></li>
+                  <li>State & Agency <strong>CDOs</strong></li>
+                  <li>State & Agency <strong>CTOs</strong></li>
+                  <li>IT Director-level positions</li>
+                </ul>
+              </div>
+              <div class="column">
+                <h3>What Changes</h3>
+                <ul>
+                  <li>Technical competence <strong>verification required</strong></li>
+                  <li>Appointing authorities must <strong>document assessment</strong></li>
+                  <li>Independent review for positions <strong>&gt;$200K</strong></li>
+                  <li>Public transparency dashboard</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="callout callout-success">
+              <strong>Legal Precedent:</strong> Government Code §19889 already creates technical exceptions for physicians, attorneys, engineers, and scientists. This proposal <strong>extends that logic</strong> to IT roles.
+            </div>
+            <div class="slide-footer"><span class="slide-footer-text">Technical Executive Standards Initiative | January 2026</span></div>
+          </section>
+
+          <!-- Slide 7: Qualification Pathways -->
+          <section>
+            <h2>Three Qualification Pathways</h2>
+            <p>Flexibility to capture diverse backgrounds while ensuring competence:</p>
+
+            <div class="grid-3">
+              <div class="pathway-card">
+                <div class="pathway-number">1</div>
+                <h4 class="pathway-title">Professional Certification</h4>
+                <p class="pathway-desc">
+                  CISSP, CISM, CISA (security)<br>
+                  PMP, TOGAF, ITIL Expert (IT mgmt)<br>
+                  Other certifications approved by CalHR
+                </p>
+              </div>
+              <div class="pathway-card">
+                <div class="pathway-number">2</div>
+                <h4 class="pathway-title">Demonstrated Experience</h4>
+                <p class="pathway-desc">
+                  10+ years technical leadership<br>
+                  Documented outcomes (projects, teams, budgets)<br>
+                  References from technical peers
+                </p>
+              </div>
+              <div class="pathway-card">
+                <div class="pathway-number">3</div>
+                <h4 class="pathway-title">Independent Panel Review</h4>
+                <p class="pathway-desc">
+                  Three-person panel (CalHR, CDT, external)<br>
+                  Structured technical interview<br>
+                  Written recommendation (public record)
+                </p>
+              </div>
+            </div>
+
+            <p style="margin-top: 1.5rem; text-align: center; color: var(--text-secondary);">
+              <em>Panel review accommodates non-traditional paths: military cyber operators, startup CTOs, career changers.</em>
+            </p>
+            <div class="slide-footer"><span class="slide-footer-text">Technical Executive Standards Initiative | January 2026</span></div>
+          </section>
+
+          <!-- Slide 8: Three-Track Reform -->
+          <section>
+            <h2>Three-Track Reform Strategy</h2>
+            <p>Comprehensive approach using your unique access to the Governor's Office:</p>
+
+            <div class="grid-3">
+              <div class="track-card">
+                <div class="track-badge">Administrative</div>
+                <h4 class="track-title">Executive Order + CalHR Directives</h4>
+                <div class="track-timeline">0-6 months</div>
+                <ul>
+                  <li>Technical Executive Standards EO</li>
+                  <li>Performance baseline directive</li>
+                  <li>SLAA enhancement</li>
+                  <li>CDT pilot program</li>
+                </ul>
+              </div>
+              <div class="track-card legislative">
+                <div class="track-badge">Legislative</div>
+                <h4 class="track-title">Sponsored Legislation</h4>
+                <div class="track-timeline">6-18 months</div>
+                <ul>
+                  <li>Auditor Enforcement Authority Act</li>
+                  <li>Modernization Continuity Protection Act</li>
+                  <li>Technical Executive Qualification Act</li>
+                </ul>
+              </div>
+              <div class="track-card constitutional">
+                <div class="track-badge">Constitutional</div>
+                <h4 class="track-title">Ballot Measure (2028)</h4>
+                <div class="track-timeline">18-36 months</div>
+                <ul>
+                  <li>Elevate State Auditor to constitutional office</li>
+                  <li>Grant enforcement authority</li>
+                  <li>Automatic budget consequences</li>
+                </ul>
+              </div>
+            </div>
+            <div class="slide-footer"><span class="slide-footer-text">Technical Executive Standards Initiative | January 2026</span></div>
+          </section>
+
+          <!-- Slide 9: Administrative Track -->
+          <section>
+            <h2>Administrative Track (0-6 Months)</h2>
+            <p>Immediate action using the Governor's existing authority—no legislation required.</p>
+
+            <table>
+              <thead>
+                <tr>
+                  <th>Action</th>
+                  <th>Owner</th>
+                  <th>Timeline</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Draft Technical Executive Standards EO</td>
+                  <td>GovOps + CalHR</td>
+                  <td>Weeks 1-8</td>
+                </tr>
+                <tr>
+                  <td>Legal review</td>
+                  <td>Governor's Legal Affairs</td>
+                  <td>Weeks 6-10</td>
+                </tr>
+                <tr>
+                  <td><strong>EO Signature</strong></td>
+                  <td>Governor</td>
+                  <td>Week 12</td>
+                </tr>
+                <tr>
+                  <td>CalHR Performance Baseline Directive</td>
+                  <td>CalHR</td>
+                  <td>Weeks 14-16</td>
+                </tr>
+                <tr>
+                  <td>CDT Pilot Launch (new hires only)</td>
+                  <td>CDT + CalHR</td>
+                  <td>Weeks 12-24</td>
+                </tr>
+                <tr>
+                  <td>Public Dashboard MVP</td>
+                  <td>GovOps</td>
+                  <td>Week 24</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <div class="callout callout-success">
+              <strong>Why CDT as pilot?</strong> 18 years on high-risk list = clear proof of concept opportunity. Success here proves the model.
+            </div>
+            <div class="slide-footer"><span class="slide-footer-text">Technical Executive Standards Initiative | January 2026</span></div>
+          </section>
+
+          <!-- Slide 10: Legislative Track -->
+          <section>
+            <h2>Legislative Track (6-18 Months)</h2>
+            <p>Create durable legal requirements surviving gubernatorial transitions.</p>
+
+            <div class="collapsible">
+              <div class="collapsible-header">
+                <span class="collapsible-title">📋 State Auditor Enforcement Authority Act</span>
+                <svg class="collapsible-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+              </div>
+              <div class="collapsible-content">
+                <div class="collapsible-body">
+                  <ul>
+                    <li>✅ Mandatory corrective action plans within 90 days</li>
+                    <li>✅ Escalating sanctions: Year 1 = public hearing; Year 3 = budget hold; Year 5 = leadership review</li>
+                    <li>✅ High-risk agencies must submit exit plans within 180 days</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="collapsible">
+              <div class="collapsible-header">
+                <span class="collapsible-title">🔒 Modernization Continuity Protection Act</span>
+                <svg class="collapsible-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+              </div>
+              <div class="collapsible-content">
+                <div class="collapsible-body">
+                  <ul>
+                    <li>✅ Create "Continuity Executive" with 6-year fixed terms</li>
+                    <li>✅ Projects >$50M require documented transition plans</li>
+                    <li>✅ 180-day overlap between outgoing/incoming project leads</li>
+                    <li>✅ Governor-elect briefings on all projects >$100M</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="collapsible">
+              <div class="collapsible-header">
+                <span class="collapsible-title">🎓 Technical Executive Qualification Act</span>
+                <svg class="collapsible-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+              </div>
+              <div class="collapsible-content">
+                <div class="collapsible-body">
+                  <ul>
+                    <li>✅ Codify TEA classification in Government Code §19889</li>
+                    <li>✅ Create Independent Technical Review Board</li>
+                    <li>✅ Public posting of technical qualifications for TEA positions</li>
+                    <li>✅ Annual report on TEA appointments and outcomes</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="slide-footer"><span class="slide-footer-text">Technical Executive Standards Initiative | January 2026</span></div>
+          </section>
+
+          <!-- Slide 11: Constitutional Track -->
+          <section>
+            <h2>Constitutional Track (2028 Ballot)</h2>
+            <p>Permanent structural change immune to legislative rollback.</p>
+
+            <h3>California Government Accountability Amendment</h3>
+
+            <div class="columns">
+              <div class="column">
+                <div class="card">
+                  <h4>🏛️ State Auditor Independence</h4>
+                  <ul>
+                    <li>Elevate to constitutional office</li>
+                    <li>Grant authority to <strong>order</strong> corrective action</li>
+                    <li>Automatic budget consequences for persistent non-compliance</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="column">
+                <div class="card">
+                  <h4>📊 Executive Performance Standards</h4>
+                  <ul>
+                    <li>Constitutional requirement for performance metrics</li>
+                    <li>Citizen oversight panel for high-risk agencies</li>
+                    <li>Annual "State of State Government" report</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <h3 style="margin-top: 2rem;">Political Pathway</h3>
+            <table>
+              <thead>
+                <tr>
+                  <th>Option</th>
+                  <th>Requirement</th>
+                  <th>Risk</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Initiative</strong></td>
+                  <td>~875,000 valid signatures</td>
+                  <td>Opposition campaign</td>
+                </tr>
+                <tr>
+                  <td><strong>Legislative Referral</strong></td>
+                  <td>2/3 vote in both houses</td>
+                  <td>Compromise may weaken</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="slide-footer"><span class="slide-footer-text">Technical Executive Standards Initiative | January 2026</span></div>
+          </section>
+
+          <!-- Slide 12: Implementation Timeline -->
+          <section>
+            <h2>Implementation Timeline</h2>
+
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-date">Months 1-3</div>
+                <div class="timeline-title">Foundation</div>
+                <div class="timeline-desc">Stakeholder mapping, draft EO, Cabinet socialization, CalHR consultation</div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-date">Month 3</div>
+                <div class="timeline-title">EO Signature</div>
+                <div class="timeline-desc">Governor signs Technical Executive Standards Executive Order</div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-date">Months 3-9</div>
+                <div class="timeline-title">CDT Pilot</div>
+                <div class="timeline-desc">New CDT hires go through TEA qualification process</div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-date">Months 6-12</div>
+                <div class="timeline-title">Legislative Prep</div>
+                <div class="timeline-desc">Bill drafting, author identification, coalition building</div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-date">Year 2</div>
+                <div class="timeline-title">Legislation</div>
+                <div class="timeline-desc">Committee hearings, floor votes, enactment</div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-date">Year 3</div>
+                <div class="timeline-title">Constitutional</div>
+                <div class="timeline-desc">Ballot measure qualification, voter approval (2028)</div>
+              </div>
+            </div>
+            <div class="slide-footer"><span class="slide-footer-text">Technical Executive Standards Initiative | January 2026</span></div>
+          </section>
+
+          <!-- Slide 13: Success Metrics -->
+          <section>
+            <h2>Success Metrics</h2>
+
+            <div class="grid-3">
+              <div class="card">
+                <h4 style="color: var(--accent-primary);">Year 1</h4>
+                <ul>
+                  <li>✓ Technical EO signed</li>
+                  <li>✓ CDT pilot operational</li>
+                  <li>✓ Performance baseline directive issued</li>
+                  <li>✓ Public dashboard live</li>
+                  <li>✓ 3+ bill authors identified</li>
+                </ul>
+              </div>
+              <div class="card">
+                <h4 style="color: var(--accent-purple);">Years 2-3</h4>
+                <ul>
+                  <li>✓ 2+ bills enacted</li>
+                  <li>✓ 100% high-risk agencies with exit plans</li>
+                  <li>✓ +25% audit implementation rate</li>
+                  <li>✓ Constitutional measure qualified</li>
+                </ul>
+              </div>
+              <div class="card">
+                <h4 style="color: var(--accent-teal);">Years 3-5</h4>
+                <ul>
+                  <li>✓ 50%+ agencies exit high-risk status</li>
+                  <li>✓ +30% IT project success rate</li>
+                  <li>✓ -50% improper payments</li>
+                  <li>✓ 100% TEA compliance</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="chart-container">
+              <div class="chart-title">Projected Impact: IT Project Success Rate</div>
+              <div class="chart-wrapper">
+                <canvas id="projectionChart"></canvas>
+              </div>
+            </div>
+            <div class="slide-footer"><span class="slide-footer-text">Technical Executive Standards Initiative | January 2026</span></div>
+          </section>
+
+          <!-- Slide 14: The Ask -->
+          <section>
+            <h2>The Ask</h2>
+
+            <div class="columns">
+              <div class="column">
+                <div class="card" style="border-left: 4px solid var(--accent-primary);">
+                  <h4>From GovOps</h4>
+                  <ul>
+                    <li>Political feasibility assessment</li>
+                    <li>Convene cross-agency stakeholders</li>
+                    <li>Budget support for Technical Review Panel</li>
+                    <li>Messaging: protecting agencies, not limiting discretion</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="column">
+                <div class="card" style="border-left: 4px solid var(--accent-purple);">
+                  <h4>From CalHR</h4>
+                  <ul>
+                    <li>Draft qualification standards</li>
+                    <li>Legal review of EO alignment</li>
+                    <li>TEA appointment workflow design</li>
+                    <li>Appointing authority training</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 3rem; padding: 2rem; background: var(--bg-secondary); border-radius: var(--radius-lg);">
+              <h3 style="margin-bottom: 1rem;">The Bottom Line</h3>
+              <p style="font-size: 1.25rem; margin-bottom: 0;">
+                <strong>We require doctors to be licensed. Attorneys to pass the bar. Engineers to be certified.</strong>
+              </p>
+              <p style="font-size: 1.25rem; color: var(--text-secondary);">
+                Why do we let unqualified executives manage billions in IT spending<br>
+                and protect data on <strong>every Californian</strong>?
+              </p>
+              <p style="font-size: 1.5rem; margin-top: 1.5rem; margin-bottom: 0;">
+                <strong style="color: var(--accent-success);">This Executive Order fixes that.</strong>
+              </p>
+            </div>
+            <div class="slide-footer"><span class="slide-footer-text">Technical Executive Standards Initiative | January 2026</span></div>
+          </section>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Search Overlay -->
+    <div class="nav-search-overlay" id="searchOverlay" onclick="closeSearch(event)">
+      <div class="nav-search-box" onclick="event.stopPropagation()">
+        <input type="text" class="nav-search-input" placeholder="Search slides..." id="searchInput" oninput="handleSearch(this.value)">
+        <div class="nav-search-results" id="searchResults"></div>
+      </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+      <button class="lightbox-close" aria-label="Close">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M18 6L6 18M6 6l12 12"/>
+        </svg>
+      </button>
+      <img class="lightbox-image" id="lightboxImage" src="" alt="">
+      <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+
+  </div>
+
+  <!-- Reveal.js Core -->
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+
+  <script>
+    // ==========================================
+    // Reveal.js Initialization
+    // ==========================================
+
+    const deck = new Reveal({
+      hash: true,
+      history: true,
+      slideNumber: false,
+      controls: false,
+      progress: false,
+      center: false,
+      embedded: true,
+      transition: 'slide',
+      transitionSpeed: 'default',
+      width: '100%',
+      height: '100%',
+      margin: 0,
+      minScale: 0.2,
+      maxScale: 2.0
+    });
+
+    deck.initialize().then(() => {
+      deck.on('slidechanged', updateProgress);
+      updateProgress();
+      hljs.highlightAll();
+
+      document.querySelectorAll('.reveal .slides section').forEach(slide => {
+        slide.style.overflowY = 'auto';
+        slide.style.overflowX = 'hidden';
+      });
+
+      // Global footer
+      (function() {
+        const footers = document.querySelectorAll('.slide-footer');
+        if (footers.length === 0) return;
+        const footerText = footers[0].querySelector('.slide-footer-text')?.textContent || '';
+        footers.forEach(f => f.style.display = 'none');
+        const globalFooter = document.createElement('div');
+        globalFooter.className = 'slide-footer slide-footer-global';
+        globalFooter.innerHTML = `<span class="slide-footer-text">${footerText}</span>`;
+        globalFooter.style.cssText = `
+          position: fixed; bottom: 1rem; left: 50%; transform: translateX(-50%);
+          z-index: 90; font-size: 0.75rem; color: var(--text-muted); opacity: 0.7;
+        `;
+        document.querySelector('.deck-content').appendChild(globalFooter);
+        function updateFooterVisibility() {
+          const indices = deck.getIndices();
+          globalFooter.style.display = indices.h === 0 ? 'none' : 'block';
+        }
+        deck.on('slidechanged', updateFooterVisibility);
+        updateFooterVisibility();
+      })();
+
+      // Initialize Charts
+      initCharts();
+    });
+
+    // ==========================================
+    // Navigation Functions
+    // ==========================================
+
+    function updateProgress() {
+      const indices = deck.getIndices();
+      const total = deck.getTotalSlides();
+      const current = indices.h + 1;
+      const progress = (current / total) * 100;
+
+      document.querySelector('.nav-progress-fill').style.setProperty('--progress', `${progress}%`);
+      document.querySelector('.current-slide').textContent = current;
+      document.querySelector('.total-slides').textContent = total;
+
+      document.querySelectorAll('.nav-section').forEach((section, i) => {
+        section.classList.toggle('active', i === indices.h);
+      });
+    }
+
+    function goToSlide(index) {
+      deck.slide(index);
+    }
+
+    function toggleNav() {
+      document.querySelector('.deck-container').classList.toggle('nav-collapsed');
+    }
+
+    function toggleMobileNav() {
+      document.querySelector('.deck-nav').classList.toggle('open');
+    }
+
+    function toggleFullscreen() {
+      if (!document.fullscreenElement) {
+        document.documentElement.requestFullscreen();
+      } else {
+        document.exitFullscreen();
+      }
+    }
+
+    // ==========================================
+    // Search Functions
+    // ==========================================
+
+    const slideContent = [
+      {index: 0, title: "Title", content: "Technical Executive Standards Initiative Fixing California's IT Leadership Gap", excerpt: "Technical Executive Standards..."},
+      {index: 1, title: "The Crisis", content: "Accountability Theater State Auditor CDT high risk 18 years", excerpt: "Five oversight bodies, none with enforcement power"},
+      {index: 2, title: "By The Numbers", content: "EDD Fraud 500M Improper Payments 1.5B FI$Cal 1.06B CalFresh 2.5B", excerpt: "$3B+ in documented losses"},
+      {index: 3, title: "18 Years of Failure", content: "CDT high risk 18 years information security 12 years EDD 3 years", excerpt: "How long agencies have been on high-risk list"},
+      {index: 4, title: "Root Cause", content: "No technical competence CalHR CEA qualifications generic management", excerpt: "No technical validation in appointment chain"},
+      {index: 5, title: "Frontline Reality", content: "Cybersecurity Commander fired plumber surgery October 2025", excerpt: "October 2025 cybersecurity incident"},
+      {index: 6, title: "The Solution: TEA", content: "Technical Executive Assignment CIO CISO CDO CTO verified competence", excerpt: "New classification requiring verified competence"},
+      {index: 7, title: "Qualification Pathways", content: "Certification CISSP PMP experience 10 years panel review", excerpt: "Three pathways to demonstrate competence"},
+      {index: 8, title: "Three-Track Reform", content: "Administrative Legislative Constitutional Executive Order CalHR", excerpt: "Comprehensive reform strategy"},
+      {index: 9, title: "Administrative Track", content: "Executive Order CalHR directive CDT pilot 0-6 months", excerpt: "Immediate action using Governor's authority"},
+      {index: 10, title: "Legislative Track", content: "Auditor Enforcement Modernization Continuity Technical Qualification", excerpt: "Sponsored legislation 6-18 months"},
+      {index: 11, title: "Constitutional Track", content: "2028 ballot measure State Auditor constitutional office", excerpt: "Permanent structural change"},
+      {index: 12, title: "Implementation Timeline", content: "Foundation EO signature CDT pilot legislation", excerpt: "Month-by-month roadmap"},
+      {index: 13, title: "Success Metrics", content: "Year 1 Year 2-3 Year 3-5 IT project success rate", excerpt: "Measurable outcomes and targets"},
+      {index: 14, title: "The Ask", content: "GovOps CalHR doctors licensed attorneys bar engineers certified", excerpt: "What we need from stakeholders"}
+    ];
+
+    function openSearch() {
+      document.getElementById('searchOverlay').classList.add('open');
+      document.getElementById('searchInput').focus();
+    }
+
+    function closeSearch(event) {
+      if (event.target.id === 'searchOverlay') {
+        document.getElementById('searchOverlay').classList.remove('open');
+        document.getElementById('searchInput').value = '';
+        document.getElementById('searchResults').innerHTML = '';
+      }
+    }
+
+    function handleSearch(query) {
+      const results = document.getElementById('searchResults');
+      if (!query.trim()) { results.innerHTML = ''; return; }
+
+      const matches = slideContent.filter(slide =>
+        slide.title.toLowerCase().includes(query.toLowerCase()) ||
+        slide.content.toLowerCase().includes(query.toLowerCase())
+      );
+
+      results.innerHTML = matches.map(match => `
+        <div class="nav-search-result" onclick="goToSlide(${match.index}); closeSearch({target:{id:'searchOverlay'}})">
+          <div class="nav-search-result-title">${highlightMatch(match.title, query)}</div>
+          <div class="nav-search-result-context">${highlightMatch(match.excerpt, query)}</div>
+        </div>
+      `).join('');
+    }
+
+    function highlightMatch(text, query) {
+      const regex = new RegExp(`(${query})`, 'gi');
+      return text.replace(regex, '<mark>$1</mark>');
+    }
+
+    document.addEventListener('keydown', (e) => {
+      if ((e.metaKey || e.ctrlKey) && e.key === 'k') { e.preventDefault(); openSearch(); }
+      if (e.key === 'Escape') { closeSearch({ target: { id: 'searchOverlay' } }); }
+    });
+
+    // ==========================================
+    // Collapsibles
+    // ==========================================
+
+    document.querySelectorAll('.collapsible-header').forEach(header => {
+      header.setAttribute('tabindex', '0');
+      header.setAttribute('role', 'button');
+      header.setAttribute('aria-expanded', 'false');
+
+      const toggle = () => {
+        const isOpen = header.parentElement.classList.toggle('open');
+        header.setAttribute('aria-expanded', isOpen);
+      };
+
+      header.addEventListener('click', toggle);
+      header.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); }
+      });
+    });
+
+    // ==========================================
+    // Charts
+    // ==========================================
+
+    function initCharts() {
+      // Duration Chart (Slide 2)
+      const durationCtx = document.getElementById('durationChart');
+      if (durationCtx) {
+        new Chart(durationCtx, {
+          type: 'bar',
+          data: {
+            labels: ['EDD Fraud', 'EDD Improper', 'FI$Cal', 'CalFresh Risk'],
+            datasets: [{
+              label: 'Cost ($ Billions)',
+              data: [0.5, 1.5, 1.06, 2.5],
+              backgroundColor: [
+                'rgba(255, 120, 120, 0.8)',
+                'rgba(255, 120, 120, 0.8)',
+                'rgba(255, 204, 53, 0.8)',
+                'rgba(255, 204, 53, 0.8)'
+              ],
+              borderColor: [
+                'rgba(255, 120, 120, 1)',
+                'rgba(255, 120, 120, 1)',
+                'rgba(255, 204, 53, 1)',
+                'rgba(255, 204, 53, 1)'
+              ],
+              borderWidth: 2,
+              borderRadius: 6
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: { display: false }
+            },
+            scales: {
+              y: {
+                beginAtZero: true,
+                grid: { color: '#252535' },
+                ticks: {
+                  color: '#a5a5b8',
+                  callback: function(value) { return '$' + value + 'B'; }
+                }
+              },
+              x: {
+                grid: { color: '#252535' },
+                ticks: { color: '#a5a5b8' }
+              }
+            }
+          }
+        });
+      }
+
+      // Years Chart (Slide 3)
+      const yearsCtx = document.getElementById('yearsChart');
+      if (yearsCtx) {
+        new Chart(yearsCtx, {
+          type: 'bar',
+          data: {
+            labels: ['CDT IT Oversight', 'Information Security', 'EDD Fraud/Payments'],
+            datasets: [{
+              label: 'Years on High-Risk List',
+              data: [18, 12, 3],
+              backgroundColor: [
+                'rgba(255, 120, 120, 0.8)',
+                'rgba(255, 204, 53, 0.8)',
+                'rgba(92, 158, 255, 0.8)'
+              ],
+              borderColor: [
+                'rgba(255, 120, 120, 1)',
+                'rgba(255, 204, 53, 1)',
+                'rgba(92, 158, 255, 1)'
+              ],
+              borderWidth: 2,
+              borderRadius: 6
+            }]
+          },
+          options: {
+            indexAxis: 'y',
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: { display: false }
+            },
+            scales: {
+              x: {
+                beginAtZero: true,
+                max: 20,
+                grid: { color: '#252535' },
+                ticks: {
+                  color: '#a5a5b8',
+                  callback: function(value) { return value + ' yrs'; }
+                }
+              },
+              y: {
+                grid: { color: '#252535' },
+                ticks: { color: '#a5a5b8' }
+              }
+            }
+          }
+        });
+      }
+
+      // Projection Chart (Slide 13)
+      const projectionCtx = document.getElementById('projectionChart');
+      if (projectionCtx) {
+        new Chart(projectionCtx, {
+          type: 'line',
+          data: {
+            labels: ['2024', '2025', '2026', '2027', '2028', '2029'],
+            datasets: [
+              {
+                label: 'With Reform',
+                data: [35, 38, 48, 58, 68, 75],
+                borderColor: 'rgba(85, 240, 154, 1)',
+                backgroundColor: 'rgba(85, 240, 154, 0.1)',
+                fill: true,
+                tension: 0.3,
+                borderWidth: 3
+              },
+              {
+                label: 'Without Reform',
+                data: [35, 36, 37, 38, 39, 40],
+                borderColor: 'rgba(255, 120, 120, 1)',
+                backgroundColor: 'rgba(255, 120, 120, 0.1)',
+                fill: true,
+                tension: 0.3,
+                borderWidth: 3,
+                borderDash: [5, 5]
+              }
+            ]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: {
+                display: true,
+                position: 'top',
+                labels: { color: '#a5a5b8' }
+              }
+            },
+            scales: {
+              y: {
+                beginAtZero: false,
+                min: 30,
+                max: 80,
+                grid: { color: '#252535' },
+                ticks: {
+                  color: '#a5a5b8',
+                  callback: function(value) { return value + '%'; }
+                }
+              },
+              x: {
+                grid: { color: '#252535' },
+                ticks: { color: '#a5a5b8' }
+              }
+            }
+          }
+        });
+      }
+    }
+
+    // Lightbox
+    function closeLightbox() {
+      document.getElementById('lightbox').classList.remove('open');
+    }
+  </script>
+</body>
+</html>
