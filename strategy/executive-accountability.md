@@ -485,7 +485,7 @@ Target: 2028 ballot
 |------|--------|-------|-------------|------------------|
 | 1-2 | Stakeholder mapping | Governor's Innovation Fellow | Key allies/opponents list | — |
 | 2-4 | Draft Technical Executive Standards EO | Fellow + GovOps | EO language | [D.1: EO Draft](../appendices/executive-order-tea.md) |
-| 3-4 | Socialize with Cabinet | Fellow | Secretary buy-in | [D.2: Briefing](../toolkit/tea-briefing-govops-calhr.md), [D.3: One-Pager](../toolkit/tea-one-pager-cabinet.md), [D.4: Presentation](../docs/presentations/tea-cabinet-briefing.html) |
+| 3-4 | Socialize with Cabinet | Fellow | Secretary buy-in | [D.2: Briefing](../toolkit/tea-briefing-govops-calhr.md), [D.3: One-Pager](../toolkit/tea-one-pager-cabinet.md), [D.4: Presentation](https://vanderoffice.github.io/presentations/tea-cabinet-briefing-2026-01.html) |
 | 4-6 | CalHR consultation | Fellow + CalHR | Feasibility assessment | [D.2: Briefing](../toolkit/tea-briefing-govops-calhr.md) |
 | 6-8 | Legal review | Governor's Legal Affairs | Cleared EO draft | [D.1: EO Draft](../appendices/executive-order-tea.md) |
 | 8-12 | Pilot design | Fellow + CDT | Pilot scope document | — |
@@ -647,13 +647,13 @@ Ready-to-use materials for stakeholder engagement and implementation:
 | **D.1: Executive Order Draft** | Full Executive Order language in California format with 11 sections covering definitions, pathways, panel structure, and pilot | [appendices/executive-order-tea.md](../appendices/executive-order-tea.md) |
 | **D.2: GovOps/CalHR Briefing** | Detailed briefing document for initial stakeholder meeting with GovOps Secretary and CalHR Director | [toolkit/tea-briefing-govops-calhr.md](../toolkit/tea-briefing-govops-calhr.md) |
 | **D.3: Cabinet One-Pager** | Quick-read summary for Cabinet Secretaries; designed for 2-minute review | [toolkit/tea-one-pager-cabinet.md](../toolkit/tea-one-pager-cabinet.md) |
-| **D.4: Cabinet Presentation** | Interactive HTML presentation with data visualizations, navigation, and search | [docs/presentations/tea-cabinet-briefing.html](../docs/presentations/tea-cabinet-briefing.html) |
+| **D.4: Cabinet Presentation** | Interactive HTML presentation with data visualizations, navigation, and search | [docs/presentations/tea-cabinet-briefing.html](https://vanderoffice.github.io/presentations/tea-cabinet-briefing-2026-01.html) |
 
 **Using the Toolkit:**
 
 1. **Initial outreach** — Use [D.3: One-Pager](../toolkit/tea-one-pager-cabinet.md) to gauge interest
 2. **Formal briefing request** — Send [D.2: Briefing](../toolkit/tea-briefing-govops-calhr.md) in advance
-3. **In-person presentation** — Use [D.4: Presentation](../docs/presentations/tea-cabinet-briefing.html) for Cabinet meetings
+3. **In-person presentation** — Use [D.4: Presentation](https://vanderoffice.github.io/presentations/tea-cabinet-briefing-2026-01.html) for Cabinet meetings
 4. **Legal review** — Submit [D.1: EO Draft](../appendices/executive-order-tea.md) to Governor's Legal Affairs
 
 ---

@@ -8,7 +8,7 @@
 
 ---
 
-> **Usage Note:** This quick-read summary is designed for initial stakeholder outreach to gauge interest. For deeper engagement, follow up with the [GovOps/CalHR Briefing](tea-briefing-govops-calhr.md) or the [Cabinet Presentation](../docs/presentations/tea-cabinet-briefing.html).
+> **Usage Note:** This quick-read summary is designed for initial stakeholder outreach to gauge interest. For deeper engagement, follow up with the [GovOps/CalHR Briefing](tea-briefing-govops-calhr.md) or the [Cabinet Presentation](https://vanderoffice.github.io/presentations/tea-cabinet-briefing-2026-01.html).
 
 ---
 
@@ -115,7 +115,7 @@ Why do we let unqualified executives manage billions in IT spending and protect 
 - [Executive Accountability Strategy](../strategy/executive-accountability.md) — Full policy context
 - [Executive Order Draft](../appendices/executive-order-tea.md) — Complete EO language
 - [GovOps/CalHR Briefing](tea-briefing-govops-calhr.md) — Detailed briefing document
-- [Cabinet Presentation](../docs/presentations/tea-cabinet-briefing.html) — Interactive presentation
+- [Cabinet Presentation](https://vanderoffice.github.io/presentations/tea-cabinet-briefing-2026-01.html) — Interactive presentation
 
 ---
 

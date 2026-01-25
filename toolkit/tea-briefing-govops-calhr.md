@@ -206,7 +206,7 @@ The current CEA framework **already allows** technical qualifications for positi
 - [Executive Order Draft](../appendices/executive-order-tea.md) — Full EO language in California format
 - [Executive Accountability Strategy](../strategy/executive-accountability.md) — Policy context and three-track reform
 - [Cabinet One-Pager](tea-one-pager-cabinet.md) — Quick-read summary for Secretaries
-- [Cabinet Presentation](../docs/presentations/tea-cabinet-briefing.html) — Interactive presentation
+- [Cabinet Presentation](https://vanderoffice.github.io/presentations/tea-cabinet-briefing-2026-01.html) — Interactive presentation
 
 ---
 
