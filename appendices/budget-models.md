@@ -3,7 +3,7 @@
 
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 **Date:** December 2025
-**Version:** Executive Draft v1.5
+**Version:** Executive Draft v1.8
 
 ---
 
@@ -359,7 +359,7 @@ The following table identifies key risks to the modernization initiative and mit
 | Risk | Impact | Likelihood | Mitigation Strategy |
 |------|--------|------------|---------------------|
 | **Independent Office legislation delayed** | HIGH | MEDIUM | Early stakeholder engagement, concurrent legislative and planning work, interim steering committee maintaining momentum if needed |
-| **Resistance to change from entrenched interests** | HIGH | HIGH | Protected learning time, no-blame experimentation zones, union engagement early, quick wins demonstrating value, Readiness Assessment identifying concerns |
+| **Organizational resistance to change** | HIGH | HIGH | Protected learning time, no-blame experimentation zones, union engagement early, quick wins demonstrating value, Readiness Assessment identifying concerns |
 | **Political transitions disrupting momentum** | MEDIUM | MEDIUM | Cross-branch Independent Office structure, bipartisan legislative framing, embedded governance surviving transitions, early wins demonstrating value across political spectrum |
 | **Vendor dependencies and lock-in** | MEDIUM | MEDIUM | Open standards requirements, API-first architecture, modular contracting $15M cap, competitive procurement, avoid proprietary platforms |
 | **Fellowship talent retention challenges** | MEDIUM | MEDIUM | Preferential hiring pathways, executive duty statement integration, ongoing SME network engagement, competitive advancement opportunities, alumni network maintaining connections |
@@ -394,7 +394,7 @@ The following table identifies key risks to the modernization initiative and mit
 
 ---
 
-**Document Version:** Executive Draft v1.3
+**Document Version:** Executive Draft v1.8
 **Date:** December 2025
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 

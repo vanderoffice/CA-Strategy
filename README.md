@@ -1,5 +1,5 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Status: Executive Draft](https://img.shields.io/badge/Status-Executive_Draft_v1.5-blue.svg)]()
+[![Status: Executive Draft](https://img.shields.io/badge/Status-Executive_Draft_v1.8-blue.svg)]()
 
 # California Enterprise Modernization Plan
 
@@ -86,28 +86,14 @@ The **Enterprise Efficiency and Effectiveness (E3) Operational Model** creates i
 
 ---
 
-## Reading Paths
+## Reading Paths by Audience
 
-**For Executives** (20 minutes)
-1. [Executive Summary](strategy/executive-summary.md)
-2. [Executive Accountability](strategy/executive-accountability.md) — TEA standards for your appointments
-3. [Funding: Conclusion](strategy/funding.md#7-conclusion)
-
-**For Agency Leaders** (90 minutes)
-1. [Governance Model](strategy/governance-model.md)
-2. [Executive Accountability](strategy/executive-accountability.md) — TEA requirements for technical positions
-3. [Data Governance](strategy/data-governance.md)
-4. [Talent Development](strategy/talent-development.md)
-
-**For Program Managers** (2 hours)
-1. All strategy documents
-2. [Templates](appendices/templates.md)
-3. [Readiness Assessment](toolkit/readiness-assessment/)
-
-**For HR/CalHR** (45 minutes)
-1. [Executive Accountability](strategy/executive-accountability.md) — TEA qualification pathways
-2. [Governance Model: E3 Positions](strategy/governance-model.md#22-undersecretary-positions-strategic-leadership-and-agency-coordination)
-3. [Talent Development](strategy/talent-development.md)
+| Audience | Start With | Then Read | Reference |
+|----------|------------|-----------|-----------|
+| **Executives** | [Executive Summary](strategy/executive-summary.md) | [Executive Accountability](strategy/executive-accountability.md) | [Funding](strategy/funding.md#7-conclusion) |
+| **Agency Leaders** | [Governance Model](strategy/governance-model.md) | [Data Governance](strategy/data-governance.md) | [Talent Development](strategy/talent-development.md) |
+| **Program Managers** | All strategy documents | [Templates](appendices/templates.md) | [Readiness Assessment](toolkit/readiness-assessment/) |
+| **HR/CalHR** | [Executive Accountability](strategy/executive-accountability.md) | [Talent Development](strategy/talent-development.md) | [Operational Guides](appendices/operational-guides.md) |
 
 ---
 
@@ -115,7 +101,7 @@ The **Enterprise Efficiency and Effectiveness (E3) Operational Model** creates i
 
 | Attribute | Value |
 |-----------|-------|
-| **Version** | Executive Draft v1.5 |
+| **Version** | Executive Draft v1.8 |
 | **Date** | January 2026 |
 | **Prepared for** | Governor's Office, Office of Data and Innovation, Government Operations Agency |
 

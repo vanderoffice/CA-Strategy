@@ -3,7 +3,7 @@
 
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 **Date:** December 8, 2025
-**Version:** Executive Draft v1.5
+**Version:** Executive Draft v1.8
 
 ---
 
@@ -14,6 +14,7 @@
    - [6.2 Investment Categories](#62-investment-categories)
    - [6.3 Governance and Oversight](#63-governance-and-oversight)
    - [6.4 Sustainability Mechanism](#64-sustainability-mechanism)
+     - [Internal State Team Incentives](#internal-state-team-incentives)
    - [6.5 Transparency and Public Reporting](#65-transparency-and-public-reporting)
 
 7. [Conclusion](#7-conclusion)
@@ -239,6 +240,65 @@ The Breakthrough Fund includes a sustainability mechanism that diverts a portion
 
 *Note: Fund projected to become self-sustaining by Year 5-7 through reinvestment of realized savings*
 
+#### Internal State Team Incentives
+
+**Purpose:** Create aligned incentives for state workers to drive modernization success. Beyond the 25% fund reinvestment, a portion of first-year savings rewards the team that generated them.
+
+**Performance Bonus for Modernization Teams:**
+
+| Element | Detail |
+|---------|--------|
+| **Bonus Pool** | 10% of documented first-year General Fund return |
+| **Distribution** | Split equally among executive sponsor + full-time modernization staff |
+| **Payment Timing** | Paid in second year after return is verified |
+| **Eligibility** | Minimum 6 months on project |
+
+**Example:**
+
+| Element | Amount |
+|---------|--------|
+| Project investment | $500K (process automation) |
+| First-year verified savings | $1M |
+| 10% bonus pool | $100K |
+| Team size | 10 staff (1 executive sponsor + 9 FTEs) |
+| Per-person bonus | $10K each |
+| Timing | Paid in Year 2 after savings verified |
+
+**First-Year ROI Definition:**
+
+Verified return to General Fund includes:
+- Reduced operational costs (staff reallocation, vendor spend reduction, infrastructure savings)
+- Reduced litigation costs (fewer errors, better compliance)
+- Avoided costs (prevented failures, reduced fraud)
+- Revenue increases (faster processing, improved collections)
+
+**Governance and Safeguards:**
+
+| Element | Requirement |
+|---------|-------------|
+| **Return Certification** | Department of Finance certifies savings calculation |
+| **Eligibility Validation** | TMO validates staff participation (minimum 6 months) |
+| **Tax Treatment** | Subject to standard payroll taxes |
+| **Conflict Prevention** | Executive sponsor bonus capped at 2x average team member |
+| **Transparency** | All bonus payments disclosed in annual fund report |
+
+**Why This Matters:**
+
+- **Aligned incentives:** Teams benefit directly from savings they generate
+- **Retention:** Rewards keep modernization talent in state service
+- **Culture change:** Shifts from "spend the budget" to "generate savings"
+- **Credibility:** Demonstrates state values efficiency, not just compliance
+- **Sustainability:** Combined with 25% reinvestment, creates virtuous cycle
+
+**Risk Mitigation:**
+
+| Risk | Safeguard |
+|------|-----------|
+| Inflated savings claims | Third-party validation for savings >$1M |
+| Gaming metrics | Multi-year verification; clawback for reversed savings |
+| Inequitable distribution | Equal split with capped executive portion |
+| Political backlash | Transparent reporting; tied to verified public benefit |
+
 *For detailed sustainability calculations and projections, see [Appendix B.3: Breakthrough Fund Sustainability Model](../appendices/operational-guides.md#b3-breakthrough-fund-sustainability-model).*
 
 ### 6.5 Transparency and Public Reporting
@@ -322,6 +382,7 @@ For detailed financial projections and sustainability models, see [Appendix F: B
 
 | Version | Date | Description | Author |
 |---------|------|-------------|--------|
+| Executive Draft v1.6 | January 2026 | Added Internal State Team Incentives (10% bonus for modernization teams) | Claude |
 | Executive Draft v1.4 | January 2026 | Readability improvements: organized partnership framework with H4 subheadings | Claude |
 | Executive Draft v1.3 | December 8, 2025 | Replaced Section 7 with focused Breakthrough Fund conclusion | Brent Vanderburgh |
 | Executive Draft v1.2 | December 8, 2025 | Updated framing to proposal/recommendation language; removed "Document Owner" footer line | Brent Vanderburgh |
@@ -330,7 +391,7 @@ For detailed financial projections and sustainability models, see [Appendix F: B
 
 ---
 
-**Document Version:** Executive Draft v1.5
+**Document Version:** Executive Draft v1.8
 **Date:** January 2026
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 

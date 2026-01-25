@@ -3,7 +3,7 @@
 
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 **Date:** January 2026
-**Version:** Executive Draft v1.5
+**Version:** Executive Draft v1.8
 
 ---
 
@@ -258,7 +258,7 @@ California's technology implementations must comply with multiple regulatory fra
 
 ---
 
-**Document Version:** Executive Draft v1.5
+**Document Version:** Executive Draft v1.8
 **Date:** January 2026
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 

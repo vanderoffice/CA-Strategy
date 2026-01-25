@@ -3,7 +3,7 @@
 
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 **Date:** January 2026
-**Version:** Executive Draft v1.5
+**Version:** Executive Draft v1.8
 
 ---
 
@@ -14,10 +14,12 @@
 - [B.3 Breakthrough Fund Sustainability Model](#b3-breakthrough-fund-sustainability-model)
 - [B.4 Labor Relations Framework](#b4-labor-relations-framework)
 - [B.5 Citizen Journey Teams Framework](#b5-citizen-journey-teams-framework)
+- [B.6 Peer State and Federal Benchmarking](#b6-peer-state-and-federal-benchmarking)
+- [B.7 Union Partnership Strategy](#b7-union-partnership-strategy)
 
 ---
 
-> **Appendix Summary:** This appendix provides strategic frameworks for five operational programs. For detailed implementation procedures, see the [toolkit folder](../toolkit/).
+> **Appendix Summary:** This appendix provides strategic frameworks for seven operational programs. For detailed implementation procedures, see the [toolkit folder](../toolkit/).
 
 ---
 
@@ -285,16 +287,97 @@ Citizen Journey Teams bring E3 leaders, SMEs, and Fellows from relevant agencies
 
 ---
 
+## B.6 Peer State and Federal Benchmarking
+
+> **Purpose:** Context for California's modernization approach relative to peer states and federal initiatives.
+
+### Comparison Matrix
+
+| Entity | Initiative | Budget/Scale | Key Features | California Differentiation |
+|--------|-----------|--------------|--------------|---------------------------|
+| **Colorado** | [Colorado Digital Service](https://oit.colorado.gov/digital-government) | $373M budget, ~1,100 OIT staff | Embedded tech teams, CHIPS program (8 agencies), $465M tech debt to address | E3 adds executive qualification standards (TEA); Independent Data Governance Office with cross-branch authority |
+| **Massachusetts** | [Mass Digital + FutureTech Act](https://www.mass.gov/orgs/massachusetts-digital-service) | $1.26B bond authorization | MyMassGov SSO (1.5M users), AI chatbot (1,500/day), BEST transformation | California adds sustainable funding model (25% savings reinvestment); Fellowship-to-executive pipeline |
+| **Texas** | [DIR](https://dir.texas.gov/) | 267 employees, 4 strategic goals | Strong cybersecurity focus, Data Center Services, statewide project delivery framework | California adds labor partnership (union engagement); no-layoff commitment |
+| **Georgia** | [GTA](https://gta.georgia.gov/) | A grade (Digital States Survey) | Horizons AI Lab (opened 2025), Orchard design system, strong CIO leadership | California adds private sector partnership ($50M Breakthrough Fund match) |
+| **Federal (USDS)** | [U.S. DOGE Service](https://www.whitehouse.gov/) | 89 employees, $20-45M budget | 2-year rotational assignments; U.S. Tech Force (1,000 technologists planned) | **California creates PERMANENT positions** - not rotational. E3 Undersecretaries and CDDs are career civil service, building institutional knowledge |
+
+### California's Competitive Advantages
+
+1. **Permanent Leadership** — E3 positions are civil service, not political appointees or term-limited fellows
+2. **Cross-Branch Authority** — Independent Office of State Data Governance includes judicial, legislative, and executive representation
+3. **Sustainable Funding** — 25% savings reinvestment creates self-sustaining modernization capacity
+4. **Union Partnership** — Proactive engagement with SEIU/PECG ensures workforce buy-in
+5. **Technical Executive Standards** — TEA framework ensures leaders have verified technical competence
+
+### Sources
+
+- [Colorado Digital Service](https://oit.colorado.gov/digital-government) | [Governor's Operational Agenda](https://www.colorado.gov/governor/news/8891-gov-polis-oit-announce-digital-government-strategic-plan-modernize-and-increase-access)
+- [Massachusetts Digital Service](https://www.mass.gov/orgs/massachusetts-digital-service) | [FutureTech Act](https://malegislature.gov/PressRoom/Detail?pressReleaseId=121)
+- [Texas DIR Strategic Plan](https://dir.texas.gov/strategic-planning-and-reporting/state-strategic-plan)
+- [Georgia GTA](https://gta.georgia.gov/) | [A Grade on Digital States Survey](https://gta.georgia.gov/news/2024-09-26/georgia-earns-grade-national-digital-states-survey)
+- [Federal USDS/DOGE Executive Order](https://www.whitehouse.gov/presidential-actions/2025/01/establishing-and-implementing-the-presidents-department-of-government-efficiency/)
+
+---
+
+## B.7 Union Partnership Strategy
+
+> **Purpose:** Operational guidance for labor engagement in modernization initiatives.
+
+### Key Union Relationships
+
+| Union | Membership | IT Classification History | Pay Advocacy |
+|-------|------------|--------------------------|--------------|
+| [SEIU Local 1000](https://www.seiu1000.org/) | 96,000 state workers | Met with CalHR 12+ times over 2 years on IT consolidation; cooperative relationship | 3%/year GSI + 4% wage equity adjustment; historically above-market per CalHR studies |
+| [PECG](https://pecg.org/) | 15,000 engineers | Unit 9 representation; concerned about technicians directing engineers | **114% salary increase over 19 years** — demonstrates willingness to advocate for competitive pay |
+
+### SEIU Local 1000 Engagement
+
+**Context:** SEIU met with CalHR 12+ times during the 2018 IT Classification Consolidation. The union accepted the 9-class series replacing 36 outdated classifications. Current contract includes Wage Equity Adjustment for low-paid workers.
+
+**Recommended Engagement:**
+- Continue quarterly briefings on modernization initiatives (per existing labor relations framework)
+- Frame classification-level HAM requests as addressing documented recruitment difficulty
+- Emphasize that Digital Accelerators program creates upskilling opportunities for represented IT workers
+- No involuntary separations commitment remains in effect
+
+### PECG Engagement
+
+**Context:** PECG has achieved 114% salary increase over 19 years for Unit 9 supervisors/managers, demonstrating strong pay advocacy. Union is concerned about work direction (engineers vs. technicians).
+
+**Recommended Engagement:**
+- Highlight CEA Restricted Zone access for licensed engineers in executive roles
+- Ensure engineering work direction concerns are addressed in TEA position descriptions
+- Recognize PE licensure as qualifying credential for restricted zone pay
+- Partner on identifying Unit 9 positions appropriate for TEA pathway
+
+### Risk Mitigation
+
+| Risk | Mitigation |
+|------|------------|
+| TEA seen as barrier to advancement | Frame as professional development opportunity; Fellowship provides TEA pathway |
+| Competitive pay benefits only executives | Emphasize classification-level HAM benefits all IT classifications |
+| Modernization threatens jobs | "No Involuntary Separations" commitment with enforcement |
+| Classification changes without consultation | Meet-and-confer on all duty statement changes |
+
+### Sources
+
+- [SEIU Local 1000](https://www.seiu1000.org/) | [Contract](https://contract.seiu1000.org/)
+- [PECG](https://pecg.org/) | [History of Success](https://pecg.org/history-of-success/)
+- [CalHR IT Classification Consolidation](https://www.calhr.ca.gov/about-calhr/divisions-programs/personnel-management/class-specifications/information-technology-class-consolidation/)
+
+---
+
 ## Version History
 
 | Version | Date | Description | Author |
 |---------|------|-------------|--------|
+| Executive Draft v1.6 | January 2026 | Added B.6 Peer State Benchmarking and B.7 Union Partnership Strategy | Claude |
 | Executive Draft v1.4 | January 2026 | Streamlined for strategic review; detailed procedures moved to archive | Claude |
 | Executive Draft v1.2 | December 8, 2025 | Initial complete version | Brent Vanderburgh |
 
 ---
 
-**Document Version:** Executive Draft v1.5
+**Document Version:** Executive Draft v1.8
 **Date:** January 2026
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 

@@ -3,7 +3,7 @@
 
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 **Date:** December 8, 2025
-**Version:** Executive Draft v1.5
+**Version:** Executive Draft v1.8
 
 ---
 
@@ -394,7 +394,7 @@ This policy:
 
 ---
 
-**Document Version:** Executive Draft v1.5
+**Document Version:** Executive Draft v1.8
 **Date:** December 8, 2025
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 

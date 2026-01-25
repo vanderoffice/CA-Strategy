@@ -3,7 +3,7 @@
 
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 **Date:** January 2026
-**Version:** Executive Draft v1.5
+**Version:** Executive Draft v1.8
 
 ---
 
@@ -86,7 +86,10 @@ Government agencies operate without this pressure. Budget allocations continue r
 **Measurable Consequences (2024-2025 Data):**
 
 #### Legacy System Crisis
-Legacy systems consume 70-80% of IT budgets, leaving 20-30% for innovation. The average age of critical systems exceeds 25 years, with some mainframes dating to the 1970s. These systems require increasingly scarce technical expertise (COBOL, Fortran, AS/400) and face mounting failure risks.
+Legacy systems consume 70-80% of IT budgets, leaving 20-30% for innovation.[^gao-legacy] The average age of critical systems exceeds 25 years, with some mainframes dating to the 1970s.[^gao-age] These systems require increasingly scarce technical expertise (COBOL, Fortran, AS/400) and face mounting failure risks.
+
+[^gao-legacy]: [GAO-25-107795](https://www.gao.gov/products/gao-25-107795): "agencies have typically reported spending about 80 percent on operations and maintenance"; [Gartner 2023](https://www.stepsoftware.com/innovation-drag-how-legacy-systems-hold-back-it-teams-budgets-and-modernization/): "60-80% of IT budgets are spent maintaining existing systems"
+[^gao-age]: [GAO-25-107795](https://www.gao.gov/products/gao-25-107795) identified 11 critical systems "ranged from about 23 to 60 years old"
 
 #### Data Fragmentation
 Over 400 independent systems prevent information sharing, forcing citizens to provide the same information multiple times. Data sharing agreements take 12-18 months to negotiate, creating barriers to cross-agency collaboration.
@@ -98,7 +101,11 @@ Traditional procurement cycles average 12-18 months, delaying technology adoptio
 Outdated infrastructure exposes citizen data to threats. Systems lacking modern security controls (MFA, encryption, zero-trust) create organizational risk.
 
 #### Workforce Skills Gap
-33% of government workers have low or no digital skills despite 92% of jobs requiring them. Compensation gaps of 20-40% drive talent attrition. Average IT worker age exceeds 50, creating knowledge loss risk.
+One-third of workers have limited or no digital skills despite 92% of jobs requiring them.[^skills-gap] Compensation gaps of approximately 25% below private sector drive talent attrition.[^pay-gap] The federal workforce averages age 47, with nearly twice as many workers in their 60s (14.8%) as their 20s (7.8%), creating knowledge loss risk.[^workforce-age]
+
+[^skills-gap]: [National Skills Coalition 2020](https://nationalskillscoalition.org/news/press-releases/new-report-92-of-jobs-require-digital-skills-one-third-of-workers-have-low-or-no-digital-skills-due-to-historic-underinvestment-structural-inequities/): "One-third of workers have low or no digital skills"; [OECD PIAAC](https://itif.org/publications/2021/11/29/assessing-state-digital-skills-us-economy/)
+[^pay-gap]: [Federal News Network 2024](https://federalnewsnetwork.com/pay/2024/11/federal-pay-rates-are-falling-nearly-25-short-of-the-private-sector/): "Federal employees...earning 24.72% less than private sector"; gap has "remained consistently above 20% since March 2007"
+[^workforce-age]: [USAFacts/OPM 2024](https://usafacts.org/articles/how-old-is-the-federal-workforce/)
 
 #### Executive Qualification Gap
 CIO, CISO, CDO, and CTO positions have no domain-specific competence requirements under current CalHR standards. The State Auditor has flagged IT oversight as high-risk for 18 consecutive years. See [Executive Accountability](executive-accountability.md) for the Technical Executive Assignment (TEA) solution.
@@ -475,6 +482,7 @@ This document establishes the governance foundation for California's enterprise 
 
 | Version | Date | Description | Author |
 |---------|------|-------------|--------|
+| Executive Draft v1.7 | January 2026 | Added verified citations for industry claims (GAO, Gartner, OECD, Federal News Network); refined statistics | Claude |
 | Executive Draft v1.6 | January 2026 | Added Section 2.6 Technical Executive Standards Integration; TEA requirements for E3 positions | Governor's Innovation Fellow |
 | Executive Draft v1.5 | January 2026 | Split data governance to separate document; renumbered sections; restructured for public repo | Claude |
 | Executive Draft v1.4 | January 2026 | Readability improvements: H4 subheadings, summary tables, condensed responsibilities | Claude |
@@ -482,7 +490,7 @@ This document establishes the governance foundation for California's enterprise 
 
 ---
 
-**Document Version:** Executive Draft v1.6
+**Document Version:** Executive Draft v1.8
 **Date:** January 2026
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 

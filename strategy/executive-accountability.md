@@ -3,7 +3,7 @@
 
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 **Date:** January 2026
-**Version:** Executive Draft v1.0
+**Version:** Executive Draft v1.8
 
 ---
 
@@ -19,6 +19,7 @@
    - [2.2 Root Cause: No Technical Competence Requirements](#22-root-cause-no-technical-competence-requirements)
    - [2.3 Accountability Theater](#23-accountability-theater)
    - [2.4 Transition Vulnerability](#24-transition-vulnerability)
+     - [Multi-Administration Continuity Design](#multi-administration-continuity-design)
 
 3. [Legal and Constitutional Framework](#3-legal-and-constitutional-framework)
    - [3.1 Current Employment Structure](#31-current-employment-structure)
@@ -54,7 +55,7 @@
 
 9. [Stakeholder Analysis](#9-stakeholder-analysis)
    - [9.1 Key Allies](#91-key-allies)
-   - [9.2 Potential Opponents](#92-potential-opponents)
+   - [9.2 Stakeholders with Concerns](#92-stakeholders-with-concerns)
 
 ---
 
@@ -198,6 +199,37 @@ The Financial Information System for California has spanned multiple governors:
 - Status: Still incomplete after 20 years
 
 Without transition protections, every administration change risks resetting multi-year initiatives.
+
+#### Multi-Administration Continuity Design
+
+**The Problem:**
+
+Modernization initiatives spanning 5-7 years inevitably cross administration boundaries. Without deliberate design for continuity, incoming administrations may abandon predecessors' initiatives—even successful ones—to establish their own programs. This pattern has disrupted California technology projects repeatedly.
+
+**Design Principles for Continuity:**
+
+| Principle | Implementation |
+|-----------|----------------|
+| **Structural Embedding** | E3 positions are civil service (not political appointments), surviving transitions |
+| **Measurable Progress** | Public dashboards track outcomes, making abandonment visible and costly |
+| **Bipartisan Governance** | Independent Office board includes minority party representation |
+| **Documented Baselines** | Starting conditions recorded so any administration can demonstrate improvement |
+| **Transition Protocols** | Mandatory 30-day briefings for Governor-elect on projects >$100M |
+
+**Why This Works:**
+
+Civil service positions, public accountability metrics, and cross-branch governance create institutional momentum that transcends political cycles. Abandoning a working program becomes harder than continuing it.
+
+**Historical Examples:**
+
+Long-term government initiatives succeed when designed for continuity:
+- **Interstate Highway System:** Survived 7 presidential administrations from Eisenhower through Reagan
+- **California State Water Project:** Multi-decade construction across 4 governors
+- **Covered California:** Launched under Brown, continued under Newsom with structural independence
+
+**Recommended Executive Order Language:**
+
+> "This Executive Order establishes institutional structures for sustained modernization. E3 leadership positions, the Independent Office of State Data Governance, and the Breakthrough Modernization Fund are designed to operate continuously across administrations. Transition protocols shall ensure incoming leadership receives comprehensive briefings on all initiatives exceeding $100M investment."
 
 ---
 
@@ -483,7 +515,7 @@ Target: 2028 ballot
 
 | Week | Action | Owner | Deliverable | Toolkit Resource |
 |------|--------|-------|-------------|------------------|
-| 1-2 | Stakeholder mapping | Governor's Innovation Fellow | Key allies/opponents list | — |
+| 1-2 | Stakeholder mapping | Governor's Innovation Fellow | Stakeholder engagement plan | — |
 | 2-4 | Draft Technical Executive Standards EO | Fellow + GovOps | EO language | [D.1: EO Draft](../appendices/executive-order-tea.md) |
 | 3-4 | Socialize with Cabinet | Fellow | Secretary buy-in | [D.2: Briefing](../toolkit/tea-briefing-govops-calhr.md), [D.3: One-Pager](../toolkit/tea-one-pager-cabinet.md), [D.4: Presentation](https://vanderoffice.github.io/presentations/tea-cabinet-briefing-2026-01.html) |
 | 4-6 | CalHR consultation | Fellow + CalHR | Feasibility assessment | [D.2: Briefing](../toolkit/tea-briefing-govops-calhr.md) |
@@ -564,7 +596,7 @@ Target: 2028 ballot
 
 | Risk | Likelihood | Impact | Mitigation |
 |------|------------|--------|------------|
-| Agency resistance to TEA requirements | High | Medium | Frame as protecting agencies from blame for unqualified appointments; pilot first |
+| Agency resistance to TEA requirements | High | Medium | Emphasize benefits of qualified leadership; pilot in willing agencies first |
 | Union opposition | Medium | High | Engage SEIU/PECG early; emphasize this targets executives only, not represented workers |
 | Legislative skepticism | Medium | Medium | Build bipartisan coalition; focus on taxpayer savings |
 | Governor transition (2027) | Low | High | Embed in statute/constitution before transition |
@@ -582,7 +614,7 @@ Target: 2028 ballot
 
 ## 9. Stakeholder Analysis
 
-> **Section Summary:** This section identifies key allies and potential opponents with engagement strategies.
+> **Section Summary:** This section identifies key stakeholders and engagement strategies.
 
 ### 9.1 Key Allies
 
@@ -598,15 +630,15 @@ Target: 2028 ballot
 | **Office of Data and Innovation** | Modernization success | E3 integration partner |
 | **Governor's Office** | Legacy/modernization | Primary sponsor |
 
-### 9.2 Potential Opponents
+### 9.2 Stakeholders with Concerns
 
-| Entity | Concern | Neutralization Strategy |
-|--------|---------|------------------------|
-| Agency Secretaries | Loss of appointment discretion | Frame as protecting them from blame for failures |
-| CalHR | Additional workload | Provide resources; emphasize their central role |
-| Incumbent executives | Job security concerns | Grandfather existing positions; prospective only |
-| Public employee unions | Scope creep to represented workers | Explicit statutory limitation to executives |
-| Legislature (some members) | Executive branch encroachment | Involve in design; give them enforcement role |
+| Entity | Concern | Engagement Approach |
+|--------|---------|---------------------|
+| Agency Secretaries | Impact on appointment flexibility | Emphasize that TEA strengthens executive quality and reduces project risk |
+| CalHR | Additional workload | Provide resources; position CalHR as central partner in implementation |
+| Incumbent executives | Uncertainty about requirements | Grandfather existing positions; requirements apply prospectively only |
+| Public employee unions | Potential expansion to represented workers | Clear statutory limitation to executive positions; early engagement |
+| Legislature (some members) | Executive branch scope | Collaborative design; meaningful legislative oversight role |
 
 ---
 
@@ -694,11 +726,12 @@ Ready-to-use materials for stakeholder engagement and implementation:
 
 | Version | Date | Description | Author |
 |---------|------|-------------|--------|
+| Executive Draft v1.1 | January 2026 | Added Multi-Administration Continuity Design section | Claude |
 | Executive Draft v1.0 | January 2026 | Initial document for CA-Strategy integration | Governor's Innovation Fellow |
 
 ---
 
-**Document Version:** Executive Draft v1.0
+**Document Version:** Executive Draft v1.8
 **Date:** January 2026
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 

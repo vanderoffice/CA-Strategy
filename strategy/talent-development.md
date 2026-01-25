@@ -3,7 +3,7 @@
 
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 **Date:** January 2026
-**Version:** Executive Draft v1.6
+**Version:** Executive Draft v1.8
 
 ---
 
@@ -15,6 +15,7 @@
    - [5.3 Fellowship-to-Technical Executive Pathway](#53-fellowship-to-technical-executive-pathway)
    - [5.4 Executive Duty Statement Integration](#54-executive-duty-statement-integration)
    - [5.5 Data Governance Teams (Permanent State Staff)](#55-data-governance-teams-permanent-state-staff)
+     - [5.5.1 Leveraging Existing Classifications for Digital Leadership](#551-leveraging-existing-classifications-for-digital-leadership)
    - [5.6 Training Programs](#56-training-programs)
    - [5.7 Labor Relations](#57-labor-relations)
 
@@ -279,6 +280,102 @@ Effective data governance requires combining domain expertise with technical dat
 | **Classification Alignment** | Leverages existing CA infrastructure, reduces HR complexity |
 | **Professional Accountability** | Supervisory roles provide "responsible charge" over data quality; licensure (PE/PG) preferred for some roles |
 
+---
+
+### 5.5.1 Leveraging Existing Classifications for Digital Leadership
+
+> **Note:** This section addresses competitive compensation and classification pathways for all digital leadership roles—not just AI. For TEA qualification requirements, see [Executive Accountability](executive-accountability.md).
+
+**The Challenge:**
+
+State technical executives (CIO, CISO, CDO, CTO) compete for talent against private sector roles paying 30-40% more. According to [Federal News Network](https://federalnewsnetwork.com/pay/2024/11/federal-pay-rates-are-falling-nearly-25-short-of-the-private-sector/), government pay falls approximately 25% below private sector for comparable positions—a gap exceeding 20% since 2007. In California's competitive tech market, state CIOs average ~$173K while private sector CIOs average $264K.
+
+Additionally, individual "Hire Above Minimum" (HAM) rates were **eliminated in October 2024** by CalHR to prevent gender pay gaps. This creates a constraint that requires alternative pathways to competitive compensation.
+
+**CalHR's 6 IT Domains (Scope of Digital Leadership):**
+
+The 2018 IT Classification Consolidation established [6 IT domains](https://www.calhr.ca.gov/about-calhr/divisions-programs/personnel-management/class-specifications/information-technology-class-consolidation/) replacing 36 outdated classifications with a 9-class series:
+
+| Domain | Description | Leadership Role Examples |
+|--------|-------------|-------------------------|
+| **Business Technology Management** | IT portfolio, strategy, digital UX, procurement | CIO, CDO, Digital Services Director |
+| **Software Engineering** | Application development, architecture | Chief Architect, Engineering Director |
+| **System Engineering** | Infrastructure, cloud, database, network | CTO, Infrastructure Director |
+| **Information Security Engineering** | Cybersecurity, risk management | CISO, Security Director |
+| **IT Project Management** | Delivery, governance | PMO Director, Delivery Lead |
+| **Client Services** | End-user support, training | Service Delivery Director |
+
+**The Solution—Three Pathways to Competitive Compensation:**
+
+**Pathway 1: CEA Restricted Zone (Executive Roles)**
+
+For TEA positions requiring licensed engineer or scientist credentials, departments can pay above the standard $256K CEA cap:
+
+| Classification | Salary Range | Access Requirement |
+|----------------|--------------|-------------------|
+| CEA Level A/B/C | $124K-$256K annually | Standard executive appointment |
+| **CEA Restricted Zone** | **>$256K** | Position requires licensed engineer, scientist, physician, or attorney credentials; valid CEA Delegation Agreement |
+
+**How to Access Restricted Zone:**
+1. Ensure TEA position duty statement requires "technical/professional responsibility" equivalent to licensed engineer/scientist
+2. Confirm department has valid, signed CEA Delegation Agreement with CalHR
+3. Document that position carries same technical responsibility as licensed roles
+4. CalHR approves salary above Level C maximum
+
+**Source:** [CalHR CEA Salaries](https://www.calhr.ca.gov/about-calhr/divisions-programs/personnel-management/cea-job-info/cea-salaries/)
+
+**Pathway 2: Classification-Level HAM (Technical Specialists)**
+
+For IT Specialist III, IT Manager, and similar classifications experiencing recruitment difficulty:
+
+| Current Classification | Salary Range | HAM Pathway |
+|----------------------|--------------|-------------|
+| IT Specialist III | $90K-$148K | Submit Employee Compensation Request |
+| IT Manager I | $100K-$167K | Demonstrate recruitment difficulty |
+| IT Manager II | $113K-$179K | CalHR adds to Pay Scales Section 5 |
+| IT Supervisor II | $74K-$121K | Classification-level (not individual) |
+
+**October 2024 HAM Policy Change:**
+- ❌ Individual HAMs eliminated (to prevent gender pay gaps)
+- ✅ Classification-level HAMs still available via [Employee Compensation Request](https://hrmanual.calhr.ca.gov/Home/ManualItem/1/1707)
+- ✅ CalHR reviews annually and updates Pay Scales Section 5
+
+**How to Request Classification-Level HAM:**
+1. Compile data showing recruitment difficulty (vacancy rates, time-to-fill, failed recruitments)
+2. Document market salary comparisons for classification
+3. Submit Employee Compensation Request to CalHR
+4. CalHR Employee Compensation Unit: 916-322-5193 / employeecomp@calhr.ca.gov
+
+**Pathway 3: Research Scientist/Engineer Series (Analytical Roles)**
+
+For data governance, AI/ML, and analytical leadership positions:
+
+| Classification | [CalHR Series](https://www.calhr.ca.gov/state-hr-professionals/pages/5729.aspx) | Salary Range | Best For |
+|----------------|--------------|--------------|----------|
+| Research Data Specialist I | 5729 | $62K-$88K | Entry-level data governance, model validation |
+| Research Data Specialist II | 5729 | $77K-$110K | Experienced data governance, analytics |
+| Research Data Manager | 5729 | $105K-$119K | Data governance leadership |
+| Research Scientist | [5576](https://www.calhr.ca.gov/state-hr-professionals/Pages/5576.aspx) | Varies by specialty | Domain-specific AI/ML, scientific integrity |
+
+**Why Research Series for Digital Leadership:**
+- **Immediate availability:** No 6-18 month classification study required
+- **Analytical training required:** Statistics, research methods, critical thinking
+- **Competitive pay:** Already compensates for specialized skills
+- **Civil service protections:** Career stability for technical talent
+- **Union-recognized:** Existing SEIU bargaining unit relationships
+
+**Implementation Pathway for Digital Leadership Classifications:**
+
+| Phase | Timeline | Actions |
+|-------|----------|---------|
+| 1 | Months 1-3 | Map TEA positions to appropriate classification pathway; identify candidates for restricted zone |
+| 2 | Months 3-6 | For CEA positions: Update duty statements to reference engineer/scientist credentials; confirm delegation agreements |
+| 3 | Months 6-12 | For IT positions: Compile recruitment difficulty data; submit classification-level HAM requests |
+| 4 | Ongoing | Coordinate with CalHR Employee Compensation Unit; meet and confer with SEIU/PECG on duty statement changes |
+| 5 | Pilot | Test pathways in 2-3 departments with active TEA recruitment; document outcomes |
+
+---
+
 **Deployment Strategy:**
 
 **Phase 1 (Months 1-12): Pilot Deployment**
@@ -441,6 +538,7 @@ For comprehensive guidance on union engagement, workforce transitions, and train
 
 | Version | Date | Description | Author |
 |---------|------|-------------|--------|
+| Executive Draft v1.7 | January 2026 | Added Section 5.5.1 Digital Leadership Classifications (6 IT domains, CEA Restricted Zone, HAM guidance, Research series) | Claude |
 | Executive Draft v1.6 | January 2026 | Added Section 5.3 Fellowship-to-Technical Executive Pathway; TEA integration throughout | Governor's Innovation Fellow |
 | Executive Draft v1.5 | January 2026 | Renumbered sections 5.3-5.6 to 5.4-5.7 | Claude |
 | Executive Draft v1.4 | January 2026 | Readability improvements: condensed HR justification, added cross-references | Claude |
@@ -451,7 +549,7 @@ For comprehensive guidance on union engagement, workforce transitions, and train
 
 ---
 
-**Document Version:** Executive Draft v1.6
+**Document Version:** Executive Draft v1.8
 **Date:** January 2026
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 
