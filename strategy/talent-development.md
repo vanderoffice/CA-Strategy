@@ -40,7 +40,7 @@ California's workforce transformation follows a three-tier upskilling strategy, 
 | **Hire 438-530 specialists** | $52-67.5M annually | California can't compete on salary (25% below private sector) | Chronic vacancies, consultant dependence |
 | **Upskill existing staff + AI tools** | $5-10M annually | Culture change, training infrastructure | 40% productivity gain, sustainable capacity |
 
-If you upskill 2,000 existing state employees and equip them with AI tools delivering 40% productivity gains ([Penn Wharton](https://budgetmodel.wharton.upenn.edu/issues/2025/9/8/projected-impact-of-generative-ai-on-future-productivity-growth)), you get output equivalent to 2,800 workers—without the hiring competition California can't win.
+If you upskill 2,000 existing state employees and equip them with AI tools delivering 40% productivity gains ([Penn Wharton](https://budgetmodel.wharton.upenn.edu/issues/2025/9/8/projected-impact-of-generative-ai-on-future-productivity-growth)), you get output equivalent to 2,800 workers—bypassing a hiring war California cannot win.
 
 #### Three-Tier Upskilling Strategy
 
@@ -84,7 +84,7 @@ Departments vary dramatically in data intensity. DMV processes millions of recor
 
 | Element | Detail |
 |---------|--------|
-| **Positions** | 50-100 specialists (not 438-530) |
+| **Positions** | 50-100 specialists |
 | **Location** | Central teams at TMO + Independent Office of State Data Governance |
 | **Classification** | Research Data Specialist/Manager series (existing CalHR classifications) |
 | **Role** | Train-the-trainer program development, advanced analytics/AI oversight, central governance |
@@ -263,7 +263,7 @@ The Fellowship may continue under TMO or a new entity at the next Governor's dis
 
 ### 5.5 Data Steward Network
 
-> **This section replaces the previous "Data Governance Teams" proposal. The 438-530 new position model is deprecated in favor of embedded Data Stewards using existing staff.**
+> **Key Change:** This model replaces the earlier "Data Governance Teams" proposal (438-530 new positions, $52-67.5M annually) with embedded Data Stewards using existing staff—reducing costs by 90%.
 
 **Purpose:** Provide sustainable data governance capacity by embedding stewards within existing units rather than creating large centralized teams.
 

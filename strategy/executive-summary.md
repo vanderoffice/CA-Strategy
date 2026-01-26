@@ -222,7 +222,7 @@ See [Appendix G.6: Risk Mitigation Matrix](../appendices/budget-models.md#g6-ris
 
 ---
 
-**Document Version:** Executive Draft v2.1
+**Document Version:** Executive Draft v2.0
 **Date:** January 2026
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 
@@ -232,8 +232,7 @@ See [Appendix G.6: Risk Mitigation Matrix](../appendices/budget-models.md#g6-ris
 
 | Version | Date | Description | Author |
 |---------|------|-------------|--------|
-| Executive Draft v2.1 | January 2026 | **Funding source clarification**: Breakthrough Fund is for projects only; all positions/operations require General Fund appropriation; added Two Funding Streams summary | Claude |
-| Executive Draft v2.0 | January 2026 | **Major budget revision**: Reduced annual operating cost from $70-95M to $23-38M by replacing 438-530 Data Governance hires with upskilling + 50-100 specialists; updated Talent Pipeline narrative | Claude |
+| Executive Draft v2.0 | January 2026 | **Major revision**: Reduced annual cost from $70-95M to $23-38M (upskilling over hiring); clarified General Fund (positions) vs Breakthrough Fund (projects); added Two Funding Streams summary | Claude |
 | Executive Draft v1.8 | January 2026 | Strengthened Problem section with $3B+ losses upfront; added urgency framing; "What This Is/Isn't" section | Claude |
 | Executive Draft v1.6 | January 2026 | Added Budget Context and Feasibility section addressing deficit environment | Claude |
 | Executive Draft v1.5 | January 2026 | Initial consolidated executive draft | Previous |

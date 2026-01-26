@@ -3,7 +3,7 @@
 
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 **Date:** January 2026
-**Version:** Executive Draft v2.1
+**Version:** Executive Draft v2.0
 
 ---
 
@@ -460,8 +460,7 @@ For detailed financial projections and sustainability models, see [Appendix F: B
 
 | Version | Date | Description | Author |
 |---------|------|-------------|--------|
-| Executive Draft v2.1 | January 2026 | **Funding source clarification**: Breakthrough Fund is for projects only; all positions/operations require General Fund appropriation; added Critical Distinction callout in Section 6.1 | Claude |
-| Executive Draft v2.0 | January 2026 | **Major update**: Updated timelines (Quick Win 1-12mo, Strategic 12-24mo); added Investment in Workforce Capability section (Claude Code, upskilling ROI); clarified sustainability mechanism; strengthened 10% bonus rationale | Claude |
+| Executive Draft v2.0 | January 2026 | **Major update**: Clarified General Fund (positions) vs Breakthrough Fund (projects only); updated timelines; added Investment in Workforce Capability section; clarified sustainability mechanism | Claude |
 | Executive Draft v1.6 | January 2026 | Added Internal State Team Incentives (10% bonus for modernization teams) | Claude |
 | Executive Draft v1.4 | January 2026 | Readability improvements: organized partnership framework with H4 subheadings | Claude |
 | Executive Draft v1.3 | December 8, 2025 | Replaced Section 7 with focused Breakthrough Fund conclusion | Brent Vanderburgh |
@@ -470,7 +469,7 @@ For detailed financial projections and sustainability models, see [Appendix F: B
 
 ---
 
-**Document Version:** Executive Draft v2.1
+**Document Version:** Executive Draft v2.0
 **Date:** January 2026
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 
