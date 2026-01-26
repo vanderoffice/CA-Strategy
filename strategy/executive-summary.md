@@ -59,7 +59,7 @@ The **Enterprise Efficiency and Effectiveness (E3) Operational Model** creates i
 
 ## Talent Pipeline
 
-California prioritizes **upskilling over hiring**. The three-tier California Digital Capability Model trains all 230,000 employees in digital literacy via CalAcademy, develops embedded Data Stewards within departments (no new hires), and hires only 50-100 central specialists for train-the-trainer and oversight. AI productivity tools like Claude Code multiply worker productivity by 40%.
+California prioritizes **upskilling over hiring**. The three-tier California Digital Capability Model trains knowledge workers in digital literacy via CalAcademy, develops embedded Data Stewards within departments (no new hires), and hires only 50-100 central specialists for train-the-trainer and oversight. AI productivity tools like Claude Code multiply worker productivity by 40%.
 
 The Governor's Innovation Fellowship produces 60 future technical executives annually—leaders, not frontline capacity.
 
@@ -212,7 +212,7 @@ See [Appendix G.6: Risk Mitigation Matrix](../appendices/budget-models.md#g6-ris
 |----------|----------|--------------|
 | [Governance Model](governance-model.md) | E3 structure, leadership roles | 20 min |
 | [Data Governance](data-governance.md) | Independent Office, data sharing | 10 min |
-| [Talent Development](talent-development.md) | Fellowship program, data governance teams | 15 min |
+| [Talent Development](talent-development.md) | Digital Capability Model, Data Steward Network | 15 min |
 | [Funding & Implementation](funding.md) | Breakthrough Fund structure | 15 min |
 | [Procurement Guide](procurement.md) | Modular contracting, RFI², vendor pools | 20 min |
 | [Templates](../appendices/templates.md) | Templates A.1-A.8 | Reference |

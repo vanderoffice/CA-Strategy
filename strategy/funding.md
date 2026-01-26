@@ -193,7 +193,7 @@ The Breakthrough Fund invests not just in technology, but in the people who use 
 
 | Program | Investment | ROI |
 |---------|------------|-----|
-| CalAcademy AI literacy (230,000 employees) | $500K-$1M | 43% return per [Microsoft/ROI Institute](https://wwps.microsoft.com/blog/roi-results-ps-skilling-part3) |
+| CalAcademy AI literacy (knowledge workers) | $500K-$1M | 43% return per [Microsoft/ROI Institute](https://wwps.microsoft.com/blog/roi-results-ps-skilling-part3) |
 | Data Steward certification (department trainers) | $200K-$400K | 80% reduction in data governance costs |
 | TEA certification prep (future technical executives) | $100K-$200K | Pipeline of qualified CIO/CISO/CDO/CTO candidates |
 

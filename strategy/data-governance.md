@@ -122,7 +122,7 @@ The data governance structure operates at three levels with clearly defined deci
 
 | Decision Level | Authority | Scope | Examples |
 |----------------|-----------|-------|----------|
-| **Department-Level** | Chief Deputy Director + Data Governance Team | Public data exchange within agency; non-sensitive operational data sharing | DMV shares aggregate vehicle data with Air Resources Board (Template 1) |
+| **Department-Level** | Chief Deputy Director + Data Stewards | Public data exchange within agency; non-sensitive operational data sharing | DMV shares aggregate vehicle data with Air Resources Board (Template 1) |
 | **Agency-Level** | Undersecretary for E&E | Confidential data with limited PII within agency; cross-department coordination | Health and Human Services shares licensing data between departments (Template 2) |
 | **Cross-Agency / Sensitive** | Independent Office Board | Sensitive PII, cross-agency sensitive data, cross-branch sharing | Corrections shares inmate data with Social Services (Template 3); Executive shares data with Judicial Council (Template 4) |
 
@@ -144,7 +144,7 @@ Data sharing negotiations currently take 12-18 months because every agreement is
 | Template | Sensitivity | Approval Time | Approver |
 |----------|-------------|---------------|----------|
 | **1. Public Data** | Non-sensitive | 2-4 weeks | CDD |
-| **2. Limited PII** | Moderate | 4-6 weeks | CDD + governance team |
+| **2. Limited PII** | Moderate | 4-6 weeks | CDD + Data Stewards |
 | **3. Sensitive** | High (criminal justice, health) | 6-8 weeks | Undersecretary + Independent Office |
 | **4. Cross-Branch** | Variable | 8-12 weeks | Independent Office Board |
 
@@ -172,7 +172,7 @@ Data sharing negotiations currently take 12-18 months because every agreement is
 This document establishes the data governance framework for California's enterprise modernization. Continue reading:
 
 - **[Governance Model](governance-model.md)** — E3 leadership positions that implement data governance
-- **[Talent Development](talent-development.md)** — Data governance teams and workforce
+- **[Talent Development](talent-development.md)** — Data Steward Network and workforce development
 - **[Funding](funding.md)** — Breakthrough Fund structure
 
 ---

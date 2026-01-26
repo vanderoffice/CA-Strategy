@@ -27,7 +27,7 @@
 
 ## 5. Talent Development and Sustainability
 
-> **Section Summary:** California's talent strategy prioritizes **upskilling** over hiring. Government upskilling delivers 43% ROI ([Microsoft/ROI Institute](https://wwps.microsoft.com/blog/roi-results-ps-skilling-part3)), while hiring 500 specialists would cost $10-12M in hiring costs alone ([Pluralsight/SHRM](https://www.pluralsight.com/resources/blog/business-and-leadership/tech-industry-skill-development))—in a market where California cannot compete on salary. The strategy: upskill 230,000 existing employees through CalAcademy, equip them with AI productivity tools like Claude Code, and hire only 50-100 central specialists for train-the-trainer and oversight. The Governor's Innovation Fellowship produces future technical executives (TEA pipeline), not frontline capacity.
+> **Section Summary:** California's talent strategy prioritizes **upskilling** over hiring. Government upskilling delivers 43% ROI ([Microsoft/ROI Institute](https://wwps.microsoft.com/blog/roi-results-ps-skilling-part3)), while hiring 500 specialists would cost $10-12M in hiring costs alone ([Pluralsight/SHRM](https://www.pluralsight.com/resources/blog/business-and-leadership/tech-industry-skill-development))—in a market where California cannot compete on salary. The strategy: upskill existing knowledge workers through CalAcademy, equip them with AI productivity tools like Claude Code, and hire only 50-100 central specialists for train-the-trainer and oversight. The Governor's Innovation Fellowship produces future technical executives (TEA pipeline), not frontline capacity.
 
 ### 5.1 California Digital Capability Model
 
@@ -44,20 +44,15 @@ If you upskill 2,000 existing state employees and equip them with AI tools deliv
 
 #### Three-Tier Upskilling Strategy
 
-**Tier 1: Foundation — Universal Digital Literacy** (All 230,000 employees)
+**Tier 1: Foundation — Digital Literacy for Knowledge Workers**
 
 | Element | Detail |
 |---------|--------|
 | **Platform** | CalAcademy (ODI's training platform) |
+| **Target Audience** | Staff in knowledge work, policy, data, IT, and public-facing roles |
 | **Modules** | AI literacy, data literacy, plain language, human-centered design, accessibility |
-| **Target** | 100% completion within 3 years |
 | **Progress** | 5,000+ employees trained since January 2024 |
 | **Time Commitment** | 8-16 hours per employee (foundational modules) |
-
-**Why Universal:**
-- Every employee touches data; every employee needs to understand AI capabilities and limitations
-- Foundation tier ensures consistent baseline across all departments
-- Prepares workforce for AI tool adoption at scale
 
 **Tier 2: Practitioner — Data Steward Network** (Department-determined ratios)
 
@@ -370,9 +365,9 @@ ODI's CalAcademy provides comprehensive training across innovation methods and i
 
 | Track | Target Audience | Hours |
 |-------|-----------------|-------|
-| AI Literacy for Government | All employees (Tier 1) | 4-8 |
-| Data Literacy and Best Practices | All employees (Tier 1) | 4-8 |
-| Plain Language and Communication | All employees (Tier 1) | 2-4 |
+| AI Literacy for Government | Knowledge workers (Tier 1) | 4-8 |
+| Data Literacy and Best Practices | Knowledge workers (Tier 1) | 4-8 |
+| Plain Language and Communication | Knowledge workers (Tier 1) | 2-4 |
 | Human-Centered Design | Data Stewards (Tier 2) | 8-16 |
 | Data Steward Certification | Data Stewards (Tier 2) | 40 |
 | Claude Code for State Employees | AI tool users | 4-8 |

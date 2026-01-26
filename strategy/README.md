@@ -10,7 +10,7 @@ This folder contains the core strategy documents for California Enterprise Moder
 | 2 | [Governance Model](governance-model.md) | E3 leadership structure (Undersecretaries, Chief Deputy Directors, TMO) |
 | 3 | [Executive Accountability](executive-accountability.md) | Technical Executive Assignment (TEA) standards, audit enforcement |
 | 4 | [Data Governance](data-governance.md) | Independent Office of State Data Governance |
-| 5 | [Talent Development](talent-development.md) | Fellowship program, data governance teams, digital leadership classifications |
+| 5 | [Talent Development](talent-development.md) | Digital Capability Model, Data Steward Network, digital leadership classifications |
 | 6 | [Funding](funding.md) | Breakthrough Modernization Fund structure and sustainability |
 | 7 | [Procurement](procurement.md) | Modular contracting, Rapid RFI2, vendor pools |
 
