@@ -2,7 +2,7 @@
 
 *Archived from appendices/07-operational-guides.md*
 
-This document provides detailed curriculum for the Governor's Innovation Fellowship Program. For the program overview, see [Section 5.1](../03-talent-development.md#51-governors-innovation-fellowship-program) and the framework summary in [Appendix B.2](../appendices/07-operational-guides.md#b2-fellowship-program-design).
+This document provides detailed curriculum for the Governor's Innovation Fellowship Program. For the program overview, see [Section 5.2](../strategy/talent-development.md#52-governors-innovation-fellowship) and the framework summary in [Appendix B.2](../appendices/operational-guides.md#b2-fellowship-program-design).
 
 ---
 

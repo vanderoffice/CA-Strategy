@@ -240,7 +240,7 @@ California's technology implementations must comply with multiple regulatory fra
 > - [Executive Summary](../strategy/executive-summary.md) — Start here for an overview
 > - [Governance Model](../strategy/governance-model.md) — E3 structure and leadership
 > - [Data Governance](../strategy/data-governance.md) — Independent Office and data sharing
-> - [Talent Development](../strategy/talent-development.md) — Fellowship program
+> - [Talent Development](../strategy/talent-development.md) — Digital Capability Model, Data Steward Network
 > - [Funding & Implementation](../strategy/funding.md) — Breakthrough Fund
 > - [Procurement Guide](../strategy/procurement.md) — Modular contracting and RFI²
 > - [Templates](templates.md) — Fillable forms

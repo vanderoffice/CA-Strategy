@@ -2,7 +2,7 @@
 
 *Archived from appendices/07-operational-guides.md*
 
-This document provides detailed operational guidance for executing Rapid RFI² challenges. For the strategic overview, see [Section 8.4: Rapid RFI²](../05-procurement-guide.md#84-rapid-rfi-challenge-based-procurement) and the framework summary in [Appendix B.1](../appendices/07-operational-guides.md#b1-rapid-rfi-framework).
+This document provides detailed operational guidance for executing Rapid RFI² challenges. For the strategic overview, see [Section 8.4: Rapid RFI²](../strategy/procurement.md#84-rapid-rfi-challenge-based-procurement) and the framework summary in [Appendix B.1](../appendices/operational-guides.md#b1-rapid-rfi-framework).
 
 ---
 

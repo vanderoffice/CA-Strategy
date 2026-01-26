@@ -375,7 +375,7 @@ This policy:
 > - [Executive Summary](executive-summary.md) — Start here for an overview
 > - [Governance Model](governance-model.md) — E3 structure and leadership
 > - [Data Governance](data-governance.md) — Independent Office and data sharing
-> - [Talent Development](talent-development.md) — Fellowship program and workforce development
+> - [Talent Development](talent-development.md) — Digital Capability Model, Data Steward Network
 > - [Funding & Implementation](funding.md) — Breakthrough Fund structure
 > - [Templates](../appendices/templates.md) — Fillable forms and templates
 > - [Operational Guides](../appendices/operational-guides.md) — Program guides and frameworks

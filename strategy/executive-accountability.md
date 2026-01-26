@@ -741,7 +741,7 @@ Ready-to-use materials for stakeholder engagement and implementation:
 > - [Executive Summary](executive-summary.md) — Start here for an overview
 > - [Governance Model](governance-model.md) — E3 Undersecretary and Chief Deputy Director roles
 > - [Data Governance](data-governance.md) — Independent Office of State Data Governance
-> - [Talent Development](talent-development.md) — Fellowship program and workforce
+> - [Talent Development](talent-development.md) — Digital Capability Model, Data Steward Network
 > - [Funding](funding.md) — Breakthrough Fund structure
 > - [Procurement](procurement.md) — Technology and procurement innovation
 

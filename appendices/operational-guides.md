@@ -337,7 +337,7 @@ Citizen Journey Teams bring E3 leaders, SMEs, and Fellows from relevant agencies
 **Recommended Engagement:**
 - Continue quarterly briefings on modernization initiatives (per existing labor relations framework)
 - Frame classification-level HAM requests as addressing documented recruitment difficulty
-- Emphasize that Digital Accelerators program creates upskilling opportunities for represented IT workers
+- Emphasize that CalAcademy training creates upskilling opportunities for represented IT workers
 - No involuntary separations commitment remains in effect
 
 ### PECG Engagement

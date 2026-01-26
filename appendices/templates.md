@@ -83,7 +83,7 @@
 **Example Objective:** "Establish foundational E3 governance and demonstrate early value"
 - KR1: Deploy Undersecretary positions in 4 priority agencies
 - KR2: Launch 10 pilot projects with 3+ showing measurable improvements
-- KR3: Achieve 500 employees enrolled in Digital Accelerators program
+- KR3: Achieve 500 employees completing CalAcademy training tracks
 
 **Related Documents:** [Appendix G.3: Change Management](budget-models.md#g3-change-management-the-adkar-model)
 
@@ -220,7 +220,7 @@ Templates are updated periodically. Always verify you have the current version b
 > - [Executive Summary](../strategy/executive-summary.md) — Start here for an overview
 > - [Governance Model](../strategy/governance-model.md) — E3 structure and leadership
 > - [Data Governance](../strategy/data-governance.md) — Independent Office and data sharing
-> - [Talent Development](../strategy/talent-development.md) — Fellowship program and workforce development
+> - [Talent Development](../strategy/talent-development.md) — Digital Capability Model, Data Steward Network
 > - [Funding & Implementation](../strategy/funding.md) — Breakthrough Fund structure
 > - [Procurement Guide](../strategy/procurement.md) — Technology and procurement innovation
 > - [Operational Guides](operational-guides.md) — Program guides and frameworks

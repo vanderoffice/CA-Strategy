@@ -99,7 +99,7 @@ All figures are presented in 2025 current dollars. For multi-year budget plannin
 
 ### F.5 Data Steward Network + Central Specialists
 
-> **Note:** This section replaces the previous "Data Governance Teams" model (438-530 positions, $52-67.5M annually). The revised approach prioritizes upskilling existing staff over hiring, reducing costs by 90%. See [Talent Development](../strategy/talent-development.md#51-california-digital-capability-model) for the full California Digital Capability Model.
+> **Strategic Context:** See [Talent Development](../strategy/talent-development.md#51-california-digital-capability-model) for the full California Digital Capability Model.
 
 **Central Specialists (50-100 FTE):**
 
@@ -123,13 +123,6 @@ All figures are presented in 2025 current dollars. For multi-year budget plannin
 | AI productivity tools (Claude Code) | ~$20/user/month for stewards | $240K-$480K annually (1,000-2,000 stewards) |
 | **Total Data Steward Network** | — | **$0.24M-$0.48M annually** |
 
-**Model Comparison:**
-
-| Model | Positions | Annual Cost | Hiring Challenge |
-|-------|-----------|-------------|------------------|
-| Previous: Data Governance Teams | 438-530 new hires | $52-67.5M | Must compete with private sector (25% pay gap) |
-| **Current: Data Steward Network** | **50-100 new + upskilled existing** | **$5-10M** | **Upskilling avoids hiring competition** |
-
 **Why This Model Works:**
 
 1. **Upskilling delivers 43% ROI** vs. hiring costs of $23K+ per technical employee ([Microsoft/ROI Institute](https://wwps.microsoft.com/blog/roi-results-ps-skilling-part3), [Pluralsight/SHRM](https://www.pluralsight.com/resources/blog/business-and-leadership/tech-industry-skill-development))
@@ -146,29 +139,6 @@ All figures are presented in 2025 current dollars. For multi-year budget plannin
 | 3 | Months 18-36 | Full specialist team; 1,500+ Data Stewards certified; productivity gains realized | $5M-$10M annually |
 
 ---
-
-<details>
-<summary><strong>Archived: Original Data Governance Teams Model (Deprecated)</strong></summary>
-
-*The following model has been superseded by the Data Steward Network approach above. Retained for reference.*
-
-**Standard Team (13-15 FTE):**
-- Team Director (Senior Supervisor): $180K loaded
-- Technical leads (2-3): $350K-$525K loaded
-- Domain specialists (4-5): $500K-$625K loaded
-- Data analysts (4-5): $340K-$425K loaded
-- Support staff (2): $160K loaded
-- **Total per team: $1.53M-$1.91M annually**
-
-**Statewide Deployment (by Year 3):**
-
-| Component | Count | Cost |
-|-----------|-------|------|
-| Dedicated department teams | 30 teams | $45.9M-$57.3M annually |
-| Regional hubs (shared services) | 6-8 hubs × 8-10 FTE | $6.1M-$10.2M annually |
-| **Total** | 438-530 positions | **$52.0M-$67.5M annually** |
-
-</details>
 
 ### F.6 Breakthrough Fund Capitalization
 
@@ -299,7 +269,7 @@ Government digital transformation has an 80% failure rate, primarily due to cult
 - Union engagement and collaboration
 
 **Knowledge:**
-- Comprehensive training programs (Digital Accelerators, CalAcademy)
+- Comprehensive training via CalAcademy (digital literacy, AI, data governance)
 - Job aids and documentation
 - Peer mentoring and communities of practice
 
@@ -381,7 +351,7 @@ The following table identifies key risks to the modernization initiative and mit
 > - [Executive Summary](../strategy/executive-summary.md) — Start here for an overview
 > - [Governance Model](../strategy/governance-model.md) — E3 structure and leadership
 > - [Data Governance](../strategy/data-governance.md) — Independent Office and data sharing
-> - [Talent Development](../strategy/talent-development.md) — Fellowship program and workforce development
+> - [Talent Development](../strategy/talent-development.md) — Digital Capability Model, Data Steward Network
 > - [Funding & Implementation](../strategy/funding.md) — Breakthrough Fund structure
 > - [Procurement Guide](../strategy/procurement.md) — Technology and procurement innovation
 > - [Templates](templates.md) — Fillable forms and templates

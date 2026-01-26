@@ -384,14 +384,14 @@ For staff aspiring to Technical Executive Assignment positions:
 | TOGAF | CIO, CTO | Foundation + Practitioner |
 | ITIL Expert | CIO | Full pathway |
 
-**Digital Accelerators Program:**
+**CalAcademy Technical Tracks:**
 
 | Element | Detail |
 |---------|--------|
-| **Purpose** | Upskill existing IT staff in modern technologies |
+| **Purpose** | Upskill IT staff in modern technologies (AI, cloud, DevOps) |
 | **Protected Time** | 20% of work hours for training |
 | **Format** | Cohort-based learning with hands-on labs |
-| **Certifications** | AWS, Kubernetes, etc. |
+| **Certifications** | AWS, Kubernetes, Claude Code, etc. |
 
 **Emerging Technology Accelerator Partners:**
 

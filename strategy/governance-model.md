@@ -439,7 +439,7 @@ This document establishes the governance foundation for California's enterprise 
 
 - **[Executive Accountability](executive-accountability.md)** — Technical Executive Standards (TEA) and audit enforcement
 - **[Data Governance](data-governance.md)** — Independent Office and data sharing templates
-- **[Talent Development](talent-development.md)** — Fellowship program and workforce
+- **[Talent Development](talent-development.md)** — Digital Capability Model, Data Steward Network
 - **[Funding](funding.md)** — Breakthrough Fund structure
 - **[Procurement](procurement.md)** — Modular contracting and RFI²
 
@@ -468,7 +468,7 @@ This document establishes the governance foundation for California's enterprise 
 > - [Executive Summary](executive-summary.md) — Start here for an overview
 > - [Executive Accountability](executive-accountability.md) — TEA standards and audit enforcement
 > - [Data Governance](data-governance.md) — Independent Office of State Data Governance
-> - [Talent Development](talent-development.md) — Fellowship program and workforce
+> - [Talent Development](talent-development.md) — Digital Capability Model, Data Steward Network
 > - [Funding](funding.md) — Breakthrough Fund structure
 > - [Procurement](procurement.md) — Technology and procurement innovation
 > - [Templates](../appendices/templates.md) — Fillable forms and templates

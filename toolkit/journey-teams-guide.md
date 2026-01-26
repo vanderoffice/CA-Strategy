@@ -2,7 +2,7 @@
 
 *Archived from appendices/07-operational-guides.md*
 
-This document provides comprehensive operational guidance for Citizen Journey Teams. For the strategic framework, see [Appendix B.5](../appendices/07-operational-guides.md#b5-citizen-journey-teams-framework).
+This document provides comprehensive operational guidance for Citizen Journey Teams. For the strategic framework, see [Appendix B.5](../appendices/operational-guides.md#b5-citizen-journey-teams-framework).
 
 ---
 
@@ -42,7 +42,7 @@ Citizen Journey Teams bring together E3 leaders, SMEs, and Fellows from relevant
 | **Agency Representatives** | CDDs or delegates from each participating agency | Subject matter expertise, agency commitment, implementation authority | 50% (during design/build) |
 | **Design Lead** | ODI CalInnovate | User research, service design, prototyping, testing | 50-100% (varies by phase) |
 | **Technical Lead** | TMO or agency IT | Architecture, API integration, data sharing, security | 50-100% (varies by phase) |
-| **Data Governance** | Data governance team members | Data standards, privacy, sharing agreements, compliance | 25% (ongoing) |
+| **Data Governance** | Data Stewards | Data standards, privacy, sharing agreements, compliance | 25% (ongoing) |
 | **Communications Lead** | Agency PIO or TMO | Stakeholder communications, change management, rollout messaging | 25% (varies by phase) |
 
 **Extended Team (Engaged as Needed):**
