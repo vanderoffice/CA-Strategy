@@ -2,14 +2,14 @@
 
 *Archived from appendices/07-operational-guides.md*
 
-This document provides detailed guidance for engaging labor unions in enterprise modernization initiatives. For the strategic framework, see [Appendix B.4](../appendices/07-operational-guides.md#b4-labor-relations-framework).
+This document provides detailed guidance for engaging labor unions in enterprise modernization initiatives. For the strategic framework, see [Appendix B.4](../appendices/operational-guides.md#b4-labor-relations-framework).
 
 ---
 
 ## Classification and Compensation Considerations
 
 **New Position Development:**
-- Data governance teams require new or modified classifications
+- Data Steward roles may require duty statement updates
 - Coordinate with CalHR and relevant bargaining units on position specifications
 - Ensure competitive compensation to attract technical talent (see Section 5.4 on science/engineering classifications)
 
@@ -81,7 +81,7 @@ This document provides detailed guidance for engaging labor unions in enterprise
 
 ## Training Coordination
 
-**Digital Accelerators Program Integration:**
+**CalAcademy Technical Tracks Integration:**
 - Coordinate training schedules with workload and staffing requirements
 - Ensure protected learning time (20% of work hours) is operationally feasible
 - Partner with unions on training curriculum relevant to represented employees

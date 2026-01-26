@@ -2,7 +2,7 @@
 
 *Archived from appendices/08-technical-appendices.md*
 
-For strategic principles, see [Appendix H.4](../appendices/08-technical-appendices.md#h4-cybersecurity-principles).
+For strategic principles, see [Appendix H.4](../appendices/technical-standards.md#h4-cybersecurity-principles).
 
 ---
 

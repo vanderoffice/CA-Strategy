@@ -505,7 +505,7 @@ Default weights:
 
 - [Enhanced Readiness Assessment](enhanced-readiness-assessment.md) — Complete assessment instrument with scoring rubrics
 - [README](README.md) — Quick overview of the readiness assessment framework
-- [Governance Model](../02-governance-model.md) — Strategic context for modernization
+- [Governance Model](../../strategy/governance-model.md) — Strategic context for modernization
 
 ---
 

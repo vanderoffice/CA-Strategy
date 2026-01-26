@@ -2,7 +2,7 @@
 
 *Archived from appendices/08-technical-appendices.md*
 
-For strategic principles and guardrails, see [Appendix H.5](../appendices/08-technical-appendices.md#h5-ai-governance-principles).
+For strategic principles and guardrails, see [Appendix H.5](../appendices/technical-standards.md#h5-ai-governance-principles).
 
 ---
 

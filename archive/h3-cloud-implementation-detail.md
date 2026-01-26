@@ -2,7 +2,7 @@
 
 *Archived from appendices/08-technical-appendices.md*
 
-For strategic principles, see [Appendix H.3](../appendices/08-technical-appendices.md#h3-cloud-strategy-principles).
+For strategic principles, see [Appendix H.3](../appendices/technical-standards.md#h3-cloud-strategy-principles).
 
 ---
 

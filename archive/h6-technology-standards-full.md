@@ -2,7 +2,7 @@
 
 *Archived from appendices/08-technical-appendices.md*
 
-For summary standards, see [Appendix H.6](../appendices/08-technical-appendices.md#h6-technology-standards-summary).
+For summary standards, see [Appendix H.6](../appendices/technical-standards.md#h6-technology-standards-summary).
 
 ---
 
