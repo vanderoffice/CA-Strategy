@@ -1,5 +1,5 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Status: Executive Draft](https://img.shields.io/badge/Status-Executive_Draft_v1.8-blue.svg)]()
+[![Status: Executive Draft](https://img.shields.io/badge/Status-Executive_Draft_v2.0-blue.svg)]()
 
 # California Enterprise Modernization Plan
 
@@ -101,7 +101,7 @@ The **Enterprise Efficiency and Effectiveness (E3) Operational Model** creates i
 
 | Attribute | Value |
 |-----------|-------|
-| **Version** | Executive Draft v1.8 |
+| **Version** | Executive Draft v2.0 |
 | **Date** | January 2026 |
 | **Prepared for** | Governor's Office, Office of Data and Innovation, Government Operations Agency |
 
