@@ -37,7 +37,7 @@ California's workforce transformation follows a three-tier upskilling strategy, 
 
 | Approach | Cost | Challenge | Outcome |
 |----------|------|-----------|---------|
-| **Hire 438-530 specialists** | $52-67.5M annually | California can't compete on salary (25% below private sector) | Chronic vacancies, consultant dependence |
+| **Mass hiring (400+ specialists)** | $50-70M annually | California can't compete on salary (25% below private sector) | Chronic vacancies, consultant dependence |
 | **Upskill existing staff + AI tools** | $5-10M annually | Culture change, training infrastructure | 40% productivity gain, sustainable capacity |
 
 If you upskill 2,000 existing state employees and equip them with AI tools delivering 40% productivity gains ([Penn Wharton](https://budgetmodel.wharton.upenn.edu/issues/2025/9/8/projected-impact-of-generative-ai-on-future-productivity-growth)), you get output equivalent to 2,800 workers—bypassing a hiring war California cannot win.
@@ -117,7 +117,7 @@ California has a comprehensive [Claude Code deployment plan](../toolkit/claude-c
 | 500 analysts | 500 FTE output | 700 FTE equivalent output |
 | 2,000 upskilled staff | 2,000 FTE output | 2,800 FTE equivalent output |
 
-This is why California doesn't need 438-530 new data governance hires. Upskill existing staff, equip them with AI productivity tools, and hire only the specialists needed for training and oversight.
+This is why California doesn't need hundreds of new data governance hires. Upskill existing staff, equip them with AI productivity tools, and hire only the specialists needed for training and oversight.
 
 **Productivity Evidence:**
 
@@ -263,19 +263,15 @@ The Fellowship may continue under TMO or a new entity at the next Governor's dis
 
 ### 5.5 Data Steward Network
 
-> **Key Change:** This model replaces the earlier "Data Governance Teams" proposal (438-530 new positions, $52-67.5M annually) with embedded Data Stewards using existing staff—reducing costs by 90%.
-
 **Purpose:** Provide sustainable data governance capacity by embedding stewards within existing units rather than creating large centralized teams.
 
-**Model Comparison:**
+**Structure:**
 
-| Element | Previous Proposal | Current Model |
-|---------|-------------------|---------------|
-| **New Positions** | 438-530 | 50-100 central specialists |
-| **Department Teams** | 30 dedicated 13-15 FTE teams | Embedded Data Stewards (existing staff) |
-| **Regional Hubs** | 6-8 hubs (48-80 FTE) | CalAcademy train-the-trainer (no new hires) |
-| **Annual Cost** | $52-67.5M | $5-10M |
-| **Hiring Challenge** | Compete with private sector | Upskill existing staff |
+| Component | Scale | Cost |
+|-----------|-------|------|
+| Embedded Data Stewards | Department-determined ratios (existing staff) | Training via CalAcademy |
+| Central Specialists | 50-100 positions | $5-10M annually |
+| AI Productivity Tools | Deployed to all stewards | ~$20/user/month |
 
 **How the Data Steward Network Works:**
 
@@ -313,7 +309,7 @@ The Fellowship may continue under TMO or a new entity at the next Governor's dis
 | Data quality for critical datasets | 95%+ (up from 60-70% baseline) |
 | Data sharing negotiation time | 80% reduction (12-18 months → 4-8 weeks) |
 | Data-driven decision making | 50%+ increase (measured by analytics tool usage) |
-| Cost vs. previous model | 90% reduction ($52-67.5M → $5-10M annually) |
+| Annual operating cost | $5-10M (50-100 central specialists + CalAcademy training) |
 
 ---
 
@@ -456,7 +452,7 @@ For comprehensive guidance, see [Appendix B.4: Labor Relations Strategy](../appe
 
 | Version | Date | Description | Author |
 |---------|------|-------------|--------|
-| Executive Draft v2.0 | January 2026 | **Major restructure**: Upskilling-first model (California Digital Capability Model leads), Data Steward Network replaces 438-530 hires, ODI Transition to TEA Training Office section, Claude Code integration throughout | Claude |
+| Executive Draft v2.0 | January 2026 | Upskilling-first California Digital Capability Model, embedded Data Steward Network, ODI transition framework, AI productivity tool integration | Claude |
 | Executive Draft v1.7 | January 2026 | Added Section 5.5.1 Digital Leadership Classifications | Claude |
 | Executive Draft v1.6 | January 2026 | Added Section 5.3 Fellowship-to-Technical Executive Pathway | Governor's Innovation Fellow |
 | Executive Draft v1.5 | January 2026 | Renumbered sections | Claude |

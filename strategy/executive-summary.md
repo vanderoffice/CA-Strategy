@@ -115,7 +115,7 @@ See [Appendix F: Budget and Financial Models](../appendices/budget-models.md#app
 
 **The Deficit Reality:**
 
-California faces $2.9B-$18B deficits now, with LAO projecting $35B structural deficits by 2027-28. This strategy requires $23-38M annually—a 66% reduction from the original $70-95M estimate, achieved by prioritizing upskilling over new hires.
+California faces $2.9B-$18B deficits now, with LAO projecting $35B structural deficits by 2027-28. This strategy requires $23-38M annually—a fraction of peer state investments—because it prioritizes upskilling existing staff over competing for scarce technical talent.
 
 **Why Invest During a Deficit:**
 
