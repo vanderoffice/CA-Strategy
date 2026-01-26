@@ -285,7 +285,7 @@ Oversee legacy migrations using strangler pattern. Implement API integrations. D
 Conduct process mapping using ODI CalInnovate methods. Implement digital workflows. Deploy automation for document processing and case management.
 
 #### Data Management and Governance (15%)
-Implement data governance policies. Lead department data governance teams. Execute sharing agreements using [standardized templates](data-governance.md#34-data-sharing-agreement-templates).
+Implement data governance policies. Oversee department [Data Steward Network](talent-development.md#55-data-steward-network). Execute sharing agreements using [standardized templates](data-governance.md#34-data-sharing-agreement-templates).
 
 #### User Experience and Service Design (10%)
 Lead user research with ODI CalInnovate. Oversee citizen-facing services using California Design System. Ensure accessibility compliance (WCAG 2.1 AA).

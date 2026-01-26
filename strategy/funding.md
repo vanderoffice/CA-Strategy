@@ -2,8 +2,8 @@
 ## Funding and Implementation
 
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
-**Date:** December 8, 2025
-**Version:** Executive Draft v1.8
+**Date:** January 2026
+**Version:** Executive Draft v2.0
 
 ---
 
@@ -136,13 +136,13 @@ Why contribute without procurement advantage?
 
 **Category 1: Quick Wins (40% of portfolio)**
 - **Investment Range:** $100K-$500K per initiative
-- **Timeline:** 3-6 months to completion
+- **Timeline:** 1-12 months to completion
 - **Purpose:** Demonstrate value, build momentum, generate early savings
-- **Examples:** Process automation, digital form conversion, API wrappers for legacy systems
+- **Examples:** Process automation, digital form conversion, API wrappers for legacy systems, Claude Code deployment to IT teams
 - **Risk Profile:** Low risk, moderate return
 - **Success Target:** 80%+ success rate
 
-**Quick Win Success Criteria:** A Quick Win is "successful" when it achieves any measurable improvement verified within 6 months:
+**Quick Win Success Criteria:** A Quick Win is "successful" when it achieves any measurable improvement verified within 12 months:
 - **Time savings:** Reduced processing time (e.g., 40% faster)
 - **Cost reduction:** Lower operating costs or FTE reallocation
 - **Error reduction:** Fewer mistakes, rework, or complaints
@@ -151,9 +151,9 @@ Why contribute without procurement advantage?
 
 **Category 2: Strategic Initiatives (40% of portfolio)**
 - **Investment Range:** $500K-$5M per initiative
-- **Timeline:** 6-18 months to completion
+- **Timeline:** 12-24 months to completion
 - **Purpose:** Significant modernization with substantial impact
-- **Examples:** Cloud migrations, cross-agency data sharing platforms, citizen portal redesigns
+- **Examples:** Cloud migrations, cross-agency data sharing platforms, citizen portal redesigns, statewide upskilling programs
 - **Risk Profile:** Moderate risk, high return
 - **Success Target:** 60%+ success rate
 
@@ -165,6 +165,53 @@ Why contribute without procurement advantage?
 - **Risk Profile:** High risk, potentially transformative return
 - **Success Target:** 30%+ success rate (with high impact from successes)
 - **AI Governance Requirement:** All AI-related investments must comply with Independent Office AI standards for human oversight, bias testing, and transparency
+
+### 6.2.1 Investment in Workforce Capability
+
+> **Key Insight:** Traditional modernization funds technology; California's fund also builds the workforce to sustain it.
+
+The Breakthrough Fund invests not just in technology, but in the people who use it. Three investment types build sustainable capability:
+
+**1. AI Productivity Tool Deployment (Quick Wins — $100K-$500K)**
+
+| Element | Detail |
+|---------|--------|
+| **Tool** | Claude Code Enterprise (~$20/user/month) |
+| **Target Users** | IT developers, analysts, policy staff |
+| **Expected Impact** | 26-55% productivity improvement |
+| **Rollout** | 8-9 month phased deployment per [Claude Code Deployment Plan](../toolkit/claude-code-deployment/) |
+| **Technical Controls** | OpenTelemetry logging to state SIEM, SSO integration, permission restrictions |
+
+**Example Investment:**
+- 500 developers × $240/year = $120K annually
+- With 40% productivity gain = equivalent of 200 additional developers
+- ROI: ~$15M value from $120K investment (at $75K/developer cost)
+
+**2. Upskilling Programs (Strategic — $500K-$2M)**
+
+| Program | Investment | ROI |
+|---------|------------|-----|
+| CalAcademy AI literacy (230,000 employees) | $500K-$1M | 43% return per [Microsoft/ROI Institute](https://wwps.microsoft.com/blog/roi-results-ps-skilling-part3) |
+| Data Steward certification (department trainers) | $200K-$400K | 80% reduction in data governance costs |
+| TEA certification prep (future technical executives) | $100K-$200K | Pipeline of qualified CIO/CISO/CDO/CTO candidates |
+
+**3. In-House Solution Development (Strategic/Venture — $1M-$5M)**
+
+| Approach | Benefit |
+|----------|---------|
+| Build internal capabilities vs. perpetual vendor contracts | Long-term cost avoidance |
+| Citizen developer programs (low-code platforms) | Democratized automation |
+| Internal AI/ML expertise using Claude Code | Reduced consultant dependence |
+
+**Why This Matters:**
+
+This creates a virtuous cycle:
+1. Trained workers + AI tools = more productive teams
+2. More productive teams = better project outcomes
+3. Better outcomes = more savings
+4. More savings = more funding for training
+
+Claude Code is the specific tool—already vetted for California compliance (SOC 2 Type II, ISO 27001:2022, data NOT used for training). See [Talent Development](talent-development.md) for the full California Digital Capability Model.
 
 ### 6.3 Governance and Oversight
 
@@ -202,9 +249,31 @@ Why contribute without procurement advantage?
 
 ### 6.4 Sustainability Mechanism
 
-**Reinvestment Model:**
+> **The Core Principle:** Every successful project returns a portion of savings to fund future projects. The fund is designed to *catalyze* modernization, not fund it forever.
 
-The Breakthrough Fund includes a sustainability mechanism that diverts a portion of realized savings back to the fund, creating self-sustaining modernization capacity.
+#### How the Sustainability Mechanism Works
+
+**Simple Example:**
+
+```
+1. Fund invests $2M in cloud migration
+2. Migration saves $800K annually
+3. 25% of savings ($200K/year) returns to fund
+4. After 10 years: $2M returned (break-even)
+5. Agency keeps $6M in cumulative savings
+```
+
+The fund breaks even; the agency gains ongoing savings. This is the model replicated across hundreds of projects.
+
+**Why the Fund Balance Declines Initially:**
+
+| Phase | What's Happening |
+|-------|------------------|
+| **Years 1-3** | Investments exceed returns (normal for new programs) |
+| **Years 4-5** | Returns grow as projects mature and savings accumulate |
+| **Years 5-7** | Reinvestment exceeds new investment needs; fund becomes self-sustaining |
+
+This is expected and by design. Early investment builds the portfolio; later savings sustain it.
 
 **Savings Calculation:**
 - Projects track baseline costs (before modernization)
@@ -214,14 +283,16 @@ The Breakthrough Fund includes a sustainability mechanism that diverts a portion
 
 **Reinvestment Rate:** 25% of verified savings
 
-**Example:**
+**Detailed Example:**
+
 | Element | Amount |
 |---------|--------|
 | Investment | $2M (cloud migration) |
 | Annual savings realized | $800K |
 | 25% reinvestment | $200K/year |
 | After 5 years | $1M returned to fund |
-| Net fund position | -$1M investment + $1M return = break-even, with ongoing $600K/year agency benefit |
+| Net fund position | -$2M investment + $1M return = -$1M, with ongoing $600K/year agency benefit |
+| After 10 years | $2M returned (break-even), with $6M cumulative agency benefit |
 
 **Reinvestment Allocation:**
 - 50% to Quick Wins (maintain momentum)
@@ -230,28 +301,33 @@ The Breakthrough Fund includes a sustainability mechanism that diverts a portion
 
 **Long-Term Sustainability:**
 
-| Year | Investments | Savings Realized | Reinvestment | Fund Balance |
-|------|-------------|-----------------|--------------|--------------|
-| 1 | $30M | $2M | $0.5M | $70.5M |
-| 2 | $30M | $8M | $2M | $42.5M |
-| 3 | $25M | $15M | $3.75M | $21.25M |
-| 4 | $20M | $20M | $5M | $6.25M |
-| 5 | $10M | $25M | $6.25M | $2.5M (+ ongoing reinvestment) |
+| Year | Investments | Savings Realized | Reinvestment | Fund Balance | What's Happening |
+|------|-------------|------------------|--------------|--------------|------------------|
+| 1 | $30M | $2M | $0.5M | $70.5M | Heavy investment phase |
+| 2 | $30M | $8M | $2M | $42.5M | Projects starting to pay off |
+| 3 | $25M | $15M | $3.75M | $21.25M | Savings accelerating |
+| 4 | $20M | $20M | $5M | $6.25M | Approaching break-even |
+| 5 | $10M | $25M | $6.25M | $2.5M | Self-sustaining threshold |
+| 6+ | ~$6M | $30M+ | $7.5M+ | Growing | Reinvestment funds ongoing work |
 
-*Note: Fund projected to become self-sustaining by Year 5-7 through reinvestment of realized savings*
+**Key Insight:** By Year 5-7, annual reinvestment ($6-8M) exceeds what's needed for ongoing Quick Wins and maintenance. The fund becomes permanently self-sustaining while agencies keep 75% of savings ($22.5M+ annually by Year 5).
 
 #### Internal State Team Incentives
 
 **Purpose:** Create aligned incentives for state workers to drive modernization success. Beyond the 25% fund reinvestment, a portion of first-year savings rewards the team that generated them.
+
+> **Why Incentives Matter:** Risk aversion strangles modernization. Nobody wants to own a project that might fail. The 10% bonus pool gives both the executive who stakes their reputation AND the staff who work around the clock a reason to take the risk. This is how you break the "nobody wants to own this" problem.
 
 **Performance Bonus for Modernization Teams:**
 
 | Element | Detail |
 |---------|--------|
 | **Bonus Pool** | 10% of documented first-year General Fund return |
-| **Distribution** | Split equally among executive sponsor + full-time modernization staff |
+| **Distribution** | Split equally among executive sponsor (CEA) + full-time modernization staff |
 | **Payment Timing** | Paid in second year after return is verified |
 | **Eligibility** | Minimum 6 months on project |
+| **Why Include CEA** | Executives take career risk championing modernization; incentive must reward that risk |
+| **Why Include Staff** | Staff work around the clock to deliver; shared success motivates performance |
 
 **Example:**
 
@@ -382,16 +458,16 @@ For detailed financial projections and sustainability models, see [Appendix F: B
 
 | Version | Date | Description | Author |
 |---------|------|-------------|--------|
+| Executive Draft v2.0 | January 2026 | **Major update**: Updated timelines (Quick Win 1-12mo, Strategic 12-24mo); added Investment in Workforce Capability section (Claude Code, upskilling ROI); clarified sustainability mechanism; strengthened 10% bonus rationale | Claude |
 | Executive Draft v1.6 | January 2026 | Added Internal State Team Incentives (10% bonus for modernization teams) | Claude |
 | Executive Draft v1.4 | January 2026 | Readability improvements: organized partnership framework with H4 subheadings | Claude |
 | Executive Draft v1.3 | December 8, 2025 | Replaced Section 7 with focused Breakthrough Fund conclusion | Brent Vanderburgh |
-| Executive Draft v1.2 | December 8, 2025 | Updated framing to proposal/recommendation language; removed "Document Owner" footer line | Brent Vanderburgh |
-| Executive Draft v1.1 | December 8, 2025 | Updated budget summary and clarified Breakthrough Fund capitalization | Brent Vanderburgh |
+| Executive Draft v1.2 | December 8, 2025 | Updated framing to proposal/recommendation language | Brent Vanderburgh |
 | Executive Draft v1.0 | December 2025 | Initial executive draft with Breakthrough Fund structure | Brent Vanderburgh |
 
 ---
 
-**Document Version:** Executive Draft v1.8
+**Document Version:** Executive Draft v2.0
 **Date:** January 2026
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 

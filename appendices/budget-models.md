@@ -97,7 +97,60 @@ All figures are presented in 2025 current dollars. For multi-year budget plannin
 - Curriculum and training: $300K-$400K
 - **Total annual: $1.3M-$1.8M**
 
-### F.5 Data Governance Teams
+### F.5 Data Steward Network + Central Specialists
+
+> **Note:** This section replaces the previous "Data Governance Teams" model (438-530 positions, $52-67.5M annually). The revised approach prioritizes upskilling existing staff over hiring, reducing costs by 90%. See [Talent Development](../strategy/talent-development.md#51-california-digital-capability-model) for the full California Digital Capability Model.
+
+**Central Specialists (50-100 FTE):**
+
+| Function | Positions | Annual Cost |
+|----------|-----------|-------------|
+| Train-the-trainer program development | 15-25 | $2.3M-$3.8M |
+| CalAcademy curriculum development | 10-15 | $1.5M-$2.3M |
+| Independent Office of State Data Governance staff | 15-25 | $2.3M-$3.8M |
+| Advanced analytics and AI oversight | 10-20 | $1.5M-$3.0M |
+| Cross-agency project surge capacity | 10-15 | $1.5M-$2.3M |
+| **Total Central Specialists** | **50-100** | **$5.0M-$10.0M annually** |
+
+*Note: Uses existing Research Data Specialist/Manager classifications (CalHR Series 5729). No new classification studies required.*
+
+**Data Steward Network (No New Hires):**
+
+| Element | Detail | Cost |
+|---------|--------|------|
+| Data Steward training via CalAcademy | 40-hour certification per steward | Included in CalAcademy operations |
+| Department-determined ratios | Each department selects stewards based on data intensity | $0 (existing staff) |
+| AI productivity tools (Claude Code) | ~$20/user/month for stewards | $240K-$480K annually (1,000-2,000 stewards) |
+| **Total Data Steward Network** | — | **$0.24M-$0.48M annually** |
+
+**Model Comparison:**
+
+| Model | Positions | Annual Cost | Hiring Challenge |
+|-------|-----------|-------------|------------------|
+| Previous: Data Governance Teams | 438-530 new hires | $52-67.5M | Must compete with private sector (25% pay gap) |
+| **Current: Data Steward Network** | **50-100 new + upskilled existing** | **$5-10M** | **Upskilling avoids hiring competition** |
+
+**Why This Model Works:**
+
+1. **Upskilling delivers 43% ROI** vs. hiring costs of $23K+ per technical employee ([Microsoft/ROI Institute](https://wwps.microsoft.com/blog/roi-results-ps-skilling-part3), [Pluralsight/SHRM](https://www.pluralsight.com/resources/blog/business-and-leadership/tech-industry-skill-development))
+2. **AI tools multiply productivity by 40%** ([Penn Wharton](https://budgetmodel.wharton.upenn.edu/issues/2025/9/8/projected-impact-of-generative-ai-on-future-productivity-growth))
+3. **Estonia model proves distributed works** — leads global e-gov without central digital office
+4. **CalAcademy already trained 5,000+** — infrastructure exists
+
+**Phased Deployment:**
+
+| Phase | Timeline | Activities | Cost |
+|-------|----------|------------|------|
+| 1 | Months 1-6 | Hire 25-35 central specialists; develop Data Steward curriculum | $2.5M-$3.5M |
+| 2 | Months 6-18 | Deploy Claude Code to IT staff; certify first 500 Data Stewards | $3.5M-$6M |
+| 3 | Months 18-36 | Full specialist team; 1,500+ Data Stewards certified; productivity gains realized | $5M-$10M annually |
+
+---
+
+<details>
+<summary><strong>Archived: Original Data Governance Teams Model (Deprecated)</strong></summary>
+
+*The following model has been superseded by the Data Steward Network approach above. Retained for reference.*
 
 **Standard Team (13-15 FTE):**
 - Team Director (Senior Supervisor): $180K loaded
@@ -115,64 +168,7 @@ All figures are presented in 2025 current dollars. For multi-year budget plannin
 | Regional hubs (shared services) | 6-8 hubs × 8-10 FTE | $6.1M-$10.2M annually |
 | **Total** | 438-530 positions | **$52.0M-$67.5M annually** |
 
-### F.5.1 Phased Deployment Schedule for Data Governance Teams
-
-The $52M-$67.5M annual cost for data governance teams represents the fully operational state by Year 3. To manage budget impact and ensure quality implementation, teams deploy in three phases:
-
-**Phase 1: Foundation (Year 1)**
-
-| Component | Count | FTE | Annual Cost |
-|-----------|-------|-----|-------------|
-| Pilot department teams (high-readiness, Tier 1-2) | 6 | 78-90 | $9.2M-$11.5M |
-| Initial regional hubs | 2 | 16-20 | $2.0M-$2.5M |
-| Central coordination (within TMO) | 1 | 5 | $0.8M |
-| **Phase 1 Total** | 9 units | 99-115 | **$12.0M-$14.8M** |
-
-*Year 1 Focus:* Establish operating model, develop training curriculum, document best practices, validate staffing model.
-
-**Phase 2: Expansion (Year 2)**
-
-| Component | Count | FTE | Annual Cost |
-|-----------|-------|-----|-------------|
-| Existing Phase 1 teams | 6 | 78-90 | $9.2M-$11.5M |
-| Additional department teams (Tier 2-3) | 12 | 156-180 | $18.4M-$22.9M |
-| Additional regional hubs | 2 | 16-20 | $2.0M-$2.5M |
-| **Phase 2 Total** | 20 units | 250-290 | **$29.6M-$36.9M** |
-
-*Year 2 Focus:* Scale proven model, refine based on Phase 1 lessons, begin cross-agency data sharing initiatives.
-
-**Phase 3: Full Operations (Year 3+)**
-
-| Component | Count | FTE | Annual Cost |
-|-----------|-------|-----|-------------|
-| All department teams | 30 | 390-450 | $45.9M-$57.3M |
-| All regional hubs | 6-8 | 48-80 | $6.1M-$10.2M |
-| **Phase 3 Total** | 36-38 units | 438-530 | **$52.0M-$67.5M** |
-
-*Year 3 Focus:* Full operational capability, continuous improvement, measurable data quality outcomes.
-
-**Deployment Sequencing Criteria:**
-
-Teams deploy based on:
-1. **Readiness Assessment Score:** Tier 1-2 departments first (leadership commitment, governance foundation)
-2. **Data Sharing Priority:** Departments with high-value cross-agency data
-3. **E3 Leadership Presence:** Departments with assigned Undersecretary or CDD
-4. **Budget Availability:** Phased appropriation aligned with demonstrated success
-
-**Ramp-Up Summary:**
-
-| Year | Teams | Hubs | Total FTE | Annual Cost | Cumulative Investment |
-|------|-------|------|-----------|-------------|----------------------|
-| 1 | 6 | 2 | 99-115 | $12.0M-$14.8M | $12.0M-$14.8M |
-| 2 | 18 | 4 | 250-290 | $29.6M-$36.9M | $41.6M-$51.7M |
-| 3 | 30 | 6-8 | 438-530 | $52.0M-$67.5M | $93.6M-$119.2M |
-
-**Risk Mitigation:**
-
-- **Hiring delays:** Partner with CalHR on expedited classification review; leverage contractor bridge staffing
-- **Training bottleneck:** CalAcademy capacity expansion in Year 1; train-the-trainer model
-- **Quality concerns:** Phase 1 establishes baseline; expansion contingent on demonstrated effectiveness
-- **Budget pressure:** Phased approach allows adjustment if savings underperform projections
+</details>
 
 ### F.6 Breakthrough Fund Capitalization
 

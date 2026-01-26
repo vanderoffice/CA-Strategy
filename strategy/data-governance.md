@@ -17,7 +17,7 @@
 
 ---
 
-> **Document Summary:** This document establishes the Independent Office of State Data Governance with cross-branch authority, including board composition, responsibilities, and standardized data sharing agreement templates. For the E3 leadership model that implements data governance at agency and department levels, see [Governance Model](governance-model.md). For data governance team staffing, see [Talent Development](talent-development.md#54-data-governance-teams-permanent-state-staff).
+> **Document Summary:** This document establishes the Independent Office of State Data Governance with cross-branch authority, including board composition, responsibilities, and standardized data sharing agreement templates. For the E3 leadership model that implements data governance at agency and department levels, see [Governance Model](governance-model.md). For the Data Steward Network, see [Talent Development](talent-development.md#55-data-steward-network).
 
 ---
 
@@ -130,7 +130,7 @@ The data governance structure operates at three levels with clearly defined deci
 
 When data governance councils disagree or sharing crosses agency boundaries with sensitive data, the Independent Office provides binding arbitration:
 
-1. **Agency-internal disputes** → Undersecretary resolves (with data governance team support)
+1. **Agency-internal disputes** → Undersecretary resolves (with Data Steward support)
 2. **Cross-agency operational disputes** → TMO facilitates resolution between Undersecretaries
 3. **Cross-agency sensitive data disputes** → Independent Office Board provides binding decision
 4. **Cross-branch disputes** → Independent Office Board (includes judicial, legislative representation)

@@ -2,8 +2,8 @@
 ## Executive Summary
 
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
-**Date:** December 2025
-**Version:** Executive Draft v1.8
+**Date:** January 2026
+**Version:** Executive Draft v2.0
 
 ---
 
@@ -59,7 +59,9 @@ The **Enterprise Efficiency and Effectiveness (E3) Operational Model** creates i
 
 ## Talent Pipeline
 
-The Governor's Innovation Fellowship produces 60 trained modernization leaders annually through 6-month cohorts. Permanent Data Governance Teams (438-530 positions statewide: 30 dedicated department teams plus 6-8 regional hubs) provide sustainable capacity.
+California prioritizes **upskilling over hiring**. The three-tier California Digital Capability Model trains all 230,000 employees in digital literacy via CalAcademy, develops embedded Data Stewards within departments (no new hires), and hires only 50-100 central specialists for train-the-trainer and oversight. AI productivity tools like Claude Code multiply worker productivity by 40%.
+
+The Governor's Innovation Fellowship produces 60 future technical executives annually—leaders, not frontline capacity.
 
 See [Talent Development](talent-development.md) for details.
 
@@ -83,14 +85,14 @@ See [Funding & Implementation](funding.md) for details.
 | Transformation Management Office | $4.1M - $5.4M | 16-23 staff ($3.1M-$4.4M) + operating costs ($1M) |
 | Independent Office of Data Governance | $2.5M - $4.0M | Board, staff, and operations (one-time setup: $3M-$5M) |
 | Governor's Innovation Fellowship | $1.3M - $1.8M | 60 Fellows annually across 3 cohorts ($8K-$12K per Fellow) |
-| Data Governance Teams | $52.0M - $67.5M | 438-530 positions (30 dedicated teams + 6-8 regional hubs) |
-| **Total Annual Operating (Year 3+)** | **$70M - $95M** | **Ongoing costs for sustained modernization capacity** |
+| Data Steward Network + Central Specialists | $5.0M - $10.0M | 50-100 central specialists + CalAcademy training (Data Stewards use existing staff) |
+| **Total Annual Operating (Year 3+)** | **$23M - $38M** | **Ongoing costs for sustained modernization capacity** |
 
 **Initial Investment (Year 1):**
 - Breakthrough Fund capitalization: $100M total ($50M state + $50M private sector, one-time)
-- Operating budget ramp-up: $40M-$60M (partial deployment)
+- Operating budget ramp-up: $15M-$25M (partial deployment)
 - Independent Office setup: $3M-$5M (one-time)
-- **Total Year 1:** $143M-$165M
+- **Total Year 1:** $118M-$130M
 
 **Return on Investment:**
 - Year 3 projected cost savings: $75M-$125M annually
@@ -103,14 +105,14 @@ See [Appendix F: Budget and Financial Models](../appendices/budget-models.md#app
 
 **The Deficit Reality:**
 
-California faces $2.9B-$18B deficits now, with LAO projecting $35B structural deficits by 2027-28. This strategy requires $70-95M annually.
+California faces $2.9B-$18B deficits now, with LAO projecting $35B structural deficits by 2027-28. This strategy requires $23-38M annually—a 66% reduction from the original $70-95M estimate, achieved by prioritizing upskilling over new hires.
 
 **Why Invest During a Deficit:**
 
 | | |
 |---|---|
-| **This IS deficit reduction** | The $3B+ in annual losses documented above doesn't fix itself. This investment generates $75-125M savings by Year 3—paying for itself 1.5-2x over. |
-| **Peer states are ahead** | Massachusetts committed $1.26B (FutureTech Act). Colorado spends $373M on modernization. California's $70-95M is modest by comparison. |
+| **This IS deficit reduction** | The $3B+ in annual losses documented above doesn't fix itself. This investment generates $75-125M savings by Year 3—paying for itself 3-5x over. |
+| **Peer states are ahead** | Massachusetts committed $1.26B (FutureTech Act). Colorado spends $373M on modernization. California's $23-38M is a fraction of peer investment. |
 | **Self-sustaining by design** | 25% of realized savings flow back to the fund. By Year 5-7, the fund sustains itself. |
 
 **If Fiscal Conditions Worsen:**
@@ -210,7 +212,7 @@ See [Appendix G.6: Risk Mitigation Matrix](../appendices/budget-models.md#g6-ris
 
 ---
 
-**Document Version:** Executive Draft v1.8
+**Document Version:** Executive Draft v2.0
 **Date:** January 2026
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 
@@ -220,6 +222,7 @@ See [Appendix G.6: Risk Mitigation Matrix](../appendices/budget-models.md#g6-ris
 
 | Version | Date | Description | Author |
 |---------|------|-------------|--------|
+| Executive Draft v2.0 | January 2026 | **Major budget revision**: Reduced annual operating cost from $70-95M to $23-38M by replacing 438-530 Data Governance hires with upskilling + 50-100 specialists; updated Talent Pipeline narrative | Claude |
 | Executive Draft v1.8 | January 2026 | Strengthened Problem section with $3B+ losses upfront; added urgency framing; "What This Is/Isn't" section | Claude |
 | Executive Draft v1.6 | January 2026 | Added Budget Context and Feasibility section addressing deficit environment | Claude |
 | Executive Draft v1.5 | January 2026 | Initial consolidated executive draft | Previous |
