@@ -3,7 +3,7 @@
 
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 **Date:** January 2026
-**Version:** Executive Draft v2.0
+**Version:** Executive Draft v2.1
 
 ---
 
@@ -35,7 +35,9 @@ This proposal recommends establishing a Breakthrough Modernization Fund that wou
 
 **Fund Overview:**
 
-The proposed California Breakthrough Modernization Fund (Breakthrough Fund) would capitalize modernization initiatives, specifically the Fellowship program and the E3 positions. Unlike traditional government budgets that require annual appropriation battles, the Breakthrough Fund would operate with multi-year investment authority using portfolio management principles.
+The proposed California Breakthrough Modernization Fund (Breakthrough Fund) would capitalize **project investments**—Quick Wins, Strategic Initiatives, and Innovation Ventures—using portfolio management principles. Unlike traditional government budgets that require annual appropriation battles, the Breakthrough Fund would operate with multi-year investment authority enabling rapid response to modernization opportunities.
+
+> **Critical Distinction:** The Breakthrough Fund is for **projects only**, not positions. All operating costs—E3 leadership positions, TMO staff, Fellowship stipends, Data Steward specialists—require separate General Fund appropriation ($23-38M annually). The Fund and operating budget are complementary: the Fund invests in projects; General Fund invests in the people who deliver them.
 
 **Why a Dedicated Fund:**
 
@@ -458,6 +460,7 @@ For detailed financial projections and sustainability models, see [Appendix F: B
 
 | Version | Date | Description | Author |
 |---------|------|-------------|--------|
+| Executive Draft v2.1 | January 2026 | **Funding source clarification**: Breakthrough Fund is for projects only; all positions/operations require General Fund appropriation; added Critical Distinction callout in Section 6.1 | Claude |
 | Executive Draft v2.0 | January 2026 | **Major update**: Updated timelines (Quick Win 1-12mo, Strategic 12-24mo); added Investment in Workforce Capability section (Claude Code, upskilling ROI); clarified sustainability mechanism; strengthened 10% bonus rationale | Claude |
 | Executive Draft v1.6 | January 2026 | Added Internal State Team Incentives (10% bonus for modernization teams) | Claude |
 | Executive Draft v1.4 | January 2026 | Readability improvements: organized partnership framework with H4 subheadings | Claude |
@@ -467,7 +470,7 @@ For detailed financial projections and sustainability models, see [Appendix F: B
 
 ---
 
-**Document Version:** Executive Draft v2.0
+**Document Version:** Executive Draft v2.1
 **Date:** January 2026
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 

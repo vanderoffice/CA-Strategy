@@ -69,7 +69,7 @@ See [Talent Development](talent-development.md) for details.
 
 ## Funding
 
-The California Breakthrough Modernization Fund ($100M: 50% state, 50% private sector) uses portfolio management principles. A feedback loop diverts 25% of realized savings back to the fund, creating self-sustaining modernization capacity.
+**Two complementary streams:** General Fund appropriation ($23-38M annually) pays for positions and operations. The California Breakthrough Modernization Fund ($100M: 50% state, 50% private sector) invests in projects only—Quick Wins, Strategic Initiatives, and Innovation Ventures. A feedback loop diverts 25% of project savings back to the fund, creating self-sustaining modernization capacity.
 
 See [Funding & Implementation](funding.md) for details.
 
@@ -77,7 +77,16 @@ See [Funding & Implementation](funding.md) for details.
 
 ## Budget Summary
 
-**Total Annual Operating Budget (Steady State - Year 3+):**
+**Two Funding Streams:**
+
+| Stream | Purpose | Amount |
+|--------|---------|--------|
+| **General Fund** | Positions and operating costs | $23-38M annually |
+| **Breakthrough Fund** | Project investments only | $100M (one-time capitalization) |
+
+> **Key Distinction:** The Breakthrough Fund invests in *projects* (Quick Wins, Strategic Initiatives, Innovation Ventures). All *positions*—E3 leadership, TMO staff, Fellowship stipends, specialists—require General Fund appropriation.
+
+**General Fund Operating Budget (Steady State - Year 3+):**
 
 | Component | Annual Cost | Description |
 |-----------|-------------|-------------|
@@ -86,13 +95,14 @@ See [Funding & Implementation](funding.md) for details.
 | Independent Office of Data Governance | $2.5M - $4.0M | Board, staff, and operations (one-time setup: $3M-$5M) |
 | Governor's Innovation Fellowship | $1.3M - $1.8M | 60 Fellows annually across 3 cohorts ($8K-$12K per Fellow) |
 | Data Steward Network + Central Specialists | $5.0M - $10.0M | 50-100 central specialists + CalAcademy training (Data Stewards use existing staff) |
-| **Total Annual Operating (Year 3+)** | **$23M - $38M** | **Ongoing costs for sustained modernization capacity** |
+| **Total General Fund (Year 3+)** | **$23M - $38M** | **Ongoing costs for sustained modernization capacity** |
 
 **Initial Investment (Year 1):**
-- Breakthrough Fund capitalization: $100M total ($50M state + $50M private sector, one-time)
-- Operating budget ramp-up: $15M-$25M (partial deployment)
-- Independent Office setup: $3M-$5M (one-time)
-- **Total Year 1:** $118M-$130M
+- General Fund operating budget ramp-up: $15M-$25M (partial deployment)
+- General Fund: Independent Office setup: $3M-$5M (one-time)
+- Breakthrough Fund capitalization: $50M state contribution (one-time)
+- Breakthrough Fund: $50M private sector match (one-time)
+- **Total Year 1:** $118M-$130M ($68-80M General Fund + $50M private match)
 
 **Return on Investment:**
 - Year 3 projected cost savings: $75M-$125M annually
@@ -212,7 +222,7 @@ See [Appendix G.6: Risk Mitigation Matrix](../appendices/budget-models.md#g6-ris
 
 ---
 
-**Document Version:** Executive Draft v2.0
+**Document Version:** Executive Draft v2.1
 **Date:** January 2026
 **Prepared for:** Governor's Office, Office of Data and Innovation, Government Operations Agency
 
@@ -222,6 +232,7 @@ See [Appendix G.6: Risk Mitigation Matrix](../appendices/budget-models.md#g6-ris
 
 | Version | Date | Description | Author |
 |---------|------|-------------|--------|
+| Executive Draft v2.1 | January 2026 | **Funding source clarification**: Breakthrough Fund is for projects only; all positions/operations require General Fund appropriation; added Two Funding Streams summary | Claude |
 | Executive Draft v2.0 | January 2026 | **Major budget revision**: Reduced annual operating cost from $70-95M to $23-38M by replacing 438-530 Data Governance hires with upskilling + 50-100 specialists; updated Talent Pipeline narrative | Claude |
 | Executive Draft v1.8 | January 2026 | Strengthened Problem section with $3B+ losses upfront; added urgency framing; "What This Is/Isn't" section | Claude |
 | Executive Draft v1.6 | January 2026 | Added Budget Context and Feasibility section addressing deficit environment | Claude |

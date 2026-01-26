@@ -172,6 +172,8 @@ All figures are presented in 2025 current dollars. For multi-year budget plannin
 
 ### F.6 Breakthrough Fund Capitalization
 
+> **Critical Note:** The Breakthrough Fund is for **project investments only**—Quick Wins, Strategic Initiatives, and Innovation Ventures. All positions and operating costs (E3 leadership, TMO, Fellowship, specialists) require separate General Fund appropriation.
+
 **Seed Investment:**
 - State appropriation: $50M one-time
 - Private sector match: $50M (Breakthrough Project partners, philanthropy, federal grants)
@@ -188,27 +190,36 @@ All figures are presented in 2025 current dollars. For multi-year budget plannin
 
 ### F.7 Five-Year Financial Summary
 
-**Initial Investment (Years 1-2):**
+> **Two Funding Streams:** General Fund pays for positions and operations; Breakthrough Fund (project investments only) is separate.
+
+**General Fund - Initial Investment (Years 1-2):**
 - E3 positions: $20M-$33M (2 years)
 - TMO: $8M-$11M (2 years)
 - Independent Office: $8M-$13M (setup + 2 years operating)
 - Fellowship: $2.6M-$3.6M (2 years, incremental costs only)
-- Data governance teams (pilot): $9M-$12M (2 years, 6-10 teams)
-- Breakthrough Fund seed: $50M (state contribution; matched by $50M private sector)
-- **Total initial state investment: $98M-$123M**
+- Data Steward Network + Specialists (pilot): $6M-$10M (2 years, 25-35 specialists + training)
+- **Total General Fund (Years 1-2): $45M-$71M**
 
-**Ongoing Operating (Year 3+):**
+**Breakthrough Fund - Initial Investment (Year 1):**
+- State appropriation: $50M (one-time)
+- Private sector match: $50M (one-time)
+- **Total Breakthrough Fund: $100M for project investments**
+
+**Combined Year 1 Total: $68M-$86M General Fund + $50M private match = $118M-$136M**
+
+**General Fund - Ongoing Operating (Year 3+):**
 - E3 positions: $10.0M-$16.7M annually
 - TMO: $4.1M-$5.4M annually
 - Independent Office: $2.5M-$4M annually
 - Fellowship: $1.3M-$1.8M annually (incremental costs only)
-- Data governance teams (30 dedicated + 6-8 hubs): $52.0M-$67.5M annually
-- **Total annual operating: $70M-$95M**
+- Data Steward Network + Specialists: $5.0M-$10.0M annually
+- **Total General Fund (Year 3+): $23M-$38M annually**
 
 **Return on Investment:**
-- Year 3 documented savings: $250M+ cumulative
-- Year 5 documented savings: $500M+ cumulative
-- **5-Year Net ROI: $200M-$350M**
+- Year 3 documented savings: $75M-$125M annually
+- Year 5 cumulative savings: $200M-$350M
+- Breakthrough Fund becomes 30-50% self-sustaining by Year 3 (25% savings reinvestment)
+- **5-Year Net ROI: $200M-$350M** (savings minus General Fund operating costs)
 
 ---
 
